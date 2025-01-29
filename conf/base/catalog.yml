@@ -1,0 +1,19 @@
+legal_documents:
+  type: MemoryDataset
+  copy_mode: assign
+
+
+cleaned_legal_documents:
+  type: pandas.CSVDataset
+  filepath: data/02_intermediate/df_legal.csv
+  save_args:
+    index: False
+    encoding: utf-8
+    errors: replace
+# metadata_legal_documents:
+#   type: pandas.CSVDataset
+#   filepath: data/01_raw/meta_df_legal.csv
+#   save_args:
+#     index: False
+#     encoding: utf-8
+#     errors: replace"
