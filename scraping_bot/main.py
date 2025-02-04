@@ -6,10 +6,25 @@ from nodes import (
     extract_pages_urls,
     detect_page_type,
     extract_text,
-    download_pdfs
+    download_pdfs,
 )
 
 def cameroon_law_scraper():
+    """
+    Scrapes legal documentation from the Cameroon government website.
+
+    This function iterates through multiple pages of the Cameroon government website's legal documentation section, 
+    extracting URLs, categorizing them into text-based pages and PDF download links, and then retrieving their content. 
+    It continues until it encounters a page indicating no further content, at which point it stops and prints summary details.
+
+    Steps:
+    - Builds the URL for the current page based on a base URL and pagination parameters.
+    - Parses the page content to check for the presence of a "no content" message.
+    - If content is available, extracts page URLs, categorizes them, and either downloads PDFs or retrieves textual content.
+    - Repeats the process for the next page until no further content is available.
+
+    No arguments or return values; all outputs are printed to the console or stored via external functions.
+    """
     base_url = "https://www.spm.gov.cm/site/"
     page_param = "?q=fr/documentation/lois-et-r%C3%A8glements"
     page = 0
@@ -38,7 +53,12 @@ def cameroon_law_scraper():
         extract_text(text_page_list)
         download_pdfs(pdf_page_list)
         
+        print(f"Page {page} done")
         page += 1
         sleep_time = random.uniform(1, 3)
+        print(f"Sleeping for {sleep_time} seconds")  
         time.sleep(sleep_time)  
         
+        
+if __name__ == "__main__":
+    cameroon_law_scraper()

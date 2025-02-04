@@ -5,15 +5,15 @@ import time
 
 def detect_page_type(urls):
     """
-    Détermine si une page contient un PDF à télécharger ou du texte.
+    Determines if a page contains a downloadable PDF or text.
     
     Args:
-        urls (list): Liste des URLs à analyser
+        urls (list): List of URLs to analyze.
         
     Returns:
         tuple: (text_page_type, pdf_page_type)
-            - text_page_type: Liste des URLs contenant du texte à copier
-            - pdf_page_type: Liste des URLs des PDF trouvés
+            - text_page_type: List of URLs containing text to copy.
+            - pdf_page_type: List of URLs pointing to PDFs.
     """
     pdf_page_type = []
     text_page_type = []

@@ -2,9 +2,11 @@ import os
 import requests
 
 def download_pdfs(pdf_urls):
-    """
-    Télécharge tous les PDF à partir des URLs données
-    et les sauvegarde dans le dossier spécifié.
+    """ Downloads all PDF files from the given URLs and saves them to a specified directory.
+
+    Args: pdf_urls (list): List of URLs pointing to PDF files.
+
+    Saves each PDF to the directory defined within the function. 
     """
     destination_folder = r"C:\Users\carlf\Documents\GitHub\LawIntelAfrica\data\01_raw\pdfs"
     if not os.path.exists(destination_folder):
@@ -24,4 +26,3 @@ def download_pdfs(pdf_urls):
 
         except Exception as e:
             print(f"Erreur lors du téléchargement de {pdf_url}: {e}")
-download_pdfs(x[1])
