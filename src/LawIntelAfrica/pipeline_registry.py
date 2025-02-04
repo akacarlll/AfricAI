@@ -13,10 +13,10 @@ from kedro.pipeline import Pipeline
 #     pipelines = find_pipelines()
 #     pipelines["__default__"] = sum(pipelines.values())
 #     return pipelines
-from LawIntelAfrica.pipelines.data_processing import create_pipeline as data_processing_pipeline
+from LawIntelAfrica.pipelines.documents_loader import create_pipeline as data_processing_pipeline
 
 def register_pipelines():
     return {
         "__default__": data_processing_pipeline(),
-        "data_processing": data_processing_pipeline(),
+        "document_loader": data_processing_pipeline(),
     }

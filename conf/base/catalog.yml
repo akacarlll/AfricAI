@@ -1,5 +1,6 @@
 legal_documents:
   type: MemoryDataset
+  #Kedro usually does a deep-copy of a dataset for MemoryDataset to avoid modifying the original data, but some data types are not serializable, so it's not supported. 
   copy_mode: assign
 
 
@@ -10,10 +11,4 @@ cleaned_legal_documents:
     index: False
     encoding: utf-8
     errors: replace
-# metadata_legal_documents:
-#   type: pandas.CSVDataset
-#   filepath: data/01_raw/meta_df_legal.csv
-#   save_args:
-#     index: False
-#     encoding: utf-8
-#     errors: replace"
+
