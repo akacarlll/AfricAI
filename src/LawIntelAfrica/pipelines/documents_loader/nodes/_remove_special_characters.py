@@ -14,8 +14,7 @@ def remove_characters(df: pd.DataFrame) -> pd.DataFrame:
     """
     
     df["text"] = df["text"].apply(remove_accents_and_special_chars)
-    df["text"] = df["text"].str.replace(r"[^a-zA-Z0-9\s\-_\.]", "", regex=True)
-    
+    df["text"] = df["text"].str.replace(r"[^a-zA-Z0-9\s.,!?'\"\-:;(){}[\]]", "", regex=True)
     return df
 
 def remove_accents_and_special_chars(text):
