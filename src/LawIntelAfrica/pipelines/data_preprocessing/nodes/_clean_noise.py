@@ -1,15 +1,21 @@
-import pandas as pd 
-def cleaning_text(df: pd.DataFrame) -> pd.DataFrame:
-    """Cleans the text by removing special characters and accents.
-    
-    This function cleans the text by removing special characters and accents.
-    
-    Args:
-        df (pd.DataFrame): A DataFrame containing the text.
-        
-    Returns:
-        pd.DataFrame: A DataFrame containing the cleaned text.
-    """
-    
-    df["text"] = df["text"].str.replace(r'[\r\n,]', ' ', regex=True)
+import re
+import pandas as pd
+
+def clean_noise(df: pd.DataFrame): 
+    # Expression régulière pour capturer les motifs entre 'X.' et 'p.YY'
+    pattern = r'''
+    (?<!Art\.\s)       # Negative lookbehind pour exclure "Art. "
+    \b\d+\.            # Chiffre suivi d'un point (ex: "2.")
+    \s*                # Espaces optionnels
+    (.*?)              # Contenu à supprimer (non gourmand)
+    \s*p\.\s*\d+       # Référence de page (ex: "p.55" ou "p. 55")
+    '''
+
+    df['text'] = df['text'].str.replace(
+        pattern,
+        '', 
+        flags=re.VERBOSE|re.IGNORECASE|re.DOTALL, 
+        regex=True
+    )
+
     return df

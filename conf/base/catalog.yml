@@ -12,3 +12,10 @@ cleaned_legal_documents:
     encoding: utf-8
     errors: replace
 
+preprocessed_docs:
+  type: pandas.CSVDataset
+  filepath: data/03_primary/preprocessed_docs.csv
+  save_args:
+    index: False
+    encoding: utf-8
+    errors: replace
