@@ -9,6 +9,8 @@ def clean_text(df: pd.DataFrame) -> pd.DataFrame:
         df['text'] = df['text'].apply(lambda x: re.sub(r'[\.-]{3,}', '', x))  # Suppression des longues séquences de . et -
         df['text'] = df['text'].apply(lambda x: re.sub(r'\n\s*\n', '\n', x))
         df['text'] = df['text'].apply(lambda x: x.strip())
+        df['text'] = df['text'].fillna("")
+
     else:
         raise KeyError("Column 'text' not found in DataFrame")
     return df
