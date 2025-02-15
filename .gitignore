@@ -10,6 +10,8 @@ conf/**/*credentials*
 
 # except their sub-folders
 !data/**/
+data/cmr/pdfs
+data/cmr/texts*
 
 # also keep all .gitkeep files
 !.gitkeep
@@ -20,6 +22,7 @@ conf/**/*credentials*
 # ignore kedro-viz metadata
 .viz
 
+*.pdf
 # ignore file based logs
 *.log
 

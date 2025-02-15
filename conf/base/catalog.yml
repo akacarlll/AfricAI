@@ -19,3 +19,15 @@ preprocessed_docs:
     index: False
     encoding: utf-8
     errors: replace
+
+chunked_docs:
+  type: pandas.CSVDataset
+  filepath: data/03_primary/chunked_docs.csv
+  save_args:
+    index: False
+    encoding: utf-8
+    errors: replace
+
+stored_embeddings:
+  type: pickle.PickleDataset
+  filepath: data/06_models/embeddings.pkl

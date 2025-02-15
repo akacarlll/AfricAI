@@ -1,1 +1,14 @@
-data_path: "C:/Users/carlf/Documents/GitHub/LawIntelAfrica/data/01_raw"
+cmr_data_path: "C:/Users/carlf/Documents/GitHub/LawIntelAfrica/data/03_primary"
+benin_data_path: "C:/Users/carlf/Documents/GitHub/LawIntelAfrica/data/01_raw/benin"
+
+data_path: "C:/Users/carlf/Documents/GitHub/LawIntelAfrica/data/01_raw/cmr/code"
+model_name: "all-MiniLM-L6-v2"
+embeddings_path: "C:/Users/carlf/Documents/GitHub/LawIntelAfrica/data/06_models/embeddings"
+
+
+chunk_size: 1000
+
+chroma_params:
+  persist_directory: "data/chroma"
+  collection_name: "rag_documents"
+
