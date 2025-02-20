@@ -1,0 +1,57 @@
+URL,text,page_title
+https://www.juriafrica.com/lex/decret-2017-6525-pm-07-juin-2017-48269.htm,"LE PREMIER MINISTRE, CHEF DU GOUVERNEMENT,
+Vu la Constitution ;
+Vu la loi n°2010/021 du 21 décembre 2010 régissant le commerce électronique au Cameroun ;
+Vu la loi n°2010/012 du 21 décembre 2010 relative à la cyber-sécurité et à la cybercriminalité au Cameroun ;
+Vu la loi n°2010/013 du 21 décembre 2010 régissant les communications électroniques au Cameroun, modifiée et complétée par la loi n°2015/006 du 20 avril 2015 ;
+Vu la loi n°2016/004 du 18 avril 2016 régissant le commerce extérieur au Cameroun ;
+Vu le décret n° 92/089 du 04 mai 1992 précisant les attributions du Premier Ministre, modifié et complété par le décret n° 95/145-bis du 04 août 1995 ;
+Vu le décret n°2011/408 du 09 décembre 2011 portant organisation du Gouvernement ;
+Vu le décret n°2011/409 du 09 décembre 2011 portant nomination du Premier Ministre, Chef du Gouvernement ;
+Vu le décret n°2011/1521/PM du 15 juin 2011 fixant les modalités d'application de la loi n°2010/021 du 21 décembre 2010 régissant le commerce électronique au Cameroun ;
+Vu le décret n°2013/0261/PM du 22 février 2013 fixant les modalités d'exploitation de la plateforme électronique « Guichet unique pour les opérations du commerce extérieur »,
+DECRETE:
+Art. 1er —  .- Les dispositions des articles 4, 6, 8, 10, 17 et 29 du décret n°2013/0261/PM du 22 février 2013 susvisé sont modifiées et complétées ainsi qu'il suit :
+«ARTICLE 4 (nouveau).- Au sens du présent décret, les définitions ci-dessous sont admises :
+code : éléments du réseau ou de services de communications électroniques permettant la fourniture par l'opérateur des services de communication électronique ;
+e-GUCE : plateforme virtuelle, infrastructure sécurisée de communication entre les intervenants au titre des opérations du commerce extérieur et les utilisateurs pour toutes les prestations s'appuyant sur les technologies de l'information et de la communication ;
+exploitant : entité assurant la gestion technique, l'exploitation, maintenance et la sécurité de la plateforme virtuelle e-GUCE ;
+partenaires : ensemble des intervenants aux procédures du commerce extérieur ;
+prestataire de services : personne offrant des services tendant à la mise en œuvre de fonctions qui contribuent à la sécurité des informations échangées par voie électronique ;
+prestation : transmission d'information ou de données personnelles entre un partenaire et les opérateurs économiques ou leurs représentants utilisant la plateforme virtuelle e-GUCE ;
+produit de sécurité : dispositif, matériel ou logiciel, mettant en œuvre des fonctions qui contribuent à la sécurité des informations échangées par voie électronique ;
+signature électronique : signature obtenue par un algorithme de chiffrement asymétrique permettant d'authentifier l'émetteur d'un message et d'en vérifier l'intégrité ;
+système d'information : ensemble de moyens destinés à élaborer, traiter, stocker ou transmettre des informations faisant l'objet d'échanges par voie électronique entre les autorités administratives et les opérateurs économiques ou leurs représentants ainsi que entre les autorités administratives ;
+télé-service : tout système d'information permettant aux utilisateurs de procéder par voie électronique à des démarches ou formalités administratives ;
+utilisateur : personne physique ou morale ayant signé un contrat d'utilisation de la plateforme virtuelle du guichet unique pour les opérations du commerce extérieur.
+Art. 6 —  (nouveau).L'infrastructure sécurisée prend en compte l'ensemble des systèmes informatiques concernés par les opérations du commerce extérieur.
+A ce titre, elle doit notamment :
+être surveillée par des systèmes ad hoc ;
+posséder un système d'authentification d'accès à toutes les ressources de l'infrastructure ;
+être mise à niveau régulièrement.
+Art. 8 —  (nouveau).(1) L'exploitant met à la disposition de l'usager des codes personnels et secrets qui lui permettent d'accéder aux prestations auxquelles il a droit.
+(2) Les codes d'accès sont contrôlés en permanence par l'infrastructure sécurisée de la plateforme e-GUCE.
+(3) Le contrôle visé à l'alinéa 2 ci-dessus permet notamment :
+de s'assurer des droits d'accès de l'utilisateur au guichet unique ;
+de contraindre l'utilisateur à créer un nouveau mot de passe personnel lors de sa première tentative de connexion au guichet unique ;
+d'obliger l'utilisateur à modifier périodiquement son mot de passe ;
+de bloquer automatiquement les codes d'accès de l'utilisateur lors de tentatives répétées d'accès à l'aide de codes invalides ;
+d'offrir à l'utilisateur la possibilité d'invalider et de bloquer, à tout moment, ses codes d'accès ;
+d'utiliser, le cas échéant, le certificat numérique délivré par une autorité de certification accréditée par l'Agence Nationale des Technologies de l'Information et de la Communication (ANTIC).
+(4) L'exploitant doit, dans la mesure du possible, mettre en place des dispositifs évitant les ressaisies de données et d'informations et permettant à l'usager de soumettre une seule fois les informations requises pour l'ensemble des acteurs conformément à la recommandation des Nations Unies en matière de guichet unique.
+(5) Pour toute opération effectuée sur la plateforme, l'usager s'acquitte, auprès de l'exploitant, des frais de facilitation et de suivi de dossier, dont le montant est arrêté annuellement par le Ministre chargé des prix, sur proposition de l'exploitant.
+Art. 10 —  (nouveau).(1) Avant toute utilisation de la plateforme, les opérateurs et les partenaires du secteur privé signent un contrat ou un protocole d'accord avec l'exploitant.
+(2) Ledit contrat ou protocole d'accord précisera notamment les taux et les modalités de paiement de la contribution à la maintenance et l'amélioration de la qualité de service de la plateforme, mise à la charge de l'opérateur.
+Art. 17 —  (nouveau).(1) Dans le cadre des formalités du commerce extérieur, les opérateurs économiques utilisent un certificat de signature appartenant à l'une des catégories suivantes :
+certificat constitutif des éléments de sécurité conformément à la réglementation en vigueur ;
+certificat délivré par une autorité de certification figurant sur la liste de confiance d'un Etat-membre, telle qu'établie, transmise et mise à la disposition du public par l'ANTIC ;
+certificat délivré par une autorité de certification, camerounaise ou étrangère, qui réponde à des normes équivalentes à celles du référentiel général de sécurité, défini par l'ANTIC.
+(2) Le signataire transmet, avec le document signé, le mode d'emploi permettant de procéder aux vérifications nécessaires. Ce mode d'emploi contient, au moins, les informations suivantes :
+la procédure permettant la vérification de la validité de la signature ;
+l'adresse du site internet du référencement du prestataire par le pays d'établissement ou, à défaut, les données publiques relatives au certificat du signataire, qui comportent, au moins, la liste de révocation et le certificat du prestataire de services de certification électronique émetteur.
+(3) Lorsque le signataire utilise une catégorie de certificat figurant au a) ou au b) de l'alinéa 1, il peut être dispensé de la fourniture des informations figurant au b) de l'alinéa 2 ci-dessus.
+Art. 29 —  (nouveau).La conservation des documents nécessaires aux procédures du commerce extérieur sous forme électronique doit se faire sous forme d'archives électroniques, pendant une période de dix (10) ans lorsqu'il s'agit des documents comptables et de cinq (5) ans pour les autres documents de commerce, dans les conditions suivantes :
+l'information que contient le message de données doit être accessible, lisible et intelligible pour pouvoir être consultée ultérieurement ;
+le message de données doit être conservé sous une forme dont on peut démontrer qu'elle n'est pas susceptible d'avoir modifié ou altéré le contenu du message. Le document transmis et celui conservé doivent être strictement identiques ;
+les informations qui permettent de déterminer l'origine et la destination du message de données, ainsi que les indications de date et d'heure de l'envoi ou de la réception, doivent être conservées ».
+Art. 2 —  Le présent décret, qui abroge toutes dispositions antérieures contraires, sera enregistré et publié suivant la procédure d'urgence, puis inséré au Journal Officiel en français et en anglais. /-",DECRET_N°2017_6525_PM_DU_07_JUIN_2017_MODIFIANT_ET_COMPLETANT_CERTAINS_DISPOSITIONS_DU_DECRET_N°2013_0261_PM_DU_22_FEVRIER_2013_FIXANT_LES_MODALITES_D'EXPLOITATION_DE_LA_PLATEFORME_ELECTRONIQUE_«
