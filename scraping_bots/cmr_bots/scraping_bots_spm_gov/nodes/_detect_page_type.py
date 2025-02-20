@@ -13,7 +13,7 @@ def detect_page_type(urls):
     Returns:
         tuple: (text_page_type, pdf_page_type)
             - text_page_type: List of URLs containing text to copy.
-            - pdf_page_type: List of URLs pointing to PDFs.
+            - pdf_page_type: List of tuples (pdf_url, page_url).
     """
     pdf_page_type = []
     text_page_type = []
@@ -30,12 +30,12 @@ def detect_page_type(urls):
             if pdf_link and 'href' in pdf_link.attrs:
                 # Construire l'URL complète du PDF
                 pdf_url = urljoin(url, pdf_link['href'])
-                pdf_page_type.append(pdf_url)
+                pdf_page_type.append((pdf_url, url))
             else:
                 # Si aucun PDF n'est trouvé, considérer la page comme du texte
                 text_page_type.append(url)
             
-            time.sleep(0.5)
+            time.sleep(0.01)
         
         except Exception as e:
             print(f"Erreur lors de l'analyse de la page {url}: {str(e)}")
