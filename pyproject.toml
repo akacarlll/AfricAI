@@ -50,7 +50,7 @@ source_dir = "src"
 [tool.pytest.ini_options]
 addopts = """
 --cov-report term-missing \
---cov src/LawIntelAfrica -ra"""
+--cov src/tests -ra"""
 
 [tool.coverage.report]
 fail_under = 0
