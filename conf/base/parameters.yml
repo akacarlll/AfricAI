@@ -1,7 +1,8 @@
 cmr_data_path: "C:/Users/carlf/Documents/GitHub/LawIntelAfrica/data/03_primary"
 benin_data_path: "C:/Users/carlf/Documents/GitHub/LawIntelAfrica/data/01_raw/benin"
 
-data_path: "C:/Users/carlf/Documents/GitHub/LawIntelAfrica/data/01_raw/cmr/code"
+data_path: "C:/Users/carlf/Documents/GitHub/LawIntelAfrica/data/01_raw/cmr/pdfs"
+folder_params: "C:/Users/carlf/Documents/GitHub/LawIntelAfrica/data/01_raw/cmr/texts"
 model_name: "all-MiniLM-L6-v2"
 embeddings_path: "C:/Users/carlf/Documents/GitHub/LawIntelAfrica/data/06_models/embeddings"
 

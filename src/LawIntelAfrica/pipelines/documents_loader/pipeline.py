@@ -1,9 +1,10 @@
 from kedro.pipeline import Pipeline, node, pipeline
 
-from .nodes import (load_documents, 
+from .nodes import (
+    load_documents, 
     extract_metadata, 
-    transform_list_to_df,
-    remove_characters
+    remove_characters,
+    merge_pdfs_texts_dfs,
     )
 
 
@@ -13,15 +14,10 @@ def create_pipeline(**kwargs) -> Pipeline:
             node(
                 func=load_documents,
                 inputs="params:data_path",
-                outputs="legal_documents",
+                outputs="df_legal_documents",
                 name="load_legal_documents",
             ),
-            node(
-                func=transform_list_to_df,
-                inputs="legal_documents",
-                outputs="df_legal_documents",
-                name="transform_legal_documents",
-            ),
+            # TODO : Add a node to parse tables in the pdfs
             node(
                 func=extract_metadata,
                 inputs="df_legal_documents",  
@@ -29,12 +25,18 @@ def create_pipeline(**kwargs) -> Pipeline:
                 name="extract_legal_documents",
             ),
             node(
+                func=merge_pdfs_texts_dfs,
+                inputs=["metadata_legal_documents", "params:folder_params"],
+                outputs="merged_data",
+                name="merge_pdfs_and_texts"
+            ),
+            node(
                 func=remove_characters,
-                inputs="metadata_legal_documents",
+                inputs="merged_data",
                 outputs="cleaned_legal_documents",
                 name="clean_legal_documents",
                 
-            )
+            ),
 
         ]
     )
