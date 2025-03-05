@@ -27,7 +27,7 @@ def cameroon_law_scraper():
     """
     base_url = "https://www.spm.gov.cm/site/"
     page_param = "?q=fr/documentation/lois-et-r%C3%A8glements"
-    page = 0
+    page = 12
 
     while True:
         if page == 0:

@@ -2,7 +2,7 @@ import os
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import unquote
-from scraping_bots.cmr_bots.extras.scraping_function import save_file, generate_file_name, get_page_title
+from scraping_bots.cmr_bots.extras.scraping_function import save_file, generate_file_name, get_page_title, categorize_file
 
 def extract_text(urls):
     """
@@ -30,17 +30,9 @@ def extract_text(urls):
             else:
                 file_name = "page_without_title"
                 title_on_page = "Unknown"
+            category = categorize_file(file_name)
 
-            # Détermination du sous-dossier en fonction du type de document
-            category = "autres"  # Par défaut
-            if "decret" in file_name.lower():
-                category = "decret"
-            elif "arrete" in file_name.lower():
-                category = "arrete"
-            elif "circulaire" in file_name.lower():
-                category = "circulaire"
-            elif "loi" in file_name.lower():
-                category = "loi"
+
 
             sub_folder = os.path.join(base_folder, category)
             os.makedirs(sub_folder, exist_ok=True)  # Création du dossier si inexistant
