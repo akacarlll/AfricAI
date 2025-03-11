@@ -3,7 +3,6 @@ import pandas as pd
 from tqdm import tqdm
 
 
-
 def merge_pdfs_texts_dfs(df: pd.DataFrame, base_folder: str) -> pd.DataFrame:
     """
     Merges a given DataFrame with text data loaded from multiple subfolders in a base folder.
@@ -22,6 +21,7 @@ def merge_pdfs_texts_dfs(df: pd.DataFrame, base_folder: str) -> pd.DataFrame:
     df2 = load_and_concat_dataframes(base_folder)
     merged_df = pd.concat([df, df2], ignore_index=True)
     return merged_df
+
 
 def load_and_concat_dataframes(base_folder):
     """
@@ -50,7 +50,7 @@ def load_and_concat_dataframes(base_folder):
             # Vérifier si le fichier a l'extension souhaitée
             if file.endswith(f".csv"):
                 file_path = os.path.join(root, file)
-                df = pd.read_csv(file_path)               
+                df = pd.read_csv(file_path)
                 dataframes.append(df)
     if dataframes:
         combined_df = pd.concat(dataframes, ignore_index=True)
@@ -58,4 +58,4 @@ def load_and_concat_dataframes(base_folder):
         return combined_df
     else:
         print("Aucun fichier trouvé.")
-        return pd.DataFrame()  
+        return pd.DataFrame()

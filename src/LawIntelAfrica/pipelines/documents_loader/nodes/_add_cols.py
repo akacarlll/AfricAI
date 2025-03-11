@@ -1,6 +1,7 @@
 import pandas as pd
 import re
 
+
 def extract_metadata(df: pd.DataFrame) -> pd.DataFrame:
     """Extracts the columns from the line of the document and adds them to the DataFrame.
 
@@ -13,15 +14,26 @@ def extract_metadata(df: pd.DataFrame) -> pd.DataFrame:
     Returns:
         pd.DataFrame: A DataFrame containing the documents with the extracted columns.
     """
-    
-    df['page_title'] = df['source'].apply(
-        extract_document_name
+
+    df["page_title"] = df["source"].apply(extract_document_name)
+
+    df.drop(
+        columns=[
+            "source",
+            "page",
+            "producer",
+            "creator",
+            "creationdate",
+            "keywords",
+            "moddate",
+            "author",
+            "total_pages",
+        ],
+        inplace=True,
     )
-    
-    
-    df.drop(columns=['source', "page"], inplace=True)
-    
+    # TODO: Add a column for metadata extraction
     return df
+
 
 def extract_document_name(file_path):
     """
