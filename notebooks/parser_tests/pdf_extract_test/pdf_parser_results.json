@@ -1,0 +1,320 @@
+[
+  {
+    "filename": "ARRETE_N_020_CAB_PM_DU_23_JANVIER_2019_PORTANT_NOMINATION_DU_CHEF_DE_SECRETARIAT_PARTICULIER_DU_MINISTRE_DELEGUE_AUPRES.pdf",
+    "path": "C:\\Users\\carlf\\Documents\\GitHub\\LawIntelAfrica\\notebooks\\parser_tests\\test_data\\ARRETE_N_020_CAB_PM_DU_23_JANVIER_2019_PORTANT_NOMINATION_DU_CHEF_DE_SECRETARIAT_PARTICULIER_DU_MINISTRE_DELEGUE_AUPRES.pdf",
+    "is_scanned": true,
+    "file_size_mb": 3.05,
+    "parsers": {
+      "pdfplumber": {
+        "success": false,
+        "duration_seconds": 0.04,
+        "char_count": 0,
+        "word_count": 0,
+        "line_count": 0,
+        "has_content": false,
+        "text_sample": ""
+      },
+      "pypdf": {
+        "success": false,
+        "duration_seconds": 0.02,
+        "char_count": 0,
+        "word_count": 0,
+        "line_count": 0,
+        "has_content": false,
+        "text_sample": ""
+      },
+      "pytesseract": {
+        "success": true,
+        "duration_seconds": 6.08,
+        "char_count": 1412,
+        "word_count": 226,
+        "line_count": 47,
+        "has_content": true,
+        "text_sample": "REPUBLIQUE DU CAMEROUN PAIX - TRAVAIL - PATRIE\n\nportant nomination du Chef de Secrétariat Particulier\ndu Ministre Délégué auprès du Ministre des Transport.\n\nLE PREMIER MINISTRE, CHEF DU GOUVERNEMENT,\n\nVu la Constitution ;\n\nVu le décret n° 98/152 du 24 juillet 1998 portant organisation du\nMinistère des Transports ;\n\nVu le décret n°2011/408 du 9 décembre 2011 portant organisation\ndu Gouvernement, modifié et complété par le décret n°2018/190 du\n02 mars 2018 ;\n\nVu le décret n°2015/434 du 02 octobre "
+      },
+      "easyocr": {
+        "success": true,
+        "duration_seconds": 91.54,
+        "char_count": 1478,
+        "word_count": 230,
+        "line_count": 88,
+        "has_content": true,
+        "text_sample": "REPUBLIQUE DU CAMEROUN\nPAIX\nTRAVAIL\nPATRIE\nARRETE N\n0 ? u\n[CAB/PMDU\n12 3\nJAN\n2019\nportant nomination\ndu\nChef de Secrétariat Particulier\ndu Ministre Délégué auprès du Ministre des Transport.\nLE PREMIER MINISTRE, CHEF DU GOUVERNEMENT,\nVu\nla Constitution\nVu\nle décret n? 98/152 du 24 juillet 1998 portant organisation du\nMinistère des Transports\nVu\nle décret n92011/408 du 9 décembre 2011 portant organisation\ndu Gouvernement; modifié et complété par le décret n92018/190 du\n02 mars 2018\nVu\nle décret n9"
+      },
+      "pymupdf": {
+        "success": false,
+        "duration_seconds": 0.08,
+        "char_count": 0,
+        "word_count": 0,
+        "line_count": 0,
+        "has_content": false,
+        "text_sample": ""
+      }
+    }
+  },
+  {
+    "filename": "ARRETE_N_021_CAB_PM_DU_23_JANVIER_2019_PORTANT_NOMINATION_DU_CHEF_DE_SECRETARIAT_PARTICULIER_DU_MINISTRE_DE_L_EDUCATION.pdf",
+    "path": "C:\\Users\\carlf\\Documents\\GitHub\\LawIntelAfrica\\notebooks\\parser_tests\\test_data\\ARRETE_N_021_CAB_PM_DU_23_JANVIER_2019_PORTANT_NOMINATION_DU_CHEF_DE_SECRETARIAT_PARTICULIER_DU_MINISTRE_DE_L_EDUCATION.pdf",
+    "is_scanned": true,
+    "file_size_mb": 2.81,
+    "parsers": {
+      "pdfplumber": {
+        "success": false,
+        "duration_seconds": 0.04,
+        "char_count": 0,
+        "word_count": 0,
+        "line_count": 0,
+        "has_content": false,
+        "text_sample": ""
+      },
+      "pypdf": {
+        "success": false,
+        "duration_seconds": 0.01,
+        "char_count": 0,
+        "word_count": 0,
+        "line_count": 0,
+        "has_content": false,
+        "text_sample": ""
+      },
+      "pytesseract": {
+        "success": true,
+        "duration_seconds": 4.44,
+        "char_count": 1343,
+        "word_count": 226,
+        "line_count": 49,
+        "has_content": true,
+        "text_sample": "REPUBLIQUE DU CAMEROUN PAIX-TRAVAIL-PATRIE\n\nARRÊTÉNe_ D 21 /CAB/PM pu_? à JAN 208\nportant nomination du Chef de Secrétariat Particulier du\nMinistre de l'Education de Base.\n\nVu la Constitution ;\n\nVu le décret n° 2011/408 du 09 décembre 2011 portant organisation du\nGouvernement, modifié et complété par le décret n° 2018/190 du 02 mars 2018 ;\n\nVu le décret n° 2012/268 du 11 juin 2012 portant organisation du Ministère de\nl'Education de Base;\n\nvu le décret n° 2019/001 du 04 janvier 2019 portant nomin"
+      },
+      "easyocr": {
+        "success": true,
+        "duration_seconds": 77.06,
+        "char_count": 1379,
+        "word_count": 220,
+        "line_count": 83,
+        "has_content": true,
+        "text_sample": "REPUBLIQUE DU CAMEROUN\nPAIX-TRAVAIL-PATRIE\nARRÊTÉ No\n2\nCAB/PM DU\n2 3\nJan  2019\nportant nomination du Chef de Secrétariat Particulier du\nMinistre de /'Education de Base.\nVu\nla Constitution\nVu\nle décret n\" 2011/408 du 09 décembre 2011 portant organisation du\nGouvernement, modifié et\npar le décret n' 2018/190 du 02 mars 2018 ;\nVu\nle décret n' 2012/268 du 11 juin 2012 portant organisation du Ministère de\n1'Education de Base;\nVu\nle décret n\" 2019/001 du 04 janvier 2019 portant nomination dun Premier\n"
+      },
+      "pymupdf": {
+        "success": false,
+        "duration_seconds": 0.08,
+        "char_count": 0,
+        "word_count": 0,
+        "line_count": 0,
+        "has_content": false,
+        "text_sample": ""
+      }
+    }
+  },
+  {
+    "filename": "ARRETE_N_022_CAB_PM_DU_23_JANVIER_2019_PORTANT_NOMINATION_DU_CHEF_DE_SECRETARIAT_PARTICULIER_DU_SECRETAIRE_D_ETAT.pdf",
+    "path": "C:\\Users\\carlf\\Documents\\GitHub\\LawIntelAfrica\\notebooks\\parser_tests\\test_data\\ARRETE_N_022_CAB_PM_DU_23_JANVIER_2019_PORTANT_NOMINATION_DU_CHEF_DE_SECRETARIAT_PARTICULIER_DU_SECRETAIRE_D_ETAT.pdf",
+    "is_scanned": true,
+    "file_size_mb": 2.78,
+    "parsers": {
+      "pdfplumber": {
+        "success": false,
+        "duration_seconds": 0.03,
+        "char_count": 0,
+        "word_count": 0,
+        "line_count": 0,
+        "has_content": false,
+        "text_sample": ""
+      },
+      "pypdf": {
+        "success": false,
+        "duration_seconds": 0.02,
+        "char_count": 0,
+        "word_count": 0,
+        "line_count": 0,
+        "has_content": false,
+        "text_sample": ""
+      },
+      "pytesseract": {
+        "success": true,
+        "duration_seconds": 6.66,
+        "char_count": 1468,
+        "word_count": 242,
+        "line_count": 55,
+        "has_content": true,
+        "text_sample": "REPUBLIQUE DU CAMEROUN PAIX-TRAVAIL-PATRIE\n\nARRÊTÉNe_ 0 #2. /CAB/PM DU 2 2 JAN 208\nportant nomination du Chef de Secrétariat Particulier du\nSecrétaire d'Etat auprès du Ministre de l'Education de Base.\n\nVu a Constitution ;\n\nVu e décret n° 2011/408 du 09 décembre 2011 portant organisation du\n\nGouvernement, modifié et complété par le décret n° 2018/190 du 02 mars 2018 ;\n\nVu e décret n° 2012/268 du 11 juin 2012 portant organisation du Ministére de\n\nl'Education de Base;\n\nVu le décret n° 2019/001 du 0"
+      },
+      "easyocr": {
+        "success": true,
+        "duration_seconds": 71.56,
+        "char_count": 1443,
+        "word_count": 231,
+        "line_count": 87,
+        "has_content": true,
+        "text_sample": "REPUBLIQUE DU CAMEROUN\nPAIX-TRAVAIL-PATRIE\nARRÊTÉ N'\n0 '2 2\nCAB/PM DU\n2 3 JAN\n2019\nportant nomination du Chef de Secrétariat Particulier du\nSecrétaire d'Etat auprès du Ministre de /Education de Base.\nVu\nla Constitution\nVu\nle décret n\" 2011/408 du 09 décembre 2011 portant organisation du\nGouvernement, modifié et\ncomplété par le décret n? 2018/190 du 02 mars 2018 ;\nVu\nle décret n' 2012/268 du 11 juin 2012 portant organisation du Ministère de\n1'Education de Base;\nVu\nle décret n' 2019/001 du 04 janv"
+      },
+      "pymupdf": {
+        "success": false,
+        "duration_seconds": 0.06,
+        "char_count": 0,
+        "word_count": 0,
+        "line_count": 0,
+        "has_content": false,
+        "text_sample": ""
+      }
+    }
+  },
+  {
+    "filename": "ARRETE_N_061_PM_DU_12_MAI_2023_PORTANT_NOMINATION_DU_COORDONNATEUR_DU_SECRETARIAT_TECHNIQUE_DE_SUIVI_DU_COMITE_DE_SUIVI.pdf",
+    "path": "C:\\Users\\carlf\\Documents\\GitHub\\LawIntelAfrica\\notebooks\\parser_tests\\test_data\\ARRETE_N_061_PM_DU_12_MAI_2023_PORTANT_NOMINATION_DU_COORDONNATEUR_DU_SECRETARIAT_TECHNIQUE_DE_SUIVI_DU_COMITE_DE_SUIVI.pdf",
+    "is_scanned": false,
+    "file_size_mb": 0.37,
+    "parsers": {
+      "pdfplumber": {
+        "success": true,
+        "duration_seconds": 0.35,
+        "char_count": 1771,
+        "word_count": 286,
+        "line_count": 37,
+        "has_content": true,
+        "text_sample": "UBUQUEDUCAMEROUN PAIX - TRAVAIL - PATRIE\n0 6 1\nARRÊTÉ N0 /PM DU 1 2 l-\\~l 2023\nportant nomination du Coordonnateur du Secrétariat Technique de\nSuivi du Comité de suivi de la mise en œuvre du Plan d'Urgence\nTriennal pour l'accélération de la croissance économique.\nLE PREMIER MINISTRE, CHEF DU GOUVERNEMENT,\nVu la Constitution,\nVu le décret n° 92/089 du 04 mai 1992 précisant les attributions du Premier Ministre,\nmodifié et complété par le décret n° 95/145 bis du 04 août 1995 ;\nVu le décret n° 2011/"
+      },
+      "pypdf": {
+        "success": true,
+        "duration_seconds": 0.06,
+        "char_count": 1808,
+        "word_count": 286,
+        "line_count": 37,
+        "has_content": true,
+        "text_sample": "UBUQUEDUCAMEROUN PAIX - TRAVAIL - PATRIE \nARRÊTÉ N0 0 6 1 /PM DU 1 2 l-\\~l 2023 \nportant nomination du Coordonnateur du Secrétariat Technique de \nSuivi du Comité de suivi de la mise en œuvre du Plan d'Urgence \nTriennal pour l'accélération de la croissance économique. \nLE PREMIER MINISTRE, CHEF DU GOUVERNEMENT, \nVu la Constitution, \nVu le décret n° 92/089 du 04 mai 1992 précisant les attributions du Premier Ministre, \nmodifié et complété par le décret n° 95/145 bis du 04 août 1995 ; \nVu le décret"
+      },
+      "pytesseract": {
+        "success": true,
+        "duration_seconds": 6.31,
+        "char_count": 1660,
+        "word_count": 271,
+        "line_count": 64,
+        "has_content": true,
+        "text_sample": "Vu\nVu\n\nVu\n\nVu\n\nVu\n\n=PUBLIQUE DU CAMEROUN . PAIX — TRAVAIL — PATRIE\n\n064 a yay\n\nARRETE N° ypm pu _12 Hal 2023\nportant nomination du Coordonnateur du Secrétariat Technique de\nSuivi du Comité de suivi de la mise en œuvre du Plan d’Urgence\nTriennal pour l'accélération de la croissance économique.\n\nLE PREMIER MINISTRE, CHEF DU GOUVERNEMENT,\n\nla Constitution,\n\nle décret n° 92/089 du 04 mai 1992 précisant les attributions du Premier Ministre,\nmodifié et complété par le décret n° 95/145 bis du 04 août 1"
+      },
+      "easyocr": {
+        "success": true,
+        "duration_seconds": 80.88,
+        "char_count": 1790,
+        "word_count": 295,
+        "line_count": 87,
+        "has_content": true,
+        "text_sample": "PUBLIQUE DU CAMEROUN\nPAIX\n\nTRAVAIL\nPATRIE\nARRÊTÉ N'\n0 6 1\nPM DU\n1 2\n2023\nportant nomination du Coordonnateur du Secrétariat Technique de\nSuivi du Comité de suivi de la mise en œuvre du Plan d'Urgence\nTriennal pour l'accélération de la croissance économique.\nLE PREMIER MINISTRE, CHEF DU GOUVERNEMENT,\nVi\nla Constitution,\nVu\nle décret n' 92/089 du 04 mai 1992 précisant les attributions du Premier Ministre;\nmodifié et\ncomplété par le décret n' 95/145 bis du 04 août 1995 ;\nVu\nle\ndécret\nno\n2011/408\ndu"
+      },
+      "pymupdf": {
+        "success": true,
+        "duration_seconds": 0.03,
+        "char_count": 1822,
+        "word_count": 286,
+        "line_count": 51,
+        "has_content": true,
+        "text_sample": "UBUQUEDUCAMEROUN \nPAIX - TRAVAIL - PATRIE \nARRÊTÉ N0 \n0 6 1 \n/PM DU \n1 2 l-\\~l 2023 \nportant nomination du Coordonnateur du Secrétariat Technique de \nSuivi du Comité de suivi de la mise en œuvre du Plan d'Urgence \nTriennal pour l'accélération de la croissance économique. \nLE PREMIER MINISTRE, CHEF DU GOUVERNEMENT, \nVu \nla Constitution, \nVu \nle décret n° 92/089 du 04 mai 1992 précisant les attributions du Premier Ministre, \nmodifié et complété par le décret n° 95/145 bis du 04 août 1995 ; \nVu \nle"
+      }
+    }
+  },
+  {
+    "filename": "ARRETE_N_062_PM_DU_14_MARS_2011_FIXANT_LES_MODALITES_DE_CREATION_D_ORGANISATION_ET_DE_FONCTIONNEMENT_DES_MAGASINS.pdf",
+    "path": "C:\\Users\\carlf\\Documents\\GitHub\\LawIntelAfrica\\notebooks\\parser_tests\\test_data\\ARRETE_N_062_PM_DU_14_MARS_2011_FIXANT_LES_MODALITES_DE_CREATION_D_ORGANISATION_ET_DE_FONCTIONNEMENT_DES_MAGASINS.pdf",
+    "is_scanned": true,
+    "file_size_mb": 0.2,
+    "parsers": {
+      "pdfplumber": {
+        "success": false,
+        "duration_seconds": 0.04,
+        "char_count": 1,
+        "word_count": 0,
+        "line_count": 2,
+        "has_content": false,
+        "text_sample": "\n"
+      },
+      "pypdf": {
+        "success": false,
+        "duration_seconds": 0.01,
+        "char_count": 4,
+        "word_count": 0,
+        "line_count": 3,
+        "has_content": false,
+        "text_sample": " \n \n"
+      },
+      "pytesseract": {
+        "success": true,
+        "duration_seconds": 10.53,
+        "char_count": 3606,
+        "word_count": 542,
+        "line_count": 101,
+        "has_content": true,
+        "text_sample": "REPUBLIQUE DU CAMEROUN PAIX - TRAVAIL - PATRIE\n\nfixant les modalités de création d'organisation et de\nfonctionnement des magasins-témoins.\n\nLE PREMIER MINISTRE, CHEF DU GOUVERNEMENT.\n\nVU la Constitution :\n\nVU la loi n° 90/031 du 10 août 1990 régissant l’activité commerciale au Cameroun :\n\nVU la loi n° 99/016 du 22 décembre 1999 portant statut général des établissements\npublics et des entreprises du secteur public et parapublic :\n\nVU la loi n° 2004/017 du 22 juillet 2004 d'orientation de la décen"
+      },
+      "easyocr": {
+        "success": true,
+        "duration_seconds": 137.16,
+        "char_count": 3610,
+        "word_count": 539,
+        "line_count": 145,
+        "has_content": true,
+        "text_sample": "REPUBLIQUE DU CAMEROUN\nPAIX\nTRAVAIL\nPATRIE\nARRETE yo\n06 2\nIPM DU\n1 4 KARS   2071\ntixant\nmodalités de création d'organisation et de\nfonctionnement des magasins-témoins.\nLE PREMIER MINISTRE, CHEF DU GOUVERNEMENT.\nVU\nle Constitution\nVU\nJa {oi n9 90 031 du 10 août 1990 régissant Factivité commerciale au Camcroun\nVU\nla Joi n? 99/016 du 22 décembre 1999 portannt statut général des établissemenls\npublics et des entreprises du sectcur public et parapublic\nVU\nla loi n< 2004/017 du 22 juillet 2004 doricnt"
+      },
+      "pymupdf": {
+        "success": false,
+        "duration_seconds": 0.11,
+        "char_count": 4,
+        "word_count": 0,
+        "line_count": 3,
+        "has_content": false,
+        "text_sample": " \n \n"
+      }
+    }
+  },
+  {
+    "filename": "ARRETE_N_063_CAB_PM_DU_19_JUL_2018_PORTANT_CREATION_ORGANISATION_ET_FONCTIONNEMENT_DE_LA_COMMISSION_MIXTE_NATIONALE.pdf",
+    "path": "C:\\Users\\carlf\\Documents\\GitHub\\LawIntelAfrica\\notebooks\\parser_tests\\test_data\\ARRETE_N_063_CAB_PM_DU_19_JUL_2018_PORTANT_CREATION_ORGANISATION_ET_FONCTIONNEMENT_DE_LA_COMMISSION_MIXTE_NATIONALE.pdf",
+    "is_scanned": false,
+    "file_size_mb": 1.63,
+    "parsers": {
+      "pdfplumber": {
+        "success": true,
+        "duration_seconds": 2.81,
+        "char_count": 9298,
+        "word_count": 1420,
+        "line_count": 180,
+        "has_content": true,
+        "text_sample": ",-'\nREPUBLIQUE DU CAMEROUN PAIX - TRAVAIL - PATRIE\nARRETE N° 0 6 j /CAB/PM DU . 'il! ?J';(j\nportant création, organisation et fonctionnement de la Commission Mixte\nNationale chargée de l'assainissement de la carte sanitaire .\n.\nLE PREMIER MJNISTRE, CHEF DU GOUVERNEMENT,\nVu la Constitution ;\nVu la loi n° 84/009 du 5 décembre 1984 portant réglementation de l'exercice des\nProfessions d'Infirmier, de Sage-femme et de Technicien Médico-Sanitaire et ses\nmodificatifs subséquents;\nVu la loi nO 90/34 du "
+      },
+      "pypdf": {
+        "success": true,
+        "duration_seconds": 0.21,
+        "char_count": 9466,
+        "word_count": 1417,
+        "line_count": 170,
+        "has_content": true,
+        "text_sample": ",-' \nREPUBLIQUE DU CAMEROUN PAIX - TRAVAIL - PATRIE \nARRETE N° 0 6 j /CAB/PM DU . 'il! ?J';(j \nportant création, organisation et fonctionnement de la Commission Mixte \nNationale chargée de l'assainissement de la carte sanitaire . \n. LE PREMIER MJNISTRE, CHEF DU GOUVERNEMENT, \nVu la Constitution ; \nVu la loi n° 84/009 du 5 décembre 1984 portant réglementation de l'exercice des \nProfessions d'Infirmier, de Sage-femme et de Technicien Médico-Sanitaire et ses \nmodificatifs subséquents; \nVu la loi nO"
+      },
+      "pytesseract": {
+        "success": true,
+        "duration_seconds": 17.91,
+        "char_count": 6235,
+        "word_count": 961,
+        "line_count": 168,
+        "has_content": true,
+        "text_sample": "REPUBLIQUE DU CAMEROUN PAIX — TRAVAIL — PATRIE\n\nARRETE N° Gi: /CAB/PM DU\nportant création, 76.1 et fonctionnement de la Commission Mixte\n\nNationale chargée de l'assainissement de la carte sanitaire.\n\nLE PREMIER MINISTRE, CHEF DU GOUVERNEMENT,\n\nVu la Constitution ;\n\nVu la loi n° 84/009 du 5 décembre 1984 portant réglementation de l'exercice des\nProfessions d'Infirmier, de Sage-femme et de Technicien Médico-Sanitaire et ses\nmodificatifs subséquents ;\n\nVu la loi n° 90/34 du 10 août 1990 relative à "
+      },
+      "easyocr": {
+        "success": true,
+        "duration_seconds": 177.05,
+        "char_count": 6412,
+        "word_count": 948,
+        "line_count": 215,
+        "has_content": true,
+        "text_sample": "REPUBLIQUE DU CAMEROUN\nPAIX\nTRAVAIL\nPATRIE\nARRETE N'\nCAB\nPM\nDU\n2015\nportant création, organisation et fonctionnement de la Commission Mixte\nNationale chargée de l'assainissement de la carte sanitaire.\nLE PREMIER MINISTRE, CHEF DU GOUVERNEMENT,\nVu la Constitution\nVu la loi n\" 84/009 du 5 décembre 1984 portant réglementation de l'exercice des\nProfessions dInfirmier , de Sage-femme\net de Technicien Médico-Sanitaire et ses\nmodificatifs subséquents\nVu la loi n' 90/34 du 10 août 1990 relative à l'exer"
+      },
+      "pymupdf": {
+        "success": true,
+        "duration_seconds": 0.12,
+        "char_count": 9513,
+        "word_count": 1420,
+        "line_count": 214,
+        "has_content": true,
+        "text_sample": ",-' \nREPUBLIQUE DU CAMEROUN \nPAIX - TRAVAIL - PATRIE \nARRETE N° \n0 6 j \n/CAB/PM DU \n. 'il! \n?J';(j \nportant création, organisation et fonctionnement de la Commission Mixte \nNationale chargée de l'assainissement de la carte sanitaire . \n. \nLE PREMIER MJNISTRE, CHEF DU GOUVERNEMENT, \nVu la Constitution ; \nVu la loi n° 84/009 du 5 décembre 1984 portant réglementation de l'exercice des \nProfessions d'Infirmier, de Sage-femme et de Technicien Médico-Sanitaire et ses \nmodificatifs subséquents; \nVu la "
+      }
+    }
+  }
+]

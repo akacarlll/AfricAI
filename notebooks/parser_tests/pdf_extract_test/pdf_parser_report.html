@@ -1,0 +1,131 @@
+
+            <!DOCTYPE html>
+            <html>
+            <head>
+                <title>Comparaison des Parseurs PDF</title>
+                <style>
+                    body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
+                    h1, h2, h3 { color: #2c3e50; }
+                    table { border-collapse: collapse; width: 100%; margin: 20px 0; }
+                    th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                    th { background-color: #f2f2f2; }
+                    tr:nth-child(even) { background-color: #f9f9f9; }
+                    .recommendation { background-color: #e8f4f8; padding: 15px; border-radius: 5px; }
+                </style>
+            </head>
+            <body>
+                <h1>Rapport de Comparaison des Parseurs PDF</h1>
+                
+                <h2>Résumé</h2>
+                <p>Total de fichiers analysés: 6</p>
+                <p>Fichiers scannés: 4</p>
+                <p>Fichiers numériques: 2</p>
+                
+                <h2>Taux de Réussite par Type de Document (%)</h2>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Numérique</th>
+      <th>Scanné</th>
+    </tr>
+    <tr>
+      <th>parser</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>easyocr</th>
+      <td>100.0</td>
+      <td>100.0</td>
+    </tr>
+    <tr>
+      <th>pdfplumber</th>
+      <td>100.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>pymupdf</th>
+      <td>100.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>pypdf</th>
+      <td>100.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>pytesseract</th>
+      <td>100.0</td>
+      <td>100.0</td>
+    </tr>
+  </tbody>
+</table>
+                
+                <h2>Temps Moyen de Traitement (secondes)</h2>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>is_scanned</th>
+      <th>False</th>
+      <th>True</th>
+    </tr>
+    <tr>
+      <th>parser</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>easyocr</th>
+      <td>128.96</td>
+      <td>94.33</td>
+    </tr>
+    <tr>
+      <th>pdfplumber</th>
+      <td>1.58</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>pymupdf</th>
+      <td>0.08</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>pypdf</th>
+      <td>0.14</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>pytesseract</th>
+      <td>12.11</td>
+      <td>6.93</td>
+    </tr>
+  </tbody>
+</table>
+                
+                <h2>Recommandations</h2>
+                <div class="recommendation">
+                    <h3>Pour les PDF scannés:</h3>
+                    <p>Meilleur parseur: <strong>pytesseract</strong></p>
+                    
+                    <h3>Pour les PDF numériques:</h3>
+                    <p>Meilleur parseur: <strong>pymupdf</strong></p>
+                    
+                    <h3>Stratégie recommandée:</h3>
+                    <p>Utilisez une approche hybride:</p>
+                    <ul>
+                        <li>Détectez d'abord si le PDF est scanné</li>
+                        <li>Pour les PDF scannés: utilisez pytesseract</li>
+                        <li>Pour les PDF numériques: utilisez pymupdf</li>
+                    </ul>
+                    <p>Cette approche vous donnera les meilleurs résultats tout en optimisant les performances.</p>
+                </div>
+                
+                <p><em>Rapport généré le 2025-03-11 11:41:47</em></p>
+            </body>
+            </html>
+            

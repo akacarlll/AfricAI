@@ -1,0 +1,88 @@
+{
+  "total_files": 6,
+  "scanned_files": 4,
+  "digital_files": 2,
+  "parsers_performance": {
+    "scanned": {
+      "pdfplumber": {
+        "success_rate": 0.0,
+        "avg_duration": 0,
+        "avg_chars": 0
+      },
+      "pypdf": {
+        "success_rate": 0.0,
+        "avg_duration": 0,
+        "avg_chars": 0
+      },
+      "pytesseract": {
+        "success_rate": 100.0,
+        "avg_duration": 6.93,
+        "avg_chars": 1957
+      },
+      "easyocr": {
+        "success_rate": 100.0,
+        "avg_duration": 94.33,
+        "avg_chars": 1977
+      },
+      "pymupdf": {
+        "success_rate": 0.0,
+        "avg_duration": 0,
+        "avg_chars": 0
+      }
+    },
+    "digital": {
+      "pdfplumber": {
+        "success_rate": 100.0,
+        "avg_duration": 1.58,
+        "avg_chars": 5534
+      },
+      "pypdf": {
+        "success_rate": 100.0,
+        "avg_duration": 0.14,
+        "avg_chars": 5637
+      },
+      "pytesseract": {
+        "success_rate": 100.0,
+        "avg_duration": 12.11,
+        "avg_chars": 3947
+      },
+      "easyocr": {
+        "success_rate": 100.0,
+        "avg_duration": 128.96,
+        "avg_chars": 4101
+      },
+      "pymupdf": {
+        "success_rate": 100.0,
+        "avg_duration": 0.08,
+        "avg_chars": 5667
+      }
+    },
+    "all": {
+      "pdfplumber": {
+        "success_rate": 33.33,
+        "avg_duration": 1.58,
+        "avg_chars": 5534
+      },
+      "pypdf": {
+        "success_rate": 33.33,
+        "avg_duration": 0.14,
+        "avg_chars": 5637
+      },
+      "pytesseract": {
+        "success_rate": 100.0,
+        "avg_duration": 8.65,
+        "avg_chars": 2620
+      },
+      "easyocr": {
+        "success_rate": 100.0,
+        "avg_duration": 105.88,
+        "avg_chars": 2685
+      },
+      "pymupdf": {
+        "success_rate": 33.33,
+        "avg_duration": 0.08,
+        "avg_chars": 5667
+      }
+    }
+  }
+}

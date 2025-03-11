@@ -1,0 +1,18 @@
+name: test_parser
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - tesseract            # installs Tesseract OCR; note that this is a system dependency
+  - ipykernel
+  - pip
+  - pip:
+      - pdfplumber
+      - pypdf
+      - pytesseract
+      - pdf2image
+      - pdfminer.six==20231228
+      - pymupdf
+      - pandas
+      - numpy
