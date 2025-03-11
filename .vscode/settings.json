@@ -1,0 +1,10 @@
+{
+    "files.exclude": {
+      "data/01_raw/cmr/pdfs/**": true,
+      "data/01_raw/cmr/texts/**": true
+    },
+    "search.exclude": {
+      "data/01_raw/cmr/pdfs/**": true,
+      "data/01_raw/cmr/texts/**": true
+    }
+  }
