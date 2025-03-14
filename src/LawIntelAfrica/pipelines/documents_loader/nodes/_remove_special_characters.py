@@ -17,22 +17,24 @@ def remove_characters(df: pd.DataFrame) -> pd.DataFrame:
     """
 
     df["text"] = df["text"].apply(remove_accents_and_special_chars)
+    df["page_title"] = df["page_title"].apply(remove_accents_and_special_chars)
+
     df["text"] = df["text"].str.replace(
         r"[^a-zA-Z0-9\s.,!?'\"\-:;(){}[\]]", "", regex=True
     )
     return df
 
 
-def remove_accents_and_special_chars(text):
-    """_summary_
+def remove_accents_and_special_chars(text: str) -> str:
+    """
+    Removes accents and special characters from a given text.
 
     Args:
-        text (_type_): _description_
+        text (str): The input text containing accents and/or special characters.
 
     Returns:
-        _type_: _description_
+        str: The cleaned text with accents and special characters removed.
     """
-
     normalized = unicodedata.normalize("NFKD", text)
     # Remove non-ASCII characters
     ascii_text = normalized.encode("ASCII", "ignore").decode("ASCII")

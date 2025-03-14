@@ -15,8 +15,22 @@ def extract_metadata(df: pd.DataFrame) -> pd.DataFrame:
         pd.DataFrame: A DataFrame containing the documents with the extracted columns.
     """
 
-    df["page_title"] = df["source"].apply(extract_document_name)
-
+    df["page_title"] = df.apply(
+        lambda row: (
+            extract_document_name(row["source"])
+            if pd.isna(row.get("page_title"))
+            else row["page_title"]
+        ),
+        axis=1,
+    )
+    df["category"] = df.apply(
+        lambda row: (
+            extract_category(row["page_title"])
+            if pd.isna(row.get("category"))
+            else row["category"]
+        ),
+        axis=1,
+    )
     df.drop(
         columns=[
             "source",
@@ -51,3 +65,20 @@ def extract_document_name(file_path):
     if match:
         return match.group(2)  # Prend la partie après le préfixe et avant .pdf
     return None
+
+
+def extract_category(page_title):
+    """
+    Extracts the category from the page title by checking for specific keywords.
+
+    Args:
+        page_title (str): The title of the page.
+
+    Returns:
+        str: The category extracted from the page title.
+    """
+    keywords = ["code", "arrete", "decret", "loi", "autres", "circulaire"]
+    for keyword in keywords:
+        if keyword in page_title.lower():
+            return keyword
+    return "autres"
