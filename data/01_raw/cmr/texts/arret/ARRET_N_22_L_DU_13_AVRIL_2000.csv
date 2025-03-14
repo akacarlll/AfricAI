@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-22-13-avril-2000-11807.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-22-13-avril-2000-11807.htm,"ARRET N°22/L DU 13 AVRIL 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 6 juin 1986 par Maître Ndengue Byll Thomas, Avocat à Yaoundé ;
 Sur le moyen de cassation soulevé d'office, pris de la violation de l'article 5 alinéa 3 (a) de l'ordonnance n°74/1 du 6 juillet 1974 modifiée incompétence ratione materiae ;
 En ce que les juges d'instance et d'appel ont cru devoir statuer au fond sur une instance portant sur une contestation de droit de propriété sur une parcelle de terrain non immatriculé alors qu'aux termes du texte visé au moyen, une telle cause relève de la compétence des commissions consultatives créées par l'article 16 du même texte ;
@@ -11,4 +13,4 @@ Et sans qu'il soit besoin d'examiner les moyens proposés,
 CASSE ET ANNULE l'arrêt n°179/L rendu le 12 avril 1985 par la Cour d'Appel de Douala;
 REMET en conséquence la cause et les parties au même et semblable état où elles étaient avant ledit arrêt et, pour être fait droit, les renvoie devant la Cour d'Appel de Bafoussam ;
 RESERVE les dépens ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du greffe de la Cour d'Appel de Douala et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_22_L_DU_13_AVRIL_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Traditionnelle', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'BEKOMBO PHILIPPE', 'Against': 'C/', 'Defendant': 'YOUSSA ANDRÉ', 'Judgment': 'ARRET N°22/L DU 13 AVRIL 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du greffe de la Cour d'Appel de Douala et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_22_L_DU_13_AVRIL_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Traditionnelle', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'BEKOMBO PHILIPPE', 'Against': 'C/', 'Defendant': 'YOUSSA ANDRÉ', 'Judgment': 'ARRET N°22/L DU 13 AVRIL 2000'}"

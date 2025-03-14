@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-207-24-aout-2000-37045.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-207-24-aout-2000-37045.htm,"ARRET N° 207/S DU 24 AOUT 2000
+
+LA COUR,
 Vu la connexité ;
 Sur le pourvoi de Bambu W Wilfried ;
 Vu l'article 13 alinéas 2 et 5 de la loi n°75/16 du 8 décembre 1975 fixant la procédure et le fonctionnement de la Cour Suprême ;
@@ -27,4 +29,4 @@ Condamne Maître Mima à une amende civile de dix mille (10.000) francs ;
 Sur le pourvoi du Ceper ;
 CASSE ET ANNULE l'arrêt n°86/Soc rendu le 7 janvier 1986 par la Cour d'Appel du Centre ;
 REMET en conséquence la cause et les parties au même et semblable état où elles étaient avant ladite décision et, pour être fait droit, les renvoie devant la Cour d'Appel du Sud à Ebolowa ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Centre et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_207_S_DU_24_AOUT_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'BAMBU W. WILFRIED, CEPER', 'Against': 'C/', 'Defendant': 'BAMBU W. WILFRIED, CEPER', 'Judgment': 'ARRET N° 207/S DU 24 AOUT 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Centre et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_207_S_DU_24_AOUT_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'BAMBU W. WILFRIED, CEPER', 'Against': 'C/', 'Defendant': 'BAMBU W. WILFRIED, CEPER', 'Judgment': 'ARRET N° 207/S DU 24 AOUT 2000'}"

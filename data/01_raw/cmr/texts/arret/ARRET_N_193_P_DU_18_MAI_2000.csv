@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-193-p-18-mai-2000-10456.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-193-p-18-mai-2000-10456.htm,"ARRET N°193/P DU 18 MAI 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 26 janvier 1985 par le Procureur Général près la Cour suprême sur ordre de Monsieur le Ministre d'Etat chargé de la justice, Garde des Sceaux ;
 Sur le moyen unique de cassation pris de la violation de la loi, violation de l'article 251 du code pénal ;
 En ce que,
@@ -12,4 +14,4 @@ PAR CES MOTIFS
 CASSE ET ANNULE le jugement n°21/TGI/79/80 rendu le 10 avril 1980 par le Tribunal de Grande Instance de la Kadei à Batouri ;
 REMET en conséquence le cause et les parties au même et semblable état où elles étaient avant ladite décision et, pour être fait droit, les renvoie devant la même juridiction autrement composée ;
 RESERVE les dépens ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe du Tribunal de Grande Instance de la Kadei à Batouri et que mention en sera faite en marge ou à la suite du jugement annulé.",ARRET_N_193_P_DU_18_MAI_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'PROCUREUR GÉNÉRAL PRÈS LA COUR SUPRÊME', 'Against': 'C/', 'Defendant': 'NYEME HENRI, AMBOUNDJE PAULINE, WALANGO BENOÎT, KOUMANDO MARCEL', 'Judgment': 'ARRET N°193/P DU 18 MAI 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe du Tribunal de Grande Instance de la Kadei à Batouri et que mention en sera faite en marge ou à la suite du jugement annulé.",ARRET_N_193_P_DU_18_MAI_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'PROCUREUR GÉNÉRAL PRÈS LA COUR SUPRÊME', 'Against': 'C/', 'Defendant': 'NYEME HENRI, AMBOUNDJE PAULINE, WALANGO BENOÎT, KOUMANDO MARCEL', 'Judgment': 'ARRET N°193/P DU 18 MAI 2000'}"

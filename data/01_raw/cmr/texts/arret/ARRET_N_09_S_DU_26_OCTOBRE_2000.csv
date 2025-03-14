@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-09-26-octobre-2000-37019.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-09-26-octobre-2000-37019.htm,"ARRET N° 09/S DU 26 OCTOBRE 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 26 mai 1994 par Maître
 Alix Betayene, Avocat à Yaoundé ;
 Sur le premier moyen de cassation amendé pris en sa première branche de la violation de la loi, violation de l'article 5 de l'ordonnance n°72/4 du 26 août 1972, défaut de motifs, manque de base légale ;
@@ -17,4 +19,4 @@ PAR CES MOTIFS
 Sans qu'il soit besoin d'examiner les autres moyens,
 CASSE ET ANNULE l'arrêt n°189/Soc rendu le 27 mai 1987 par la Cour d'Appel du Centre à Yaoundé ;
 REMET en conséquence la cause et les parties au même et semblable état où elles étaient avant ladite décision et, pour être fait droit, les renvoie devant la même Cour d'Appel autrement composée ;
-ORDONNE qu'à diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Centre à Yaoundé et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_09_S_DU_26_OCTOBRE_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'SOCIÉTÉ ANONYME DES BRASSERIES DU CAMEROUN', 'Against': 'C/', 'Defendant': 'EPOUPA ISIDORE', 'Judgment': 'ARRET N° 09/S DU 26 OCTOBRE 2000'}"
+ORDONNE qu'à diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Centre à Yaoundé et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_09_S_DU_26_OCTOBRE_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'SOCIÉTÉ ANONYME DES BRASSERIES DU CAMEROUN', 'Against': 'C/', 'Defendant': 'EPOUPA ISIDORE', 'Judgment': 'ARRET N° 09/S DU 26 OCTOBRE 2000'}"

@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-26-cc-15-novembre-2001-32756.htm,"La Cour
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-26-cc-15-novembre-2001-32756.htm,"ARRÊT N° 26/CC DU 15 NOVEMBRE 2001
+
+La Cour
 Après avoir entendu en son rapport Monsieur le Conseiller Moïse Haubert Tcheptang ;
 Vu les conclusions de Monsieur Martin Rissouk à Moulong, Procureur Général ; Et après en avoir délibéré conformément à la loi ;
 Vu le mémoire ampliatif déposé le 30 avril 1999 par Maître Fokoua Djio Ngoula Fotsa ;
@@ -39,4 +41,4 @@ Attendu que ces moyens ne sont pas articulés comme ne précisant pas les textes
 D'où il suit qu'ils sont irrecevables et que le pourvoi encourt le rejet ;
 PAR CES MOTIFS
 Rejette le pourvoi ;
-Condamne la demanderesse aux dépens liquidés à la somme de Deux cent soixante-sept mille sept cent cinquante francs.",ARRET_N_26_CC_DU_15_NOVEMBRE_2001,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': '', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'S.G.I.L.C', 'Against': 'C/', 'Defendant': 'TOMEKO RENÉ', 'Judgment': 'ARRÊT N° 26/CC DU 15 NOVEMBRE 2001'}"
+Condamne la demanderesse aux dépens liquidés à la somme de Deux cent soixante-sept mille sept cent cinquante francs.",ARRET_N_26_CC_DU_15_NOVEMBRE_2001,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': '', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'S.G.I.L.C', 'Against': 'C/', 'Defendant': 'TOMEKO RENÉ', 'Judgment': 'ARRÊT N° 26/CC DU 15 NOVEMBRE 2001'}"

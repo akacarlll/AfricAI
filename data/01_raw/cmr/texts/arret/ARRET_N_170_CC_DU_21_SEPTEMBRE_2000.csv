@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-170-cc-21-septembre-2000-10584.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-170-cc-21-septembre-2000-10584.htm,"ARRET N°170/CC DU 21 SEPTEMBRE 2000
+
+LA COUR,
 Vu le jugement n°30/c du 29 octobre 1998 rendu par le Tribunal de Premier Degré de Yaoundé ;
 Vu l'article 7 alinéa 1 de l'ordonnance n°72/6 du 26 août 1972 fixant l'organisation de la Cour suprême, modifiée par la loi n°76/28 du 14 décembre 1976 ensemble l'article 153 du code de procédure civile et commerciale ;
 Attendu que par requête en date du 02 octobre 1999 reçue au secrétariat de la Présidence de la Cour suprême et enregistrée sous le n°07 Maître Tsapy Joseph Lavoisier, Avocat à Bafoussam, agissant au nom et pour le compte de Soh Laurent, a sollicité de la Cour suprême le règlement de juges dans la procédure qui oppose son client au sieur Nsegna Nyakom Daniel ;
@@ -30,4 +32,4 @@ Attendu qu'en application des l'article 153 du code de procédure civile et comm
 Que le Tribunal de Premier Degré de Bafoussam est le plus indiqué dans l'intérêt d'une bonne administration de la justice, comme étant le lieu d'ouverture de la succession ;
 PAR CES MOTIFS
 Dit que le litige, objet des jugements n°' 30/c et 709/DL rendus respectivement les 29 octobre 1998 et ter mars 1999 par les Tribunaux de Premier Degré de Bafoussam et de Yaoundé, sera évoqué et jugé devant le Tribunal de Premier Degré de Bafoussam ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour suprême et que mention en sera faite en marge ou à la suite des décisions susmentionnées.",ARRET_N_170_CC_DU_21_SEPTEMBRE_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Civile et Commerciale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'SOH LAURENT', 'Against': 'C/', 'Defendant': 'NSEGNA NYAKOM DANIEL', 'Judgment': 'ARRET N°170/CC DU 21 SEPTEMBRE 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour suprême et que mention en sera faite en marge ou à la suite des décisions susmentionnées.",ARRET_N_170_CC_DU_21_SEPTEMBRE_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Civile et Commerciale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'SOH LAURENT', 'Against': 'C/', 'Defendant': 'NSEGNA NYAKOM DANIEL', 'Judgment': 'ARRET N°170/CC DU 21 SEPTEMBRE 2000'}"

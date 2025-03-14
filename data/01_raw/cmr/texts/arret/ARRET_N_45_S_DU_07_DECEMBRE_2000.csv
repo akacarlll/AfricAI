@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-45-07-decembre-2000-37763.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-45-07-decembre-2000-37763.htm,"ARRET N° 45/S DU 07 DECEMBRE 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 27 novembre 1991 par Maîtres Viazzi, Aubriet — Battu — Kom — Ipouck, Nyemb et Makole, Avocats associés à Douala ;
 Sur le moyen unique de cassation, pris de la violation des articles 41 (2) du Code du travail, ensemble violation de l'article 5 de l'ordonnance n°72/4 du 26 août 1972 qui stipulent que:
 « ...Le jugement doit mentionner expressément les motifs allégués par la partie qui aura rompu le contrat ; toute décision de justice doit être motivée en fait et en droit;
@@ -18,4 +20,4 @@ D'où il suit qu'il n'est pas fondé ;
 Attendu que l'arrêt est par ailleurs régulier ;
 PAR CES MOTIFS
 REJETTE le pourvoi ;
-ORDONNE qu'à diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Littoral à Douala et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_45_S_DU_07_DECEMBRE_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'SOCIÉTÉ SOCAMEXIM', 'Against': 'C/', 'Defendant': 'NOUPOUA NORBERT', 'Judgment': 'ARRET N° 45/S DU 07 DECEMBRE 2000'}"
+ORDONNE qu'à diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Littoral à Douala et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_45_S_DU_07_DECEMBRE_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'SOCIÉTÉ SOCAMEXIM', 'Against': 'C/', 'Defendant': 'NOUPOUA NORBERT', 'Judgment': 'ARRET N° 45/S DU 07 DECEMBRE 2000'}"

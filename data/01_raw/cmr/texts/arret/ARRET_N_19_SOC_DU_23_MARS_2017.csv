@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-19-soc-23-mars-2017-33283.htm,"L'an deux mille dix-sept et le vingt trois de mois du Mars
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-19-soc-23-mars-2017-33283.htm,"ARRÊT N° 19/SOC DU 23 MARS 2017
+
+L'an deux mille dix-sept et le vingt trois de mois du Mars
 La Cour Suprême statuant en matière de droit sociale ;
 En son audience publique ordinaire a rendu l'arrêt dont la teneur suit :
 ENTRE
@@ -49,4 +51,4 @@ SOCKENG Roger .Conseiller
 En présence de Monsieur MBAH JET Salomon, Avocat Général occupant le banc du Ministère Public ;
 Et avec l'assistance de Maître ALIMETA Alain Sainclair Greffier ;
 En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier ;
-LE PRESIDENT, LES CONSEILLERS, LE GREFFIER",ARRET_N_19_SOC_DU_23_MARS_2017,0,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': 'DOSSIER N° 170/S/87-88 du 06 octobre 1987', 'Appeal': '', 'Claimant': 'FONADER C/ATANGANA HENRY GILBERT', 'Against': '', 'Defendant': '', 'Judgment': 'ARRÊT N° 19/SOC DU 23 MARS 2017'}"
+LE PRESIDENT, LES CONSEILLERS, LE GREFFIER",ARRET_N_19_SOC_DU_23_MARS_2017,0,arret,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': 'DOSSIER N° 170/S/87-88 du 06 octobre 1987', 'Appeal': '', 'Claimant': 'FONADER C/ATANGANA HENRY GILBERT', 'Against': '', 'Defendant': '', 'Judgment': 'ARRÊT N° 19/SOC DU 23 MARS 2017'}"

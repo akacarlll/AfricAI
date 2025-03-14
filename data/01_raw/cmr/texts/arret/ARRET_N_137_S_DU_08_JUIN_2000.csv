@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-137-08-juin-2000-37830.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-137-08-juin-2000-37830.htm,"ARRET N° 137/S DU 08 JUIN 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 15 janvier 1993 par Maître Deffo, Avocat à Yaoundé ;
 Sur le premier moyen de cassation pris du défaut de qualité de Fono Michel ;
 En ce que,
@@ -22,4 +24,4 @@ D'où il suit que le moyen n'est pas fondé ;
 Et attendu que l'arrêt est régulier ;
 PAR CES MOTIFS
 REJETTE le pourvoi ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Garoua et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_137_S_DU_08_JUIN_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'YAMBENA PIERRE', 'Against': 'C/', 'Defendant': 'SOCAPROD', 'Judgment': 'ARRET N° 137/S DU 08 JUIN 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Garoua et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_137_S_DU_08_JUIN_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'YAMBENA PIERRE', 'Against': 'C/', 'Defendant': 'SOCAPROD', 'Judgment': 'ARRET N° 137/S DU 08 JUIN 2000'}"

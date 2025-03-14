@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-92-30-mars-2000-37163.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-92-30-mars-2000-37163.htm,"ARRET N° 92/S DU 30 MARS 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 17 juillet 1987 par Maître Claude Mbome, Avocat à Douala ;
 Sur le quatrième moyen de cassation amendé pris de la violation de la loi, violation de l'article 41 (3) du Code de travail relatif à la charge de la preuve ;
 En ce que l'arrêt attaqué a confirmé la décision du Tribunal qui devant la contestation soulevée par les parties sur la remise du billet d'avion à l'origine de la rupture du contrat s'est prononcé pour ladite remise en relevant que l'intéressé ne démontre pas la mauvaise foi de l'employeur;
@@ -16,4 +18,4 @@ PAR CES MOTIFS
 Et sans qu'il soit besoin d'examiner les autres moyens,
 CASSE ET ANNULE l'arrêt n°163/S rendu le 1er février 1985 par la Cour d'Appel de Douala ;
 REMET en conséquence la cause et les parties au même et semblable état où elles étaient avant ledit arrêt et, pour être fait droit, les renvoie devant la Cour d'Appel de l'Ouest à Bafoussam ;
-ORDONNE qu'a la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Littoral et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_92_S_DU_30_MARS_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'MORVEZEN CHARLES', 'Against': 'C/', 'Defendant': 'SOCIÉTÉ DES PÊCHERIES DU CAMEROUN', 'Judgment': 'ARRET N° 92/S DU 30 MARS 2000'}"
+ORDONNE qu'a la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Littoral et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_92_S_DU_30_MARS_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'MORVEZEN CHARLES', 'Against': 'C/', 'Defendant': 'SOCIÉTÉ DES PÊCHERIES DU CAMEROUN', 'Judgment': 'ARRET N° 92/S DU 30 MARS 2000'}"

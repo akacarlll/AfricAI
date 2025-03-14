@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-261-21-septembre-2000-36955.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-261-21-septembre-2000-36955.htm,"ARRET N° 261/S DU 21 SEPTEMBRE 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 14 juin 1993 par Maître Taf fou Djimoun Laurent, Avocat à Douala ;
 Sur le premier moyen de cassation pris de la violation de l'article 37 du Code du travail ;
 « En ce que la Cour n'a pas précisé quelles sont les conditions nécessaires à la rupture du contrat, prétendant que le contrat à durée indéterminée n'est pas résiliable ;
@@ -21,4 +23,4 @@ D'où il suit que le moyen n'est pas fondé ;
 Et attendu que l'arrêt est par ailleurs régulier ;
 PAR CES MOTIFS
 REJETTE le pourvoi ;
-ORDONNE qu'à diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Littoral à Douala et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_261_S_DU_21_SEPTEMBRE_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'SOCIÉTÉ LE MOBILIER CAMEROUNAIS', 'Against': 'C/', 'Defendant': 'TAGHEU JOSEPH', 'Judgment': 'ARRET N° 261/S DU 21 SEPTEMBRE 2000'}"
+ORDONNE qu'à diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Littoral à Douala et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_261_S_DU_21_SEPTEMBRE_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'SOCIÉTÉ LE MOBILIER CAMEROUNAIS', 'Against': 'C/', 'Defendant': 'TAGHEU JOSEPH', 'Judgment': 'ARRET N° 261/S DU 21 SEPTEMBRE 2000'}"

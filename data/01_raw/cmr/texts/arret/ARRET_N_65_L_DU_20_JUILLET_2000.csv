@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-65-20-juillet-2000-11585.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-65-20-juillet-2000-11585.htm,"ARRET N°65/L DU 20 JUILLET 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 19 mars 1991 par Maître Mbodi Epee Gaston, Avocat à Douala ;
 Sur le moyen unique de cassation pris en sa première branche de la violation de la loi, violation de l'article 11 (2) du décret n°79-448 du 5 novembre 1979 portant réglementation des fonctions et fixant le statut des huissiers ;
 «En ce que... l'arrêt attaqué s'est borné à dire que les exploits d'huissiers font foi en justice jusqu'à inscription de faux pour tout ce que ceux-ci ont par eux-mêmes constaté ou accompli dans l'exercice de leurs fonctions...
@@ -27,4 +29,4 @@ D'où il suit que le moyen n'est pas davantage fondé en sa deuxième branche ;
 PAR CES MOTIFS
 REJETTE le pourvoi de Dodo Youssouf ;
 Confirme le demandeur aux dépens ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du greffe de la Cour d'Appel du Littoral et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_65_L_DU_20_JUILLET_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Traditionnelle', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'DODO YOUSSOUF', 'Against': 'C/', 'Defendant': 'DODO ISSIAKA', 'Judgment': 'ARRET N°65/L DU 20 JUILLET 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du greffe de la Cour d'Appel du Littoral et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_65_L_DU_20_JUILLET_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Traditionnelle', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'DODO YOUSSOUF', 'Against': 'C/', 'Defendant': 'DODO ISSIAKA', 'Judgment': 'ARRET N°65/L DU 20 JUILLET 2000'}"

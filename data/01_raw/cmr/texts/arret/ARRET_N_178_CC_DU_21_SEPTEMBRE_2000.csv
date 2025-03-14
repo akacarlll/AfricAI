@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-178-cc-21-septembre-2000-10590.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-178-cc-21-septembre-2000-10590.htm,"ARRET N°178/CC DU 21 SEPTEMBRE 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 03 décembre 1986 par la société civile professionnelle d'Avocats Ninine et Bonnard, Avocats à Douala ;
 Sur le premier moyen de cassation pris de la violation et fausse application de la loi, notamment des articles 550 et 555 du code civil — insuffisance de motifs — manque de base légale, ensemble violation de l'article premier du code civil et de l'article 5 de l'arrêté du 15 septembre 1921 portant organisation de la conservation de la propriété foncière ;
 En ce que,
@@ -33,4 +35,4 @@ Et attendu par ailleurs que l'arrêt attaqué est régulier ;
 PAR CES MOTIFS
 REJETTE le pourvoi ;
 CONDAMNE le demandeur aux dépens ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Douala et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_178_CC_DU_21_SEPTEMBRE_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Civile et Commerciale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'NTHUMILI PETER', 'Against': 'C/', 'Defendant': 'TCHANDE DANIEL', 'Judgment': 'ARRET N°178/CC DU 21 SEPTEMBRE 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Douala et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_178_CC_DU_21_SEPTEMBRE_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Civile et Commerciale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'NTHUMILI PETER', 'Against': 'C/', 'Defendant': 'TCHANDE DANIEL', 'Judgment': 'ARRET N°178/CC DU 21 SEPTEMBRE 2000'}"

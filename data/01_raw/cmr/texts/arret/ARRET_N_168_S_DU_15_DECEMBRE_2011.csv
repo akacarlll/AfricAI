@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-168-15-decembre-2011-32804.htm,"L'an deux mille onze et le quinze décembre;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-168-15-decembre-2011-32804.htm,"ARRÊT N° 168/S DU 15 DÉCEMBRE 2011
+
+L'an deux mille onze et le quinze décembre;
 La Cour Suprême, statuant en matière de droit social ;
 En son audience publique ordinaire a rendu l'arrêt dont la teneur suit ;
 ENTRE
@@ -42,4 +44,4 @@ Mr. NJIEMOUN MAMA, CONSEILLER
 Mr. Christian MBALE Goethe, CONSEILLER
 En présence de Monsieur Salomon MBAH NJEI, Avocat Général occupant le banc du Ministère Public ;
 Et avec l'assistance de Madame Margaret MUSONGO Greffier ;
-En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier ;",ARRET_N_168_S_DU_15_DECEMBRE_2011,0,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': '', 'Appeal': 'Pourvoi n° 29/S/2008', 'Claimant': 'SOCIÉTÉ CANA BOIS, DIM ZOA IGNACE', 'Against': 'C/', 'Defendant': 'LES MÊME PARTIES', 'Judgment': 'ARRÊT N° 168/S DU 15 DÉCEMBRE 2011'}"
+En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier ;",ARRET_N_168_S_DU_15_DECEMBRE_2011,0,arret,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': '', 'Appeal': 'Pourvoi n° 29/S/2008', 'Claimant': 'SOCIÉTÉ CANA BOIS, DIM ZOA IGNACE', 'Against': 'C/', 'Defendant': 'LES MÊME PARTIES', 'Judgment': 'ARRÊT N° 168/S DU 15 DÉCEMBRE 2011'}"

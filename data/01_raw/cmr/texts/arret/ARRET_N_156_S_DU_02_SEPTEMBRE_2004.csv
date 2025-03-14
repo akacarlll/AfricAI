@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-156-02-septembre-2004-32802.htm,"L'an deux mille quatre et le deux Septembre ;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-156-02-septembre-2004-32802.htm,"ARRÊT N° 156/S DU 02 SEPTEMBRE 2004
+
+L'an deux mille quatre et le deux Septembre ;
 La Cour Suprême, statuant en matière de droit social ;
 En son audience publique de vacation a rendu l'arrêt dont la teneur suit :
 ENTRE:
@@ -37,4 +39,4 @@ Clément ATANLGANA Conseiller
 Suzanne MENGUE ZOMO Conseiller
 En présence de Monsieur MBENGUE Georges, Avocat Général près la Cour Suprême, occupant le banc du Ministère Public ;
 Assisté de Maître OMGBA Raphaël, Greffier ;
-En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier ;",ARRET_N_156_S_DU_02_SEPTEMBRE_2004,0,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': '', 'Appeal': 'Pourvoi n° 09/S/01-02 du 11 mai 2001', 'Claimant': 'IMPRIMERIE SAINT PAUL', 'Against': 'C/', 'Defendant': 'BOULI ESSONO LOUIS', 'Judgment': 'ARRÊT N° 156/S DU 02 SEPTEMBRE 2004'}"
+En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier ;",ARRET_N_156_S_DU_02_SEPTEMBRE_2004,0,arret,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': '', 'Appeal': 'Pourvoi n° 09/S/01-02 du 11 mai 2001', 'Claimant': 'IMPRIMERIE SAINT PAUL', 'Against': 'C/', 'Defendant': 'BOULI ESSONO LOUIS', 'Judgment': 'ARRÊT N° 156/S DU 02 SEPTEMBRE 2004'}"

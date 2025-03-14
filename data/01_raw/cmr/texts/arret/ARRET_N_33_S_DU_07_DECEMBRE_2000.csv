@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-33-07-decembre-2000-37585.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-33-07-decembre-2000-37585.htm,"ARRET N° 33/S DU 07 DECEMBRE 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 02 mai 1996 par Maître Taffou Laurent, Avocat à Douala ;
 Sur le deuxième moyen de cassation préalable pris en sa première branche de la violation de l'article 5 de l'ordonnance n°72/4 du 26 août 1972 portant organisation judiciaire, non-réponse aux conclusions équivalant au défaut de motifs, ensemble violation du principe du double degré de juridiction et de l'article 212 du Code de procédure civile ;
 En ce que,
@@ -23,4 +25,4 @@ PAR CES MOTIFS
 Et sans qu'il soit besoin d'examiner le second moyen,
 CASSE ET ANNULE l'arrêt n°79/Soc rendu le 18 décembre 1994 par la Cour d'Appel du Littoral ;
 REMET en conséquence la cause et les parties au même et semblable état où elles étaient avant ladite décision et, pour être fait droit, les renvoie devant la Cour d'Appel de l'Ouest à Bafoussam ;
-ORDONNE qu'à diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Littoral et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_33_S_DU_07_DECEMBRE_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'GROUPE K ET COMPAGNIE', 'Against': 'C/', 'Defendant': 'OUETE THÉODORE', 'Judgment': 'ARRET N° 33/S DU 07 DECEMBRE 2000'}"
+ORDONNE qu'à diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Littoral et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_33_S_DU_07_DECEMBRE_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'GROUPE K ET COMPAGNIE', 'Against': 'C/', 'Defendant': 'OUETE THÉODORE', 'Judgment': 'ARRET N° 33/S DU 07 DECEMBRE 2000'}"

@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-42-23-decembre-2004-33335.htm,"L'an deux mille quatre et le vingt-trois décembre ;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-42-23-decembre-2004-33335.htm,"ARRÊT N° 42/S DU 23 DÉCEMBRE 2004
+
+L'an deux mille quatre et le vingt-trois décembre ;
 La Cour Suprême, statuant en matière de droit social ;
 En son audience publique ordinaire, a rendu l'arrêt dont la teneur suit :
 ENTRE
@@ -41,4 +43,4 @@ Clément ATANGANA, Conseiller ;
 Pius ANDY TAKAM, Conseiller ;
 En présence de Monsieur Raymond Landry BOUELET, Avocat Général, occupant le banc du Ministère Public ;
 Et avec l'assistance de Maître Raphaël OMGBA, Greffier ;
-En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier ;",ARRET_N_42_S_DU_23_DECEMBRE_2004,0,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': '', 'Appeal': 'Pourvoi n° 158/S/99-00 du 9 Décembre 1999', 'Claimant': 'NJIELE MICHEL', 'Against': 'C/', 'Defendant': 'SOCIETE MESSAPRESSE', 'Judgment': 'ARRÊT N° 42/S DU 23 DÉCEMBRE 2004'}"
+En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier ;",ARRET_N_42_S_DU_23_DECEMBRE_2004,0,arret,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': '', 'Appeal': 'Pourvoi n° 158/S/99-00 du 9 Décembre 1999', 'Claimant': 'NJIELE MICHEL', 'Against': 'C/', 'Defendant': 'SOCIETE MESSAPRESSE', 'Judgment': 'ARRÊT N° 42/S DU 23 DÉCEMBRE 2004'}"

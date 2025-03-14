@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-174-p-13-avril-2000-9420.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-174-p-13-avril-2000-9420.htm,"ARRET N°174/P DU 13 AVRIL 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 17 novembre 1991 par Maître Dzeukou Barthélemy, Avocat à Bafoussam ;
 Sur le moyen de cassation soulevé d'office pris de la violation de la loi, violation des articles 2 et 3 du code d'instruction criminelle, manque de base légale ;
 En ce qu'il résulte de l'arrêt attaqué qu'alors que le jugement n°382/co rendu le 14 novembre 1988 par le Tribunal de Première Instance de Bafoussam, opposait d'une part le Ministère Public et Djiaffeu Mekakoua, partie civile, aux nommés Saakinwo Jacob prévenu et Toukam Pauline civilement responsable d'autre part, le juge d'appel a cru devoir, dans le dispositif de sa décision statuer ainsi qu'il suit :
@@ -16,4 +18,4 @@ PAR CES MOTIFS
 CASSE ET ANNULE l'arrêt n°561/co rendu le 2 février 1990 par la Cour d'Appel de Bafoussam ;
 REMET en conséquence la cause et les parties au même et semblable état où elles étaient avant ladite décision et, pour être fait droit, les renvoie devant la même Cour d'Appel autrement composée ;
 RESERVE les dépens ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de Cour d'Appel de Bafoussam et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_174_P_DU_13_AVRIL_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'SAAKINWO JACOB ET TOUKAM PAULINE', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC ET DJIAFFEU MEKAKOUA', 'Judgment': 'ARRET N°174/P DU 13 AVRIL 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de Cour d'Appel de Bafoussam et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_174_P_DU_13_AVRIL_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'SAAKINWO JACOB ET TOUKAM PAULINE', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC ET DJIAFFEU MEKAKOUA', 'Judgment': 'ARRET N°174/P DU 13 AVRIL 2000'}"

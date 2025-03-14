@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-144-soc-22-juin-2017-33281.htm,"L'an deux mille dix sept et le vingt deux juin;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-144-soc-22-juin-2017-33281.htm,"ARRÊT N° 144/SOC DU 22 JUIN 2017
+
+L'an deux mille dix sept et le vingt deux juin;
 La Cour Suprême statuant en matière Sociale ;
 En son audience publique ordinaire a rendu l'arrêt dont la teneur suit ;
 ENTRE
@@ -71,4 +73,4 @@ Et avec l'assistance de Maître NYOUZEU Edwige Flore, Greffier ;
 En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier ;
 En approuvant ligne(s) Mot(s)
 rayé(s) nul(s) et renvoi(s) en marge ;
-LE PRESIDENT, LES CONSEILLERS, LE GREFFIER",ARRET_N_144_SOC_DU_22_JUIN_2017,0,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': 'DOSSIER N° 146/S/05-06', 'Appeal': 'Pourvoi n° 65/GCAY du 15 mars 2005', 'Claimant': 'MEKE RAPHAEL', 'Against': 'C/', 'Defendant': 'SOCIETE DE RECOUVREMENT DES CREANCES (SRC)', 'Judgment': 'ARRÊT N° 144/SOC DU 22 JUIN 2017'}"
+LE PRESIDENT, LES CONSEILLERS, LE GREFFIER",ARRET_N_144_SOC_DU_22_JUIN_2017,0,arret,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': 'DOSSIER N° 146/S/05-06', 'Appeal': 'Pourvoi n° 65/GCAY du 15 mars 2005', 'Claimant': 'MEKE RAPHAEL', 'Against': 'C/', 'Defendant': 'SOCIETE DE RECOUVREMENT DES CREANCES (SRC)', 'Judgment': 'ARRÊT N° 144/SOC DU 22 JUIN 2017'}"

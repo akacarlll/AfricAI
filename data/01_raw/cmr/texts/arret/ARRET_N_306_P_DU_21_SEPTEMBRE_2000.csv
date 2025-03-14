@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-306-p-21-septembre-2000-10218.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-306-p-21-septembre-2000-10218.htm,"ARRET N°306/P DU 21 SEPTEMBRE 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 12 mars 1991 par Maître Mong Antoine, Avocat à Yaoundé ;
 Sur le moyen unique de cassation pris de la violation de la loi, violation de l'article 5 de l'ordonnance n°72/4 du 26 août 1972, insuffisance de motifs, manque de base légale ;
 En ce que « l'arrêt attaqué s'est borné à affirmer que la prévenue n'a produit en cause d'appel aucun élément nouveau susceptible de justifier l'infirmation de la décision du premier juge, et n'a pas rapporté la preuve qu'elle a abandonné son foyer pour des motifs légitimes... ;
@@ -19,4 +21,4 @@ Attendu que l'arrêt attaqué est par ailleurs régulier ;
 PAR CES MOTIFS
 REJETTE le pourvoi ;
 CONDAMNE la demanderesse aux dépens ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Centre et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_306_P_DU_21_SEPTEMBRE_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'DAME NGANDI NÉE NDZENGUE CHRISTINE', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC ET NGANDI JOSEPH', 'Judgment': 'ARRET N°306/P DU 21 SEPTEMBRE 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Centre et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_306_P_DU_21_SEPTEMBRE_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'DAME NGANDI NÉE NDZENGUE CHRISTINE', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC ET NGANDI JOSEPH', 'Judgment': 'ARRET N°306/P DU 21 SEPTEMBRE 2000'}"

@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-262-civ-8-septembre-2011-8789.htm,"L'an deux mille onze et le huit du mois de septembre ;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-262-civ-8-septembre-2011-8789.htm,"ARRET N° 262/CIV DU 8 SEPTEMBRE 2011
+
+L'an deux mille onze et le huit du mois de septembre ;
 La Cour Suprême, Chambre Judiciaire, Section Civile, siégeant au Palais de Justice de Yaoundé ;
 A rendu en audience publique de vacation, l'arrêt dont la teneur suit
 ENTRE
@@ -42,4 +44,4 @@ En présence de Monsieur EGBE ACHUO Martin Hilman, Avocat Général occupant le 
 Et avec l'assistance de Maître Virginie ESSAMA, Greffier ;
 En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier ;
 Approuvant mot rayé nul ;
-LE PRESIDENT, LES CONSEILLERS, LE GREFFIER.-",ARRET_N_262_CIV_DU_8_SEPTEMBRE_2011,0,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION CIVILE', 'Case': 'Dossier n° 18/CC/06-07', 'Appeal': 'Pourvoi 08 du 11 mai 2006', 'Claimant': 'OUMAROU ALIM', 'Against': 'C/', 'Defendant': 'OUMAROU BOBO ILLAGOL', 'Judgment': 'ARRET N° 262/CIV DU 8 SEPTEMBRE 2011'}"
+LE PRESIDENT, LES CONSEILLERS, LE GREFFIER.-",ARRET_N_262_CIV_DU_8_SEPTEMBRE_2011,0,arret,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION CIVILE', 'Case': 'Dossier n° 18/CC/06-07', 'Appeal': 'Pourvoi 08 du 11 mai 2006', 'Claimant': 'OUMAROU ALIM', 'Against': 'C/', 'Defendant': 'OUMAROU BOBO ILLAGOL', 'Judgment': 'ARRET N° 262/CIV DU 8 SEPTEMBRE 2011'}"

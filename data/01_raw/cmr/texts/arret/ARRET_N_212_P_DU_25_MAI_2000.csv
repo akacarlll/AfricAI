@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-212-p-25-mai-2000-9439.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-212-p-25-mai-2000-9439.htm,"ARRET N°212/P DU 25 MAI 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 15 janvier 1987 par Maître Barthélemy Dzeukou, Avocat à Bafoussam ;
 Sur le premier moyen de cassation pris de la violation de la loi — violation de l'article 5 de l'ordonnance n°72/4 du 26 août 1972 — dénaturation des documents de la cause, manque de base légale ;
 «En ce que l'arrêt attaqué énonce dans ses motifs (page 3) « Qu'à la suite d'un appel relevé le 10 juin 1982 par Maître Dzeukou Barthélemy, Avocat à Bafoussam, au nom et pour le compte du prévenu Fobasso, la Cour d'Appel de Bafoussam a... » ;
@@ -31,4 +33,4 @@ Et sans qu'il soit besoin d'examiner le second moyen proposé,
 CASSE ET ANNULE l'arrêt n°78/co rendu le 2 novembre 1984 par la Cour d'Appel de l'Ouest ;
 REMET en conséquence la cause et les parties au même et semblable état où elles étaient avant ladite décision et, pour être fait droit, les renvoie devant la Cour d'Appel du Littoral ;
 RESERVE les dépens ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de l'Ouest et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_212_P_DU_25_MAI_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'FOBASSO MARNA, SAPI JOHN', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC ET MOUOKO ELISABETH', 'Judgment': 'ARRET N°212/P DU 25 MAI 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de l'Ouest et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_212_P_DU_25_MAI_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'FOBASSO MARNA, SAPI JOHN', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC ET MOUOKO ELISABETH', 'Judgment': 'ARRET N°212/P DU 25 MAI 2000'}"

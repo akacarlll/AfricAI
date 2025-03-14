@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-36-cc-03-fevrier-2000-11280.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-36-cc-03-fevrier-2000-11280.htm,"ARRET N°36/CC DU 03 FEVRIER 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 25 juillet 1996 par Maître Nem Joseph, Avocat à Yaoundé ;
 Sur le troisième moyen de cassation préalable, amendé, pris de la violation de la loi, violation de l'article 39 du code de procédure civile et commerciale — non reprise dans le jugement critiqué du dispositif des conclusions ;
 En ce que le demandeur au pourvoi a versé au dossier de la procédure en instance, deux notes en délibéré dont les dispositifs respectifs n'ont pas été reproduits dans le jugement attaqué par le juge du fond ; alors que cette formalité substantielle est obligatoire en vertu du texte susvisé ;
@@ -29,4 +31,4 @@ Et sans qu'il soit besoin d'examiner les autres moyens proposés,
 CASSE ET ANNULE le jugement n°373 rendu le 7 avril 1994 par le Tribunal de Grande instance du Wouri ;
 REMET en conséquence la cause et les parties au même et semblable état où elles étaient avant ladite décision et, pour être fait droit, les renvoie devant le Tribunal de Grande instance du Wouri autrement composé ;
 RESERVE les dépens ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe du Tribunal de Grande instance du Wouri et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_36_CC_DU_03_FEVRIER_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Civile et Commerciale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'OUOHAM TCHIDJO STANISLAS', 'Against': 'C/', 'Defendant': 'BICIC', 'Judgment': 'ARRET N°36/CC DU 03 FEVRIER 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe du Tribunal de Grande instance du Wouri et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_36_CC_DU_03_FEVRIER_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Civile et Commerciale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'OUOHAM TCHIDJO STANISLAS', 'Against': 'C/', 'Defendant': 'BICIC', 'Judgment': 'ARRET N°36/CC DU 03 FEVRIER 2000'}"

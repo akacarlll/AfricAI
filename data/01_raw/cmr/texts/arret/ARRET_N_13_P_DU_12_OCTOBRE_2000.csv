@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-13-p-12-octobre-2000-10392.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-13-p-12-octobre-2000-10392.htm,"ARRET N°13/P DU 12 OCTOBRE 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 2 mai 2000 par Maître Mbala Manasse, Avocat à Yaoundé ;
 Sur la première branche moyen unique de cassation prise de la non publicité des débats article 190 code d'instruction criminelle ;
 En ce que l'arrêt querellé (3e rôle au verso) ne mentionne pas la publicité des débats qui auraient été menés par la Cour d'Appel du Sud ;
@@ -32,4 +34,4 @@ PAR CES MOTIFS
 JOINT les pourvois ;
 Les rejette ;
 Laisse les dépens à la charge du Trésor Public ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Sud et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_13_P_DU_12_OCTOBRE_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'ENDJANTE MEDJO JOSEPH, ZE MEVOUNGOU PIERRE', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC ET AKONO MEDJO SAMUEL ET AUTRES', 'Judgment': 'ARRET N°13/P DU 12 OCTOBRE 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Sud et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_13_P_DU_12_OCTOBRE_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'ENDJANTE MEDJO JOSEPH, ZE MEVOUNGOU PIERRE', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC ET AKONO MEDJO SAMUEL ET AUTRES', 'Judgment': 'ARRET N°13/P DU 12 OCTOBRE 2000'}"

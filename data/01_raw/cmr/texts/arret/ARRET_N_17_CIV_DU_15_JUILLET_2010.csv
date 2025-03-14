@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-17-civ-15-juillet-2010-8832.htm,"L'an deux mille dix et le quinze du mois de juillet ;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-17-civ-15-juillet-2010-8832.htm,"ARRET N°17/CIV DU 15 JUILLET 2010
+
+L'an deux mille dix et le quinze du mois de juillet ;
 La Cour Suprême statuant en matière de droit civil ;
 En son audience publique de vacation a rendu l'arrêt dont la teneur suit :
 ENTRE:
@@ -46,4 +48,4 @@ En présence de Monsieur Raymond Landry BOUELET, Avocat Général, occupant le b
 Et avec l'assistance de Maître Appolinaire KOE AMOUGOU, Greffier ;
 En foi de quoi, le présent arrêt a été signé par le Président, les Conseillers et le Greffier ;
 Approuvant mot rayé nul
-LE PRESIDENT, LES CONSEILLERS, LE GREFFIER.-",ARRET_N_17_CIV_DU_15_JUILLET_2010,0,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION CIVILE', 'Case': 'DOSSIER N° 045/Civ/05', 'Appeal': 'POURVOI N° 12 Du 26 octobre 2005', 'Claimant': 'ENYOUGOU ADA ANTOINE', 'Against': 'C/', 'Defendant': 'SUCCESSION MANI MICHEL', 'Judgment': 'ARRET N°17/CIV DU 15 JUILLET 2010'}"
+LE PRESIDENT, LES CONSEILLERS, LE GREFFIER.-",ARRET_N_17_CIV_DU_15_JUILLET_2010,0,arret,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION CIVILE', 'Case': 'DOSSIER N° 045/Civ/05', 'Appeal': 'POURVOI N° 12 Du 26 octobre 2005', 'Claimant': 'ENYOUGOU ADA ANTOINE', 'Against': 'C/', 'Defendant': 'SUCCESSION MANI MICHEL', 'Judgment': 'ARRET N°17/CIV DU 15 JUILLET 2010'}"

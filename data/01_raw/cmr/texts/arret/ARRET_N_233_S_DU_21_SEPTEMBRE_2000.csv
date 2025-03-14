@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-233-21-septembre-2000-37424.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-233-21-septembre-2000-37424.htm,"ARRET N° 233/S DU 21 SEPTEMBRE 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 16 janvier 1997 par Maître Happi Dieudonné, Avocat à Garoua ;
 Sur le moyen de cassation, soulevé d'office, pris de la violation de l'article 5 de l'ordonnance n°72/4 du 26 août 1972, contradiction entre les motifs, manque de base légale;
 En ce que l'arrêt querellé, après avoir relevé que le contrat de travail ayant lié les parties ne remplissait pas les conditions légales d'un contrat saisonnier et affirmé qu'il constituait un véritable contrat de travail à durée indéterminée s'est par la suite appuyé sur un contrat de travail saisonnier et les textes applicables à un tel contrat pour accorder une indemnité compensatrice de préavis au travailleur, alors qu'aux termes du texte visé au moyen toute décision de justice est motivée en fait et en droit à peine de nullité d'ordre public ;
@@ -23,4 +25,4 @@ PAR CES MOTIFS
 Et sans qu'il soit besoin d'examiner le second moyen ;
 CASSE ET ANNULE l'arrêt n°21/Soc rendu le 8 février 1996 par la Cour d'Appel de l'Extrême-Nord ;
 REMET en conséquence la cause et les parties au même et semblable état où elles étaient avant ladite décision et, pour être fait droit, les renvoie devant la Cour d'Appel du Nord à Garoua ;
-ORDONNE qu'à diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de l'Extrême-Nord et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_233_S_DU_21_SEPTEMBRE_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': ""CONTRADICTION ENTRE LES MOTIFS DE L'ARRÊT. DÉFAUT DE MOTIFS. SANCTION. CASSATION., SODECOTON"", 'Against': 'C/', 'Defendant': 'ADAMA', 'Judgment': 'ARRET N° 233/S DU 21 SEPTEMBRE 2000'}"
+ORDONNE qu'à diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de l'Extrême-Nord et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_233_S_DU_21_SEPTEMBRE_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': ""CONTRADICTION ENTRE LES MOTIFS DE L'ARRÊT. DÉFAUT DE MOTIFS. SANCTION. CASSATION., SODECOTON"", 'Against': 'C/', 'Defendant': 'ADAMA', 'Judgment': 'ARRET N° 233/S DU 21 SEPTEMBRE 2000'}"

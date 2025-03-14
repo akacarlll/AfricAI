@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-117-p-15-decembre-2011-8817.htm,"L'an deux mille onze et le quinze du mois de décembre ;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-117-p-15-decembre-2011-8817.htm,"ARRET N° 117/P DU 15 DÉCEMBRE 2011
+
+L'an deux mille onze et le quinze du mois de décembre ;
 La Cour Suprême statuant en matière de droit pénal ;
 En son audience publique ordinaire a rendu l'arrêt dont la teneur suit :
 ENTRE:
@@ -66,4 +68,4 @@ En présence de Monsieur Adolphe EJANGUE EKAMBI, Avocat Général, occupant le b
 Et avec l'assistance de Maître ESSOUMAM Paul, Greffier ;
 En foi de quoi, le présent arrêt a été signé par le Président, les Conseillers et le Greffier ;
 Approuvant mot rayé nul
-LE PRESIDENT, LES CONSEILLERS, LE GREFFIER.",ARRET_N_117_P_DU_15_DECEMBRE_2011,0,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION PENALE', 'Case': 'DOSSIER N° 160/P/07', 'Appeal': 'POURVOI du 17 février 2005', 'Claimant': 'SOCIÉTÉ GARANTIE MUTUELLE DES CADRES', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC-DAME VEUVE TAFO NÉE MOKAM THÉRÈSE', 'Judgment': 'ARRET N° 117/P DU 15 DÉCEMBRE 2011'}"
+LE PRESIDENT, LES CONSEILLERS, LE GREFFIER.",ARRET_N_117_P_DU_15_DECEMBRE_2011,0,arret,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION PENALE', 'Case': 'DOSSIER N° 160/P/07', 'Appeal': 'POURVOI du 17 février 2005', 'Claimant': 'SOCIÉTÉ GARANTIE MUTUELLE DES CADRES', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC-DAME VEUVE TAFO NÉE MOKAM THÉRÈSE', 'Judgment': 'ARRET N° 117/P DU 15 DÉCEMBRE 2011'}"

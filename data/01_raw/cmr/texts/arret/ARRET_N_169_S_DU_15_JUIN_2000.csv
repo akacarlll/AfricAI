@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-169-15-juin-2000-37844.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-169-15-juin-2000-37844.htm,"ARRET N° 169/S DU 15 JUIN 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 9 avril 1997 par Maîtres Kamako - Woappi, Avocats à Douala ;
 « Sur la violation de l'article 5 de l'ordonnance n°72/4 du 26 août 1972, ensemble non-réponse aux conclusions ;
 « Considérant qu'il ressort des conclusions de la concluante versées aux débats tant devant le premier juge qu'en appel que celle-ci a formulé une demande reconventionnelle tendant à condamner son ex-employé à lui payer la somme de 963.000 correspondant au montant des sommes retenues aux employés par lui, mais non reversées dans les caisses de la société ;
@@ -43,4 +45,4 @@ D'où il suit que le moyen en ses trois branches est irrecevable ;
 Attendu que l'arrêt attaqué est par ailleurs régulier ;
 PAR CES MOTIFS
 REJETTE le pourvoi ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Littoral et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_169_S_DU_15_JUIN_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'COMPAGNIE BATOULA', 'Against': 'C/', 'Defendant': 'KAMPOER NGIAMBA RAYMOND JOSÉ', 'Judgment': 'ARRET N° 169/S DU 15 JUIN 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Littoral et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_169_S_DU_15_JUIN_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'COMPAGNIE BATOULA', 'Against': 'C/', 'Defendant': 'KAMPOER NGIAMBA RAYMOND JOSÉ', 'Judgment': 'ARRET N° 169/S DU 15 JUIN 2000'}"

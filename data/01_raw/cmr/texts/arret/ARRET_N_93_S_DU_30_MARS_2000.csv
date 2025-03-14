@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-93-30-mars-2000-37950.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-93-30-mars-2000-37950.htm,"ARRET N° 93/S DU 30 MARS 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 26 novembre 1991 par Maître Constantin Bell, Avocat à Yaoundé ;
 Sur les deux moyens de cassation réunis ainsi formulés respectivement :
 « Violation de la loi, manque de base légale - dénaturation des faits de la cause ;
@@ -14,4 +16,4 @@ Attendu en l'espèce qu'aucun des moyens soulevés au soutien du pourvoi n'a sp�
 Et attendu que l'arrêt attaqué est par ailleurs régulier ;
 PAR CES MOTIFS
 REJETTE le pourvoi ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Yaoundé et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_93_S_DU_30_MARS_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'SOCIÉTÉ GECIROBAC', 'Against': 'C/', 'Defendant': 'ATANGANA CHRISTOPHE', 'Judgment': 'ARRET N° 93/S DU 30 MARS 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Yaoundé et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_93_S_DU_30_MARS_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'SOCIÉTÉ GECIROBAC', 'Against': 'C/', 'Defendant': 'ATANGANA CHRISTOPHE', 'Judgment': 'ARRET N° 93/S DU 30 MARS 2000'}"

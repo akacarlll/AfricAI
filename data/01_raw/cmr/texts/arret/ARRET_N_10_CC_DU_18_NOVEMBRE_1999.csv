@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-10-cc-18-novembre-1999-11433.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-10-cc-18-novembre-1999-11433.htm,"ARRET N°10/CC DU 18 NOVEMBRE 1999
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 19 mai 1993 par Maître Mendouga, Avocat à Yaoundé ;
 Sur le moyen unique de cassation amendé, pris de la violation de la loi, violation de l'article 5 de l'ordonnance n°72/4 du 26 août 1972 - manque de base légale ;
 En ce que,
@@ -35,4 +37,4 @@ PAR CES MOTIFS
 CASSE ET ANNULE l'arrêt n°98/civ rendu le 05 mars 1992 par la Cour d'Appel de Yaoundé ;
 REMET en conséquence la cause et les parties au même et semblable état où elles étaient avant ladite décision et, pour être fait droit, les renvoie devant la Cour d'Appel de Yaoundé autrement composée ;
 RESERVE les dépens ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Yaoundé et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_10_CC_DU_18_NOVEMBRE_1999,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Civile et Commerciale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'NJOTSA MICHEL', 'Against': 'C/', 'Defendant': 'DAME NJOTSA NÉE NDIVE', 'Judgment': 'ARRET N°10/CC DU 18 NOVEMBRE 1999'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Yaoundé et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_10_CC_DU_18_NOVEMBRE_1999,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Civile et Commerciale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'NJOTSA MICHEL', 'Against': 'C/', 'Defendant': 'DAME NJOTSA NÉE NDIVE', 'Judgment': 'ARRET N°10/CC DU 18 NOVEMBRE 1999'}"

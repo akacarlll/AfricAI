@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-171-29-juin-2000-37845.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-171-29-juin-2000-37845.htm,"ARRET N° 171/S DU 29 JUIN 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 2 mai 1991 par Maître Taffou, Avocat à Douala ;
 Sur les deux premiers moyens de cassation réunis « pris de la violation de l'arrêté n°29/MTPS/DT du 26 septembre 1983, de l'article 3 du Code civil, ensemble avec l'application immédiate de la loi et de l'article 3 de l'arrêté n°29/MTPS/DT du 26 septembre 1983 ;
 En ce que d'une part,
@@ -26,4 +28,4 @@ D'où il suit que le moyen manque en fait autant qu'il n'est pas fondé ;
 Et attendu que l'arrêt est par ailleurs régulier ;
 PAR CES MOTIFS
 REJETTE le pourvoi ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Douala et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_171_S_DU_29_JUIN_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'NOUVELLE IMPRIMERIE', 'Against': 'C/', 'Defendant': 'EKONG HENRI', 'Judgment': 'ARRET N° 171/S DU 29 JUIN 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Douala et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_171_S_DU_29_JUIN_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'NOUVELLE IMPRIMERIE', 'Against': 'C/', 'Defendant': 'EKONG HENRI', 'Judgment': 'ARRET N° 171/S DU 29 JUIN 2000'}"

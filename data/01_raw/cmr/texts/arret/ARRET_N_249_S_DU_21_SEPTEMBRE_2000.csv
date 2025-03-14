@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-249-21-septembre-2000-37209.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-249-21-septembre-2000-37209.htm,"ARRET N° 249/S DU 21 SEPTEMBRE 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 18 mars 1998 par Maître Wolber, Avocat domicilié à Douala ;
 Sur le premier moyen de cassation pris en ses deux branches de la violation de la loi, violation des articles 141 alinéas 1 et 2, 142 alinéa 2 du Code du travail, ensemble violation de l'article 143 alinéa 1 du Code du travail, défaut de serment des assesseurs ;
 « En ce que d'une part,
@@ -47,4 +49,4 @@ D'où il suit que celui-ci n'est pas fondé et que le pourvoi encourt le rejet ;
 Attendu que l'arrêt est par ailleurs régulier ;
 PAR CES MOTIFS
 REJETTE le pourvoi ;
-ORDONNE qu'in diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transe' pour être transcrit sur les registres du Greffe- de la Coli d'Appel du Littoral à Douala et que mention en sera faite el marge ou à la suite de la décision attaquée.",ARRET_N_249_S_DU_21_SEPTEMBRE_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'EYOUM BAMBA', 'Against': 'C/', 'Defendant': 'SAPCAM', 'Judgment': 'ARRET N° 249/S DU 21 SEPTEMBRE 2000'}"
+ORDONNE qu'in diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transe' pour être transcrit sur les registres du Greffe- de la Coli d'Appel du Littoral à Douala et que mention en sera faite el marge ou à la suite de la décision attaquée.",ARRET_N_249_S_DU_21_SEPTEMBRE_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'EYOUM BAMBA', 'Against': 'C/', 'Defendant': 'SAPCAM', 'Judgment': 'ARRET N° 249/S DU 21 SEPTEMBRE 2000'}"

@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-186-29-juin-2000-37541.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-186-29-juin-2000-37541.htm,"ARRET N° 186/S DU 29 JUIN 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 21 octobre 1992 par Maîtres Viazzi et consorts, Avocats associés à Douala ;
 Sur le premier moyen de cassation amendé pris de la violation de la loi, violation des articles 39 et 214 du Code de procédure civile et commerciale, non-reproduction du dispositif des conclusions ;
 En ce qu'il résulte de la lecture de la décision querellée que le juge d'appel a omis de reproduire le dispositif des conclusions en date du 3 septembre 1990 de la demanderesse au pourvoi ainsi formulé :
@@ -19,4 +21,4 @@ PAR CES MOTIFS
 Et sans qu'il soit besoin d'examiner le second moyen,
 CASSE ET ANNULE l'arrêt n°492/S rendu le 24 juillet 1991 par la Cour d'Appel du Littoral à Douala ;
 REMET en conséquence la cause et les parties au même et semblable état où elles étaient avant ladite décision et, pour être fait droit, les renvoie devant la Cour d'Appel de l'Ouest à Bafoussam ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Littoral et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_186_S_DU_29_JUIN_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'CAMAIR', 'Against': 'C/', 'Defendant': 'FANWA GILBERT', 'Judgment': 'ARRET N° 186/S DU 29 JUIN 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Littoral et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_186_S_DU_29_JUIN_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'CAMAIR', 'Against': 'C/', 'Defendant': 'FANWA GILBERT', 'Judgment': 'ARRET N° 186/S DU 29 JUIN 2000'}"

@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-248-civ-27-septembre-2012-8810.htm,"L'an deux mille douze et le vingt sept du mois de septembre ;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-248-civ-27-septembre-2012-8810.htm,"ARRET N° 248/CIV DU 27 SEPTEMBRE 2012
+
+L'an deux mille douze et le vingt sept du mois de septembre ;
 La Cour Suprême, Chambre Judiciaire, Section Civile, siégeant au Palais de Justice de Yaoundé ;
 A rendu en audience publique de vacation, l'arrêt dont la teneur suit :
 ENTRE:
@@ -32,4 +34,4 @@ En présence de Monsieur EGBE ACHUO Martin Hilman, Avocat Général occupant le 
 Et avec l'assistance de Maître Virginie ESSAMA, Greffier ;
 En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier ;
 Approuvant mot rayé nul ,
-LE PRESIDENT, LES CONSEILLERS, LE GREFFIER.-",ARRET_N_248_CIV_DU_27_SEPTEMBRE_2012,0,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION CIVILE', 'Case': 'Dossier n° 133/Civ/011', 'Appeal': 'Pourvoi N° 112/REP/010 du 16 juillet 2010', 'Claimant': 'TSOBGUE ETIENNE', 'Against': 'C/', 'Defendant': 'SUCCESSION DJILLA', 'Judgment': 'ARRET N° 248/CIV DU 27 SEPTEMBRE 2012'}"
+LE PRESIDENT, LES CONSEILLERS, LE GREFFIER.-",ARRET_N_248_CIV_DU_27_SEPTEMBRE_2012,0,arret,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION CIVILE', 'Case': 'Dossier n° 133/Civ/011', 'Appeal': 'Pourvoi N° 112/REP/010 du 16 juillet 2010', 'Claimant': 'TSOBGUE ETIENNE', 'Against': 'C/', 'Defendant': 'SUCCESSION DJILLA', 'Judgment': 'ARRET N° 248/CIV DU 27 SEPTEMBRE 2012'}"

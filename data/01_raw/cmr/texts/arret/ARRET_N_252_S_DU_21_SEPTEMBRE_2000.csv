@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-252-21-septembre-2000-37427.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-252-21-septembre-2000-37427.htm,"ARRET N° 252/S DU 21 SEPTEMBRE 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 14 décembre 1992 par Maître Happi, Avocat à Maroua ;
 Sur le moyen unique de cassation pris en ses deux branches réunies de la violation de la loi ;
 Sur la première branche du moyen unique de cassation pris de la violation des articles 26 du Code de procédure civile et de l'ordonnance n°72/4 du 26 août 1972 ;
@@ -25,4 +27,4 @@ Sur la seconde branche prise de la violation de l'article 5 de l'ordonnance n° 
 Attendu que le moyen proposé pour la première fois devant la Cour Suprême est nouveau et par conséquent irrecevable ;
 PAR CES MOTIFS
 REJETTE le pourvoi ;
-ORDONNE qu'a la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Douala et que mention en sera faite en marge la suite de la décision attaquée.",ARRET_N_252_S_DU_21_SEPTEMBRE_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'SOCIÉTÉ SEMRY', 'Against': 'C/', 'Defendant': 'ELOUNDOU NGONO', 'Judgment': 'ARRET N° 252/S DU 21 SEPTEMBRE 2000'}"
+ORDONNE qu'a la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Douala et que mention en sera faite en marge la suite de la décision attaquée.",ARRET_N_252_S_DU_21_SEPTEMBRE_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'SOCIÉTÉ SEMRY', 'Against': 'C/', 'Defendant': 'ELOUNDOU NGONO', 'Judgment': 'ARRET N° 252/S DU 21 SEPTEMBRE 2000'}"

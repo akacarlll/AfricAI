@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-04-18-novembre-1999-37798.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-04-18-novembre-1999-37798.htm,"ARRET N° 04/S DU 18 NOVEMBRE 1999
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 19 octobre 1994 par Maître Kadji, Avocat à Douala ;
 Sur la première branche du moyen unique de cassation ainsi formulée et développée :
 « Sur la première branche du Moyen unique de cassation tirée du défaut de réponse aux conclusions équivalant au défaut de motifs ;
@@ -28,4 +30,4 @@ D'où il suit que la seconde branche du moyen n'est pas fondé ;
 Attendu que l'arrêt est par ailleurs régulier ;
 PAR CES MOTIFS
 REJETTE le pourvoi ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Douala et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_04_S_DU_18_NOVEMBRE_1999,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'SOCIÉTÉ UNION CAMEROUNAISE DES BRASSERIES', 'Against': 'C/', 'Defendant': 'FOUT JEAN', 'Judgment': 'ARRET N° 04/S DU 18 NOVEMBRE 1999'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Douala et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_04_S_DU_18_NOVEMBRE_1999,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'SOCIÉTÉ UNION CAMEROUNAISE DES BRASSERIES', 'Against': 'C/', 'Defendant': 'FOUT JEAN', 'Judgment': 'ARRET N° 04/S DU 18 NOVEMBRE 1999'}"

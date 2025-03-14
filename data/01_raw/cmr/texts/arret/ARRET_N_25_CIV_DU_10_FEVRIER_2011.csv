@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-25-civ-10-fevrier-2011-8797.htm,"L'an deux mille onze et le dix du mois de février ;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-25-civ-10-fevrier-2011-8797.htm,"ARRET N° 25/CIV DU 10 FÉVRIER 2011
+
+L'an deux mille onze et le dix du mois de février ;
 La Cour Suprême. Chambre Judiciaire, Section Civile, siégeant au Palais de Justice de Yaoundé ;
 A rendu en audience publique ordinaire, l'arrêt dont la teneur suit :
 ENTRE
@@ -45,4 +47,4 @@ Avocat Général occupant le banc du Ministère Public ;
 Et avec l'assistance de Maître Edwige ESSAMA, Greffier ;
 En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier ;
 Approuvant mot rayé nul ,
-LE PRESIDENT, LES CONSEILLERS, LE GREFFIER.-",ARRET_N_25_CIV_DU_10_FEVRIER_2011,0,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION CIVILE', 'Case': 'Dossier n° 33/CC/01-02', 'Appeal': 'Pourvoi du 11 août 2000', 'Claimant': 'SOGE HOTEL,-SOPPO PRISO JEAN PAUL-TOTO DOUMBE JUSTO-SOPPO PISO LISETTE', 'Against': 'C/', 'Defendant': 'S.E.H.-HÔTEL HOLLYWOOD', 'Judgment': 'ARRET N° 25/CIV DU 10 FÉVRIER 2011'}"
+LE PRESIDENT, LES CONSEILLERS, LE GREFFIER.-",ARRET_N_25_CIV_DU_10_FEVRIER_2011,0,arret,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION CIVILE', 'Case': 'Dossier n° 33/CC/01-02', 'Appeal': 'Pourvoi du 11 août 2000', 'Claimant': 'SOGE HOTEL,-SOPPO PRISO JEAN PAUL-TOTO DOUMBE JUSTO-SOPPO PISO LISETTE', 'Against': 'C/', 'Defendant': 'S.E.H.-HÔTEL HOLLYWOOD', 'Judgment': 'ARRET N° 25/CIV DU 10 FÉVRIER 2011'}"

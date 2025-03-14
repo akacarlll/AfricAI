@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-83-30-mars-2000-37110.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-83-30-mars-2000-37110.htm,"ARRET N° 83/S DU 30 MARS 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 28 janvier 1988 par Maître Sende Jean-Paul, Avocat à Douala ;
 Sur le premier moyen de cassation pris de la violation de la loi, violation de l'article 22 de l'ordonnance n°59/86 du 17 décembre 1959, contrariété entre les motifs et le dispositif, manque de base légale ;
 En ce que,
@@ -28,4 +30,4 @@ Attendu que sous le couvert de la violation de la loi, le moyen invoqué tend à
 D'où il suit que le second moyen est irrecevable et que le pourvoi encourt le rejet ;
 PAR CES MOTIFS
 REJETTE le pourvoi ;
-ORDONNE qu'a la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Littoral et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_83_S_DU_30_MARS_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'CAPME', 'Against': 'C/', 'Defendant': 'MOOH EMMANUEL', 'Judgment': 'ARRET N° 83/S DU 30 MARS 2000'}"
+ORDONNE qu'a la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Littoral et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_83_S_DU_30_MARS_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'CAPME', 'Against': 'C/', 'Defendant': 'MOOH EMMANUEL', 'Judgment': 'ARRET N° 83/S DU 30 MARS 2000'}"

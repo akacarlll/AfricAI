@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-14-soc-26-juillet-2018-33282.htm,"L'an deux mille dix huit et le vingt six juillet;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-14-soc-26-juillet-2018-33282.htm,"ARRÊT N° 14/SOC DU 26 JUILLET 2018
+
+L'an deux mille dix huit et le vingt six juillet;
 La Cour Suprême statuant en matière Sociale ;
 En son audience publique de vacation a rendu l'arrêt dont la teneur suit ;
 ENTRE
@@ -44,4 +46,4 @@ Et avec l'assistance de Maître NYOUZEU Edwige Flore, Greffier ;
 En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier ;
 En approuvant ligne(s) Mot(s)
 rayé(s) nul(s) et renvoi(s) en marge ;
-LE PRESIDENT, LES CONSEILLERS, LE GREFFIER",ARRET_N_14_SOC_DU_26_JUILLET_2018,0,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': 'DOSSIER N° 169/S/2012', 'Appeal': 'Pourvoi n°24/CAY du 03 décembre 2004', 'Claimant': 'HÔTEL LES BOUKAROUS OGOUMI JUSTIN', 'Against': '', 'Defendant': '', 'Judgment': 'ARRÊT N° 14/SOC DU 26 JUILLET 2018'}"
+LE PRESIDENT, LES CONSEILLERS, LE GREFFIER",ARRET_N_14_SOC_DU_26_JUILLET_2018,0,arret,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': 'DOSSIER N° 169/S/2012', 'Appeal': 'Pourvoi n°24/CAY du 03 décembre 2004', 'Claimant': 'HÔTEL LES BOUKAROUS OGOUMI JUSTIN', 'Against': '', 'Defendant': '', 'Judgment': 'ARRÊT N° 14/SOC DU 26 JUILLET 2018'}"

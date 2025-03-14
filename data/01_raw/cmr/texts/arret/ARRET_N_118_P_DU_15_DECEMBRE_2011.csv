@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-118-p-15-decembre-2011-8813.htm,"L'an deux mille onze et le quinze du mois de décembre ;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-118-p-15-decembre-2011-8813.htm,"ARRET N° 118/P DU 15 DÉCEMBRE 2011
+
+L'an deux mille onze et le quinze du mois de décembre ;
 La Cour Suprême, Chambre Judiciaire siégeant en audience publique ordinaire, a rendu l'arrêt dont la teneur suit :
 ENTRE:
 KOULAGNA Paul, demandeur en cassation, représenté par Maître NSEGBE Pierre Christian, avocat à Yaoundé ;
@@ -56,4 +58,4 @@ En foi de quoi, le présent arrêt a été signé par le Président, les Conseil
 LE PRESIDENT, LES CONSEILLERS, LE GREFFIER.
 
 311.800
-",ARRET_N_118_P_DU_15_DECEMBRE_2011,0,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION PENALE', 'Case': 'DOSSIER N° 059/P/05-06', 'Appeal': 'POURVOI N° 039 du 19 septembre 2005', 'Claimant': 'KOULAGNA PAUL', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC ET NANA DANIEL MANTI JEAN', 'Judgment': 'ARRET N° 118/P DU 15 DÉCEMBRE 2011'}"
+",ARRET_N_118_P_DU_15_DECEMBRE_2011,0,arret,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION PENALE', 'Case': 'DOSSIER N° 059/P/05-06', 'Appeal': 'POURVOI N° 039 du 19 septembre 2005', 'Claimant': 'KOULAGNA PAUL', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC ET NANA DANIEL MANTI JEAN', 'Judgment': 'ARRET N° 118/P DU 15 DÉCEMBRE 2011'}"

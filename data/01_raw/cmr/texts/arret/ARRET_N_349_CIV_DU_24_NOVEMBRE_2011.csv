@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-349-civ-24-novembre-2011-8776.htm,"L'an deux mille onze et le vingt-quatre du mois de novembre ;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-349-civ-24-novembre-2011-8776.htm,"ARRET N° 349/CIV DU 24 NOVEMBRE 2011
+
+L'an deux mille onze et le vingt-quatre du mois de novembre ;
 La Cour Suprême, Chambre Judiciaire, Section Civile, siégeant au Palais de Justice de Yaoundé ;
 A rendu en audience publique ordinaire, l'arrêt dont la teneur suit
 ENTRE .
@@ -33,4 +35,4 @@ Avocat Général occupant le banc du Ministère Public ;
 Et avec l'assistance de Maître Virginie ESSAMA, Greffier ,
 En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier ,
 Approuvant mot rayé nul ;
-LE PRESIDENT, LES CONSEILLERS, LE GREFFIER.-",ARRET_N_349_CIV_DU_24_NOVEMBRE_2011,0,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION CIVILE', 'Case': 'Dossier n° 288/Civ/010', 'Appeal': 'Pourvoi 041 du 06 mars 2008', 'Claimant': 'EBOA EKONGOLO JOSEPH', 'Against': 'C/', 'Defendant': 'ETROUCAM KALLA-WOUCHE JEAN RENÉ ET AUTRES', 'Judgment': 'ARRET N° 349/CIV DU 24 NOVEMBRE 2011'}"
+LE PRESIDENT, LES CONSEILLERS, LE GREFFIER.-",ARRET_N_349_CIV_DU_24_NOVEMBRE_2011,0,arret,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION CIVILE', 'Case': 'Dossier n° 288/Civ/010', 'Appeal': 'Pourvoi 041 du 06 mars 2008', 'Claimant': 'EBOA EKONGOLO JOSEPH', 'Against': 'C/', 'Defendant': 'ETROUCAM KALLA-WOUCHE JEAN RENÉ ET AUTRES', 'Judgment': 'ARRET N° 349/CIV DU 24 NOVEMBRE 2011'}"

@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-281-civ-25-octobre-2012-8812.htm,"L'an deux mille douze et le vingt cinq du mois d'octobre ;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-281-civ-25-octobre-2012-8812.htm,"ARRET N° 281/CIV DU 25 OCTOBRE 2012
+
+L'an deux mille douze et le vingt cinq du mois d'octobre ;
 La Cour Suprême, statuant en matière civile ;
 A rendu en audience publique ordinaire, l'arrêt dont la teneur suit :
 ENTRE:
@@ -43,4 +45,4 @@ En présence de Monsieur EGBE ACHUO Martin Hilman, Avocat Général occupant le 
 Et avec l'assistance de Maître Virginie ESSAMA, Greffier ;
 En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier ;
 Approuvant mot rayé nul ;
-LE PRESIDENT, LES CONSEILLERS, LE GREFFIER.",ARRET_N_281_CIV_DU_25_OCTOBRE_2012,0,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION CIVILE', 'Case': 'Dossier n° 195/Civ/010', 'Appeal': 'Pourvoi N° 91 du 23 juin 2009', 'Claimant': 'SOCIÉTÉ YEMON OIL & DISTRIBUTION', 'Against': 'C/', 'Defendant': 'DAME NGWINGMOWING MUNA', 'Judgment': 'ARRET N° 281/CIV DU 25 OCTOBRE 2012'}"
+LE PRESIDENT, LES CONSEILLERS, LE GREFFIER.",ARRET_N_281_CIV_DU_25_OCTOBRE_2012,0,arret,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION CIVILE', 'Case': 'Dossier n° 195/Civ/010', 'Appeal': 'Pourvoi N° 91 du 23 juin 2009', 'Claimant': 'SOCIÉTÉ YEMON OIL & DISTRIBUTION', 'Against': 'C/', 'Defendant': 'DAME NGWINGMOWING MUNA', 'Judgment': 'ARRET N° 281/CIV DU 25 OCTOBRE 2012'}"

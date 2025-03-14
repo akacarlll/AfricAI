@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-09-18-novembre-1999-37018.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-09-18-novembre-1999-37018.htm,"ARRET N° 09/S DU 18 NOVEMBRE 1999
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 19 février 1986 par Maîtres Viazzi et autres, Avocats associés à Douala ;
 Sur le premier moyen de cassation pris de la violation de la loi, violation de l'article 43 de l'ancien Code du travail -ensemble l'arrêté n°010 du 23 mai 1978 ;
 En ce que,
@@ -20,4 +22,4 @@ D'où il suit que le moyen est fondé et que l'arrêt attaqué encourt la cassat
 PAR CES MO TIFS:
 CASSE ET ANNULE l'arrêt n°87/S rendu le 04 janvier 1985 de la Cour d'Appel Douala ;
 REMET en conséquence la cause et les parties au même et semblable état où elles étaient avant ladite décision et, pour être fait droit, les renvoie devant la Cour d'Appel de Yaoundé;
-ORDONNE qu'a la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Douala et que mention en sera faite en marge la suite de la décision annulée.",ARRET_N_09_S_DU_18_NOVEMBRE_1999,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'SOCIÉTÉ SEFIC', 'Against': 'C/', 'Defendant': 'MMIRA MMIRA DANIEL', 'Judgment': 'ARRET N° 09/S DU 18 NOVEMBRE 1999'}"
+ORDONNE qu'a la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Douala et que mention en sera faite en marge la suite de la décision annulée.",ARRET_N_09_S_DU_18_NOVEMBRE_1999,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'SOCIÉTÉ SEFIC', 'Against': 'C/', 'Defendant': 'MMIRA MMIRA DANIEL', 'Judgment': 'ARRET N° 09/S DU 18 NOVEMBRE 1999'}"

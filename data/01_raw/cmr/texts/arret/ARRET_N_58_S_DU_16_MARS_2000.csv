@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-58-16-mars-2000-37909.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-58-16-mars-2000-37909.htm,"ARRET N° 58/S DU 16 MARS 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 26 octobre 1989 par Maître Mbome, Avocat à Douala ;
 Sur le moyen unique de cassation pris de la violation de la loi, violation de l'article 5 de l'ordonnance n°72/4 du 26 août 1972, ensemble les articles 41 alinéa 3 et 37-1 du Code du travail, fausse application de la loi, dénaturation des faits de la cause, insuffisance des motifs ;
 En ce que,
@@ -20,4 +22,4 @@ D'où il suit que le moyen est autant irrecevable qu'il n'est pas fondé ;
 Et attendu que l'arrêt attaqué est par ailleurs régulier ;
 PAR CES MOTIFS
 REJETTE le pourvoi ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Littoral à Douala et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_58_S_DU_16_MARS_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'SOCIÉTÉ GTI', 'Against': 'C/', 'Defendant': 'NGNITCHOUNDJEU JEAN ANDRÉ', 'Judgment': 'ARRET N° 58/S DU 16 MARS 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Littoral à Douala et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_58_S_DU_16_MARS_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'SOCIÉTÉ GTI', 'Against': 'C/', 'Defendant': 'NGNITCHOUNDJEU JEAN ANDRÉ', 'Judgment': 'ARRET N° 58/S DU 16 MARS 2000'}"

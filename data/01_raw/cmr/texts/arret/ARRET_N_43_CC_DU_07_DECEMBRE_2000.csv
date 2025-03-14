@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-43-cc-07-decembre-2000-11326.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-43-cc-07-decembre-2000-11326.htm,"ARRET N°43/CC DU 07 DECEMBRE 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 16 juin 1999 par Maître Deffo, Avocat à Yaoundé ;
 Sur le moyen unique de cassation amendé pris de la violation de la loi, violation des articles 39 et 214 du code de procédure civile et commerciale, non reprise des conclusions contenues dans l'acte introductif d'instance, en l'espèce, la requête d'appel ;
 En ce que «dans l'arrêt dont pourvoi, l'acte introductif qui est dans le cas d'espèce la requête d'appel n'est pas reproduit ;
@@ -15,4 +17,4 @@ PAR CES MOTIFS
 CASSE ET ANNULE l'arrêt n°9/civ/Cas rendu le 11 janvier 1991 par la Cour d'Appel du Sud ;
 REMET en conséquence la cause et les parties au même et semblable état où elles étaient avant ladite décision et, pour être fait droit, les renvoie devant la Cour d'Appel du Centre ;
 RESERVE les dépens ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Sud et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_43_CC_DU_07_DECEMBRE_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Civile et Commerciale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'MVELLE PHILÉMON', 'Against': 'C/', 'Defendant': ""MVELLE ASSO'O JEAN CALVIN"", 'Judgment': 'ARRET N°43/CC DU 07 DECEMBRE 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Sud et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_43_CC_DU_07_DECEMBRE_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Civile et Commerciale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'MVELLE PHILÉMON', 'Against': 'C/', 'Defendant': ""MVELLE ASSO'O JEAN CALVIN"", 'Judgment': 'ARRET N°43/CC DU 07 DECEMBRE 2000'}"

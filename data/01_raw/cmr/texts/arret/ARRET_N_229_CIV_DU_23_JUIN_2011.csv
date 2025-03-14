@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-229-civ-23-juin-2011-8788.htm,"ONANA François Xavier C/ TCHOUMBA Dieudonné
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-229-civ-23-juin-2011-8788.htm,"ARRET N° 229/CIV DU 23 JUIN 2011
+
+ONANA François Xavier C/ TCHOUMBA Dieudonné
 L'an deux mille onze et le vingt-trois du mois de juin ,
 La Cour Suprême, Chambre Judiciaire, Section Civile, siégeant au Palais de Justice de Yaoundé ;
 A rendu en audience publique ordinaire, l'arrêt dont la teneur suit :
@@ -47,4 +49,4 @@ En présence de Monsieur EGBE ACHUO Martin Hilman, Avocat Général occupant le 
 Et avec l'assistance de Maître BOUBA, Greffier ;
 En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier ;
 Approuvant mot rayé nul ;
-LE PRESIDENT, LES CONSEILLERS, LE GREFFIER.-",ARRET_N_229_CIV_DU_23_JUIN_2011,0,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION CIVILE', 'Case': 'Dossier n° 218/Civ/05-06', 'Appeal': 'Pourvoi n° 120 du 30 mars 2006', 'Claimant': '', 'Against': '', 'Defendant': '', 'Judgment': 'ARRET N° 229/CIV DU 23 JUIN 2011'}"
+LE PRESIDENT, LES CONSEILLERS, LE GREFFIER.-",ARRET_N_229_CIV_DU_23_JUIN_2011,0,arret,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION CIVILE', 'Case': 'Dossier n° 218/Civ/05-06', 'Appeal': 'Pourvoi n° 120 du 30 mars 2006', 'Claimant': '', 'Against': '', 'Defendant': '', 'Judgment': 'ARRET N° 229/CIV DU 23 JUIN 2011'}"

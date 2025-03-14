@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-26-24-fevrier-2000-37430.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-26-24-fevrier-2000-37430.htm,"ARRET N° 26/S DU 24 FEVRIER 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 2 août 1993 par Maîtres Viazzi et autres, Avocats associés à Douala ;
 Sur la deuxième branche préalable du moyen unique de cassation amendé prise de la violation de la loi, violation de l'article 5 de l'ordonnance n°72/4 du 26 août 1972, contradiction entre les motifs et le dispositif, défaut de motifs — manque de base légale ;
 En ce que,
@@ -16,4 +18,4 @@ PAR CES MOTIFS
 Et sans qu'il soit besoin d'examiner les autres branches du moyen,
 CASSE ET ANNULE l'arrêt n°025/S rendu le 04 octobre 1991 par la Cour d'Appel du Littoral ;
 REMET en conséquence la cause et les parties au même et semblable état où elles étaient avant ladite décision et, pour être fait droit, les renvoie devant la Cour d'Appel de l'Ouest à Bafoussam ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera impie et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Douala et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_26_S_DU_24_FEVRIER_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'POLYCLINIQUE SOPPO', 'Against': 'C/', 'Defendant': 'MIKOUM BIYO ZACHÉE', 'Judgment': 'ARRET N° 26/S DU 24 FEVRIER 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera impie et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Douala et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_26_S_DU_24_FEVRIER_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'POLYCLINIQUE SOPPO', 'Against': 'C/', 'Defendant': 'MIKOUM BIYO ZACHÉE', 'Judgment': 'ARRET N° 26/S DU 24 FEVRIER 2000'}"

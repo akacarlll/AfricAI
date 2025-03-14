@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-39-07-decembre-2000-37068.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-39-07-decembre-2000-37068.htm,"ARRET N° 39/S DU 07 DECEMBRE 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 17 juillet 1991 par Maître Nka'a Gaston, Avocat à Douala ;
 Sur le moyen de cassation amendé, pris de la violation de la loi, violation de l'article 5 de l'ordonnance n°72/4 du 26 août 1972 modifiée, insuffisance de motifs — défaut de motifs, ensemble violation du principe de l'autorité de la chose jugée;
 En ce que le juge d'appel qui par son arrêt avant-dire-droit n°65/ADD/S du 05 février 1988 avait ordonné une enquête sur les causes et les circonstances du licenciement de Bikoko Koumlin a cependant statué sur le fond par l'arrêt critiqué sans indiquer si les mesures d'instruction prescrites par l'arrêt avant-dire-droit susvisé ont été exécutées ou non ;
@@ -11,4 +13,4 @@ D'où il suit que le moyen est fondé et que l'arrêt encourt la cassation ;
 PAR CES MOTIFS
 CASSE ET ANNULE l'arrêt n°255/S rendu le 04 août 1989 par la Cour d'Appel du Littoral à Douala ;
 REMET en conséquence la cause et les parties au même et semblable état où elles étaient avant ladite décision et, pour être fait droit, les renvoie devant la Cour d'Appel de l'Ouest à Bafoussarn ;
-ORDONNE qu'à diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Littoral à Douala et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_39_S_DU_07_DECEMBRE_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'ENTREPRISE T.P. RÉALITÉ', 'Against': 'C/', 'Defendant': 'BIKOKO KOUMLIN GABRIEL', 'Judgment': 'ARRET N° 39/S DU 07 DECEMBRE 2000'}"
+ORDONNE qu'à diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Littoral à Douala et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_39_S_DU_07_DECEMBRE_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'ENTREPRISE T.P. RÉALITÉ', 'Against': 'C/', 'Defendant': 'BIKOKO KOUMLIN GABRIEL', 'Judgment': 'ARRET N° 39/S DU 07 DECEMBRE 2000'}"

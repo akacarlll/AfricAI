@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-37-24-fevrier-2000-37758.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-37-24-fevrier-2000-37758.htm,"ARRET N° 37/S DU 24 FEVRIER 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 04 octobre 1993 par Maîtres Viazzi et autres, Avocats associés à Douala ;
 Sur le moyen unique de cassation amendé pris de la violation de la loi, violation de l'article 37 du Code du travail, ensemble violation de l'article 5 de l'ordonnance n°72/4 du 26 août 1972 ;
 En ce que,
@@ -27,4 +29,4 @@ D'où il suit que celui-ci n'est pas fondé et que le pourvoi encourt le rejet ;
 Et attendu que l'arrêt est par ailleurs régulier ;
 PAR CES MOTIFS
 REJETTE le pourvoi ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Littoral à Douala et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_37_S_DU_24_FEVRIER_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'SOCIÉTÉ SATA', 'Against': 'C/', 'Defendant': 'BINYAM DJOM THÉODORE', 'Judgment': 'ARRET N° 37/S DU 24 FEVRIER 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Littoral à Douala et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_37_S_DU_24_FEVRIER_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'SOCIÉTÉ SATA', 'Against': 'C/', 'Defendant': 'BINYAM DJOM THÉODORE', 'Judgment': 'ARRET N° 37/S DU 24 FEVRIER 2000'}"

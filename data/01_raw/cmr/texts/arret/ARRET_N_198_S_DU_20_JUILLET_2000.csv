@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-198-20-juillet-2000-37140.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-198-20-juillet-2000-37140.htm,"ARRET N° 198/S DU 20 JUILLET 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 1er novembre 1989 par Maître Charles Nlembe, Avocat à Yaoundé ;
 Sur le premier moyen de cassation amendé pris de la violation de la loi, violation de l'article 41 alinéa 3 du Code du travail - renversement de charge des preuves ;
 En ce que pour statuer comme il a fait le juge d'appel prétend que des pièces du dossier et des débats, il résulte que l'appelant était un manoeuvre ne relevant pas du Code du travail et c'est par une saine appréciation des faits que le premier juge a débouté Fotso Tobie de ses demandes ;
@@ -20,4 +22,4 @@ PAR CES MOTIFS
 Et sans qu'il soit besoin d'examiner le second moyen,
 CASSE ET ANNULE l'arrêt n°34/S rendu le 4 décembre 1987 par la Cour d'Appel du Littoral ;
 REMET en conséquence la cause et les parties au même et semblable état où elles étaient avant ladite décision et, pour être fait droit, les renvoie devant la Cour d'Appel de l'Ouest ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Littoral et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_198_S_DU_20_JUILLET_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'FOTSO TOBIE JEAN-MARIE', 'Against': 'C/', 'Defendant': 'GUINNESS CAMEROUN', 'Judgment': 'ARRET N° 198/S DU 20 JUILLET 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Littoral et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_198_S_DU_20_JUILLET_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'FOTSO TOBIE JEAN-MARIE', 'Against': 'C/', 'Defendant': 'GUINNESS CAMEROUN', 'Judgment': 'ARRET N° 198/S DU 20 JUILLET 2000'}"

@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-176-29-juin-2000-37412.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-176-29-juin-2000-37412.htm,"ARRET N° 176/S DU 29 JUIN 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 05 août 1998 par Maître Ngwe Marie-Andrée, Avocat à Douala ;
 Sur le premier moyen de cassation pris de la violation de la loi, violation de l'article 39 alinéa 4 du Code du travail de 1992 ;
 « En ce que la Cour a condamné Cimencam à payer la somme de 20.000.000 francs Cfa de dommages-intérêts à Nkoa alors qu'en application de l'article 39 (4) du Code du travail de 1992, il ne pouvait avoir droit qu'à 5.580.000 francs Cfa soit 465.000 francs Cfa (salaire mensuel) x 12 années d'ancienneté... » ;
@@ -66,4 +68,4 @@ D'où il suit que le moyen n'est pas fondé ;
 Attendu que l'arrêt attaqué est par ailleurs régulier ;
 PAR CES MOTIFS
 REJETTE le pourvoi ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imp et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Centre et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_176_S_DU_29_JUIN_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'SOCIÉTÉ CIMENCAM', 'Against': 'C/', 'Defendant': 'NKOA PATRIS', 'Judgment': 'ARRET N° 176/S DU 29 JUIN 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imp et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Centre et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_176_S_DU_29_JUIN_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'SOCIÉTÉ CIMENCAM', 'Against': 'C/', 'Defendant': 'NKOA PATRIS', 'Judgment': 'ARRET N° 176/S DU 29 JUIN 2000'}"

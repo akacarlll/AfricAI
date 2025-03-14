@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-155-1er-juin-2006-32801.htm,"L'an deux mille six et le premier juin ;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-155-1er-juin-2006-32801.htm,"ARRÊT N° 155/S DU 1ER JUIN 2006
+
+L'an deux mille six et le premier juin ;
 La Cour Suprême statuant en matière de droit social ;
 En son audience publique ordinaire a rendu l'arrêt dont la teneur suit :
 ENTRE:
@@ -42,4 +44,4 @@ Abraham TCHUENTE, Conseiller
 Dagobert BISSECK, Conseiller
 En présence de Monsieur Adolphe EJANGUE EKAMBI, Avocat Général occupant le siège du Ministère Public ;
 Et avec l'assistance de Maître EDJOA Chantal, Greffier ;
-En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier ;",ARRET_N_155_S_DU_1ER_JUIN_2006,0,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': '', 'Appeal': 'Pourvoi n° 94/S/02-03 DU 23 septembre 2003', 'Claimant': 'COLLÈGE ROYAL FONKENG', 'Against': 'C/', 'Defendant': 'MPEGNA JUSTIN', 'Judgment': 'ARRÊT N° 155/S DU 1ER JUIN 2006'}"
+En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier ;",ARRET_N_155_S_DU_1ER_JUIN_2006,0,arret,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': '', 'Appeal': 'Pourvoi n° 94/S/02-03 DU 23 septembre 2003', 'Claimant': 'COLLÈGE ROYAL FONKENG', 'Against': 'C/', 'Defendant': 'MPEGNA JUSTIN', 'Judgment': 'ARRÊT N° 155/S DU 1ER JUIN 2006'}"

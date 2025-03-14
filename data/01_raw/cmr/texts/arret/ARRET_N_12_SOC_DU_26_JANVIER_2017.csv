@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-12-soc-26-janvier-2017-33279.htm,"L'an deux mille dix sept et le vingt six janvier;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-12-soc-26-janvier-2017-33279.htm,"ARRÊT N° 12/SOC DU 26 JANVIER 2017
+
+L'an deux mille dix sept et le vingt six janvier;
 La Cour Suprême statuant en matière Sociale ;
 En son audience publique ordinaire a rendu l'arrêt dont la teneur suit ;
 ENTRE
@@ -48,4 +50,4 @@ Et avec l'assistance de Maître ALIMETA Alain Sainclair, Greffier ;
 En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier ;
 En approuvant ligne(s) Mot(s)
 rayé(s) nul(s) et renvoi(s) en marge ;
-LE PRESIDENT, LES CONSEILLERS, LE GREFFIER",ARRET_N_12_SOC_DU_26_JANVIER_2017,0,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': 'DOSSIER N° 109/S/015', 'Appeal': 'POURVOI N° 74/RP/012 du 2 Juillet 2012', 'Claimant': 'SINGOCK FOUYE GEORGES', 'Against': 'C/', 'Defendant': 'SOCIETE JESS ASSISTANCE', 'Judgment': 'ARRÊT N° 12/SOC DU 26 JANVIER 2017'}"
+LE PRESIDENT, LES CONSEILLERS, LE GREFFIER",ARRET_N_12_SOC_DU_26_JANVIER_2017,0,arret,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': 'DOSSIER N° 109/S/015', 'Appeal': 'POURVOI N° 74/RP/012 du 2 Juillet 2012', 'Claimant': 'SINGOCK FOUYE GEORGES', 'Against': 'C/', 'Defendant': 'SOCIETE JESS ASSISTANCE', 'Judgment': 'ARRÊT N° 12/SOC DU 26 JANVIER 2017'}"

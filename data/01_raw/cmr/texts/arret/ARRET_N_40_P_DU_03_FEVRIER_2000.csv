@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-40-p-03-fevrier-2000-10102.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-40-p-03-fevrier-2000-10102.htm,"ARRET N°40/P DU 03 FEVRIER 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé par Maître Paul Ewane, Avocat à Yaoundé ;
 Sur le moyen de cassation soulevé d'office pris de la violation de la loi, violation de l'article 5 de l'ordonnance n°72/4 du 26 août 1972 — insuffisance de motifs — défaut de motifs — manque de base ;
 En ce que le premier juge par son jugement entrepris n°10/crim du 14 avril 1986, a déclaré l'accusé Bitombi Basile coupable du crime d'assassinat prévu et réprimé par les articles 74 et 276 (1) (a) du code pénal sans pour autant justifier l'existence des éléments constitutifs de la préméditation qui l'auraient amené à qualifier les faits en crime d'assassinat au lieu de meurtre ;
@@ -18,4 +20,4 @@ Et sans qu'il soit besoin d'examiner le moyen proposé,
 CASSE ET ANNULE l'arrêt n°25/crim rendu le 07 mai 1987 par la Cour d'Appel de Bertoua ;
 REMET en conséquence la cause et les parties au même et semblable état où elles étaient avant ladite décision et, pour être fait droit, les renvoie devant la Cour d'Appel de Bertoua, mais autrement composée ;
 RESERVE les dépens ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Bertoua et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_40_P_DU_03_FEVRIER_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'BITOMBI BASILE', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC ET BIDJOKO JUSTINE', 'Judgment': 'ARRET N°40/P DU 03 FEVRIER 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Bertoua et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_40_P_DU_03_FEVRIER_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'BITOMBI BASILE', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC ET BIDJOKO JUSTINE', 'Judgment': 'ARRET N°40/P DU 03 FEVRIER 2000'}"

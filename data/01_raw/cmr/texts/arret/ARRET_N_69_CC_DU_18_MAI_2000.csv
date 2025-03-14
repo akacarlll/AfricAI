@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-69-cc-18-mai-2000-10908.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-69-cc-18-mai-2000-10908.htm,"ARRET N°69/CC DU 18 MAI 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 28 février 1991 par Maître Sende, Avocat à Yaoundé ;
 Sur le moyen unique de cassation pris en quatre branches de la violation de la loi, défaut de motifs absence de base légale — ordonnance n°72/4 du 26 août 1972 portant organisation judiciaire, loi n°89/019 du 29 décembre 1989, loi n°90/058 du 19 décembre 1990, article 1384 du code civil, article 139 du code de procédure civile et commerciale ;
 Première et quatrième branches réunies ; Première branche :
@@ -50,4 +52,4 @@ D'où il suit que le pourvoi qui n'est pas fondé encourt le rejet ;
 PAR CES MOTIFS
 REJETTE le pourvoi ;
 CONDAMNE le demandeur aux dépens ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Bertoua et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_69_CC_DU_18_MAI_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Civile et Commerciale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'MEDOU AVA WILLIAMS', 'Against': 'C/', 'Defendant': 'NOUEMSI JEAN-BOSCO', 'Judgment': 'ARRET N°69/CC DU 18 MAI 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Bertoua et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_69_CC_DU_18_MAI_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Civile et Commerciale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'MEDOU AVA WILLIAMS', 'Against': 'C/', 'Defendant': 'NOUEMSI JEAN-BOSCO', 'Judgment': 'ARRET N°69/CC DU 18 MAI 2000'}"

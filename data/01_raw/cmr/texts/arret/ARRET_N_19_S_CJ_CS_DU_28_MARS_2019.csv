@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-19-cj-cs-28-mars-2019-33284.htm,"L'an deux mille dix neuf et le vingt huit mars;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-19-cj-cs-28-mars-2019-33284.htm,"ARRÊT N° 19/S/CJ/CS DU 28 MARS 2019
+
+L'an deux mille dix neuf et le vingt huit mars;
 La Cour Suprême statuant en matière Sociale ;
 En son audience publique ordinaire a rendu l'arrêt dont la teneur suit ;
 ENTRE
@@ -52,4 +54,4 @@ M. LONCHEL Mathias, Conseiller à la Cour Suprême, Président
 M. MAMAR PABA SALE, Conseiller à la Cour Suprême, Membre
 TCHAMEMBE Bernadette Rita Conseiller à la Cour Suprême, Membre
 M. S H Alfred FUSI, .Ministère Public
-Me. LIMETA Alain Sainclair, Greffier",ARRET_N_19_S_CJ_CS_DU_28_MARS_2019,0,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': 'DOSSIER N° 230/S/2016', 'Appeal': 'Pourvoi n° 18/RP/16 du 16 février 2016', 'Claimant': 'SOCIÉTÉ SOREPCO S.A', 'Against': 'C/', 'Defendant': 'KAMGA MARCEL', 'Judgment': 'ARRÊT N° 19/S/CJ/CS DU 28 MARS 2019'}"
+Me. LIMETA Alain Sainclair, Greffier",ARRET_N_19_S_CJ_CS_DU_28_MARS_2019,0,arret,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': 'DOSSIER N° 230/S/2016', 'Appeal': 'Pourvoi n° 18/RP/16 du 16 février 2016', 'Claimant': 'SOCIÉTÉ SOREPCO S.A', 'Against': 'C/', 'Defendant': 'KAMGA MARCEL', 'Judgment': 'ARRÊT N° 19/S/CJ/CS DU 28 MARS 2019'}"

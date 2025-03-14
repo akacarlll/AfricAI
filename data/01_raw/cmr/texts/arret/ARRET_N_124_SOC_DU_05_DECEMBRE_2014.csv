@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-124-soc-05-decembre-2014-32788.htm,"L'an deux mille quatorze et le quatre du mois de décembre ;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-124-soc-05-decembre-2014-32788.htm,"ARRÊT N° 124/SOC DU 05 DÉCEMBRE 2014
+
+L'an deux mille quatorze et le quatre du mois de décembre ;
 La Cour Suprême statuant en matière de droit social ;
 En son audience publique ordinaire a rendu l'arrêt dont la teneur suit :
 ENTRE :
@@ -46,4 +48,4 @@ T. ZIBI NSOE, Conseiller
 Christophe YOSSA, Conseiller
 En présence de Monsieur OUMAROU BAMANGA, Avocat Général occupant le banc du Ministère Public ;
 Et avec l'assistance de Maître MUSONGO Margaret, Greffier ;
-En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier ;",ARRET_N_124_SOC_DU_05_DECEMBRE_2014,0,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': 'DOSSIER N° 60/S/2013', 'Appeal': 'POURVOI n° 15/GCAY du 16 novembre 2012', 'Claimant': 'POSSI NJUENKOU ZACHARIE', 'Against': 'C/', 'Defendant': 'SOCIÉTÉ CIDER PROMOTION INTERNATIONAL', 'Judgment': 'ARRÊT N° 124/SOC DU 05 DÉCEMBRE 2014'}"
+En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier ;",ARRET_N_124_SOC_DU_05_DECEMBRE_2014,0,arret,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': 'DOSSIER N° 60/S/2013', 'Appeal': 'POURVOI n° 15/GCAY du 16 novembre 2012', 'Claimant': 'POSSI NJUENKOU ZACHARIE', 'Against': 'C/', 'Defendant': 'SOCIÉTÉ CIDER PROMOTION INTERNATIONAL', 'Judgment': 'ARRÊT N° 124/SOC DU 05 DÉCEMBRE 2014'}"

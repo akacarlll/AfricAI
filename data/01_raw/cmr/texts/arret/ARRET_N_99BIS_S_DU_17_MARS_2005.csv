@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-99bis-17-mars-2005-32831.htm,"L'an deux mille cinq et le dix sept mars ;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-99bis-17-mars-2005-32831.htm,"ARRÊT N° 99BIS/S DU 17 MARS 2005
+
+L'an deux mille cinq et le dix sept mars ;
 La Cour Suprême, statuant en matière de droit Social ;
 En son audience publique ordinaire a rendu l'arrêt dont la teneur suit :
 ENTRE
@@ -37,4 +39,4 @@ Salomon BISSOMBI, Conseiller,
 Clément ATANGANA, Conseil
 En présence de Monsieur Raymond-Landry BOUELET, Avocat Général, occupant le banc du Ministère Public ;
 Et avec l'assistance de Maître Raphaël OMGBA, Greffier ;
-En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier ;",ARRET_N_99BIS_S_DU_17_MARS_2005,0,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': '', 'Appeal': 'Pourvoi n° 106/S/93-94 du 19 Juillet 1993', 'Claimant': 'CHAMBRE DE COMMERCE', 'Against': 'C/', 'Defendant': 'BIKON SENGOUA DAVID', 'Judgment': 'ARRÊT N° 99BIS/S DU 17 MARS 2005'}"
+En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier ;",ARRET_N_99BIS_S_DU_17_MARS_2005,0,arret,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': '', 'Appeal': 'Pourvoi n° 106/S/93-94 du 19 Juillet 1993', 'Claimant': 'CHAMBRE DE COMMERCE', 'Against': 'C/', 'Defendant': 'BIKON SENGOUA DAVID', 'Judgment': 'ARRÊT N° 99BIS/S DU 17 MARS 2005'}"

@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-1-23-decembre-2000-11827.htm,"L'Assemblée Plénière de la Cour suprême ;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-1-23-decembre-2000-11827.htm,"ARRET N°1/A DU 23 DECEMBRE 2000
+
+L'Assemblée Plénière de la Cour suprême ;
 Vu le mémoire en date du 12 septembre 1995 déposé le lendemain au greffe de la Cour suprême sous le n°2484 par Maître Paul Isidore Ngwe Bell, Avocat à Yaoundé ;
 Considérant que par requête en date du 17 août 1995, reçue au greffe de la Chambre Administrative de la Cour suprême le lendemain sous le n°335, Ondo Ovono Charles a déclaré interjeter appel contre le jugement n°39/93-94 rendu le 28 avril 1994 par la susdite juridiction dans l'instance l'opposant à l'Etat du Cameroun, représenté par le Ministère de l'Economie et des Finances et qui a décidé :
 «Article 1er : Le recours est recevable en la forme ;
@@ -361,4 +363,4 @@ Frais (préjudice matériel) : 350.000 francs
 Préjudice moral : 3.000.000 de francs ;
 Soit au total : 6.475.000 francs ;
 Article 5 : L'appelant est débouté du surplus de sa demande ;
-Article 6 : Les dépens sont laissés à la charge du Trésor Public.",ARRET_N_1_A_DU_23_DECEMBRE_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Administrative', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'ONDO OVONO CHARLES', 'Against': 'C/', 'Defendant': 'ETAT DU CAMEROUN (MINEFI)', 'Judgment': 'ARRET N°1/A DU 23 DECEMBRE 2000'}"
+Article 6 : Les dépens sont laissés à la charge du Trésor Public.",ARRET_N_1_A_DU_23_DECEMBRE_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Administrative', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'ONDO OVONO CHARLES', 'Against': 'C/', 'Defendant': 'ETAT DU CAMEROUN (MINEFI)', 'Judgment': 'ARRET N°1/A DU 23 DECEMBRE 2000'}"

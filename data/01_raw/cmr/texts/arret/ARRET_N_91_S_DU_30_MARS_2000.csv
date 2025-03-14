@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-91-30-mars-2000-37692.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-91-30-mars-2000-37692.htm,"ARRET N° 91/S DU 30 MARS 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 26 juin 1986 par Maître Taffou, Avocat à Douala ;
 Sur le deuxième moyen de cassation amendé, pris en sa cinquième branche, à titre préalable, de la violation de la loi, violation de l'article 5 de l'ordonnance n°72/4 du 26 août 1972, non-réponse aux conclusions équivalant au défaut de motifs, manque de base légale ;
 En ce que,
@@ -17,4 +19,4 @@ PAR CES MOTIFS
 Sans qu'il soit besoin d'examiner le premier moyen,
 CASSE ET ANNULE l'arrêt n°62/Soc rendu le 11 décembre 1985 par la Cour d'Appel de Yaoundé ;
 REMET en conséquence la cause et les parties au même et semblable état où elles étaient avant ladite décision et, pour être fait droit, les renvoie devant la Cour d'Appel du Sud à Ebolowa ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Centre et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_91_S_DU_30_MARS_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'SOCIÉTÉ NOBRA', 'Against': 'C/', 'Defendant': 'MBIDA JACQUES', 'Judgment': 'ARRET N° 91/S DU 30 MARS 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Centre et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_91_S_DU_30_MARS_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'SOCIÉTÉ NOBRA', 'Against': 'C/', 'Defendant': 'MBIDA JACQUES', 'Judgment': 'ARRET N° 91/S DU 30 MARS 2000'}"

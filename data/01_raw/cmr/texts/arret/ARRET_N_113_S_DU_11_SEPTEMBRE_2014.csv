@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-113-11-septembre-2014-33298.htm,"L'an deux mille quatorze et le onze du mois de septembre;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-113-11-septembre-2014-33298.htm,"ARRÊT N° 113/S DU 11 SEPTEMBRE 2014
+
+L'an deux mille quatorze et le onze du mois de septembre;
 La Cour Suprême, Chambre Judiciaire, section sociale, siégeant au Palais de Justice de Yaoundé ;
 En son audience publique de vacation, a rendu l'arrêt dont la teneur suit :
 ENTRE
@@ -51,4 +53,4 @@ NJIEMOUN MAMA, Conseiller ; ZIBI NSOE Toussaint, Conseiller ;
 En présence de Monsieur OUMAROU BAMANGA, Avocat Général occupant le banc du Ministère Public ;
 Et avec l'assistance de Maître MUSONGO Margaret, Greffier tenant la plume;
 En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier.
-LE PRESIDENT, LES CONSEILLERS, LE GREFFIER",ARRET_N_113_S_DU_11_SEPTEMBRE_2014,0,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': 'DOSSIER N° 181/S/2012', 'Appeal': 'POURVOI n° 131/RP/11 du 08 septembre 2011', 'Claimant': ""LE PRÉSIDENT DE L'EGLISE EVANGÉLIQUE DU CAMEROUN"", 'Against': 'C/', 'Defendant': 'TOUYA JOSEPH', 'Judgment': 'ARRÊT N° 113/S DU 11 SEPTEMBRE 2014'}"
+LE PRESIDENT, LES CONSEILLERS, LE GREFFIER",ARRET_N_113_S_DU_11_SEPTEMBRE_2014,0,arret,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': 'DOSSIER N° 181/S/2012', 'Appeal': 'POURVOI n° 131/RP/11 du 08 septembre 2011', 'Claimant': ""LE PRÉSIDENT DE L'EGLISE EVANGÉLIQUE DU CAMEROUN"", 'Against': 'C/', 'Defendant': 'TOUYA JOSEPH', 'Judgment': 'ARRÊT N° 113/S DU 11 SEPTEMBRE 2014'}"

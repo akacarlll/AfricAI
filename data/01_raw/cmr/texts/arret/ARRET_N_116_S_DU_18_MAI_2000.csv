@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-116-18-mai-2000-37392.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-116-18-mai-2000-37392.htm,"ARRET N° 116/S DU 18 MAI 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 10 mai 1988 par Maîtres Tokoto - Mpay, Avocats associés à Douala ;
 Sur le moyen unique de cassation pris de la violation des articles 150 (3) et 162 (1) de la loi n°74/14 du 27 novembre 1974, ensemble violation de l'article 5 de l'ordonnance n°72/4 du 26 août 1972 et dénaturation des faits de la cause ;
 « En ce que l'article 150 (3) du Code du travail dispose :
@@ -34,4 +36,4 @@ D'où il suit que le moyen unique de cassation n'est pas fondé ;
 Et attendu que l'arrêt querellé est régulier ;
 PAR CES MOTIFS
 REJETTE le pourvoi ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Bertoua et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_116_S_DU_18_MAI_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': ""SOCIÉTÉ D'EXPLOITATION FORESTIÈRE ET AGRICOLE DU CAMEROUN"", 'Against': 'C/', 'Defendant': 'ATOKAK PAUL', 'Judgment': 'ARRET N° 116/S DU 18 MAI 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Bertoua et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_116_S_DU_18_MAI_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': ""SOCIÉTÉ D'EXPLOITATION FORESTIÈRE ET AGRICOLE DU CAMEROUN"", 'Against': 'C/', 'Defendant': 'ATOKAK PAUL', 'Judgment': 'ARRET N° 116/S DU 18 MAI 2000'}"

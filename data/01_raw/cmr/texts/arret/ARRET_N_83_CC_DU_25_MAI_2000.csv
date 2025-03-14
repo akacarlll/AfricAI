@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-83-cc-25-mai-2000-10987.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-83-cc-25-mai-2000-10987.htm,"ARRET N°83/CC DU 25 MAI 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 14 novembre 1986 par Maître Sende Jean-Paul, Avocat à Douala ;
 Sur le premier moyen de cassation pris de la mauvaise interprétation de l'article 681 du code civil, ensemble violation du principe «Nemo auditur...» ainsi développé:
 «Tout propriétaire doit établir des toits de manière que les eaux pluviales s'écoulent sur son terrain ou sur la voie publique ; il ne peut les faire verser sur les fonds du voisin ». Telles sont les dispositions du texte visé au moyen, lequel fait obligation formelle à tout propriétaire de disposer ses toits de façon à ne pas laisser s'égoutter les eaux de pluie émanant de ceux-ci sur les fonds d'autrui : ceci fait entendre à l'analyse et la jurisprudence et la doctrine sont formelles sur ce point que le propriétaire d'un fonds ne peut être condamné à la réparation d'un préjudice causé au voisin par les eaux émanant de son toit que s'il n'a pas pris les précautions nécessaires pour éviter qu'elles nuisent aux constructions d'autrui» ;
@@ -33,4 +35,4 @@ Et attendu que l'arrêt est par ailleurs régulier ;
 PAR CES MOTIFS
 REJETTE le pourvoi ;
 CONDAMNE le demandeur aux dépens ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Littoral et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_83_CC_DU_25_MAI_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Civile et Commerciale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'TAMBA CHARLES', 'Against': 'C/', 'Defendant': 'TATSINDA MAURICE', 'Judgment': 'ARRET N°83/CC DU 25 MAI 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Littoral et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_83_CC_DU_25_MAI_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Civile et Commerciale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'TAMBA CHARLES', 'Against': 'C/', 'Defendant': 'TATSINDA MAURICE', 'Judgment': 'ARRET N°83/CC DU 25 MAI 2000'}"

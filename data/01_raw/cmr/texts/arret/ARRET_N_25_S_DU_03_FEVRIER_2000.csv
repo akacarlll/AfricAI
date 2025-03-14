@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-25-03-fevrier-2000-37051.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-25-03-fevrier-2000-37051.htm,"ARRET N° 25/S DU 03 FEVRIER 2000
+
+LA COUR,
 Vu le mémoire ampliatif de Maîtres Balemaken et Mekiage déposé le 13 novembre 1991 ;
 Sur le moyen unique de cassation pris de :
 « Violation de l'article 5 de l'ordonnance n°72/4 du 26 août 1972, défaut de motifs ;
@@ -28,4 +30,4 @@ D'où il suit que le moyen est autant irrecevable qu'il n'est pas fondé ;
 Et attendu que l'arrêt est par ailleurs régulier ;
 PAR CES MOTIFS
 REJETTE le pourvoi ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel ''de Yaoundé et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_25_S_DU_03_FEVRIER_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'SOCIÉTÉ J. BASTOS', 'Against': 'C/', 'Defendant': 'HATCHA JEAN-MARIE', 'Judgment': 'ARRET N° 25/S DU 03 FEVRIER 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel ''de Yaoundé et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_25_S_DU_03_FEVRIER_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'SOCIÉTÉ J. BASTOS', 'Against': 'C/', 'Defendant': 'HATCHA JEAN-MARIE', 'Judgment': 'ARRET N° 25/S DU 03 FEVRIER 2000'}"

@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-44-soc-22-novembre-2018-33291.htm,"L'an deux mille dix huit et le vingt deux novembre;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-44-soc-22-novembre-2018-33291.htm,"ARRÊT N° 44/SOC DU 22 NOVEMBRE 2018
+
+L'an deux mille dix huit et le vingt deux novembre;
 La Cour Suprême statuant en matière Sociale ;
 En son audience publique ordinaire a rendu l'arrêt dont la teneur suit ;
 ENTRE
@@ -82,4 +84,4 @@ Et avec l'assistance de Maître ALIMETA Alain Sainclair, Greffier ;
 En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier ;
 En approuvant ligne(s) Mot(s)
 rayé(s) nul(s) et renvoi(s) en marge ;
-LE PRESIDENT, LES CONSEILLERS, LE GREFFIER",ARRET_N_44_SOC_DU_22_NOVEMBRE_2018,0,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': 'DOSSIER N° 09/S/2016', 'Appeal': 'Pourvoi n°55 du 19 septembre 2015', 'Claimant': 'NDANDJI CHARLES', 'Against': 'C/', 'Defendant': 'MOBIL OIL', 'Judgment': 'ARRÊT N° 44/SOC DU 22 NOVEMBRE 2018'}"
+LE PRESIDENT, LES CONSEILLERS, LE GREFFIER",ARRET_N_44_SOC_DU_22_NOVEMBRE_2018,0,arret,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': 'DOSSIER N° 09/S/2016', 'Appeal': 'Pourvoi n°55 du 19 septembre 2015', 'Claimant': 'NDANDJI CHARLES', 'Against': 'C/', 'Defendant': 'MOBIL OIL', 'Judgment': 'ARRÊT N° 44/SOC DU 22 NOVEMBRE 2018'}"

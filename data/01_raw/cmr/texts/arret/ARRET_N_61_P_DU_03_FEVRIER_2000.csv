@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-61-p-03-fevrier-2000-10111.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-61-p-03-fevrier-2000-10111.htm,"ARRET N°61/P DU 03 FEVRIER 2000
+
+LA COUR,
 Sur le premier moyen de cassation amendé pris de la violation de la loi, violation de l'article 5 de l'ordonnance n°72/4 du 26 août 1972 — non-réponse aux conclusions — insuffisance de motifs — défaut de motifs — manque de base légale ;
 En ce que le premier juge dans le dispositif de sa décision entreprise, a déclaré le demandeur au pourvoi coupable de vol aggravé alors qu'il n'a pas dans les motifs du même jugement, déclaré ni explicitement, ni implicitement que les faits mis à la charge de l'accusé étaient fondés et constituaient le crime de vol aggravé commis à l'aide de violence, prévus et réprimés par les articles 74 et 320 (1) (a) du code pénal ;
 Attendu qu'aux termes du texte visé au moyen, toute décision de justice doit à peine de nullité d'ordre public être motivée en fait et en droit, la non-réponse aux conclusions et l'insuffisance de motifs équivalant à un défaut de motifs ;
@@ -16,4 +18,4 @@ Et sans qu'il soit besoin d'examiner les autres moyens proposés,
 CASSE ET ANNULE l'arrêt n°100/crim rendu le 15 septembre 1989 par la Cour d'Appel du Nord ;
 REMET en conséquence la cause et les parties au même et semblable état où elles étaient avant ladite décision et, pour être fait droit, les renvoie devant la Cour d'Appel de l'Extrême-Nord ;
 RESERVE les dépens ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Nord et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_61_P_DU_03_FEVRIER_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'OUMAROU SALI', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC ET BISSO PAUL', 'Judgment': 'ARRET N°61/P DU 03 FEVRIER 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Nord et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_61_P_DU_03_FEVRIER_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'OUMAROU SALI', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC ET BISSO PAUL', 'Judgment': 'ARRET N°61/P DU 03 FEVRIER 2000'}"

@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/loi-98-013-14-juil-1998-17651.htm,"L'Assemblée Nationale a délibéré et adopté,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/loi-98-013-14-juil-1998-17651.htm,"LOI N° 98/013 DU 14 JUILLET 1998 RELATIVE A LA CONCURRENCE
+
+L'Assemblée Nationale a délibéré et adopté,
 Le Président de la République promulgue la loi dont la teneur suit :
 TITRE I
 DISPOSITIONS GENERALES
@@ -133,4 +135,4 @@ TITRE VI
 DISPOSITIONS DIVERSES ET FINALES
 Art. 46 —  - Les produits des amendes consécutives aux sanctions des différentes infractions prévues par la présente loi sont reversés au budget de l'Etat.
 Art. 47 —  - Sont et demeurent abrogées toutes les dispositions antérieures contraires à la présente loi, notamment celles relatives à la concurrence, telles que prévues par la loi n° 90/031 du 10 août 1990 régissant l'activité commerciale au Cameroun.
-Art. 48 —  - La présente loi sera enregistrée et publiée suivant la procédure d'urgence, puis insérée au Journal Officiel en français et en anglais""",LOI_N_98_013_DU_14_JUILLET_1998_RELATIVE_A_LA_CONCURRENCE,0,
+Art. 48 —  - La présente loi sera enregistrée et publiée suivant la procédure d'urgence, puis insérée au Journal Officiel en français et en anglais""",LOI_N_98_013_DU_14_JUILLET_1998_RELATIVE_A_LA_CONCURRENCE,0,loi,

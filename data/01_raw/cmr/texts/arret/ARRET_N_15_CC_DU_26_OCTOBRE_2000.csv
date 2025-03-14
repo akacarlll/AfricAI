@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-15-cc-26-octobre-2000-11463.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-15-cc-26-octobre-2000-11463.htm,"ARRET N°15/CC DU 26 OCTOBRE 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 30 décembre 1997 par Maître Ebanga Ewodo, Avocat à Yaoundé ;
 Sur le moyen unique de cassation pris en sa troisième branche de la violation de la loi, violation de l'article 5 de l'ordonnance n°72/4 du 26 août 1972, défaut de ventilation des dommages-intérêts, défaut de motifs ;
 En ce que :
@@ -26,4 +28,4 @@ Et sans qu'il soit besoin d'examiner les autres branches,
 CASSE ET ANNULE l'arrêt n°72/civ rendu le 20 décembre 1995 par la Cour d'Appel du Centre ;
 REMET en conséquence la cause et les parties au même et semblable état où elles étaient avant ladite décision et, pour être fait droit, les renvoie devant la Cour d'Appel du Sud ;
 RESERVE les dépens ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Centre et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_15_CC_DU_26_OCTOBRE_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Civile et Commerciale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'SNEC', 'Against': 'C/', 'Defendant': 'DAME AYISSI NGONO', 'Judgment': 'ARRET N°15/CC DU 26 OCTOBRE 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Centre et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_15_CC_DU_26_OCTOBRE_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Civile et Commerciale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'SNEC', 'Against': 'C/', 'Defendant': 'DAME AYISSI NGONO', 'Judgment': 'ARRET N°15/CC DU 26 OCTOBRE 2000'}"

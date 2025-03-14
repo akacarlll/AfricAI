@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-13-com-02-avril-2009-8830.htm,"L'an deux mille neuf et le deux du mois d'avril ;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-13-com-02-avril-2009-8830.htm,"ARRET N° 13/COM DU 02 AVRIL 2009
+
+L'an deux mille neuf et le deux du mois d'avril ;
 La Cour Suprême statuant en matière de droit commercial ;
 -En son audience publique ordinaire a rendu l'arrêt dont la teneur suit :
 ENTRE:
@@ -51,4 +53,4 @@ En présence de Monsieur Raymond Landry BOUEL ET, Avocat Général, occupant le 
 Et avec l'assistance de Maître NJINDA Mercy, Greffier ;
 En foi de quoi, le présent arrêt a été signé par le Président. les Conseillers et le Greffier ;
 Approuvant mot rayé nul
-LE PRESIDENT, LES CONSEILLERS, LE GREFFIER.-",ARRET_N_13_COM_DU_02_AVRIL_2009,0,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION COMMERCIALE', 'Case': 'DOSSIER N° 159/CC/04-05', 'Appeal': 'POURVOI N° 137 du 09 août 2001', 'Claimant': 'SONEL', 'Against': 'C/', 'Defendant': 'BONGAM ASSIAH', 'Judgment': 'ARRET N° 13/COM DU 02 AVRIL 2009'}"
+LE PRESIDENT, LES CONSEILLERS, LE GREFFIER.-",ARRET_N_13_COM_DU_02_AVRIL_2009,0,arret,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION COMMERCIALE', 'Case': 'DOSSIER N° 159/CC/04-05', 'Appeal': 'POURVOI N° 137 du 09 août 2001', 'Claimant': 'SONEL', 'Against': 'C/', 'Defendant': 'BONGAM ASSIAH', 'Judgment': 'ARRET N° 13/COM DU 02 AVRIL 2009'}"

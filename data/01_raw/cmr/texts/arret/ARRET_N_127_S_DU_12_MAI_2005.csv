@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-127-12-mai-2005-32790.htm,"L'an deux mille cinq et le douze mai ;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-127-12-mai-2005-32790.htm,"ARRÊT N° 127/S DU 12 MAI 2005
+
+L'an deux mille cinq et le douze mai ;
 La Cour Suprême, statuant en matière de droit social ;
 En son audience publique ordinaire, a rendu l'arrêt dont la teneur suit :
 ENTRE :
@@ -35,4 +37,4 @@ Théodore FOUDA TSILLA, Conseiller ;
 Dagobert BISSECK, Conseiller ;
 En présence de Monsieur (reorges MBENGUE, Avocat Général près la Cour Suprême, occupant le banc du Ministère Public ;
 Et avec l'assistance de Maitre Raphaël OMGBA, Greffier ;
-En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier ;",ARRET_N_127_S_DU_12_MAI_2005,0,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': '', 'Appeal': 'Pourvoi n° 73/S/01-02 du 10 Décembre 1999', 'Claimant': 'ZIBI VICTOR', 'Against': 'C/', 'Defendant': ""SOCIÉTÉ DE PRESSE ET D'EDITIONS DU CAMEROUN (SOPECAM)"", 'Judgment': 'ARRÊT N° 127/S DU 12 MAI 2005'}"
+En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier ;",ARRET_N_127_S_DU_12_MAI_2005,0,arret,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': '', 'Appeal': 'Pourvoi n° 73/S/01-02 du 10 Décembre 1999', 'Claimant': 'ZIBI VICTOR', 'Against': 'C/', 'Defendant': ""SOCIÉTÉ DE PRESSE ET D'EDITIONS DU CAMEROUN (SOPECAM)"", 'Judgment': 'ARRÊT N° 127/S DU 12 MAI 2005'}"

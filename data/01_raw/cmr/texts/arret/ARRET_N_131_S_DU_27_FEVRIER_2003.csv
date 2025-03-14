@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-131-27-fevrier-2003-32792.htm,"L'an deux mille trois et le vingt-sept Février ;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-131-27-fevrier-2003-32792.htm,"ARRÊT N° 131/S DU 27 FÉVRIER 2003
+
+L'an deux mille trois et le vingt-sept Février ;
 La Cour Suprême, statuant en matière de droit social ;
 En son audience publique ordinaire, a rendu l'arrêt dont la teneur suit :
 ENTRE :
@@ -40,4 +42,4 @@ Abraham TCHUENTE Conseiller
 Dagobert BISSECK Conseiller
 En présence de Monsieur Christian NBALE Goëthe, Avocat Général, occupant le banc du Ministère Public ;
 Et avec l'assistance de Me Raphaël OMGBA, Greffier audiencier ;
-En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier ;",ARRET_N_131_S_DU_27_FEVRIER_2003,0,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': '', 'Appeal': 'Pourvoi n° 91/S/96-97 du 24 Avril 1996', 'Claimant': 'ONDOA JEAN PASCAL', 'Against': 'C/', 'Defendant': 'SOCIÉTÉ CAMEROUNAISE DES BRASSERIES', 'Judgment': 'ARRÊT N° 131/S DU 27 FÉVRIER 2003'}"
+En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier ;",ARRET_N_131_S_DU_27_FEVRIER_2003,0,arret,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': '', 'Appeal': 'Pourvoi n° 91/S/96-97 du 24 Avril 1996', 'Claimant': 'ONDOA JEAN PASCAL', 'Against': 'C/', 'Defendant': 'SOCIÉTÉ CAMEROUNAISE DES BRASSERIES', 'Judgment': 'ARRÊT N° 131/S DU 27 FÉVRIER 2003'}"

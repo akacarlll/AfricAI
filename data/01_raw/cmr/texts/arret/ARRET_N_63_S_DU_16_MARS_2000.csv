@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-63-16-mars-2000-37467.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-63-16-mars-2000-37467.htm,"ARRET N° 63/S DU 16 MARS 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 22 août 1995 par Maîtres Tokoto Mpay, Avocats à Douala ;
 Sur le moyen de cassation soulevé d'office pris de la violation de la loi, violation de l'article 5 de l'ordonnance n°72/ 4 du 26 août 1972, contrariété entre les motifs et le dispositif, manque de base légale ;
 En ce que,
@@ -16,4 +18,4 @@ D'où il suit que le moyen est fondé et que l'arrêt attaqué encourt la cassat
 PAR CFS MOTIFS :
 CASSE ET ANNULE l'arrêt n°189/S rendu le 23 mars 1994 par la Cour d'Appel du Littoral à Douala ;
 REMET en conséquence la cause et les parties au même et semblable état où elles étaient avant ladite décision et, pour être fait droit, les renvoie devant la Cour d'Appel de l'Ouest à Bafoussam ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Littoral et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_63_S_DU_16_MARS_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'HÔTEL BEAUSEJOUR', 'Against': 'C/', 'Defendant': 'ALAKA MARCELLIN', 'Judgment': 'ARRET N° 63/S DU 16 MARS 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Littoral et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_63_S_DU_16_MARS_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'HÔTEL BEAUSEJOUR', 'Against': 'C/', 'Defendant': 'ALAKA MARCELLIN', 'Judgment': 'ARRET N° 63/S DU 16 MARS 2000'}"

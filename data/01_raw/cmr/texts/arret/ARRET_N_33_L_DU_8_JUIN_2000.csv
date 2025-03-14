@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-33-8-juin-2000-11659.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-33-8-juin-2000-11659.htm,"ARRET N°33/L DU 8 JUIN 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 31 juillet 1990 par Maître Ntsamo Etienne, Avocat à Bafoussam ;
 Sur le moyen unique de cassation, amendé, pris de la violation de la loi, violation de l'article 5 de l'ordonnance n°72/4 du 26 août 1972, défaut de réponse aux conclusions, défaut de motifs, manque de base légale ;
 En cc que l'arrêt attaqué a d'une part omis de répondre aux conclusions des 29 juillet et 7 septembre 1988 par lesquelles dame Simo demandait à la Cour de «dire qu'il a existé entre les époux une communauté de fait ;
@@ -13,4 +15,4 @@ PAR CES MOTIFS
 CASSE ET ANNULE l'arrêt n°10/Cout rendu le 24 novembre 1988 par la Cour d'Appel de l'Ouest ;
 REMET en conséquence la cause et les parties au même et semblable état où elles étaient avant ladite décision et, pour être fait droit, les renvoie devant la Cour d'Appel d'Ebolowa ;
 RESERVE les dépens ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du greffe de la Cour d'Appel de Bafoussam et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_33_L_DU_8_JUIN_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Traditionnelle', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'MADAME SIMO NÉE MAPTUE SUZANNE', 'Against': 'C/', 'Defendant': 'SIMO ANDRÉ', 'Judgment': 'ARRET N°33/L DU 8 JUIN 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du greffe de la Cour d'Appel de Bafoussam et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_33_L_DU_8_JUIN_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Traditionnelle', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'MADAME SIMO NÉE MAPTUE SUZANNE', 'Against': 'C/', 'Defendant': 'SIMO ANDRÉ', 'Judgment': 'ARRET N°33/L DU 8 JUIN 2000'}"

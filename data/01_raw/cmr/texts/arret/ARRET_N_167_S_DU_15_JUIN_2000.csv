@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-167-15-juin-2000-37842.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-167-15-juin-2000-37842.htm,"ARRET N° 167/S DU 15 JUIN 2000
+
+LA COUR,
 VU le mémoire ampliatif déposé le 1er mars 1996 par Maître Alix Betayene, Avocat à Yaoundé ;
 Sur le premier moyen de cassation pris de la violation de la loi, violation et fausse application de l'article 43 alinéa 2 de la loi n°74/14 du 27 novembre 1974 portant Code du travail;
 En ce que,
@@ -30,4 +32,4 @@ Qu'en confirmant le jugement en question par adoption de ces motifs, le juge d'a
 D'où il suit que celui-ci n'est pas fondé ;
 Attendu que l'arrêt est par ailleurs régulier ; PAR CES MOTIFS :
 REJETTE le pourvoi ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Centre et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_167_S_DU_15_JUIN_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'CSE-CAM', 'Against': 'C/', 'Defendant': 'NGBWA BENJAMIN', 'Judgment': 'ARRET N° 167/S DU 15 JUIN 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Centre et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_167_S_DU_15_JUIN_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'CSE-CAM', 'Against': 'C/', 'Defendant': 'NGBWA BENJAMIN', 'Judgment': 'ARRET N° 167/S DU 15 JUIN 2000'}"

@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-104-cc-29-juin-2000-10784.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-104-cc-29-juin-2000-10784.htm,"ARRÊT N°104/CC DU 29 JUIN 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 16 août 1990 par Maître L.K. Sendze ;
 Vu l'article 13 (1) (b) de la loi n°75/16 du 8 décembre 1975, modifiée fixant la procédure et le fonctionnement de la Cour suprême ;
 Sur le pourvoi de Mbaku Tekoh Joseph ;
@@ -20,4 +22,4 @@ Et attendu que l'arrêt attaqué est par ailleurs régulier ;
 JOINT les pourvois ;
 DECLARE le pourvoi de Mbaku Tekoh Joseph irrecevable pour défaut de paiement de la taxe de pourvoi;
 REJETTE le pourvoi des Amacam ; CONDAMNE les demandeurs aux dépens ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Bamenda et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_104_CC_DU_29_JUIN_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Civile et Commerciale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'ASSURANCES MUTUELLES AGRICOLES DU CAMEROUN', 'Against': 'C/', 'Defendant': 'MBAKU TEKOH JOSEPH', 'Judgment': 'ARRÊT N°104/CC DU 29 JUIN 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Bamenda et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_104_CC_DU_29_JUIN_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Civile et Commerciale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'ASSURANCES MUTUELLES AGRICOLES DU CAMEROUN', 'Against': 'C/', 'Defendant': 'MBAKU TEKOH JOSEPH', 'Judgment': 'ARRÊT N°104/CC DU 29 JUIN 2000'}"

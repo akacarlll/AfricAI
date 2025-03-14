@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-74-29-janvier-2004-32823.htm,"L'an deux mille quatre et le vingt neuf Janvier ;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-74-29-janvier-2004-32823.htm,"ARRÊT N° 74/S DU 29 JANVIER 2004
+
+L'an deux mille quatre et le vingt neuf Janvier ;
 La Cour Suprême, statuant en matière de droit social ;
 En son audience publique ordinaire a rendu l'arrêt dont la teneur suit :
 ENTRE
@@ -32,4 +34,4 @@ PAR CES MOTIFS
 Et sans qu'il soit besoin d'examiner le reste des moyens ;
 Casse et annule l'arrêt n° 161/S rendu le 25 Mars 1998 par la Cour d'Appel du Littoral ;
 Remet en conséquence les parties au même et semblable état où elles étaient avant ladite décision et pour titre fait droit les renvoie devant la Cour d'Appel de l'Est ;
-Ordonne qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Littoral",ARRET_N_74_S_DU_29_JANVIER_2004,0,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': '', 'Appeal': 'Pourvoi n° 65/S/97-98 du 18 Mai 1998', 'Claimant': 'MOUYOMBON ODILE', 'Against': 'C/', 'Defendant': 'SOCIETE FIDA AFRICA', 'Judgment': 'ARRÊT N° 74/S DU 29 JANVIER 2004'}"
+Ordonne qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Littoral",ARRET_N_74_S_DU_29_JANVIER_2004,0,arret,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': '', 'Appeal': 'Pourvoi n° 65/S/97-98 du 18 Mai 1998', 'Claimant': 'MOUYOMBON ODILE', 'Against': 'C/', 'Defendant': 'SOCIETE FIDA AFRICA', 'Judgment': 'ARRÊT N° 74/S DU 29 JANVIER 2004'}"

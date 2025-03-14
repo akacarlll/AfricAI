@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-30-p-9-decembre-1999-9355.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-30-p-9-decembre-1999-9355.htm,"ARRET N°30/P DU 9 DECEMBRE 1999
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 4 mai 1995 par Maître Bilong Ndjong Denis, Avocat à Douala ;
 Sur la seconde branche préalable du second moyen de cassation prise de la violation de la loi, violation de l'article 5 de l'ordonnance n°72/4 du 26 août 1972 dénaturation des faits de la cause, équivalant à un défaut de motifs ;
 « En ce que l'arrêt attaqué a déclaré inexistant le premier jugement parce que rendu par le juge faisant l'objet d'une procédure de récusation non définitive ;
@@ -20,4 +22,4 @@ Et sans qu'il soit besoin d'examiner les autres moyens proposés,
 CASSE ET ANNULE l'arrêt n°1156/P rendu le 7 septembre 1995 par la Cour d'Appel de Douala ;
 REMET en conséquence la cause et les parties au même et semblable état où elles étaient avant ladite décision et, pour être fait droit, les renvoie devant la Cour d'Appel de Bafoussam ;
 RESERVE les dépens ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Douala et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_30_P_DU_9_DECEMBRE_1999,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'SITRA S.A.', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC ET MOHAMADOU BAYERO FADIL', 'Judgment': 'ARRET N°30/P DU 9 DECEMBRE 1999'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Douala et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_30_P_DU_9_DECEMBRE_1999,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'SITRA S.A.', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC ET MOHAMADOU BAYERO FADIL', 'Judgment': 'ARRET N°30/P DU 9 DECEMBRE 1999'}"

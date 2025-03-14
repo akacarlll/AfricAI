@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-125-27-mai-2004-32789.htm,"La Cour Suprême statuant en matière de droit social ;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-125-27-mai-2004-32789.htm,"ARRÊT N° 125/S DU 27 MAI 2004
+
+La Cour Suprême statuant en matière de droit social ;
 En son audience publique ordinaire a rendu l'arrêt dont la teneur suit :
 ENTRE:
 TCHUMNE Désiré, demandeur en cassation, représenté par Maitres NDJANA NDJANA et TOKO EKAMBI Agathe, BP. 3074-DOUALA et B.P. 20238-Yaoundé ;
@@ -39,4 +41,4 @@ MOCHE Frédéric CONSEILLER
 TAKAM Pius ANDY CONSEILLER
 En présence de Monsieur EDJANGUE EKAMBI, Avocat Général, occupant le banc du Ministère Public ;
 Et de Maître ZELII née FOKLA, Greffier ;
-En foi de quoi le présent arrêt a été signé par le Président, Les Conseillers et le Greffier ;",ARRET_N_125_S_DU_27_MAI_2004,0,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': '', 'Appeal': 'Pourvoi n° 191/S/95-96 du 10 Février 1994', 'Claimant': 'TCHUMNE DÉSIRÉ', 'Against': 'C/', 'Defendant': 'SOCIÉTÉ SOCAPROCH', 'Judgment': 'ARRÊT N° 125/S DU 27 MAI 2004'}"
+En foi de quoi le présent arrêt a été signé par le Président, Les Conseillers et le Greffier ;",ARRET_N_125_S_DU_27_MAI_2004,0,arret,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': '', 'Appeal': 'Pourvoi n° 191/S/95-96 du 10 Février 1994', 'Claimant': 'TCHUMNE DÉSIRÉ', 'Against': 'C/', 'Defendant': 'SOCIÉTÉ SOCAPROCH', 'Judgment': 'ARRÊT N° 125/S DU 27 MAI 2004'}"

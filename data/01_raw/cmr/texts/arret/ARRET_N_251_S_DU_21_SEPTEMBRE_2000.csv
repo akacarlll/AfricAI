@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-251-21-septembre-2000-37426.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-251-21-septembre-2000-37426.htm,"ARRET N° 251/S DU 21 SEPTEMBRE 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 26 mars 1993 par Maître Moussinga, Avocat à Yaoundé ;
 Vu l'alinéa 2 de l'article 13 de la loi n°75/16 du 8 décembre 1975 fixant la procédure et le fonctionnement de la Cour Suprême ;
 Attendu qu'aux termes du texte susvisé, « Lorsque la décision attaquée est enregistrée, le greffier en chef de la Cour Suprême avise l'avocat choisi ou désigné, du dépôt du dossier à son greffe et l'informe qu'il dispose à partir de cette notification, d'un délai de trente jours pour déposer au greffe de ladite Cour, un mémoire ampliatif articulant et développant les moyens de droit qu'il invoque à l'appui du pourvoi » ;
@@ -16,4 +18,4 @@ Attendu que Maître Moussinga n'a ni articulé ni développé dans ses écrits c
 D'où il suit que le pourvoi encourt le rejet ;
 PAR CES MOTIFS
 REJETTE le pourvoi ;
-ORDONNE qu'à diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de l'Est et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_251_S_DU_21_SEPTEMBRE_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'MEDJANG GABRIEL', 'Against': 'C/', 'Defendant': 'MIMBANG ROBERT', 'Judgment': 'ARRET N° 251/S DU 21 SEPTEMBRE 2000'}"
+ORDONNE qu'à diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de l'Est et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_251_S_DU_21_SEPTEMBRE_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'MEDJANG GABRIEL', 'Against': 'C/', 'Defendant': 'MIMBANG ROBERT', 'Judgment': 'ARRET N° 251/S DU 21 SEPTEMBRE 2000'}"

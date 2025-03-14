@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-46-soc-27-decembre-2018-33292.htm,"L'an deux mille dix huit et le vingt sept décembre;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-46-soc-27-decembre-2018-33292.htm,"ARRÊT N° 46/SOC DU 27 DÉCEMBRE 2018
+
+L'an deux mille dix huit et le vingt sept décembre;
 La Cour Suprême statuant en matière Sociale ;
 En son audience publique ordinaire a rendu l'arrêt dont la teneur suit ;
 ENTRE
@@ -65,4 +67,4 @@ Et avec l'assistance de Maître ALIMETA Alain Sainclair, Greffier ;
 En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier ;
 En approuvant ligne(s) Mot(s)
 rayé(s) nul(s) et renvoi(s) en marge ;
-LE PRESIDENT, LAS CONSEILLERS, LE GREFFIER",ARRET_N_46_SOC_DU_27_DECEMBRE_2018,0,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': 'DOSSIER N° 106/S/2015', 'Appeal': 'Pourvoi n°64 et 81/RP/11 du 1er et 25 mai 2011', 'Claimant': 'DOYA PIERRE-SOCIÉTÉ LES MINOTIERS DU CAMEROUN', 'Against': 'C/', 'Defendant': 'SOCIÉTÉ LES MINOTIERS DU CAMEROUN-DOYA PIERRE', 'Judgment': 'ARRÊT N° 46/SOC DU 27 DÉCEMBRE 2018'}"
+LE PRESIDENT, LAS CONSEILLERS, LE GREFFIER",ARRET_N_46_SOC_DU_27_DECEMBRE_2018,0,arret,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': 'DOSSIER N° 106/S/2015', 'Appeal': 'Pourvoi n°64 et 81/RP/11 du 1er et 25 mai 2011', 'Claimant': 'DOYA PIERRE-SOCIÉTÉ LES MINOTIERS DU CAMEROUN', 'Against': 'C/', 'Defendant': 'SOCIÉTÉ LES MINOTIERS DU CAMEROUN-DOYA PIERRE', 'Judgment': 'ARRÊT N° 46/SOC DU 27 DÉCEMBRE 2018'}"

@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-12-18-novembre-1999-37828.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-12-18-novembre-1999-37828.htm,"ARRET N° 12/S DU 18 NOVEMBRE 1999
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 21 octobre 1992 par Maîtres Viazzi et autres, Avocats associés à Douala ;
 Sur le premier moyen de cassation pris de la violation de l'article 36 alinéa ter (ancien) du Code de travail qui dispose que : « Le travailleur doit toute son activité professionnelle à l'entreprise sauf dérogation stipulée au contrat » et ainsi développé ;
 Aux termes de ce texte, l'employé ne peut simultanément être sous lien de subordination avec deux employeurs différents ;
@@ -35,4 +37,4 @@ D'où il suit que ce moyen n'est pas fondé ;
 Et attendu par ailleurs que ce pourvoi est régulier ;
 PAR CES MOTIFS
 REJETTE le pourvoi ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Douala et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_12_S_DU_18_NOVEMBRE_1999,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'SOCIÉTÉ EQUABOIS', 'Against': 'C/', 'Defendant': 'HEUDI SAMUEL', 'Judgment': 'ARRET N° 12/S DU 18 NOVEMBRE 1999'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Douala et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_12_S_DU_18_NOVEMBRE_1999,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'SOCIÉTÉ EQUABOIS', 'Against': 'C/', 'Defendant': 'HEUDI SAMUEL', 'Judgment': 'ARRET N° 12/S DU 18 NOVEMBRE 1999'}"

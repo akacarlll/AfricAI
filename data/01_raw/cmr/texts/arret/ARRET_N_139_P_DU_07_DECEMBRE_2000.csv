@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-139-p-07-decembre-2000-10659.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-139-p-07-decembre-2000-10659.htm,"ARRET N°139/P DU 07 DECEMBRE 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 4 mai 1995 par Maître Siewe, Avocat à Nkongsamba ;
 Sur le premier moyen de cassation pris de la violation de la loi, violation de l'article 5 de l'ordonnance n°72/4 du 26 août 1972 portant organisation judiciaire, défaut de motifs, violation de la loi, manque de base légale ;
 Sur la première branche du moyen, « En ce que,
@@ -40,4 +42,4 @@ D'où il suit que ce moyen n'est pas fondé ;
 PAR CES MOTIFS
 REJETTE le pourvoi ;
 CONDAMNE le demandeur aux dépens ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Bafoussam et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_139_P_DU_07_DECEMBRE_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'YETNGOUE ZACHÉE, NKUILAN DANIEL', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC ET YAMENDJEU SAMUEL', 'Judgment': 'ARRET N°139/P DU 07 DECEMBRE 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Bafoussam et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_139_P_DU_07_DECEMBRE_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'YETNGOUE ZACHÉE, NKUILAN DANIEL', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC ET YAMENDJEU SAMUEL', 'Judgment': 'ARRET N°139/P DU 07 DECEMBRE 2000'}"

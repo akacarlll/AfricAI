@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-70-p-18-novembre-2010-8815.htm,"L'an deux mille dix et le dix huit du mois de novembre ;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-70-p-18-novembre-2010-8815.htm,"ARRET N° 70/P DU 18 NOVEMBRE 2010
+
+L'an deux mille dix et le dix huit du mois de novembre ;
 La Cour Suprême statuant en matière de droit pénal ;
 En son audience publique ordinaire a rendu l'arrêt dont la teneur suit :
 ENTRE:
@@ -111,4 +113,4 @@ En présence de Monsieur Adolphe EJANGUE EKAMBI, Avocat Général, occupant le b
 Et avec l'assistance de Maître ESSOUMAM, Greffier ;
 En foi de quoi, le présent arrêt a été signé par le Président, les Conseillers et le Greffier ;
 Approuvant mot rayé nul
-LE PRESIDENT, LES CONSEILLERS, LE GREFFIER",ARRET_N_70_P_DU_18_NOVEMBRE_2010,0,"{'Court': 'COUR SUPREME DUS', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION PENALE', 'Case': 'DOSSIER N° 110/P/04-05', 'Appeal': 'POURVOI N° 228 du 20 septembre 2004', 'Claimant': 'MME NJI MBOUEMBOUE NÉE NGOUCHEKAM CHARLOTTE', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC-YAMEN POLYCARPE-AES-SONEL', 'Judgment': 'ARRET N° 70/P DU 18 NOVEMBRE 2010'}"
+LE PRESIDENT, LES CONSEILLERS, LE GREFFIER",ARRET_N_70_P_DU_18_NOVEMBRE_2010,0,arret,"{'Court': 'COUR SUPREME DUS', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION PENALE', 'Case': 'DOSSIER N° 110/P/04-05', 'Appeal': 'POURVOI N° 228 du 20 septembre 2004', 'Claimant': 'MME NJI MBOUEMBOUE NÉE NGOUCHEKAM CHARLOTTE', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC-YAMEN POLYCARPE-AES-SONEL', 'Judgment': 'ARRET N° 70/P DU 18 NOVEMBRE 2010'}"

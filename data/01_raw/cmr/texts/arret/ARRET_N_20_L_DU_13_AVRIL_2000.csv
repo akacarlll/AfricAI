@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-20-13-avril-2000-11798.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-20-13-avril-2000-11798.htm,"ARRET N°20/L DU 13 AVRIL 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 27 mai 1987 par Maître Ngon à Bidias, Avocat à Douala ;
 Sur le moyen unique de cassation pris en ses deux branches de la violation de la loi et notamment de l'article 5 alinéa 1- de l'ordonnance n°72/4 du 26 août 1972, non réponse aux conclusions, défaut de motifs et manque de base légale ;
 En ce que d'une part,
@@ -35,4 +37,4 @@ Et attendu par ailleurs que l'arrêt attaqué est régulier ;
 PAR CES MOTIFS
 REJETTE le pourvoi ;
 CONDAMNE la demanderesse aux dépens ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du greffe de la Cour d'Appel du Littoral et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_20_L_DU_13_AVRIL_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Traditionnelle', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'SOPPI MADIBA BÉATRICE', 'Against': 'C/', 'Defendant': 'MATIKE ZACHARIE', 'Judgment': 'ARRET N°20/L DU 13 AVRIL 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du greffe de la Cour d'Appel du Littoral et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_20_L_DU_13_AVRIL_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Traditionnelle', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'SOPPI MADIBA BÉATRICE', 'Against': 'C/', 'Defendant': 'MATIKE ZACHARIE', 'Judgment': 'ARRET N°20/L DU 13 AVRIL 2000'}"

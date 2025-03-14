@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-41-23-decembre-2004-32818.htm,"L'an deux mille quatre et le Vingt trois Décembre ;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-41-23-decembre-2004-32818.htm,"ARRÊT N° 41/S DU 23 DÉCEMBRE 2004
+
+L'an deux mille quatre et le Vingt trois Décembre ;
 La Cour Suprême statuant en matière de droit Social ;
 En son audience publique ordinaire a rendu l'arrêt dont la teneur suit:
 ENTRE:
@@ -38,4 +40,4 @@ Abraham TCHUENTE CONSEILLER
 Dagobert BISSECK CONSEILLER
 En présence de Monsieur BOUELET Raymond Landry, Avocat Général près la Cour Suprême, occupant le banc du Ministère Public ;
 Assisté de Maître OMGBA Raphaël, Greffier ;
-En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier;",ARRET_N_41_S_DU_23_DECEMBRE_2004,0,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': '', 'Appeal': 'Pourvoi n° 21/S/00-01 du 24 Août 2000', 'Claimant': 'KOUOH DAVID', 'Against': 'C/', 'Defendant': 'MAPOKO JOSEPH', 'Judgment': 'ARRÊT N° 41/S DU 23 DÉCEMBRE 2004'}"
+En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier;",ARRET_N_41_S_DU_23_DECEMBRE_2004,0,arret,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': '', 'Appeal': 'Pourvoi n° 21/S/00-01 du 24 Août 2000', 'Claimant': 'KOUOH DAVID', 'Against': 'C/', 'Defendant': 'MAPOKO JOSEPH', 'Judgment': 'ARRÊT N° 41/S DU 23 DÉCEMBRE 2004'}"

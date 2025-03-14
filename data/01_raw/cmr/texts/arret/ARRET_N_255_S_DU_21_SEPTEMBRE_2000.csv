@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-255-21-septembre-2000-37309.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-255-21-septembre-2000-37309.htm,"ARRET N° 255/S DU 21 SEPTEMBRE 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 22 avril 1997 par Maître Thomas Byll Ndengue, Avocat à Yaoundé ;
 Sur le premier moyen de cassation pris en ses deux branches réunies de la violation de la loi, violation de l'article 5 de l'ordonnance n°72/4 du 26 août 1972 - contrariété entre les qualités et les motifs et entre ceux-ci et le dispositif manque de base légale et ainsi développé :
 « En ce que d'une part,
@@ -41,4 +43,4 @@ D'où il suit que le moyen manque en fait ;
 Attendu que l'arrêt attaqué est par ailleurs régulier ;
 PAR CES MOTIFS
 REJETTE le pourvoi ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Littoral à Douala et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_255_S_DU_21_SEPTEMBRE_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'SOCIÉTÉ CTK SERVICES', 'Against': 'C/', 'Defendant': 'TCHOCKNA JOSEPH', 'Judgment': 'ARRET N° 255/S DU 21 SEPTEMBRE 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Littoral à Douala et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_255_S_DU_21_SEPTEMBRE_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'SOCIÉTÉ CTK SERVICES', 'Against': 'C/', 'Defendant': 'TCHOCKNA JOSEPH', 'Judgment': 'ARRET N° 255/S DU 21 SEPTEMBRE 2000'}"

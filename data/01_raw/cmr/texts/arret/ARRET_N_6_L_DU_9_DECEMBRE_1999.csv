@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-6-9-decembre-1999-11737.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-6-9-decembre-1999-11737.htm,"ARRET N°6/L DU 9 DECEMBRE 1999
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 5 septembre 1990 par Maître Toscano Gilles, Avocat à Douala ;
 Sur le moyen unique de cassation pris de la violation de la loi, violation de l'article 193 du Code de procédure civile et de l'article 36 du décret du 27 novembre 1947 ;
 En ce que
@@ -22,4 +24,4 @@ PAR CES MOTIFS
 CASSE ET ANNULE l'arrêt n°03/L rendu le 14 octobre 1988 par la Cour d'Appel de Douala;
 REMET en conséquence la cause et parties au même et semblable état où elles étaient avant ladite décision et, pour être fait droit, les renvoie devant la même Cour d'Appel autrement composée ;
 RESERVE les dépens ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du greffe de la Cour d'Appel de Douala et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_6_L_DU_9_DECEMBRE_1999,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Traditionnelle', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'KOUEKAM ANTOINE MARIE', 'Against': 'C/', 'Defendant': 'TCHUAMANI MARTHE', 'Judgment': 'ARRET N°6/L DU 9 DECEMBRE 1999'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du greffe de la Cour d'Appel de Douala et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_6_L_DU_9_DECEMBRE_1999,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Traditionnelle', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'KOUEKAM ANTOINE MARIE', 'Against': 'C/', 'Defendant': 'TCHUAMANI MARTHE', 'Judgment': 'ARRET N°6/L DU 9 DECEMBRE 1999'}"

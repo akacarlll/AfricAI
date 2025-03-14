@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-29-p-26-octobre-2000-10399.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-29-p-26-octobre-2000-10399.htm,"ARRET N°29/P DU 26 OCTOBRE 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 25 février 1988 par Maître Dzeukou, Avocat à Bafoussam ;
 Sur le moyen unique de cassation pris de la violation de la loi, violation de l'article 5 de l'ordonnance n°72/4 du 26 août 1972, insuffisance de motifs ;
 En ce que :
@@ -16,4 +18,4 @@ Attendu que l'arrêt est par ailleurs régulier ;
 PAR CES MOTIFS
 REJETTE le pourvoi ;
 CONDAMNE les demandeurs aux dépens ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe la Cour d'Appel de l'Ouest et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_29_P_DU_26_OCTOBRE_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'FOTIE ET TOUKAM FRANÇOIS', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC ET MOUNTOUNJOU OUMAROU', 'Judgment': 'ARRET N°29/P DU 26 OCTOBRE 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe la Cour d'Appel de l'Ouest et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_29_P_DU_26_OCTOBRE_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'FOTIE ET TOUKAM FRANÇOIS', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC ET MOUNTOUNJOU OUMAROU', 'Judgment': 'ARRET N°29/P DU 26 OCTOBRE 2000'}"

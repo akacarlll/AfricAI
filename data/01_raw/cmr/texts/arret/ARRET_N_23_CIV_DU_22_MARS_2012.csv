@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-23-civ-22-mars-2012-8811.htm,"L'an deux mille douze et le vingt-deux du mois de mars ;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-23-civ-22-mars-2012-8811.htm,"ARRET N° 23/CIV DU 22 MARS 2012
+
+L'an deux mille douze et le vingt-deux du mois de mars ;
 La Cour Suprême, Chambre Judiciaire, Section Civile, siégeant au Palais de Justice de Yaoundé ;
 A rendu en audience publique ordinaire, l'arrêt dont la teneur suit :
 ENTRE :
@@ -41,4 +43,4 @@ En présence de Monsieur EGBE ACHUO Martin Hilman, Avocat Général occupant le 
 Et avec l'assistance de Maître Virginie ESSAMA, Greffier ,
 En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier ,
 Approuvant mot rayé nul ;
-LE PRESIDENT, LES CONSEILLERS, LE GREFFIER.-",ARRET_N_23_CIV_DU_22_MARS_2012,0,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION CIVILE', 'Case': 'Dossier n° 196/Civ/010', 'Appeal': 'Pourvoi 187 du 15 décembre 2009', 'Claimant': 'SUCCESSION FOGAING KAMTO', 'Against': 'C/', 'Defendant': 'AFRILAND FIRST BANK', 'Judgment': 'ARRET N° 23/CIV DU 22 MARS 2012'}"
+LE PRESIDENT, LES CONSEILLERS, LE GREFFIER.-",ARRET_N_23_CIV_DU_22_MARS_2012,0,arret,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION CIVILE', 'Case': 'Dossier n° 196/Civ/010', 'Appeal': 'Pourvoi 187 du 15 décembre 2009', 'Claimant': 'SUCCESSION FOGAING KAMTO', 'Against': 'C/', 'Defendant': 'AFRILAND FIRST BANK', 'Judgment': 'ARRET N° 23/CIV DU 22 MARS 2012'}"

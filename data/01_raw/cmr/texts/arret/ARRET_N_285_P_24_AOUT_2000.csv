@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-285-p-24-aout-2000-10714.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-285-p-24-aout-2000-10714.htm,"ARRET N°285/P 24 AOUT 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 12 mai 2000 par Maître Minkoulou Manga, Avocat à Yaoundé ;
 Sur le premier moyen de cassation pris de la violation de l'article 155 du code d'instruction criminelle ;
 En ce que « Il est reproché au jugement attaqué, tout en mentionnant qu'il y a eu déposition des témoins, de ne pas faire état de leur prestation de serment selon les prescriptions de l'article 155 du code d'instruction criminelle visé au moyen ;
@@ -25,4 +27,4 @@ D'où il suit que le pourvoi encourt le rejet ;
 PAR CES MOTIFS
 REJETTE le pourvoi ;
 CONDAMNE le demandeur aux dépens ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de l'Ouest et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_285_P_24_AOUT_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'DJABA CLAUDE FRANÇOIS ALIAS PAQUET', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC ET SOUKEN MOÏSE, NJONKOUA JEAN', 'Judgment': 'ARRET N°285/P 24 AOUT 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de l'Ouest et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_285_P_24_AOUT_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'DJABA CLAUDE FRANÇOIS ALIAS PAQUET', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC ET SOUKEN MOÏSE, NJONKOUA JEAN', 'Judgment': 'ARRET N°285/P 24 AOUT 2000'}"

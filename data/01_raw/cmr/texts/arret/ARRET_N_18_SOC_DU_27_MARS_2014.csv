@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-18-soc-27-mars-2014-32812.htm,"L'an deux mille quatorze et le vingt sept mars;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-18-soc-27-mars-2014-32812.htm,"ARRÊT N° 18/SOC DU 27 MARS 2014
+
+L'an deux mille quatorze et le vingt sept mars;
 La Cour Suprême statuant en matière Sociale ;
 En son audience publique ordinaire a rendu l'arrêt dont la teneur suit ;
 ENTRE
@@ -39,4 +41,4 @@ Pius Andy TAKAM , CONSEILLER
 NJIEMOUN MAMA, CONSEILLER
 En présence de Monsieur OUMAROU BAMANGA, Avocat Général, occupant le banc du Ministère public ;
 Et avec l'assistance de Maître Margaret MUSONGO, Greffier ;
-En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier ;",ARRET_N_18_SOC_DU_27_MARS_2014,0,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': 'DOSSIER N° 35/S/2013', 'Appeal': 'Pourvoi n° 10/GCAY du 25 octobre 2012', 'Claimant': 'C.B.C', 'Against': 'C/', 'Defendant': 'NSAH GABRIEL', 'Judgment': 'ARRÊT N° 18/SOC DU 27 MARS 2014'}"
+En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier ;",ARRET_N_18_SOC_DU_27_MARS_2014,0,arret,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': 'DOSSIER N° 35/S/2013', 'Appeal': 'Pourvoi n° 10/GCAY du 25 octobre 2012', 'Claimant': 'C.B.C', 'Against': 'C/', 'Defendant': 'NSAH GABRIEL', 'Judgment': 'ARRÊT N° 18/SOC DU 27 MARS 2014'}"

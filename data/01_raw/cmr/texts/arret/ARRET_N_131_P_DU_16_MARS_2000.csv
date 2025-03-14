@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-131-p-16-mars-2000-9107.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-131-p-16-mars-2000-9107.htm,"ARRET N°131/P DU 16 MARS 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 22 mai 1992 par Maître Guy Noah, Avocat à Yaoundé ;
 Sur le moyen unique de cassation amendé, pris de la violation de la loi, violation de l'article 48 (nouveau) alinéa 3 de la loi n°58/203 du 26 décembre 1958 portant adoption et simplification de la procédure pénale modifiée par la loi n°77/04 du 13 juillet 1977 — mauvaise interprétation des dispositions légales ;
 En ce que le texte susvisé dispose que « l'appel a lieu, soit par déclaration au greffe de la juridiction qui a statué dans les délais ci-dessus, soit par lettre avec accusé de réception ou télégramme adressé au greffe de cette juridiction. Le greffier sur le registre des appels, dresse un procès-verbal de la réception de la lettre ou du télégramme d'appel ;
@@ -20,4 +22,4 @@ PAR CES MOTIFS
 CASSE ET ANNULE l'arrêt n°527/cor rendu le 4 février 1985 par la Cour d'Appel du Centre à Yaoundé ;
 REMET en conséquence la cause et les parties au même et semblable état où elles étaient avant ladite décision et, pour être fait droit, les renvoie devant la Cour d'Appel du Sud ;
 RESERVE les dépens ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Centre et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_131_P_DU_16_MARS_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'TAMEN IGNACE, ONDOUA OWONA PIERRE', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC ET NKPWANG ZE MARTIN, MENYE FÉLIX', 'Judgment': 'ARRET N°131/P DU 16 MARS 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Centre et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_131_P_DU_16_MARS_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'TAMEN IGNACE, ONDOUA OWONA PIERRE', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC ET NKPWANG ZE MARTIN, MENYE FÉLIX', 'Judgment': 'ARRET N°131/P DU 16 MARS 2000'}"

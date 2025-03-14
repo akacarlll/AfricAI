@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-82-30-mars-2000-37002.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-82-30-mars-2000-37002.htm,"ARRET N° 82/S DU 30 MARS 2000
+
+LA COUR,
 le mémoire ampliatif déposé le 20 février 1997 par Maître Beaho Louise, Avocat à Yaoundé, commis d'office ;
 Sur le premier moyen de cassation pris de la violation de violation de l'article 39 alinéa 4 du Code du travail, manque de base légale ;
 En ce que,
@@ -19,4 +21,4 @@ PAR CES MOTIFS
 Et sans qu'il soit besoin d'examiner le second moyen,
 CASSE ET ANNULE l'arrêt n°300/S rendu le 24 août 1994 par la Cour d'Appel de Douala ;
 REMET en conséquence la cause et les parties au même et semblable état où elles étaient avant ladite décision et, pour être fait droit, les renvoie devant la Cour d'Appel de Bafoussam;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Douala et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_82_S_DU_30_MARS_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'DIME PROSPER', 'Against': 'C/', 'Defendant': 'SOCIÉTÉ BABLOO', 'Judgment': 'ARRET N° 82/S DU 30 MARS 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Douala et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_82_S_DU_30_MARS_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'DIME PROSPER', 'Against': 'C/', 'Defendant': 'SOCIÉTÉ BABLOO', 'Judgment': 'ARRET N° 82/S DU 30 MARS 2000'}"

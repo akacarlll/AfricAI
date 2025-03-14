@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/loi-98-015-14-juillet-1998-27738.htm,"TITRE I
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/loi-98-015-14-juillet-1998-27738.htm,"LOI N°98/015 DU 14 JUILLET 1998 RELATIF AUX ETABLISSEMENTSCLASSES DANGEREUX, INSALUBRES OU INCOMMODES.
+
+TITRE I
 DISPOSITIONS GENERALES
 Art. 1er —  La présente loi régit, dans le respect des principes de gestion de l'environnement et de protection de la République, les établissements classés dangereux, insalubres ou incommodes,
 Art. 2 —  (1) Sont soumis aux dispositions de la présente loi, les usines, les ateliers, les dépôts, les chantiers, les carrières et, de manière générales, les installations industrielles artisanales ou commerciales exploitées ou détenue par toute personne physique ou morale, publique ou privée, et qui présentent ou peuvent présenter soit des dangers pour la santé, la sécurité, la salubrité publique, l'agriculture, la nature et l'environnement en général, soit des inconvénients pour la commodité du voisinage.
@@ -130,4 +132,4 @@ Art. 45 —  Des décrets d'application de la présente loi en précisent, en ta
 Art. 46 —  Sont abrogées toutes les dispositions antérieures contraires, notamment celles de la loi n° 76/3 du 8 juillet 1976 fixant les frais d'inspection et de contrôle des établissements dangereux, insalubres ou incommodes.
 Art. 47 —  La présente loi sera enregistrée, publiée suivant la procédure d'urgence, puis insérée au Journal Officiel en français et en anglais. /-
 (é) Paul BIYA
-(2)",LOI_N_98_015_DU_14_JUILLET_1998_RELATIF_AUX_ETABLISSEMENTSCLASSES_DANGEREUX_INSALUBRES_OU_INCOMMODES,0,
+(2)",LOI_N_98_015_DU_14_JUILLET_1998_RELATIF_AUX_ETABLISSEMENTSCLASSES_DANGEREUX_INSALUBRES_OU_INCOMMODES,0,loi,

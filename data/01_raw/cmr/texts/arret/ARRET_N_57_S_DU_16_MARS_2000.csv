@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-57-16-mars-2000-37234.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-57-16-mars-2000-37234.htm,"ARRET N° 57/S DU 16 MARS 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 23 mai 1986 par Maître Mendouga Ndongo, Avocat à Yaoundé ;
 Sur le premier moyen de cassation, pris de la violation de la loi, violation de l'article 141 du Code du travail ;
 En ce que,
@@ -54,4 +56,4 @@ D'où il suit qu'elle est irrecevable et que le pourvoi doit être rejeté ;
 Et attendu que l'arrêt est par ailleurs régulier ;
 PAR CES MOTIFS
 REJETTE le pourvoi ;
-ORDONNE qu'a la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Yaoundé et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_57_S_DU_16_MARS_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'CAMEROUN ACTUALITÉS', 'Against': 'C/', 'Defendant': 'BAFFOUT JEAN PIERRE', 'Judgment': 'ARRET N° 57/S DU 16 MARS 2000'}"
+ORDONNE qu'a la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Yaoundé et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_57_S_DU_16_MARS_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'CAMEROUN ACTUALITÉS', 'Against': 'C/', 'Defendant': 'BAFFOUT JEAN PIERRE', 'Judgment': 'ARRET N° 57/S DU 16 MARS 2000'}"

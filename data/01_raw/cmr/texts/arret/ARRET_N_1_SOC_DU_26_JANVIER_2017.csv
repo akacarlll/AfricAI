@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-1-soc-26-janvier-2017-33285.htm,"L'an deux mille dix sept et le vingt six janvier;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-1-soc-26-janvier-2017-33285.htm,"ARRÊT N° 1/SOC DU 26 JANVIER 2017
+
+L'an deux mille dix sept et le vingt six janvier;
 La Cour Suprême statuant en matière Sociale ;
 En son audience publique ordinaire a rendu l'arrêt dont la teneur suit ;
 ENTRE
@@ -38,4 +40,4 @@ Et avec l'assistance de Maître ALIMETA Alain Sainclair, Greffier
 En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier ;
 En approuvant ligne(s) Mot(s)
 rayé(s) nul(s) et renvoi(s) en marge ;
-LE PRESIDENT, LES CONSEILLERS, LE GREFFIER",ARRET_N_1_SOC_DU_26_JANVIER_2017,0,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': 'Dossier n° 61/S/96-97', 'Appeal': 'Pourvoi n° 01/P/GCAY du 17 octobre 1996', 'Claimant': 'RÉVÉREND PASTEUR ZANG MINDJA MOÏSE', 'Against': 'C/', 'Defendant': 'GROUP DE PROFESSEURS VACATAIRES', 'Judgment': 'ARRÊT N° 1/SOC DU 26 JANVIER 2017'}"
+LE PRESIDENT, LES CONSEILLERS, LE GREFFIER",ARRET_N_1_SOC_DU_26_JANVIER_2017,0,arret,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': 'Dossier n° 61/S/96-97', 'Appeal': 'Pourvoi n° 01/P/GCAY du 17 octobre 1996', 'Claimant': 'RÉVÉREND PASTEUR ZANG MINDJA MOÏSE', 'Against': 'C/', 'Defendant': 'GROUP DE PROFESSEURS VACATAIRES', 'Judgment': 'ARRÊT N° 1/SOC DU 26 JANVIER 2017'}"

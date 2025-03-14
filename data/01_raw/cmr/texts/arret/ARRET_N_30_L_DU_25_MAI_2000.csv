@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-30-25-mai-2000-11651.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-30-25-mai-2000-11651.htm,"ARRET N°30/L DU 25 MAI 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 18 mars 1993 par Maître Atangana Bikouna Claire, Avocat à Yaoundé ;
 Sur le moyen unique de cassation pris de la violation de la loi, violation de l'article 5 de l'ordonnance n°72/4 du 26 août 1972, ensemble violation de l'article 8 de l'ordonnance n°74/1 du 6 juillet 1974 fixant le régime foncier, fausse application de la loi, insuffisance de motifs ;
 «En ce que l'arrêt querellé a énoncé que le premier juge a violé la loi en statuant sur la propriété d'un terrain non immatriculé ;
@@ -17,4 +19,4 @@ Attendu que l'arrêt querellé est par ailleurs régulier ;
 PAR CES MOTIFS
 REJETTE le pourvoi ;
 CONDAMNE le demandeur aux dépens ;
-ORDONNE qu'a la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du greffe de la Cour d'Appel de Yaoundé et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_30_L_DU_25_MAI_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Traditionnelle', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'ONOMO FRANÇOIS', 'Against': 'C/', 'Defendant': 'OLOA ELIAS', 'Judgment': 'ARRET N°30/L DU 25 MAI 2000'}"
+ORDONNE qu'a la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du greffe de la Cour d'Appel de Yaoundé et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_30_L_DU_25_MAI_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Traditionnelle', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'ONOMO FRANÇOIS', 'Against': 'C/', 'Defendant': 'OLOA ELIAS', 'Judgment': 'ARRET N°30/L DU 25 MAI 2000'}"

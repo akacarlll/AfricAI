@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-56-cc-23-mars-2000-11129.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-56-cc-23-mars-2000-11129.htm,"ARRET N°56/CC DU 23 MARS 2000
+
+LA COUR,
 Vu la requête en date du 19 juillet 1999, enregistrée à la Présidence de la Cour suprême le 23 juillet suivant ;
 Attendu que par requête susvisée, le nommé Tetchouop Lucas a sollicité la révision du jugement n°491 du 19 juin 1996 rendu en matière civile et commerciale par le Tribunal de Grande instance de Yaoundé dans la cause l'opposant au sieur Tokam Nicodème ;
 Qu'il expose au soutien de cette requête :
@@ -32,4 +34,4 @@ D'où il suit que sa requête est irrecevable ;
 PAR CES MOTIFS
 DECLARE la requête de Tetchouop Lucas irrecevable ;
 Le CONDAMNE aux dépens ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe du Tribunal de Grande instance de Yaoundé et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_56_CC_DU_23_MARS_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Civile et Commerciale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'TETCHOUOP LUCAS', 'Against': 'C/', 'Defendant': 'TOKAM NICODÈME', 'Judgment': 'ARRET N°56/CC DU 23 MARS 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe du Tribunal de Grande instance de Yaoundé et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_56_CC_DU_23_MARS_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Civile et Commerciale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'TETCHOUOP LUCAS', 'Against': 'C/', 'Defendant': 'TOKAM NICODÈME', 'Judgment': 'ARRET N°56/CC DU 23 MARS 2000'}"

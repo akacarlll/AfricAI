@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-26-p-09-decembre-1999-9354.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-26-p-09-decembre-1999-9354.htm,"ARRET N°26/P DU 09 DECEMBRE 1999
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 27 mai 1985 par Maître Mbala Mbala, Avocat à Yaoundé ;
 Sur le moyen unique de cassation pris de la violation de la loi, violation de l'article 9 de la loi n°58/203 du 26 décembre 1958, ensemble violation de l'article 5 de l'ordonnance n°72/4 du 26 août 1972, absence de motifs;
 « En ce que pour déclarer Dadoudi Vouloumgue coupable du crime de vol aggravé, le jugement du Tribunal de Grande instance de Logone et Chari et l'arrêt confirmatif se sont fondés sur un procès-verbal d'enquête nul ;
@@ -13,4 +15,4 @@ Attendu que l'arrêt est par ailleurs régulier ;
 PAR CES MOTIFS
 REJETTE le pourvoi ;
 CONDAMNE le demandeur aux dépens ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Garoua et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_26_P_DU_09_DECEMBRE_1999,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'DADOUDI VOULOUMGUE', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC ET ANTAR DOUTOU', 'Judgment': 'ARRET N°26/P DU 09 DECEMBRE 1999'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Garoua et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_26_P_DU_09_DECEMBRE_1999,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'DADOUDI VOULOUMGUE', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC ET ANTAR DOUTOU', 'Judgment': 'ARRET N°26/P DU 09 DECEMBRE 1999'}"

@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-30-cc-20-janvier-2000-11268.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-30-cc-20-janvier-2000-11268.htm,"ARRET N°30/CC DU 20 JANVIER 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 5 décembre 1989 par Maître Nem Joseph, Avocat à Yaoundé ;
 Sur le moyen unique de cassation ainsi développé ;
 «Cet arrêt doit être cassé pour violation de la loi, violation de l'article 5 de l'ordonnance n°72/4 du 26 août 1972 portant organisation judiciaire, dénaturation des documents de la cause, ensemble de l'arrêt n°4 du 21 octobre 1969 ;
@@ -20,4 +22,4 @@ PAR CES MOTIFS
 CASSE ET ANNULE l'arrêt n°189/c rendu le 17 juin 1988 par la Cour d'Appel de Douala ;
 REMET en conséquence la cause et les parties au même et semblable état où elles étaient avant ladite décision et, pour être fait droit, les renvoie devant la Cour d'Appel de Garoua ;
 RESERVE les dépens ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Douala et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_30_CC_DU_20_JANVIER_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Civile et Commerciale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'BANG SIMON', 'Against': 'C/', 'Defendant': 'LOBE DANIEL', 'Judgment': 'ARRET N°30/CC DU 20 JANVIER 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Douala et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_30_CC_DU_20_JANVIER_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Civile et Commerciale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'BANG SIMON', 'Against': 'C/', 'Defendant': 'LOBE DANIEL', 'Judgment': 'ARRET N°30/CC DU 20 JANVIER 2000'}"

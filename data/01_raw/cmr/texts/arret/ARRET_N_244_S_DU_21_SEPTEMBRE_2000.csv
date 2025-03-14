@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-244-21-septembre-2000-37744.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-244-21-septembre-2000-37744.htm,"ARRET N° 244/S DU 21 SEPTEMBRE 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 27 décembre 1989 par Maitre Fouletier, Avocat à Yaoundé ;
 Sur le moyen unique de cassation pris de la violation de la loi, violation de l'article 5 (1) de l'ordonnance n°72/4 du 26 août 1972 ;
 « En ce que la Cour d'Appel a confirmé le jugement prononçant une condamnation de 2.000.000 de francs de dommages-intérêts pour licenciement abusif, à raison du défaut de consultation des délégués ;
@@ -22,4 +24,4 @@ D'où il suit que celui-ci n'est pas fondé ;
 Attendu par ailleurs que l'arrêt attaqué est régulier ;
 PAR CES MOTIFS
 REJETTE le pourvoi ;
-ORDONNE qu'à diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Centre à Yaoundé et que mention en sera faite en marge ou à la suite de' a décision attaquée.",ARRET_N_244_S_DU_21_SEPTEMBRE_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'SOCATAM', 'Against': 'C/', 'Defendant': 'NGALA FOUDA JOACHIM', 'Judgment': 'ARRET N° 244/S DU 21 SEPTEMBRE 2000'}"
+ORDONNE qu'à diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Centre à Yaoundé et que mention en sera faite en marge ou à la suite de' a décision attaquée.",ARRET_N_244_S_DU_21_SEPTEMBRE_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'SOCATAM', 'Against': 'C/', 'Defendant': 'NGALA FOUDA JOACHIM', 'Judgment': 'ARRET N° 244/S DU 21 SEPTEMBRE 2000'}"

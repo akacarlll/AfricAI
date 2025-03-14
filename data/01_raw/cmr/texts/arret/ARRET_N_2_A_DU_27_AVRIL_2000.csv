@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-2-27-avril-2000-11842.htm,"L'Assemblée Plénière de la Cour suprême ;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-2-27-avril-2000-11842.htm,"ARRET N°2/A DU 27 AVRIL 2000
+
+L'Assemblée Plénière de la Cour suprême ;
 Vu le jugement n°112 rendu le 11 septembre 1986 par la Chambre Administrative de la Cour suprême dans la cause opposant le sieur Biyo'o Olinga François à l'Etat du Cameroun ;
 Vu l'appel interjeté contre ledit jugement par Biyo'o Olinga suivant déclaration reçue au greffe de ladite juridiction le 26 septembre 1986 ;
 Vu le mémoire déposé à l'appui dudit recours le 8 septembre 1987 par Maître Toussaint Antoine NgongoOttou, Avocat à Yaoundé, au nom et pour le compte de son client Biyo'o Olinga François ;
@@ -32,4 +34,4 @@ Article 1er : L'appel de Biyo'o Olinga François est régulier et recevable en l
 Article 2 : Le jugement n°112 du 11 septembre 1986 de la Chambre Administrative de la Cour suprême est infirmé ;
 Article 3 : Le recours contentieux introduit par Biyo'o Olinga François par requête enregistrée au greffe de la Chambre Administrative le 28 janvier 1986 est recevable ;
 Article 4 : La cause et les parties sont renvoyées devant la Chambre Administrative de la Cour suprême, pour être statué sur le fond du litige ;
-Article 5 : Les dépens de l'instance sont réservés.",ARRET_N_2_A_DU_27_AVRIL_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Administrative', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': ""BIYO'O OLINGA FRANÇOIS"", 'Against': 'C/', 'Defendant': 'ETAT DU CAMEROUN (IGERA)', 'Judgment': 'ARRET N°2/A DU 27 AVRIL 2000'}"
+Article 5 : Les dépens de l'instance sont réservés.",ARRET_N_2_A_DU_27_AVRIL_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Administrative', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': ""BIYO'O OLINGA FRANÇOIS"", 'Against': 'C/', 'Defendant': 'ETAT DU CAMEROUN (IGERA)', 'Judgment': 'ARRET N°2/A DU 27 AVRIL 2000'}"

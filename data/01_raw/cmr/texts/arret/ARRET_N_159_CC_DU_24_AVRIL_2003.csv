@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-159-cc-24-avril-2003-32752.htm,"La Cour,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-159-cc-24-avril-2003-32752.htm,"ARRÊT N° 159/CC DU 24 AVRIL 2003
+
+La Cour,
 Après avoir entendu en la lecture de leur rapport Messieurs les Conseillers : Bissombi Salomon, Tchuente Abraham et Takam Pius Andy ;
 Vu les conclusions de Monsieur Martin Rissouk à Moulong, procureur Général ;
 Et après en avoir délibéré conformément à la loi ;
@@ -81,4 +83,4 @@ Attendu que l'arrêt querellé est par ailleurs régulier ;
 PAR CES MOTIFS
 Rejette le pourvoi ;
 Condamne la demanderesse aux dépens ;
-Ordonne qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du greffe de la Cour d'Appel du Centre et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_159_CC_DU_24_AVRIL_2003,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': '', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'ME ALIX BETAYENE', 'Against': 'C/', 'Defendant': 'MANGWA TCHUISSE JOSEPH', 'Judgment': 'ARRÊT N° 159/CC DU 24 AVRIL 2003'}"
+Ordonne qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du greffe de la Cour d'Appel du Centre et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_159_CC_DU_24_AVRIL_2003,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': '', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'ME ALIX BETAYENE', 'Against': 'C/', 'Defendant': 'MANGWA TCHUISSE JOSEPH', 'Judgment': 'ARRÊT N° 159/CC DU 24 AVRIL 2003'}"

@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-239-p-29-juin-2000-10190.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-239-p-29-juin-2000-10190.htm,"ARRET N°239/P DU 29 JUIN 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 20 août 1996 par Maître Emmanuel Ekobo, Avocat à Douala ;
 Sur le premier moyen de cassation pris de la violation de la loi, articles 5 de l'ordonnance n°72/4 du 26 août 1972 portant organisation judicaire modifiée, 211 et 149 du code d'instruction criminelle ; ensemble violation d'un principe général de droit, violation des droits de la défense et ainsi développé ;
 «En sa première branche tirée de ce qu'aux termes de l'article 5 de l'ordonnance n°72/4 du 26 août 1972, l'arrêt doit être motivé en fait et en droit, sous peine de nullité d'ordre public ;
@@ -17,4 +19,4 @@ Et sans qu'il soit besoin d'examiner le second moyen,
 CASSE ET ANNULE l'arrêt n°791/cor rendu le 17 juillet 1990 par la Cour d'Appel du Littoral ;
 REMET en conséquence la cause et les parties au même et semblable état où elles étaient avant ladite décision et, pour être fait droit, les renvoie devant la Cour d'Appel de l'Ouest ;
 RESERVE les dépens ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Littoral et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_239_P_DU_29_JUIN_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'MME MVONDO MARIE PAULINE', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC ET DOMFANG ANDRÉ', 'Judgment': 'ARRET N°239/P DU 29 JUIN 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Littoral et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_239_P_DU_29_JUIN_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'MME MVONDO MARIE PAULINE', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC ET DOMFANG ANDRÉ', 'Judgment': 'ARRET N°239/P DU 29 JUIN 2000'}"

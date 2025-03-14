@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-281-p-24-aout-2000-10494.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-281-p-24-aout-2000-10494.htm,"ARRET N°281/P DU 24 AOUT 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 27 avril 2000 par Maître Ndjana Ndjana, Avocat à Yaoundé ;
 Sur le moyen unique de cassation pris en ses deux branches réunies de la violation de l'article 276 du code pénal, ensemble violation de l'article 5 de l'ordonnance n°72/4 du 26 août 1972, défaut de motifs, manque de base légale ;
 En ce que d'une part, pour confirmer la décision d'instance, la Cour d'Appel a simplement noté « qu'il ressort du dossier que la victime est morte des suites de saignement abondant par section de vaisseaux de la base du cou par un objet tranchant (poignard) ; qu'elle s'est écroulée avec sa bicyclette et portait toujours sa chéchia, ce qui dénote une absence de lutte et la surprise de l'attaque, toutes choses qui établissaient que l'accusé a agi sur une embuscade... » ;
@@ -20,4 +22,4 @@ D'où il suit que le pourvoi encourt le rejet ;
 PAR CES MOTIFS
 REJETTE le pourvoi ;
 CONDAMNE le demandeur aux dépens ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de l'Extrême-Nord et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_281_P_DU_24_AOUT_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'DJIME ABBAKAR', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC, MOUMON ISSA ET AUTRES', 'Judgment': 'ARRET N°281/P DU 24 AOUT 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de l'Extrême-Nord et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_281_P_DU_24_AOUT_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'DJIME ABBAKAR', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC, MOUMON ISSA ET AUTRES', 'Judgment': 'ARRET N°281/P DU 24 AOUT 2000'}"

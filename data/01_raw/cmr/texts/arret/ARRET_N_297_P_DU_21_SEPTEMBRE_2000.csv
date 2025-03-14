@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-297-p-21-septembre-2000-10501.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-297-p-21-septembre-2000-10501.htm,"ARRET N°297/P DU 21 SEPTEMBRE 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 19 mai 1995 par Maître Boum, Avocat à Douala ;
 Sur le moyen unique de cassation pris de la violation de la loi, violation des articles 3 et 37 paragraphe 2 de l'ordonnance n°72/4 du 26 août 1972 fixant l'organisation judiciaire de l'Etat du Cameroun, insuffisance des motifs, défaut des motifs ;
 En ce que, pour confirmer le jugement entrepris, la Cour d'Appel s'est bornée à affirmer que Sani Mohamed n'apporte en cause d'appel aucun élément nouveau susceptible de réformer le jugement ;
@@ -14,4 +16,4 @@ PAR CES MOTIFS
 JOINT les pourvois ;
 REJETTE le pourvoi du Procureur Général près la Cour d'Appel de Bafoussam ;
 DECLARE le pourvoi de Njienga Pierre irrecevable ; Le condamne aux dépens ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de l'Ouest et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_297_P_DU_21_SEPTEMBRE_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': ""PROCUREUR GÉNÉRAL PRÈS LA COUR D'APPEL DE BAFOUSSAM, NJIENGA PIERRE"", 'Against': 'C/', 'Defendant': 'MONSI NESTOR', 'Judgment': 'ARRET N°297/P DU 21 SEPTEMBRE 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de l'Ouest et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_297_P_DU_21_SEPTEMBRE_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': ""PROCUREUR GÉNÉRAL PRÈS LA COUR D'APPEL DE BAFOUSSAM, NJIENGA PIERRE"", 'Against': 'C/', 'Defendant': 'MONSI NESTOR', 'Judgment': 'ARRET N°297/P DU 21 SEPTEMBRE 2000'}"

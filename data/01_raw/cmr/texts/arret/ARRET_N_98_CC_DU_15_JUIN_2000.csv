@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-98-cc-15-juin-2000-10756.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-98-cc-15-juin-2000-10756.htm,"ARRET N°98/CC DU 15 JUIN 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 6 avril 1994 par le Procureur Général près la Cour suprême ;
 Sur le premier moyen de cassation pris de la violation de l'article 5 alinéa 4 de la loi n°92/008 du 14 août 1992 fixant certaines dispositions relatives à l'exécution des décisions de justice ;
 «Ce texte stipule que «le Président de la Cour suprême fait droit à la demande de suspension ou la rejette. Il peut, pour garantir l'exécution de la décision et au choix du requérant, assortir son ordonnance de la condition que le requérant consigne une somme dont il fixe le montant, ou produise une caution bancaire d'égal montant au greffe, dans un délai de trente jours à compter de la notification de ladite ordonnance» ;
@@ -21,4 +23,4 @@ Et sans qu'il soit besoin d'examiner les autres moyens proposés,
 CASSE ET ANNULE, sans renvoi, l'ordonnance n°CASWP/87/M/93/3 rendue le 17 mars 1994 en matière de défenses à exécution par la Cour d'Appel de Buéa ;
 DECLARE la demande de défenses à exécution fondée et y fait droit ;
 LAISSE les dépens à la charge du Trésor Public ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Buéa et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_98_CC_DU_15_JUIN_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Civile et Commerciale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'PROCUREUR GÉNÉRAL PRÈS LA COUR SUPRÊME', 'Against': 'C/', 'Defendant': 'NYAMSARI GANYI ET SNAC', 'Judgment': 'ARRET N°98/CC DU 15 JUIN 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Buéa et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_98_CC_DU_15_JUIN_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Civile et Commerciale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'PROCUREUR GÉNÉRAL PRÈS LA COUR SUPRÊME', 'Against': 'C/', 'Defendant': 'NYAMSARI GANYI ET SNAC', 'Judgment': 'ARRET N°98/CC DU 15 JUIN 2000'}"

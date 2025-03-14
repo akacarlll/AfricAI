@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-171-p-30-mars-2000-10444.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-171-p-30-mars-2000-10444.htm,"ARRET N°171/P DU 30 MARS 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 14 avril 1989 par Maître Dzeukou Barthélemy, Avocat à Bafoussam ;
 Sur le second moyen de cassation préalable pris de la violation de la loi, violation de l'article 302 alinéa 1 du code pénal, ensemble l'article 51 du même code ;
 En ce que :
@@ -26,4 +28,4 @@ Et sans qu'il soit besoin d'examiner le premier moyen,
 CASSE ET ANNULE l'arrêt n°748/cor rendu le 24 avril 1987 par la Cour d'Appel de Bafoussam ;
 REMET en conséquence la cause et les parties au même et semblable état où elles étaient avant ladite décision et, pour être fait droit, les renvoie devant la même Cour d'Appel autrement composée ;
 RESERVE les dépens ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Bafoussam et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_171_P_DU_30_MARS_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'KENLIFACK MARIUS', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC ET DJOUMESSI EDOUARD', 'Judgment': 'ARRET N°171/P DU 30 MARS 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Bafoussam et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_171_P_DU_30_MARS_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'KENLIFACK MARIUS', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC ET DJOUMESSI EDOUARD', 'Judgment': 'ARRET N°171/P DU 30 MARS 2000'}"

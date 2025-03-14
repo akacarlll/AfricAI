@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-122-18-mai-2000-37511.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-122-18-mai-2000-37511.htm,"ARRET N° 122/S DU 18 MAI 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 18 mars 1993 par Maîtres Viazzi et autres, Avocats associés à Douala ;
 Sur le premier moyen de cassation pris de la violation de la loi, violation de l'article 5 de l'ordonnance n°72/4 du 26 août 1972, non-réponse aux conclusions équivalant à un défaut de motifs ;
 En ce que,
@@ -33,4 +35,4 @@ Attendu que ce moyen, sous le couvert de la violation de la loi tend en ses deux
 D'où il suit qu'il est irrecevable et que le pourvoi encourt le rejet;
 PAR CES MOTIFS
 REJETTE le pourvoi ;
-ORDONNE qu'à la diligence de Monsieur le Procureur General près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Littoral et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_122_S_DU_18_MAI_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'TAMO JEAN', 'Against': 'C/', 'Defendant': 'SOCIÉTÉ RENAULT', 'Judgment': 'ARRET N° 122/S DU 18 MAI 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur General près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Littoral et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_122_S_DU_18_MAI_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'TAMO JEAN', 'Against': 'C/', 'Defendant': 'SOCIÉTÉ RENAULT', 'Judgment': 'ARRET N° 122/S DU 18 MAI 2000'}"

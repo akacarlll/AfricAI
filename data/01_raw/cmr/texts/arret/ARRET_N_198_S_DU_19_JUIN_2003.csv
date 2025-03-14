@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-198-19-juin-2003-32813.htm,"L'an deux mille trois et le dix-neuf juin ;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-198-19-juin-2003-32813.htm,"ARRÊT N° 198/S DU 19 JUIN 2003
+
+L'an deux mille trois et le dix-neuf juin ;
 La Cour Suprême, statuant en matière de droit social ;
 En son audience publique ordinaire, a rendu l'arrêt dont la teneur suit :
 ENTRE:
@@ -36,4 +38,4 @@ Abraham TCHUENTE, Conseiller ;
 NOAH MENOUNGA Aimé, Conseiller ;
 En présence de Monsieur Christian MBALE Goethe, Avocat Général près la Cour Suprême, occupant le banc du Ministère Public ;
 Et avec l'assistance de Maître Justine ZELII FOKLA, Greffier-audiencier ;
-En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier ;",ARRET_N_198_S_DU_19_JUIN_2003,0,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': '', 'Appeal': 'Pourvoi n° 59/S/87-88 du 11 Avril 1987', 'Claimant': 'CEBEC', 'Against': 'C/', 'Defendant': 'KOUOKAM ABRAHAM', 'Judgment': 'ARRÊT N° 198/S DU 19 JUIN 2003'}"
+En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier ;",ARRET_N_198_S_DU_19_JUIN_2003,0,arret,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': '', 'Appeal': 'Pourvoi n° 59/S/87-88 du 11 Avril 1987', 'Claimant': 'CEBEC', 'Against': 'C/', 'Defendant': 'KOUOKAM ABRAHAM', 'Judgment': 'ARRÊT N° 198/S DU 19 JUIN 2003'}"

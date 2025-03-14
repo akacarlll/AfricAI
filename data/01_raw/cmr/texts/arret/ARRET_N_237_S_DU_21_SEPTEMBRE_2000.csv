@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-237-21-septembre-2000-37047.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-237-21-septembre-2000-37047.htm,"ARRET N° 237/S DU 21 SEPTEMBRE 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 12 juin 1992 par Maître Djuikom-Mobi, Avocat à Bafoussam ;
 Sur le moyen unique de cassation pris de la violation de la loi, violation de l'article 5 de l'ordonnance n°72/4 du 26 août 1972 — insuffisance de motifs - défaut de motifs - manque de base légale ;
 « En ce que l'arrêt confirmatif attaqué n'a pas répondu à tous les chefs de demande du sieur Fotso Emile ;
@@ -35,4 +37,4 @@ D'où il suit que celui-ci est autant non fondé qu'il manque en fait ;
 Attendu que l'arrêt attaqué est par ailleurs régulier ;
 PAR CES MOTIFS
 REJETTE le pourvoi ;
-ORDONNE qu'à diligence de Monsieur le Procureur Général de la Cour Suprême, le présent arrêt sera imprimé et transmis être transcrit sur les registres du Greffe de la Cour d'Appel de l'Ouest à Bafoussam et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_237_S_DU_21_SEPTEMBRE_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'FOTSO EMILE', 'Against': 'C/', 'Defendant': 'ETAT DU CAMEROUN', 'Judgment': 'ARRET N° 237/S DU 21 SEPTEMBRE 2000'}"
+ORDONNE qu'à diligence de Monsieur le Procureur Général de la Cour Suprême, le présent arrêt sera imprimé et transmis être transcrit sur les registres du Greffe de la Cour d'Appel de l'Ouest à Bafoussam et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_237_S_DU_21_SEPTEMBRE_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'FOTSO EMILE', 'Against': 'C/', 'Defendant': 'ETAT DU CAMEROUN', 'Judgment': 'ARRET N° 237/S DU 21 SEPTEMBRE 2000'}"

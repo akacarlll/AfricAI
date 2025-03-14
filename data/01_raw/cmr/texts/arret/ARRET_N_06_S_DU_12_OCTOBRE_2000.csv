@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-06-12-octobre-2000-37017.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-06-12-octobre-2000-37017.htm,"ARRET N° 06/S DU 12 OCTOBRE 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 06 novembre 1991 par Maître Sende, Avocat à Yaoundé ;
 Sur le deuxième moyen de cassation préalable, pris de la violation de la loi, violation du décret n°68/DF/338 du 26 août 1968 fixant le maximum pour exécution du jugement par provision avec dispense de caution ;
 En ce que,
@@ -18,4 +20,4 @@ PAR CES MOTIFS
 Et sans qu'il soit besoin d'examiner les autres moyens,
 CASSE ET ANNULE l'arrêt n°63/Soc rendu le 18 décembre 1990 par la Cour d'Appel du Centre à Yaoundé statuant en matière sociale ;
 REMET en conséquence la cause et les parties au même et semblable état où elles étaient avant ladite décision et, pour être fait droit, les renvoie devant la Cour d'Appel du Sud à Ebolowa ;
-ORDONNE qu'a diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Centre à Yaoundé et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_06_S_DU_12_OCTOBRE_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'COCAM', 'Against': 'C/', 'Defendant': 'YVES PAJOT', 'Judgment': 'ARRET N° 06/S DU 12 OCTOBRE 2000'}"
+ORDONNE qu'a diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Centre à Yaoundé et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_06_S_DU_12_OCTOBRE_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'COCAM', 'Against': 'C/', 'Defendant': 'YVES PAJOT', 'Judgment': 'ARRET N° 06/S DU 12 OCTOBRE 2000'}"

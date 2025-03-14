@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-14-civ-15-juillet-2010-8826.htm,"L'an deux mille dix et le quinze du mois de juillet ;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-14-civ-15-juillet-2010-8826.htm,"ARRET N° 14/CIV DU 15 JUILLET 2010
+
+L'an deux mille dix et le quinze du mois de juillet ;
 La Cour Suprême statuant en matière de droit civil ;
 En son audience publique de vacation a rendu l'arrêt dont la teneur suit :
 ENTRE:
@@ -69,4 +71,4 @@ En présence de Monsieur Raymond Landry BOUELET, Avocat Général, occupant le b
 Et avec l'assistance de Maître Appolinaire KOE AMOUGOU, Greffier ;
 En foi de quoi, le présent arrêt a été signé par le Président, les Conseillers et le Greffier ;
 -Approuvant mot rayé nul
-LE PRESIDENT, LES CONSEILLERS, LE GREFFIER.-",ARRET_N_14_CIV_DU_15_JUILLET_2010,0,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION CIVILE', 'Case': 'DOSSIER N° 39/Civ/08', 'Appeal': 'POURVOI N° 32 du 22 novembre 2006', 'Claimant': ""SOCIÉTÉ AFRICAINE D'ASSURANCE ET DE RÉASSURANCES (SAAR) SA"", 'Against': 'C/', 'Defendant': 'AYANTS DROIT DE NGOME DAVID NJUME M', 'Judgment': 'ARRET N° 14/CIV DU 15 JUILLET 2010'}"
+LE PRESIDENT, LES CONSEILLERS, LE GREFFIER.-",ARRET_N_14_CIV_DU_15_JUILLET_2010,0,arret,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION CIVILE', 'Case': 'DOSSIER N° 39/Civ/08', 'Appeal': 'POURVOI N° 32 du 22 novembre 2006', 'Claimant': ""SOCIÉTÉ AFRICAINE D'ASSURANCE ET DE RÉASSURANCES (SAAR) SA"", 'Against': 'C/', 'Defendant': 'AYANTS DROIT DE NGOME DAVID NJUME M', 'Judgment': 'ARRET N° 14/CIV DU 15 JUILLET 2010'}"

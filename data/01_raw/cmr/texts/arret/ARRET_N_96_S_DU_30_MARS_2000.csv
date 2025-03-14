@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-96-30-mars-2000-37123.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-96-30-mars-2000-37123.htm,"ARRET N° 96/S DU 30 MARS 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 28 septembre 1992 par Maître Dzeukou Barthélemy, Avocat à Bafoussam ;
 Sur le second moyen de cassation préalable amendé, pris de la violation de la loi, violation et mauvaise application des articles 41 (5) du Code du travail et 22 de la Convention collective nationale du bâtiment et des activités annexes ;
 En ce que l'arrêt attaqué a alloué une indemnité de licenciement prévue par l'article 41 (5) du Code susvisé, au défendeur au pourvoi, Djoumessi Dieudonné, qui n'a été dans les services du demandeur au pourvoi que pendant une période d'environ une année et demie, alors que pour qualifier (sic) au bénéfice de cette indemnité, le travailleur doit en vertu de l'article 22 de la Convention susvisée, avoir accompli dans l'entreprise une durée de service continue au moins égale trois ans ;
@@ -21,4 +23,4 @@ PAR CES MOTIFS
 Et sans qu'il soit besoin d'examiner l'autre moyen proposé,
 CASSE ET ANNULE l'arrêt n°39/Soc rendu le 1er septembre 1988 par la Cour d'Appel de Bafoussam ;
 REMET en conséquence la cause et les parties au même et semblable état où elles étaient avant ladite décision et, pour être fait droit, les renvoie devant la Cour d'Appel d'Ebolowa;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de l'Ouest à Bafoussam et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_96_S_DU_30_MARS_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'FONDJO EMMANUEL', 'Against': 'C/', 'Defendant': 'DJOUMESSI DIEUDONNÉ', 'Judgment': 'ARRET N° 96/S DU 30 MARS 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de l'Ouest à Bafoussam et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_96_S_DU_30_MARS_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'FONDJO EMMANUEL', 'Against': 'C/', 'Defendant': 'DJOUMESSI DIEUDONNÉ', 'Judgment': 'ARRET N° 96/S DU 30 MARS 2000'}"

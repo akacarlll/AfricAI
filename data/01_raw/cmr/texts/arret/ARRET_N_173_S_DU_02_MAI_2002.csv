@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-173-02-mai-2002-32807.htm,"L'an deux mille deux et le deux mai ;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-173-02-mai-2002-32807.htm,"ARRÊT N° 173/S DU 02 MAI 2002
+
+L'an deux mille deux et le deux mai ;
 La Cour Suprême statuant en matière de droit social ;
 En son audience publique ordinaire a rendu l'arrêt dont la teneur suit :
 ENTRE :
@@ -37,4 +39,4 @@ George GWANMESIA, Conseiller
 Abraham TCHUENTE, Conseiller
 En présence de Monsieur Jacob JEATSA, Avocat Général occupant le banc du Ministère Public ;
 Et avec l'assistance de Maître Jean Robert GUIONKOIN, Greffier ;
-En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier ;",ARRET_N_173_S_DU_02_MAI_2002,0,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': '', 'Appeal': 'Pourvoi n° 137/S/87-88 du 30 Octobre 1987', 'Claimant': ""FONDS D'AIDE ET DE GARANTIE DES CRÉDITS AUX PETITES ET MOYENNES ENTREPRISES (FOGAPE)"", 'Against': 'C/', 'Defendant': 'SAMBA ALOMA', 'Judgment': 'ARRÊT N° 173/S DU 02 MAI 2002'}"
+En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier ;",ARRET_N_173_S_DU_02_MAI_2002,0,arret,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': '', 'Appeal': 'Pourvoi n° 137/S/87-88 du 30 Octobre 1987', 'Claimant': ""FONDS D'AIDE ET DE GARANTIE DES CRÉDITS AUX PETITES ET MOYENNES ENTREPRISES (FOGAPE)"", 'Against': 'C/', 'Defendant': 'SAMBA ALOMA', 'Judgment': 'ARRÊT N° 173/S DU 02 MAI 2002'}"

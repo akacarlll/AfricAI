@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-274-21-aout-2003-32815.htm,"L'an deux mille trois et le vingt et un août ;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-274-21-aout-2003-32815.htm,"ARRÊT N° 274/S DU 21 AOÛT 2003
+
+L'an deux mille trois et le vingt et un août ;
 La Cour Suprême statuant en matière de droit social ;
 En son audience publique ordinaire a rendu l'arrêt dont la teneur suit :
 ENTRE:
@@ -99,4 +101,4 @@ S. BISSOMBI, Conseiller
 C. ATANGANA, Conseiller
 En présence de Monsieur BOUELET Raymond Landry, Avocat Général, occupant le banc du Ministère Public ;
 Et avec l'assistance de Maître GUIONKOIN Jean Robert, Greffier ;
-En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier ;",ARRET_N_274_S_DU_21_AOUT_2003,0,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': '', 'Appeal': 'Pourvoi n° 43/S/98-99 du 2 Octobre 1998', 'Claimant': 'COMPAGNIE AIR FRANCE', 'Against': 'C/', 'Defendant': 'DAME EKWALLA ESSAKA', 'Judgment': 'ARRÊT N° 274/S DU 21 AOÛT 2003'}"
+En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier ;",ARRET_N_274_S_DU_21_AOUT_2003,0,arret,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': '', 'Appeal': 'Pourvoi n° 43/S/98-99 du 2 Octobre 1998', 'Claimant': 'COMPAGNIE AIR FRANCE', 'Against': 'C/', 'Defendant': 'DAME EKWALLA ESSAKA', 'Judgment': 'ARRÊT N° 274/S DU 21 AOÛT 2003'}"

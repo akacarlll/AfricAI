@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/loi-64-lf-12-26-juin-1964-16341.htm,"L'Assemblée Nationale Fédérale a délibéré et adopté ;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/loi-64-lf-12-26-juin-1964-16341.htm,"LOI N° 64-LF-12 DU 26 JUIN 1964 - RELATIVE A LA CONFISCATION
+
+L'Assemblée Nationale Fédérale a délibéré et adopté ;
 Le Président de la République promulgue la loi dont la teneur suit :
 Art. 1er —  Sont abrogés les articles 37, 38 et 39 du Code pénal du Cameroun oriental.
 Art. 2 —  Le tribunal militaire qui, en application de l'Article 13 de l'ordonnance n°61-OF-4 du 4 octobre 1961 sur l'organisation judiciaire militaire de l'Etat, modifié par la loi n°63-30 du 25 octobre 1963, prononce la peine de la confiscation, doit obligatoirement désigner un tribunal de première instance pour connaître de tous les litiges se rapportant à l'exécution de cette peine.
@@ -44,4 +46,4 @@ L'action sera portée devant le tribunal visé à l'Article 2 de la présente lo
 Art. 20 —  Les dispositions qui précèdent sont applicables aux mesures de confiscation déjà prononcées en exécution de la loi précitée du 25 octobre 1963.
 Art. 21 —  La présente loi, qui sera enregistrée et publiée au Journal officiel, en français et en anglais, sera exécutée comme loi de la République fédérale du Cameroun.
 Yaoundé, le 26 juin 1964.
-Ahmadou Ahidjo.",LOI_N_64_LF_12_DU_26_JUIN_1964_RELATIVE_A_LA_CONFISCATION,0,
+Ahmadou Ahidjo.",LOI_N_64_LF_12_DU_26_JUIN_1964_RELATIVE_A_LA_CONFISCATION,0,loi,

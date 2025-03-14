@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-181-29-decembre-2011-32809.htm,"L'an deux mille onze et le quinze du mois de décembre ;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-181-29-decembre-2011-32809.htm,"ARRÊT N° 181/S DU 29 DÉCEMBRE 2011
+
+L'an deux mille onze et le quinze du mois de décembre ;
 La Cour Suprême statuant en matière de droit social ;
 En son audience publique ordinaire, a rendu l'arrêt dont la teneur suit :
 ENTRE:
@@ -63,4 +65,4 @@ NJIEMOUN MAMA, Conseiller
 Goethe Christian MBALE, Conseiller
 En présence de Monsieur EGBE ACHUO Martin Hilman, Avocat Général, occupant le banc du Ministère Public ;
 Et avec l'assistance de Maître Margaret MUSONGO, Greffier ;
-En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier",ARRET_N_181_S_DU_29_DECEMBRE_2011,0,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': 'DOSSIER N° 90/S/07', 'Appeal': 'Pourvoi n° 44/CGA/DLA du 15 mars 2007', 'Claimant': 'PORT AUTONOME DE DOUALA (P.A.D.)', 'Against': 'C/', 'Defendant': 'MODI MARTIN ET LE COLLECTIF DES MARINS', 'Judgment': 'ARRÊT N° 181/S DU 29 DÉCEMBRE 2011'}"
+En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier",ARRET_N_181_S_DU_29_DECEMBRE_2011,0,arret,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': 'DOSSIER N° 90/S/07', 'Appeal': 'Pourvoi n° 44/CGA/DLA du 15 mars 2007', 'Claimant': 'PORT AUTONOME DE DOUALA (P.A.D.)', 'Against': 'C/', 'Defendant': 'MODI MARTIN ET LE COLLECTIF DES MARINS', 'Judgment': 'ARRÊT N° 181/S DU 29 DÉCEMBRE 2011'}"

@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-66-cc-18-mai-2000-10892.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-66-cc-18-mai-2000-10892.htm,"ARRET N°66/CC DU 18 MAI 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 19 mai 1995 par Maître Kuemo, Avocat à Yaoundé ;
 Sur le moyen unique de cassation pris en ses quatre branches et ainsi présenté :
 «Les moyens proposés au soutien de ce pourvoi sont ceux pris de la violation des articles 39 du code de procédure civile et commerciale, article 5 de l'ordonnance n°72/4 du 26 août 1972, non reproduction des conclusions des parties, non réponse à conclusions équivalant à un défaut de motifs, ensemble violation des articles 407 du code de procédure civile et commerciale, article 3 du code d'instruction criminelle et article 12 de l'ordonnance n°89/019 du 29 décembre 1989 ;
@@ -29,4 +31,4 @@ D'où il suit que le moyen manque en fait et que le pourvoi encourt le rejet ;
 PAR CES MOTIFS
 REJETTE le pourvoi ;
 CONDAMNE le demandeur aux dépens ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Yaoundé et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_66_CC_DU_18_MAI_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Civile et Commerciale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'DJOMO MARCEL', 'Against': 'C/', 'Defendant': 'SOCIÉTÉ GÉNÉRALE DE BANQUES AU CAMEROUN', 'Judgment': 'ARRET N°66/CC DU 18 MAI 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Yaoundé et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_66_CC_DU_18_MAI_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Civile et Commerciale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'DJOMO MARCEL', 'Against': 'C/', 'Defendant': 'SOCIÉTÉ GÉNÉRALE DE BANQUES AU CAMEROUN', 'Judgment': 'ARRET N°66/CC DU 18 MAI 2000'}"

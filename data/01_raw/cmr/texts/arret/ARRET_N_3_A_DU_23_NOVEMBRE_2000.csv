@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-3-23-novembre-2000-11854.htm,"L'Assemblée Plénière de la Cour suprême ;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-3-23-novembre-2000-11854.htm,"ARRET N°3/A DU 23 NOVEMBRE 2000
+
+L'Assemblée Plénière de la Cour suprême ;
 Vu le mémoire déposé le 14 juillet 1988 au greffe de la Cour suprême par Maître Atangana, Avocat à Yaoundé;
 Vu l'article 12 (3-a) de l'ordonnance n°72/6 du 26 août 1972 fixant l'organisation de la Cour suprême, modifiée par la loi n°76/28 du 14 décembre 1976 ;
 Considérant que par lettre en date du 29 mars 1985 reçue et enregistrée au greffe de la Chambre Administrative de la Cour suprême le 22 avril 1985 sous le n°716, Monsieur Atangana Ntonga Sylvestre et autres ont interjeté appel contre le jugement n°67/84-85 rendu le 14 mars 1985 dans la cause opposant Atangana Ntonga Sylvestre, Etoundi Faustin et Onambele Benjamin à l'Etat du Cameroun (MINFI) et qui a décidé :
@@ -56,4 +58,4 @@ Statuant publiquement, contradictoirement en matière administrative et à l'una
 DECIDE :
 Article 1er : Le recours de Atangana Ntonga Sylvestre et consorts est recevable en la forme ;
 Article 2 : Ledit recours n'est pas fondé et le jugement entrepris est confirmé ;
-Article 3 : Les recourants sont condamnés aux dépens.",ARRET_N_3_A_DU_23_NOVEMBRE_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Administrative', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'ATANGANA NTONGA SYLVESTRE ET CONSORTS', 'Against': 'C/', 'Defendant': ""L'ETAT DU CAMEROUN (MINFI)"", 'Judgment': 'ARRET N°3/A DU 23 NOVEMBRE 2000'}"
+Article 3 : Les recourants sont condamnés aux dépens.",ARRET_N_3_A_DU_23_NOVEMBRE_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Administrative', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'ATANGANA NTONGA SYLVESTRE ET CONSORTS', 'Against': 'C/', 'Defendant': ""L'ETAT DU CAMEROUN (MINFI)"", 'Judgment': 'ARRET N°3/A DU 23 NOVEMBRE 2000'}"

@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-404-p-30-decembre-1999-9484.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-404-p-30-decembre-1999-9484.htm,"ARRET N°404/P DU 30 DECEMBRE 1999
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 25 mars 1988 par Maître Dzeukou Barthélémy, Avocat à Bafoussam ;
 Sur le moyen unique de cassation pris de la violation de l'article 5 de l'ordonnance n°72/4 du 26 août 1972, insuffisance de motifs, défaut de motifs ;
 En ce que le juge d'appel pour allouer diverses sommes à titre de dommages-intérêts aux parties civiles affirme que les sommes allouées par le premier juge ne sont nullement exorbitantes contrairement aux allégations du prévenu ;
@@ -22,4 +24,4 @@ PAR CES MOTIFS
 CASSE ET ANNULE l'arrêt n°605 rendu le 6 juin 1986 par la Cour d'Appel de Bafoussam ;
 REMET en conséquence la cause et les parties au même et semblable état où elles étaient avant ledit arrêt et, pour être fait droit, les renvoie devant la Cour d'Appel d'Ebolowa ;
 RESERVE les dépens ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de l'Ouest et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_404_P_DU_30_DECEMBRE_1999,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'KAMBOU FÉLIX', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC, SADIE JEAN ET KAKABI GODEFROY', 'Judgment': 'ARRET N°404/P DU 30 DECEMBRE 1999'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de l'Ouest et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_404_P_DU_30_DECEMBRE_1999,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'KAMBOU FÉLIX', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC, SADIE JEAN ET KAKABI GODEFROY', 'Judgment': 'ARRET N°404/P DU 30 DECEMBRE 1999'}"

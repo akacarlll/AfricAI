@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-10-p-12-octobre-2000-8961.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-10-p-12-octobre-2000-8961.htm,"ARRET N°10/P DU 12 OCTOBRE 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 5 juillet 1990 par Maître Barthélemy Dzeukou, Avocat à Bafoussam ;
 Sur le moyen de cassation soulevé d'office pris de la violation de la loi, violation de l'article 63 de l'ordonnance n°59/100 du 31 décembre 1959, portant prévention et réparation des accidents du travail, manque de base légale ;
 En ce que,
@@ -14,4 +16,4 @@ PAR CES MOTIFS
 CASSE ET ANNULE l'arrêt n°180/cor rendu le 15 novembre 1988 par la Cour d'Appel de l'Ouest ;
 REMET en conséquence la cause et les parties au même et semblable état où elles étaient avant ladite décision et, pour être fait droit, les renvoie devant la Cour d'Appel du Sud ;
 RESERVE les dépens ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe la Cour d'Appel de l'Ouest et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_10_P_DU_12_OCTOBRE_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'TAIKENG GASTON ET FONDATION AD LUCEM', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC, GOUSSIKENDEY, MARIODJO ELISABETH', 'Judgment': 'ARRET N°10/P DU 12 OCTOBRE 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe la Cour d'Appel de l'Ouest et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_10_P_DU_12_OCTOBRE_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'TAIKENG GASTON ET FONDATION AD LUCEM', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC, GOUSSIKENDEY, MARIODJO ELISABETH', 'Judgment': 'ARRET N°10/P DU 12 OCTOBRE 2000'}"

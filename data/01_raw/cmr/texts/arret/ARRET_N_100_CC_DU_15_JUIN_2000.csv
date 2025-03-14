@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-100-cc-15-juin-2000-10765.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-100-cc-15-juin-2000-10765.htm,"ARRET N°100/CC DU 15 JUIN 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 11 octobre 1999 par le Procureur Général près la Cour suprême, agissant sur ordre de Monsieur le Ministre de la Justice, Garde des Sceaux ;
 Sur le moyen unique de cassation pris de la violation de la loi, violation de l'article 5 de l'ordonnance n°72/4 du 26 août 1972 — insuffisance de motifs — défaut de motifs;
 En ce que,
@@ -23,4 +25,4 @@ Sur le pourvoi d'ordre,
 CASSE ET ANNULE, sans renvoi, l'arrêt n°344/DE rendu le 25 août 1999 par la Cour d'Appel du Littoral ;
 Sur les défenses à exécution,
 REJETTE la demande des Etablissements Eken ; Laisse les dépens à la charge du Trésor Public ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Littoral et que mention en sera faite en marge ou à la suite de la décision dont pourvoi.",ARRET_N_100_CC_DU_15_JUIN_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Civile et Commerciale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'PROCUREUR GÉNÉRAL PRÈS LA COUR SUPRÊME-ETS EKEN', 'Against': 'C/', 'Defendant': 'SOCIÉTÉ SELCAM', 'Judgment': 'ARRET N°100/CC DU 15 JUIN 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Littoral et que mention en sera faite en marge ou à la suite de la décision dont pourvoi.",ARRET_N_100_CC_DU_15_JUIN_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Civile et Commerciale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'PROCUREUR GÉNÉRAL PRÈS LA COUR SUPRÊME-ETS EKEN', 'Against': 'C/', 'Defendant': 'SOCIÉTÉ SELCAM', 'Judgment': 'ARRET N°100/CC DU 15 JUIN 2000'}"

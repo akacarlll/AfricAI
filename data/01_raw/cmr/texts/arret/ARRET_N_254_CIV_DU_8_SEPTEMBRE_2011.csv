@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-254-civ-8-septembre-2011-8791.htm,"L'an deux mille onze et le huit du mois de septembre ;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-254-civ-8-septembre-2011-8791.htm,"ARRET N° 254/CIV DU 8 SEPTEMBRE 2011
+
+L'an deux mille onze et le huit du mois de septembre ;
 La Cour Suprême, Chambre Judiciaire, Section Civile, siégeant au Palais de Justice de Yaoundé ;
 A rendu en audience publique de vacation, l'arrêt dont la teneur suit
 ENTRE :
@@ -39,4 +41,4 @@ En présence de Monsieur EGBE ACHUO Martin Hilman, Avocat Général occupant le 
 Et avec l'assistance de Maître Virginie ESSAMA, Greffier ,
 En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier ;
 Approuvant mot rayé nul ;
-LE PRESIDENT, LES CONSEILLERS, LE GREFFIER.-",ARRET_N_254_CIV_DU_8_SEPTEMBRE_2011,0,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION CIVILE', 'Case': 'Dossier n° 107/Civ/08', 'Appeal': 'Pourvoi 02 du 25 juillet 2008', 'Claimant': 'PLACAM SARL', 'Against': 'C/', 'Defendant': 'SOCIÉTÉ SAFE SARL', 'Judgment': 'ARRET N° 254/CIV DU 8 SEPTEMBRE 2011'}"
+LE PRESIDENT, LES CONSEILLERS, LE GREFFIER.-",ARRET_N_254_CIV_DU_8_SEPTEMBRE_2011,0,arret,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION CIVILE', 'Case': 'Dossier n° 107/Civ/08', 'Appeal': 'Pourvoi 02 du 25 juillet 2008', 'Claimant': 'PLACAM SARL', 'Against': 'C/', 'Defendant': 'SOCIÉTÉ SAFE SARL', 'Judgment': 'ARRET N° 254/CIV DU 8 SEPTEMBRE 2011'}"

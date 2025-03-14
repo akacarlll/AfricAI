@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-215-p-25-mai-2000-10691.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-215-p-25-mai-2000-10691.htm,"ARRET N°215/P DU 25 MAI 2000
+
+LA COUR,
 Sur le pourvoi de Kamkuigni Michel ;
 Vu l'article 13 (2) de la loi n°75/16 du 8 décembre 1975 fixant la procédure et le fonctionnement de la Cour suprême ;
 Attendu que par déclaration faite au greffe de la Cour d'Appel de Bafoussam le 30 août 1988, Kamkuigni Michel s'est pourvu en cassation contre l'arrêt n°114/Cr rendu le 29 août 1988 par la Cour susindiquée en matière criminelle dans la cause qui l'oppose à l'Etat du Cameroun et à la Commune rurale de Bafoussam ;
@@ -71,4 +73,4 @@ DECLARE Kamkuigni déchu de son pourvoi pour défaut de constitution d'Avocat ;
 Sur le pourvoi de Feuza Félix ;
 REJETTE le pourvoi ;
 CONDAMNE les demandeurs aux dépens ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de l'Ouest et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_215_P_DU_25_MAI_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'KAMKUIGNI MICHEL, FEUZA FÉLIX', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC, ETAT DU CAMEROUN ET KANKEU ZACHARIE', 'Judgment': 'ARRET N°215/P DU 25 MAI 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de l'Ouest et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_215_P_DU_25_MAI_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'KAMKUIGNI MICHEL, FEUZA FÉLIX', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC, ETAT DU CAMEROUN ET KANKEU ZACHARIE', 'Judgment': 'ARRET N°215/P DU 25 MAI 2000'}"

@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/loi-1990-56051.htm,"L'Assemblée Nationale a délibéré et adopté, Le président de la République promulgue la loi dont la teneur suit :
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/loi-1990-56051.htm,"LOI DE 1990 SUR LA COMMUNICATION SOCIALE AU CAMEROUN
+
+L'Assemblée Nationale a délibéré et adopté, Le président de la République promulgue la loi dont la teneur suit :
 TITRE I DISPOSITIONS GÉNÉRALES
 Art. premier —  La liberté de presse garantie par la constitution s'exerce dans le cadre des dispositions de la présente loi.
 Art. 2 —  (1) La présente loi s'applique à toutes les formes et à tous les modes de communication sociale, notamment à l'imprimerie, à la librairie, aux organes de presse, aux entreprises éditrices, aux entreprises de distribution, à l'affichage et aux entreprises de communication audiovisuelle.
@@ -198,4 +200,4 @@ Art. 88 —  Il est créé un Conseil national de la communication dont l'organi
 Art. 89 —  Sont abrogées toutes dispositions antérieures contraire à la présente loi, notamment les lois du 29 juillet 1981 sur la liberté de presse, N66/LF/18 du 21 décembre 1966 sur la presse et ses modificatifs; N87/019 du 17 décembre 1987 fixant le régime de la communication audiovisuelle au Cameroun.
 Art. 90 —  La présente loi sera enregistrée, publiée selon la procédure d'urgence, puis insérée au Journal officiel en français et en anglais
 LE PRÉSIDENT DE LA RÉPUBLIQUE
-PAUL BIYA",LOI_DE_1990_SUR_LA_COMMUNICATION_SOCIALE_AU_CAMEROUN,0,
+PAUL BIYA",LOI_DE_1990_SUR_LA_COMMUNICATION_SOCIALE_AU_CAMEROUN,0,loi,

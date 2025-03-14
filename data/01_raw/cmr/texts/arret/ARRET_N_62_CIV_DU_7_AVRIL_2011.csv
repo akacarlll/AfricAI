@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-62-civ-7-avril-2011-8806.htm,"L'an deux mille onze et le sept du mois d'avril ;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-62-civ-7-avril-2011-8806.htm,"ARRET N° 62/CIV DU 7 AVRIL 2011
+
+L'an deux mille onze et le sept du mois d'avril ;
 La Cour Suprême, Chambre Judiciaire, Section Civile, siégeant au Palais de Justice de Yaoundé ;
 A rendu en audience publique ordinaire, l'arrêt dont la teneur suit :
 ENTRE :
@@ -62,4 +64,4 @@ André BELOMBE, Conseiller
 En présence de Monsieur EGBE ACHUO Martin Hilman, Avocat Général occupant le banc du Ministère Public ;
 Et avec l'assistance de Maître Edwige ESSAMA, Greffier ; En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier ;
 Approuvant mot rayé nul ;
-LE PRESIDENT, LES CONSEILLERS, LE GREFFIER.-",ARRET_N_62_CIV_DU_7_AVRIL_2011,0,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION CIVILE', 'Case': 'Dossier n° 81/Civ/94-95', 'Appeal': 'Pourvoi du 19 mars 1993', 'Claimant': 'SUCCESSION DE FEU NGAKO ANSELME', 'Against': 'C/', 'Defendant': 'BICIC', 'Judgment': 'ARRET N° 62/CIV DU 7 AVRIL 2011'}"
+LE PRESIDENT, LES CONSEILLERS, LE GREFFIER.-",ARRET_N_62_CIV_DU_7_AVRIL_2011,0,arret,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION CIVILE', 'Case': 'Dossier n° 81/Civ/94-95', 'Appeal': 'Pourvoi du 19 mars 1993', 'Claimant': 'SUCCESSION DE FEU NGAKO ANSELME', 'Against': 'C/', 'Defendant': 'BICIC', 'Judgment': 'ARRET N° 62/CIV DU 7 AVRIL 2011'}"

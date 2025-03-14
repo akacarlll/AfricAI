@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-94-30-mars-2000-37951.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-94-30-mars-2000-37951.htm,"ARRET N° 94/S DU 30 MARS 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 4 mai 1990 par Maître Alix Betayene, Avocat à Yaoundé ;
 Sur le moyen unique de cassation, pris de la violation de la loi ; violation de l'article 5 de l'ordonnance n°72/4 du 26 août 1972, Non-réponse aux conclusions - dénaturation des faits et éléments de la cause. Défaut de motifs - manque de base légale ;
 « En ce qu'il ne ressort nullement du dossier, des pièces et des témoignages recueillis qu'Alima avait été autorisé à s'absenter avec le camion de la Société, ni que l'absence avait été autorisée pour davantage qu'un court moment, alors que le premier juge dont les motifs sont adoptés énonce que si une absence injustifiée peut conférer au licenciement un caractère légitime, il en est autrement dans le cas d'espèce oit le demandeur ayant appris que ses enfants étaient souffrants à la maison, a sollicité et obtenu de son supérieur hiérarchique une courte permission d'absence ;
@@ -25,4 +27,4 @@ Attendu que tel qu'il est développé, le moyen au demeurant mélangé de faits 
 D'où, il suit que le moyen est irrecevable et que le pourvoi encourt le rejet ;
 PAR CES MOTIFS
 REJETTE le pourvoi ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Yaoundé et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_94_S_DU_30_MARS_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': ""SOCIÉTÉ CAMEROUNAISE DES GRANDS TRAVAUX DE L'EST"", 'Against': 'C/', 'Defendant': 'ALIMA CHRISTOPHE', 'Judgment': 'ARRET N° 94/S DU 30 MARS 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Yaoundé et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_94_S_DU_30_MARS_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': ""SOCIÉTÉ CAMEROUNAISE DES GRANDS TRAVAUX DE L'EST"", 'Against': 'C/', 'Defendant': 'ALIMA CHRISTOPHE', 'Judgment': 'ARRET N° 94/S DU 30 MARS 2000'}"

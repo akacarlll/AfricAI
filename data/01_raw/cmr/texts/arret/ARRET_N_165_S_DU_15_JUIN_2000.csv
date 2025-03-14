@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-165-15-juin-2000-36943.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-165-15-juin-2000-36943.htm,"ARRET N° 165/S DU 15 JUIN 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 7 avril 1997 par Maître Ekani Denis, Avocat à Yaoundé, désigné d'office ;
 Sur le moyen unique de cassation pris en sa première branche de la violation de la loi, violation du principe de la non rétroactivité de la loi ;
 En ce que,
@@ -32,4 +34,4 @@ PAR CES MOTIFS
 Et sans qu'il soit besoin d'examiner la seconde branche du moyen,
 CASSE ET ANNULE l'arrêt n°02/S rendu le 26 octobre 1994 par la Cour d'Appel du Littoral ;
 REMET en conséquence la cause et les parties au même et semblable état où elles étaient avant ladite décision et, pour être fait droit, les renvoie devant la Cour d'Appel de l'Ouest ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Littoral et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_165_S_DU_15_JUIN_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'MUCHIVE ISAAC', 'Against': 'C/', 'Defendant': 'SOCIÉTÉ CAMEROUNAISE DE MINOTERIE', 'Judgment': 'ARRET N° 165/S DU 15 JUIN 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Littoral et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_165_S_DU_15_JUIN_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'MUCHIVE ISAAC', 'Against': 'C/', 'Defendant': 'SOCIÉTÉ CAMEROUNAISE DE MINOTERIE', 'Judgment': 'ARRET N° 165/S DU 15 JUIN 2000'}"

@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-54-civ-10-septembre-2009-8831.htm,"L'an deux mille neuf et le dix du mois de septembre ;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-54-civ-10-septembre-2009-8831.htm,"ARRET: N° 54/CIV DU 10 SEPTEMBRE 2009
+
+L'an deux mille neuf et le dix du mois de septembre ;
 La Cour Suprême statuant en matière de droit civil ;
 En son audience publique de vacation a rendu l'arrêt dont la teneur suit :
 ENTRE:
@@ -64,4 +66,4 @@ Jugt. N° 24 du 6/10/1995
 -Arrêt N° 54/Civ du 10/9/2009: 34 600 -Timbres sur 2 expéd.
 dudit arrêt 16 000
 frais de greffe 3 000
-3 34 650",ARRET_N_54_CIV_DU_10_SEPTEMBRE_2009,0,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION CIVILE', 'Case': '', 'Appeal': 'POURVOI N° 106/CC/99-2000', 'Claimant': 'AFFFAIRE: TIANI FIDÈLE', 'Against': 'C/', 'Defendant': ""MÉRIDIEN BIAO ET LA SOCIÉTÉ CIVILE IMMOBILIÈRE DE L'ATLANTIQUE (S.C.I.A)"", 'Judgment': 'ARRET: N° 54/CIV DU 10 SEPTEMBRE 2009'}"
+3 34 650",ARRET_N_54_CIV_DU_10_SEPTEMBRE_2009,0,arret,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION CIVILE', 'Case': '', 'Appeal': 'POURVOI N° 106/CC/99-2000', 'Claimant': 'AFFFAIRE: TIANI FIDÈLE', 'Against': 'C/', 'Defendant': ""MÉRIDIEN BIAO ET LA SOCIÉTÉ CIVILE IMMOBILIÈRE DE L'ATLANTIQUE (S.C.I.A)"", 'Judgment': 'ARRET: N° 54/CIV DU 10 SEPTEMBRE 2009'}"

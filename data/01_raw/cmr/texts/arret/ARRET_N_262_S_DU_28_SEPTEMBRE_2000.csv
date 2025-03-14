@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-262-28-septembre-2000-37053.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-262-28-septembre-2000-37053.htm,"ARRET N° 262/S DU 28 SEPTEMBRE 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 05 décembre 1994 par Maître Happi Dieudonné, Avocat à Maroua ;
 Sur le moyen unique de cassation pris de la violation de la loi, violation de l'article 5 de l'ordonnance n°72/4 du 26 août 1972, ensemble violation des règles de droit privé judiciaire ;
 En ce que,
@@ -18,4 +20,4 @@ Qu'en infirmant le jugement déféré sur ce point du litige, et en énonçant c
 D'où il suit que le moyen n'est pas fondé et que le pourvoi encourt le rejet ;
 PAR CES MOTIFS
 REJETTE le pourvoi ;
-ORDONNE qu'à diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de l'Extrême-Nord à Maroua et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_262_S_DU_28_SEPTEMBRE_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'MEKOLO NGATSALA CHRISTOPHE', 'Against': 'C/', 'Defendant': 'CAISSE NATIONALE DE PRÉVOYANCE SOCIALE', 'Judgment': 'ARRET N° 262/S DU 28 SEPTEMBRE 2000'}"
+ORDONNE qu'à diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de l'Extrême-Nord à Maroua et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_262_S_DU_28_SEPTEMBRE_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'MEKOLO NGATSALA CHRISTOPHE', 'Against': 'C/', 'Defendant': 'CAISSE NATIONALE DE PRÉVOYANCE SOCIALE', 'Judgment': 'ARRET N° 262/S DU 28 SEPTEMBRE 2000'}"

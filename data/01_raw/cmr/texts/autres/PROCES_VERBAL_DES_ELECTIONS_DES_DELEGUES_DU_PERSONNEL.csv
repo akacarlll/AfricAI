@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/proces-verbal-48227.htm,"Région : -
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/proces-verbal-48227.htm,"PROCES-VERBAL DES ELECTIONS DES DELEGUES DU PERSONNEL
+
+Région : -
 Département : -
 Ville : -
 Lieu : -
@@ -407,4 +409,4 @@ Signatures
 
 
 
-Date et cachet de l'entreprise(Le cachet doit être apposé sur chaque page du Procès-Verbal)",PROCES_VERBAL_DES_ELECTIONS_DES_DELEGUES_DU_PERSONNEL,0,
+Date et cachet de l'entreprise(Le cachet doit être apposé sur chaque page du Procès-Verbal)",PROCES_VERBAL_DES_ELECTIONS_DES_DELEGUES_DU_PERSONNEL,0,autres,

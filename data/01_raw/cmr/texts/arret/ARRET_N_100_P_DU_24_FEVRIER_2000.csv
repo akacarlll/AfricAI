@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-100-p-24-fevrier-2000-9084.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-100-p-24-fevrier-2000-9084.htm,"ARRET N°100/P DU 24 FEVRIER 2000
+
+LA COUR,
 Vu le mémoire ampliatif posté le 5 septembre 1990 par Maître Dzeukou Barthélemy, Avocat à Bafoussam ;
 Sur le second moyen préalable de cassation amendé, pris de la violation de l'article 5 de l'ordonnance n°72/4 du 26 août 1972, insuffisance et défaut de motifs ;
 En ce que :
@@ -16,4 +18,4 @@ Et sans qu'il soit besoin d'examiner le premier moyen,
 CASSE ET ANNULE l'arrêt n°670/P rendu le 22 mars 1988 par la Cour d'Appel de l'Ouest ;
 REMET en conséquence la cause et les parties au même et semblable état où elles étaient avant ladite décision et, pour être fait droit, les renvoie devant la même Cour d'Appel autrement composée ;
 RESERVE les dépens ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de l'Ouest à Bafoussam et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_100_P_DU_24_FEVRIER_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'SANDJONG JEAN', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC ET TOKOUA JEANNE', 'Judgment': 'ARRET N°100/P DU 24 FEVRIER 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de l'Ouest à Bafoussam et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_100_P_DU_24_FEVRIER_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'SANDJONG JEAN', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC ET TOKOUA JEANNE', 'Judgment': 'ARRET N°100/P DU 24 FEVRIER 2000'}"

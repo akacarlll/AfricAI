@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-95-30-mars-2000-37270.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-95-30-mars-2000-37270.htm,"ARRET N° 95/S DU 30 MARS 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 21 juin 1996 par Maître Ninine à Douala ;
 Sur le moyen de cassation soulevé d'office pris de la violation de la loi, violation de l'article 162 (1) du Code du travail - recevabilité de l'appel tardif ;
 En ce que la Cour d'Appel du Littoral à Douala a déclaré l'appel de la Cogefar, interjeté par télégramme du 21 juillet 1983 recevable alors que le jugement entrepris était rendu contradictoirement à l'égard de toutes les parties le 15 juin 1983 ;
@@ -12,4 +14,4 @@ PAR CES MOTIFS
 Et sans qu'il soit besoin d'examiner les moyens proposés,
 CASSE ET ANNULE l'arrêt n°372/S rendu le 31 mars 1993 par la Cour d'Appel du Littoral à Douala ;
 REMET en conséquence la cause et les parties au même et semblable état où elles étaient avant ladite décision et, pour être fait droit, les renvoie devant la Cour d'Appel de l'Ouest à Bafoussam ;
-ORDONNE qu'il la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Douala et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_95_S_DU_30_MARS_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'COGEFAR', 'Against': 'C/', 'Defendant': 'MAHOUVA PIERRE HILARION', 'Judgment': 'ARRET N° 95/S DU 30 MARS 2000'}"
+ORDONNE qu'il la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Douala et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_95_S_DU_30_MARS_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'COGEFAR', 'Against': 'C/', 'Defendant': 'MAHOUVA PIERRE HILARION', 'Judgment': 'ARRET N° 95/S DU 30 MARS 2000'}"

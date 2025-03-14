@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-65-cc-18-mai-2000-11185.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-65-cc-18-mai-2000-11185.htm,"ARRET N°65/CC DU 18 MAI 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 28 juillet 1993 par Maître Job, Avocat à Douala ;
 Sur le premier moyen de cassation amendé pris de la violation de la loi, violation de l'article 39 du code de procédure civile et commerciale, ensemble l'article 5 de l'ordonnance n°72/4 du 26 août 1972, non réponse aux conclusions, manque de base légale ;
 «En ce que, après avoir reproduit le dispositif de la requête d'appel de la Safca, la Cour d'Appel n'a apporté aucune réponse aux moyens d'appel contenus dans ladite requête ;
@@ -34,4 +36,4 @@ D'où il suit que le pourvoi qui n'est pas fondé encourt le rejet ;
 PAR CES MOTIFS
 REJETTE le pourvoi ;
 CONDAMNE la demanderesse aux dépens ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Yaoundé et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_65_CC_DU_18_MAI_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Civile et Commerciale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'SAFCA', 'Against': 'C/', 'Defendant': 'PAPETERIE LE CAMEROUNAIS', 'Judgment': 'ARRET N°65/CC DU 18 MAI 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Yaoundé et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_65_CC_DU_18_MAI_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Civile et Commerciale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'SAFCA', 'Against': 'C/', 'Defendant': 'PAPETERIE LE CAMEROUNAIS', 'Judgment': 'ARRET N°65/CC DU 18 MAI 2000'}"

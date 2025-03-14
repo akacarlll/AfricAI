@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-47-com-31-juillet-2008-8825.htm,"L'an deux mille huit, et le trente et un du mois de juillet ;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-47-com-31-juillet-2008-8825.htm,"ARRET N° 47/COM DU 31 JUILLET 2008
+
+L'an deux mille huit, et le trente et un du mois de juillet ;
 La Cour Suprême statuant en matière de droit commercial ;
 En son audience publique de vacation a rendu l'arrêt dont la teneur suit :
 ENTRE
@@ -119,4 +121,4 @@ En présence de Monsieur Goethe Christian MBALE, Avocat Général, occupant le b
 Et avec l'assistance de Maître NJINDA Mercy, Greffier ;
 En foi de quoi, le présent arrêt a été signé par le Président, les Conseillers et le Greffier ;
 Approuvant mot rayé nul ,
-LE PRESENT, LES CONSEILLERS, LE GREFFIER.",ARRET_N_47_COM_DU_31_JUILLET_2008,0,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION COMMERCIALE', 'Case': 'DOSSIER N° 286/CC/05-06', 'Appeal': 'POURVOI N° 97 du 15 septembre 2004', 'Claimant': 'SOCIÉTÉ ABUL S.A ET EMMANUEL ZE MENDOUA', 'Against': 'C/', 'Defendant': 'SOCIÉTÉ SIX INTERNATIONAL LTD SARL', 'Judgment': 'ARRET N° 47/COM DU 31 JUILLET 2008'}"
+LE PRESENT, LES CONSEILLERS, LE GREFFIER.",ARRET_N_47_COM_DU_31_JUILLET_2008,0,arret,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION COMMERCIALE', 'Case': 'DOSSIER N° 286/CC/05-06', 'Appeal': 'POURVOI N° 97 du 15 septembre 2004', 'Claimant': 'SOCIÉTÉ ABUL S.A ET EMMANUEL ZE MENDOUA', 'Against': 'C/', 'Defendant': 'SOCIÉTÉ SIX INTERNATIONAL LTD SARL', 'Judgment': 'ARRET N° 47/COM DU 31 JUILLET 2008'}"

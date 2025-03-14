@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-09-p-12-octobre-2000-10389.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-09-p-12-octobre-2000-10389.htm,"ARRET N°09/P DU 12 OCTOBRE 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 27 juillet 1990 par Maître Nguena Antoine, Avocat à Douala ;
 Sur le premier moyen de cassation pris de la dénaturation des faits de la cause ;
 «Considérant que la dénaturation peut se définir comme la méconnaissance par le juge du fond du sens clair et précis d'un écrit (civ 28.2.1962) bul. civ I n°128) ;
@@ -29,4 +31,4 @@ Attendu que l'arrêt est par ailleurs régulier ;
 PAR CES MOTIFS
 REJETTE le pourvoi ;
 CONDAMNE Kwessa Emile aux dépens ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe la Cour d'Appel du Littoral et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_09_P_DU_12_OCTOBRE_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'KWESSA EMILE', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC, TCHOUNDJA KEMAYOU ET AUTRES', 'Judgment': 'ARRET N°09/P DU 12 OCTOBRE 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe la Cour d'Appel du Littoral et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_09_P_DU_12_OCTOBRE_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'KWESSA EMILE', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC, TCHOUNDJA KEMAYOU ET AUTRES', 'Judgment': 'ARRET N°09/P DU 12 OCTOBRE 2000'}"

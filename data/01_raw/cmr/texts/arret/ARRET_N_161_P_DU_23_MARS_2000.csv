@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-161-p-23-mars-2000-10670.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-161-p-23-mars-2000-10670.htm,"ARRET N°161/P DU 23 MARS 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 6 septembre 1990 par Maître Ntsamo, Avocat à Nkongsamba ;
 Vu le premier moyen de cassation pris de la violation de l'article 15 de la loi n°58/203 du 26 décembre 1958 abrogeant l'article 195 du code d'instruction criminelle ;
 «En ce que le premier juge, puis le juge d'appel ont, non seulement omis de lire à l'audience le texte de loi appliqué, mais a également omis de faire mention de cette lecture dans l'arrêt attaqué ;
@@ -22,4 +24,4 @@ D'où il suit que celui-ci n'est pas fondé ;
 PAR CES MOTIFS
 REJETTE le pourvoi ;
 CONDAMNE les demandeurs aux dépens ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Bafoussam et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_161_P_DU_23_MARS_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'AYANTS-DROITS DE NITCHEU EDOUARD', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC ET GATSABI BABILA', 'Judgment': 'ARRET N°161/P DU 23 MARS 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Bafoussam et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_161_P_DU_23_MARS_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'AYANTS-DROITS DE NITCHEU EDOUARD', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC ET GATSABI BABILA', 'Judgment': 'ARRET N°161/P DU 23 MARS 2000'}"

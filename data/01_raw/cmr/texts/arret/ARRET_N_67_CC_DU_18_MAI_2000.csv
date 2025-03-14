@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-67-cc-18-mai-2000-10898.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-67-cc-18-mai-2000-10898.htm,"ARRET N°67/CC DU 18 MAI 2000
+
+LA COUR,
 Sur le premier moyen de cassation pris de la violation de la loi, violation de l'article 344 du code civil ;
 «En ce que la requérante, au moment de la saisine du Tribunal était âgée de 29 ans alors que l'adoption n'est permise qu'aux personnes âgées de plus de 40 ans ;
 «Attendu que conformément aux dispositions de l'article 344 du code civil la procédure d'adoption n'est ouverte qu'aux personnes âgées de plus de 40 ans ;
@@ -16,4 +18,4 @@ PAR CES MOTIFS
 Et sans qu'il soit besoin d'examiner le second moyen,
 Casse sans renvoi le jugement n°123/c rendu le 6 septembre 1991 par le Tribunal de Premier Degré d'Edéa;
 Laisse les dépens à la charge du Trésor Public ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe du Tribunal de Premier Degré d'Edéa et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_67_CC_DU_18_MAI_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Civile et Commerciale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'PROCUREUR GÉNÉRAL PRÈS LA COUR SUPRÊME', 'Against': 'C/', 'Defendant': 'NTAMACK MARIE HÉLÈNE', 'Judgment': 'ARRET N°67/CC DU 18 MAI 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe du Tribunal de Premier Degré d'Edéa et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_67_CC_DU_18_MAI_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Civile et Commerciale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'PROCUREUR GÉNÉRAL PRÈS LA COUR SUPRÊME', 'Against': 'C/', 'Defendant': 'NTAMACK MARIE HÉLÈNE', 'Judgment': 'ARRET N°67/CC DU 18 MAI 2000'}"

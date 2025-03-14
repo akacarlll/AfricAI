@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-213-24-aout-2000-37739.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-213-24-aout-2000-37739.htm,"ARRET N° 213/S DU 24 AOUT 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 20 novembre 1991 par Maître Taffou, Avocat à Douala ;
 Sur le premier moyen de cassation pris de la violation de l'article 5 de l'ordonnance n°72/4 du 26 août 1972 portant organisation judiciaire modifiée, ensemble mauvaise interprétation de l'arrêté n°10/MTPS/DEC du 23 mai 1978 fixant les modalités de licenciement pour compression d'effectif ;
 En ce que,
@@ -28,4 +30,4 @@ D'où il suit qu'ici encore le moyen est autant irrecevable que non fondé ;
 Et attendu que l'arrêt par ailleurs est régulier ;
 PAR CES MOTIFS
 REJETTE le pourvoi ;
-ORDONNE qu'a la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Littoral et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_213_S_DU_24_AOUT_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'CITEC', 'Against': 'C/', 'Defendant': 'TCHOUMBA MAURICE', 'Judgment': 'ARRET N° 213/S DU 24 AOUT 2000'}"
+ORDONNE qu'a la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Littoral et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_213_S_DU_24_AOUT_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre sociale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'CITEC', 'Against': 'C/', 'Defendant': 'TCHOUMBA MAURICE', 'Judgment': 'ARRET N° 213/S DU 24 AOUT 2000'}"

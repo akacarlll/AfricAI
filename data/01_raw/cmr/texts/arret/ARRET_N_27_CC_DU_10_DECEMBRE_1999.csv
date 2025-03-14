@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-27-cc-10-decembre-1999-11264.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-27-cc-10-decembre-1999-11264.htm,"ARRET N°27/CC DU 10 DECEMBRE 1999
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 03 septembre 1997 par Maître Achaleke Taku Charles, Avocat à Buéa ;
 Sur le premier moyen de cassation amendé pris de la violation de la loi, violation de l'article 15 alinéa 1 de l'ordonnance n°72/6 du 26 août 1972 modifiée, fixant l'organisation et le fonctionnement de la Cour suprême ;
 En ce que la Cour d'Appel de Buéa a violé les prescriptions légales de l'article 15 alinéa 1 de l'ordonnance n°72/6 du 26 août 1972 modifiée, parce qu'elle n'a pas statué immédiatement sur la troisième demande des requérants avant de procéder à l'examen du fond de l'affaire, et ceci a conduit à un déni de justice ;
@@ -18,4 +20,4 @@ Et sans qu'il soit besoin d'examiner les autres moyens,
 CASSE ET ANNULE l'ordonnance n°CASWP/45/95/1M/96 rendue le 28 février 1997 par la Cour d'Appel de Buéa ;
 REMET en conséquence la cause et les parties au même et semblable état où elles étaient avant ladite décision et, pour être fait droit, les renvoie devant la même Cour d'Appel autrement composée ;
 RESERVE les dépens ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Buéa et que mention en sera faite en marge ou à la suite de l'ordonnance attaquée.",ARRET_N_27_CC_DU_10_DECEMBRE_1999,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Civile et Commerciale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'AMITY BANK CAMEROON SA, TASHA LOWEH LAWRENCE', 'Against': 'C/', 'Defendant': 'ISA BONGAM', 'Judgment': 'ARRET N°27/CC DU 10 DECEMBRE 1999'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Buéa et que mention en sera faite en marge ou à la suite de l'ordonnance attaquée.",ARRET_N_27_CC_DU_10_DECEMBRE_1999,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Civile et Commerciale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'AMITY BANK CAMEROON SA, TASHA LOWEH LAWRENCE', 'Against': 'C/', 'Defendant': 'ISA BONGAM', 'Judgment': 'ARRET N°27/CC DU 10 DECEMBRE 1999'}"

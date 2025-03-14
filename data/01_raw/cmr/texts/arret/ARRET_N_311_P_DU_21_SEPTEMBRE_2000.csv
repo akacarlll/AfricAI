@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-311-p-21-septembre-2000-10508.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-311-p-21-septembre-2000-10508.htm,"ARRET N°311/P DU 21 SEPTEMBRE 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 31 juillet 1992 par Maître Siewe, Avocat à Nkongsarnba ;
 Sur le premier moyen de cassation pris de la violation de l'article 190 du code d'instruction criminelle, sur la publicité des débats et autres jugements en matière correctionnelle ;
 « En ce que l'arrêt critiqué se contente de constater la publicité de l'audience du jour où il a été rendu, et ne comporte aucune mention dont on puisse déduire la publicité des audiences précédentes consacrées à l'instruction de l'affaire ;
@@ -29,4 +31,4 @@ D'où il suit que le pourvoi encourt le rejet ;
 PAR CES MOTIFS
 REJETTE le pourvoi ;
 CONDAMNE les demandeurs aux dépens ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Littoral et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_311_P_DU_21_SEPTEMBRE_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'NGONGANG MATHIEU, YOUMESSI PHILLIPE', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC ET FOM FIDÈLE', 'Judgment': 'ARRET N°311/P DU 21 SEPTEMBRE 2000'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel du Littoral et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_311_P_DU_21_SEPTEMBRE_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'NGONGANG MATHIEU, YOUMESSI PHILLIPE', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC ET FOM FIDÈLE', 'Judgment': 'ARRET N°311/P DU 21 SEPTEMBRE 2000'}"

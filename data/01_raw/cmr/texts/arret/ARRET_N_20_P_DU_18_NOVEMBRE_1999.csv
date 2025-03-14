@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-20-p-18-novembre-1999-9202.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-20-p-18-novembre-1999-9202.htm,"ARRET N°20/P DU 18 NOVEMBRE 1999
+
+LA COUR,
 Vu le mémoire ampliatif transmis au greffe de la Cour suprême le 7 septembre 1990 par Maître Dzeukou Barthélemy, Avocat à Bafoussam ;
 Sur le moyen unique de cassation pris en ses deux branches de la violation de la loi, violation des articles 5 et 19 de l'ordonnance n°72/4 du 26 août 1972 ; insuffisance de motifs, manque de base légale, ensemble violation de l'article 155 du code d'instruction criminelle ;
 En ce que premièrement,
@@ -25,4 +27,4 @@ D'où il suit que le moyen en ses deux branches n'est pas fondé et que le pourv
 PAR CES MOTIFS
 REJETTE le pourvoi ;
 CONDAMNE le demandeur aux dépens ;
-ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de l'Ouest et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_20_P_DU_18_NOVEMBRE_1999,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'NJILAKAGNAN NGOUMCHEME', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC, MENCHAMO ABDOULAYE ET AUTRE', 'Judgment': 'ARRET N°20/P DU 18 NOVEMBRE 1999'}"
+ORDONNE qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de l'Ouest et que mention en sera faite en marge ou à la suite de la décision attaquée.",ARRET_N_20_P_DU_18_NOVEMBRE_1999,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'NJILAKAGNAN NGOUMCHEME', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC, MENCHAMO ABDOULAYE ET AUTRE', 'Judgment': 'ARRET N°20/P DU 18 NOVEMBRE 1999'}"

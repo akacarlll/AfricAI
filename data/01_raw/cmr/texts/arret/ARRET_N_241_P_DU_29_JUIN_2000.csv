@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-241-p-29-juin-2000-10475.htm,"LA COUR,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-241-p-29-juin-2000-10475.htm,"ARRET N°241/P DU 29 JUIN 2000
+
+LA COUR,
 Vu le mémoire ampliatif déposé le 22 novembre 1991 par Maître Barthélemy Dzeukou, Avocat à Bafoussam ;
 Sur le moyen unique de cassation pris de la violation de l'article 51 alinéa 1 du code pénal
 En ce que,
@@ -23,4 +25,4 @@ PAR CES MOTIFS
 CASSE ET ANNULE l'arrêt n°1383/co rendu le 11 juillet 1989 par la Cour d'Appel de l'Ouest ;
 REMET en conséquence la cause et les parties au même et semblable état où elles étaient avant ladite décision et, pour être fait droit, les renvoie devant la Cour d'Appel de l'Ouest autrement composée ;
 RESERVE les dépens ;
-Ordonne qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Bafoussam et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_241_P_DU_29_JUIN_2000,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'TCHINDA JEAN ET YAFOUO JOHN', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC ET LABOU', 'Judgment': 'ARRET N°241/P DU 29 JUIN 2000'}"
+Ordonne qu'à la diligence de Monsieur le Procureur Général près la Cour suprême, le présent arrêt sera imprimé et transmis pour être transcrit sur les registres du Greffe de la Cour d'Appel de Bafoussam et que mention en sera faite en marge ou à la suite de la décision annulée.",ARRET_N_241_P_DU_29_JUIN_2000,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': 'Chambre Pénale', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'TCHINDA JEAN ET YAFOUO JOHN', 'Against': 'C/', 'Defendant': 'MINISTÈRE PUBLIC ET LABOU', 'Judgment': 'ARRET N°241/P DU 29 JUIN 2000'}"

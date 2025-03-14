@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-39-cj-cs-27-juin-2019-33290.htm,"L'an deux mille dix neuf et le vingt sept juin;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-39-cj-cs-27-juin-2019-33290.htm,"ARRÊT N° 39/S/CJ/CS DU 27 JUIN 2019
+
+L'an deux mille dix neuf et le vingt sept juin;
 La Cour Suprême statuant en matière Sociale ;
 En son audience publique ordinaire a rendu l'arrêt dont la teneur suit ;
 ENTRE
@@ -60,4 +62,4 @@ Et avec l'assistance de Maître ALIMETA Alain Sainclair, Greffier ;
 En foi de quoi le présent arrêt a été signé par le Président, les Conseillers et le Greffier ;
 En approuvant ligne(s) Mot(s)
 rayé(s) nul(s) et renvoi(s) en marge ;
-LE PRESIDENT, LES CONSEILLERS, LE GREFFIER",ARRET_N_39_S_CJ_CS_DU_27_JUIN_2019,0,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': 'DOSSIER N° 187/S/94-95', 'Appeal': 'Pourvoi du 31 mars 1994', 'Claimant': 'KOUANGUE EMMANUEL', 'Against': 'C/', 'Defendant': 'MESSA PRESSE', 'Judgment': 'ARRÊT N° 39/S/CJ/CS DU 27 JUIN 2019'}"
+LE PRESIDENT, LES CONSEILLERS, LE GREFFIER",ARRET_N_39_S_CJ_CS_DU_27_JUIN_2019,0,arret,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': 'DOSSIER N° 187/S/94-95', 'Appeal': 'Pourvoi du 31 mars 1994', 'Claimant': 'KOUANGUE EMMANUEL', 'Against': 'C/', 'Defendant': 'MESSA PRESSE', 'Judgment': 'ARRÊT N° 39/S/CJ/CS DU 27 JUIN 2019'}"

@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-133-cc-14-juin-2001-32747.htm,"La Cour,
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-133-cc-14-juin-2001-32747.htm,"ARRÊT N°133/CC DU 14 JUIN 2001
+
+La Cour,
 Sur le moyen unique soulevé d'office pris de la violation de la loi, violation de l'article 5 alinéa 3 (nouveau) de la loi n°19 du 26 novembre 1983 modifiant les dispositions de l'article 5 de l'ordonnance n°74-1 du 6 juillet 1974 fixant le régime foncier ;
 En ce que
 Alors qu'il résulte du dossier de procédure que le terrain litigieux n'est pas immatriculé, le Premier juge et à sa suite le juge d'appel ont à tort connu de cette contestation relative à un droit de propriété concernant ladite parcelle en ordonnant l'expulsion de dame Lessong Jacqueline ;
@@ -13,4 +15,4 @@ PAR CES MOTIFS
 Casse et annule l'arrêt n°211/c rendu le 20 septembre 1985 par la Cour d'Appel du Littoral ;
 Remet en conséquence la cause et les parties au même et semblable état où elles étaient avant ladite décision et pour être fait droit, les renvoie devant la même cour autrement composée ;
 Réserve les dépens ;
-Ordonne qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transcrit sur les registres du greffe de la Cour d'Appel du Littoral à Douala, et que mention en sera faite en marge ou à la suite de la décision annulée ;",ARRET_N_133_CC_DU_14_JUIN_2001,0,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': '', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'LESSONG JACQUELINE', 'Against': 'C/', 'Defendant': 'NDI NJEIK ALEXANDRE', 'Judgment': 'ARRÊT N°133/CC DU 14 JUIN 2001'}"
+Ordonne qu'à la diligence de Monsieur le Procureur Général près la Cour Suprême, le présent arrêt sera imprimé et transcrit sur les registres du greffe de la Cour d'Appel du Littoral à Douala, et que mention en sera faite en marge ou à la suite de la décision annulée ;",ARRET_N_133_CC_DU_14_JUIN_2001,0,arret,"{'Court': 'COUR SUPRÊME DU CAMEROUN', 'Chamber': '', 'Section': '', 'Case': '', 'Appeal': '', 'Claimant': 'LESSONG JACQUELINE', 'Against': 'C/', 'Defendant': 'NDI NJEIK ALEXANDRE', 'Judgment': 'ARRÊT N°133/CC DU 14 JUIN 2001'}"

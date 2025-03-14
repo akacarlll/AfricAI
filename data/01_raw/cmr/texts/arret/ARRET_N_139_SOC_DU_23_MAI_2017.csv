@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/arret-139-soc-23-mai-2017-33280.htm,"L'an deux mille dix-sept et le trois du mois de Mai ;
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/arret-139-soc-23-mai-2017-33280.htm,"ARRÊT N° 139/SOC DU 23 MAI 2017
+
+L'an deux mille dix-sept et le trois du mois de Mai ;
 La Cour Suprême, Chambre Judiciaire, Section Sociale ;
 Siégeant au Palais de Justice de Yaoundé ;
 A rendu en audience publique Ordinaire, l'arrêt dont la teneur suit :
@@ -46,4 +48,4 @@ Joint les pourvois ;
 Donne acte au Groupement PANTECHNIKI EDOCK-ETER S.A de son désistement ;
 Déclare KAKLAMANOS PANAGIOTIS déchu de son pourvoi pour défaut de mémoire ampliatif ;
 Condamne Maître FOMBAD MUJEM, Avocat, à une amende de cinquante mille (50.000) francs ;
-Ordonne qu'à la diligence, de Monsieur le Greffier en Chef de la Chambre Judiciaire de la Cour Suprême, une expédition du présent arrêt sera transmise à Monsieur le Procureur Général près la Cour d'Appel du Centre et une autre au Greffier en Chef de ladite juridiction pour mention dans leurs registres respectifs ;",ARRET_N_139_SOC_DU_23_MAI_2017,0,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': 'DOSSIER N° 227/SOC/2013', 'Appeal': 'Pourvoi n°40 et 46 des 12 et 26 juillet 2012', 'Claimant': 'GROUPEMENT PANTECHNIKI EDOCK-ETER S.A-KLAMANOS PANAGIOTIS', 'Against': 'C/', 'Defendant': 'KLAMANOS PANAGIOTIS-GROUPEMENT PANTECHNIKI EDOCK-ETER S.A', 'Judgment': 'ARRÊT N° 139/SOC DU 23 MAI 2017'}"
+Ordonne qu'à la diligence, de Monsieur le Greffier en Chef de la Chambre Judiciaire de la Cour Suprême, une expédition du présent arrêt sera transmise à Monsieur le Procureur Général près la Cour d'Appel du Centre et une autre au Greffier en Chef de ladite juridiction pour mention dans leurs registres respectifs ;",ARRET_N_139_SOC_DU_23_MAI_2017,0,arret,"{'Court': 'COUR SUPREME DU CAMEROUN', 'Chamber': 'CHAMBRE JUDICIAIRE', 'Section': 'SECTION SOCIALE', 'Case': 'DOSSIER N° 227/SOC/2013', 'Appeal': 'Pourvoi n°40 et 46 des 12 et 26 juillet 2012', 'Claimant': 'GROUPEMENT PANTECHNIKI EDOCK-ETER S.A-KLAMANOS PANAGIOTIS', 'Against': 'C/', 'Defendant': 'KLAMANOS PANAGIOTIS-GROUPEMENT PANTECHNIKI EDOCK-ETER S.A', 'Judgment': 'ARRÊT N° 139/SOC DU 23 MAI 2017'}"

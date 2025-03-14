@@ -1,5 +1,7 @@
-URL,text,page_title,page_label,metadata
-https://www.juriafrica.com/lex/circulaire-004-mtps-dt-ct-18-avril-1984-25776.htm,"LE MINISTRE DU TRAVAIL ET DE LA PREVOYANCE SOCIALE
+URL,text,page_title,page_label,category,metadata
+https://www.juriafrica.com/lex/circulaire-004-mtps-dt-ct-18-avril-1984-25776.htm,"CIRCULAIRE N°004/MTPS/DT/CT RELATIVE AU CALCUL DU CONGÉ EN CAS D'ABSENCE
+
+LE MINISTRE DU TRAVAIL ET DE LA PREVOYANCE SOCIALE
 M. le Délégué Provincial du Travail et de la Prévoyance Sociale du Littoral.
 MM. les Inspecteurs Provinciaux du Travail et de la Prévoyance Sociale. MM. les Inspecteurs Départements du Travail et de la Prévoyance Sociale.
 OBJET : Calcul du congé en cas d'absence du travailleur au cours de la période de référence.
@@ -40,4 +42,4 @@ Le calcul de la durée des majorations pour ancienneté est plus délicat. Mais 
 Dans notre exemple, la majoration pour ancienneté sur la base légale de deux jours par tranche de cinq ans donnerait pour 20 ans de services : [(2x4) x 13,5]/18 = 6 jours
 Je vous rappelle que le calcul de l'allocation afférent aux majorations s'effectue en divisant le montant de l'allocation afférente au congé principal par le nombre de jours compris dans ce congé et en multipliant l'allocation journalière ainsi obtenue par le nombre de jours de majoration.
 Dans le cas de notre exemple, en supposant que le travailleur ait acquit, au cours de la période de référence, une rémunération totale égale à 246. 000 F, il percevrait une allocation de congé égale à : 246000/16 = 15.375 F, et, une allocation afférente aux majorations égale à (15375 x 6)/13,5 = 6.835 F, soit au total : 15.375 + 6.835 = 22.210 F.
-Vous voudrez bien m'accuser réception de la présente circulaire et la diffuser aux milieux professionnels de votre circonscription de contrôle.",CIRCULAIRE_N_004_MTPS_DT_CT_RELATIVE_AU_CALCUL_DU_CONGE_EN_CAS_D_ABSENCE,0,
+Vous voudrez bien m'accuser réception de la présente circulaire et la diffuser aux milieux professionnels de votre circonscription de contrôle.",CIRCULAIRE_N_004_MTPS_DT_CT_RELATIVE_AU_CALCUL_DU_CONGE_EN_CAS_D_ABSENCE,0,circulaire,
