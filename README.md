@@ -1,101 +1,51 @@
-# africai
+# AfricAI
 
-[![Powered by Kedro](https://img.shields.io/badge/powered_by-kedro-ffc900?logo=kedro)](https://kedro.org)
+## Description
+AfricAI est un projet visant à collecter, traiter et exploiter des données juridiques provenant de divers sites web de plusieurs pays africains. En utilisant Kedro pour orchestrer les pipelines de traitement des données, AfricAI construit une base de connaissances interrogeable via un système de RAG (Retrieval-Augmented Generation) optimisé par ChromaDB et des modèles d'embeddings.
 
-## Overview
+## Objectifs
+- Scraper des données juridiques sous divers formats (PDF, images scannées, texte brut, etc.).
+- Extraire et traiter les informations à l'aide d'une pipeline Kedro.
+- Charger et analyser les documents (lecture de texte, extraction de tableaux et images, parsing des données).
+- Prétraiter les données (segmentation, nettoyage du texte, suppression des redondances, normalisation).
+- Construire une base de données ChromaDB et générer des embeddings pertinents.
+- Mettre en place une architecture RAG pour interroger les données.
+- Développer des agents intelligents capables de répondre aux questions des utilisateurs à partir des données traitées.
 
-This is your new Kedro project with Kedro-Viz setup, which was generated using `kedro 0.19.10`.
+## Architecture
+AfricAI repose sur une architecture modulaire et scalable :
+1. **Collecte de données** : Scraping de sites juridiques africains et téléchargement de documents.
+2. **Extraction & Traitement** : Utilisation de PyPDFLoader et d'outils OCR pour extraire le texte et les tables.
+3. **Prétraitement** : Nettoyage et normalisation des données.
+4. **Stockage** : Indexation des données dans ChromaDB avec des embeddings pour une recherche rapide.
+5. **Recherche & RAG** : Implémentation d'une recherche intelligente augmentée par le contexte des documents.
+6. **Agents conversationnels** : Développement de bots capables de répondre aux requêtes des utilisateurs en interrogeant la base de connaissances.
 
-Take a look at the [Kedro documentation](https://docs.kedro.org) to get started.
+## Installation
+```bash
+# Cloner le projet
+git clone https://github.com/akacarlll/LawIntelAfrica.git
+cd LawIntelAfrica
 
-## Rules and guidelines
-
-In order to get the best out of the template:
-
-* Don't remove any lines from the `.gitignore` file we provide
-* Make sure your results can be reproduced by following a [data engineering convention](https://docs.kedro.org/en/stable/faq/faq.html#what-is-data-engineering-convention)
-* Don't commit data to your repository
-* Don't commit any credentials or your local configuration to your repository. Keep all your credentials and local configuration in `conf/local/`
-
-## How to install dependencies
-
-Declare any dependencies in `requirements.txt` for `pip` installation.
-
-To install them, run:
-
-```
+# Installer les dépendances
 pip install -r requirements.txt
 ```
 
-## How to run your Kedro pipeline
+## Utilisation
+1. Lancer le scraping : `python scripts/scrape.py`
+2. Exécuter la pipeline Kedro : `kedro run`
+3. Interroger la base de données avec l'agent : `python scripts/query_agent.py`
 
-You can run your Kedro project with:
+## Technologies utilisées
+- **Kedro** : Orchestration des pipelines de traitement.
+- **ChromaDB** : Stockage et indexation des embeddings.
+- **OCR & NLP** : Extraction et traitement des documents.
+- **LangChain** : Construction des agents conversationnels.
+- **FastAPI** : Interface pour exposer l'API de recherche et de requêtage.
 
-```
-kedro run
-```
+## Contribution
+Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou à proposer une pull request.
 
-## How to test your Kedro project
+## Licence
+MIT License
 
-Have a look at the files `src/tests/test_run.py` and `src/tests/pipelines/data_science/test_pipeline.py` for instructions on how to write your tests. Run the tests as follows:
-
-```
-pytest
-```
-
-To configure the coverage threshold, look at the `.coveragerc` file.
-
-## Project dependencies
-
-To see and update the dependency requirements for your project use `requirements.txt`. Install the project requirements with `pip install -r requirements.txt`.
-
-[Further information about project dependencies](https://docs.kedro.org/en/stable/kedro_project_setup/dependencies.html#project-specific-dependencies)
-
-## How to work with Kedro and notebooks
-
-> Note: Using `kedro jupyter` or `kedro ipython` to run your notebook provides these variables in scope: `catalog`, `context`, `pipelines` and `session`.
->
-> Jupyter, JupyterLab, and IPython are already included in the project requirements by default, so once you have run `pip install -r requirements.txt` you will not need to take any extra steps before you use them.
-
-### Jupyter
-To use Jupyter notebooks in your Kedro project, you need to install Jupyter:
-
-```
-pip install jupyter
-```
-
-After installing Jupyter, you can start a local notebook server:
-
-```
-kedro jupyter notebook
-```
-
-### JupyterLab
-To use JupyterLab, you need to install it:
-
-```
-pip install jupyterlab
-```
-
-You can also start JupyterLab:
-
-```
-kedro jupyter lab
-```
-
-### IPython
-And if you want to run an IPython session:
-
-```
-kedro ipython
-```
-
-### How to ignore notebook output cells in `git`
-To automatically strip out all output cell contents before committing to `git`, you can use tools like [`nbstripout`](https://github.com/kynan/nbstripout). For example, you can add a hook in `.git/config` with `nbstripout --install`. This will run `nbstripout` before anything is committed to `git`.
-
-> *Note:* Your output cells will be retained locally.
-
-[Further information about using notebooks for experiments within Kedro projects](https://docs.kedro.org/en/develop/notebooks_and_ipython/kedro_and_notebooks.html).
-## Package your Kedro project
-
-[Further information about building project documentation and packaging your project](https://docs.kedro.org/en/stable/tutorial/package_a_project.html).
