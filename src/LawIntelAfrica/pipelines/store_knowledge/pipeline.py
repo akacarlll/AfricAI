@@ -21,7 +21,7 @@ def _modular_pipeline(**kwargs) -> Pipeline:
             ),
             node(
                 func=store_in_chroma,
-                inputs=["split_df", "params:chroma_params"],
+                inputs=["split_dfs", "params:chroma_params"],
                 outputs=None,
                 name="store_in_chroma",
             ),
@@ -34,12 +34,18 @@ def create_pipeline(**kwargs) -> Pipeline:
         pipe=_modular_pipeline(),
         namespace="split1",
         inputs={"df_embedding": "df_embedding"},
-        parameters={"params:split_params": "params:split_params_1"},
+        parameters={
+            "params:split_params": "params:split_params_1",
+            "params:chroma_params": "params:chroma_params_1",
+        },
     )
     pipeline2 = pipeline(
         pipe=_modular_pipeline(),
         namespace="split2",
         inputs={"df_embedding": "df_embedding"},
-        parameters={"params:split_params": "params:split_params_2"},
+        parameters={
+            "params:split_params": "params:split_params_2",
+            "params:chroma_params": "params:chroma_params_2",
+        },
     )
     return pipeline1 + pipeline2
