@@ -9,7 +9,12 @@ embeddings_path: "C:/Users/carlf/Documents/GitHub/LawIntelAfrica/data/06_models/
 
 chunk_size: 1000
 
-chroma_params:
-  persist_directory: "data/chroma"
+chroma_params_1:
+  persist_directory: "data/chroma/category"
   collection_name: "rag_documents"
 
+chroma_params_2:
+  persist_directory: "data/chroma"
+  collection_name: "rag_documents"
+split_params_1: True 
+split_params_2: False
