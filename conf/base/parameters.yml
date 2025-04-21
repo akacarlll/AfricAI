@@ -18,3 +18,13 @@ chroma_params_2:
   collection_name: "rag_documents"
 split_params_1: True 
 split_params_2: False
+
+
+expected_columns:
+  - text 
+  - page_label 
+  - page_title 
+  - URL 
+  - metadata 
+  - category
+  - text_length

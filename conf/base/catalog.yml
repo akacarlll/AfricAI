@@ -8,15 +8,17 @@ cleaned_legal_documents:
   filepath: data/02_intermediate/df_legal.csv
   save_args:
     index: False
-    encoding: utf-8
+    encoding: latin1
     errors: replace
+  load_args:
+    encoding: latin1
 
 chunked_docs:
   type: pandas.CSVDataset
   filepath: data/03_primary/preprocessed_docs.csv
   save_args:
     index: False
-    encoding: utf-8
+    encoding: latin1
     errors: replace
 
 df_embedding:
@@ -24,7 +26,7 @@ df_embedding:
   filepath: data/06_models/df_embeddings.csv
   save_args:
     index: False
-    encoding: utf-8
+    encoding: latin1
     errors: replace
 
 stored_embeddings:

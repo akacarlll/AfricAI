@@ -5,6 +5,7 @@ from .nodes import (
     extract_metadata,
     remove_characters,
     merge_pdfs_texts_dfs,
+    verify_columns,
 )
 
 
@@ -35,6 +36,12 @@ def create_pipeline(**kwargs) -> Pipeline:
                 inputs="metadata_legal_documents",
                 outputs="cleaned_legal_documents",
                 name="clean_legal_documents",
+            ),
+            node(
+                func=verify_columns, #TODO remove this node and create a Hook to verify the columns throughout the entire project.
+                inputs=["cleaned_legal_documents", "params:expected_columns"],
+                outputs= None,
+                name="validate_legal_documents",
             ),
         ]
     )

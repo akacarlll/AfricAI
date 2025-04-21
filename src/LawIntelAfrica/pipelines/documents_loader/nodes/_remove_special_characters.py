@@ -1,8 +1,7 @@
 import pandas as pd
 import unicodedata
-import chardet
-import re
-
+from pandas.api.types import is_string_dtype
+import unicodedata
 
 def remove_characters(df: pd.DataFrame) -> pd.DataFrame:
     """Removes special characters from the text.
@@ -15,14 +14,13 @@ def remove_characters(df: pd.DataFrame) -> pd.DataFrame:
     Returns:
         pd.DataFrame: A DataFrame containing the text with the special characters removed.
     """
-
-    df["text"] = df["text"].apply(remove_accents_and_special_chars)
-    df["page_title"] = df["page_title"].apply(remove_accents_and_special_chars)
-
+    for col in df.columns:
+        if is_string_dtype(df[col]):
+            df[col] = df[col].apply(remove_accents_and_special_chars)
     df["text"] = df["text"].str.replace(
         r"[^a-zA-Z0-9\s.,!?'\"\-:;(){}[\]]", "", regex=True
     )
-    return df
+    return df.fillna("")
 
 
 def remove_accents_and_special_chars(text: str) -> str:
@@ -36,6 +34,5 @@ def remove_accents_and_special_chars(text: str) -> str:
         str: The cleaned text with accents and special characters removed.
     """
     normalized = unicodedata.normalize("NFKD", text)
-    # Remove non-ASCII characters
     ascii_text = normalized.encode("ASCII", "ignore").decode("ASCII")
     return ascii_text
