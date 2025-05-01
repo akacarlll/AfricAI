@@ -2,9 +2,25 @@ from langchain_community.document_loaders import PyPDFDirectoryLoader
 import pandas as pd
 import os
 import pandas as pd
-from docling.document_converter import DocumentConverter
+from docling.document_converter import DocumentConverter, PdfFormatOption
+from docling.datamodel.pipeline_options import PdfPipelineOptions, AcceleratorDevice, AcceleratorOptions
+from docling.datamodel.base_models import InputFormat
 
+pipeline_options = PdfPipelineOptions()
+pipeline_options.do_ocr = True
+pipeline_options.do_table_structure = False
+pipeline_options.enable_remote_services = False
+pipeline_options.artifacts_path = r"C:\Users\carlf\Documents\GitHub\docling-models"
+pipeline_options.accelerator_options = AcceleratorOptions(
+    num_threads=os.cpu_count(),
+    device=AcceleratorDevice.CPU,     # or CPU, MPS, AUTO
+)
 
+docling_converter = DocumentConverter(
+    format_options={
+        InputFormat.PDF: PdfFormatOption(pipeline_options=pipeline_options)
+    }
+)
 def load_documents(data_path: str) -> pd.DataFrame:
     """
     Loads documents from all subfolders under the specified directory and returns them as a Pandas DataFrame.
@@ -19,8 +35,6 @@ def load_documents(data_path: str) -> pd.DataFrame:
         pd.DataFrame: A DataFrame containing all loaded documents from all subfolders.
 
     """
-    docling_converter = DocumentConverter()
-    
     dataframes = []
     for root, dirs, files in os.walk(data_path):
         if root == data_path:
@@ -46,7 +60,7 @@ def load_documents(data_path: str) -> pd.DataFrame:
                         result = docling_converter.convert(file_path)
                         
                         # Transform to page-by-page DataFrame
-                        df = transform_to_page_df([], folder_name, file_path, docling_result=result.document)
+                        df = transform_to_page_df([], folder_name, file_path, result.document)
                         if not df.empty:
                             dataframes.append(df)
                             print(f"File converted: {file_path}")
