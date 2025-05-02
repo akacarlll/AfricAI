@@ -4,6 +4,7 @@ from .nodes import (
     analyze_documents_embedding,
     analyze_documents_loader,
     analyze_store_knowledge,
+    merge_results,
 )
 
 
