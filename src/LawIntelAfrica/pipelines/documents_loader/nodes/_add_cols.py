@@ -1,6 +1,6 @@
 import pandas as pd
 import re
-
+import os
 
 def extract_metadata(df: pd.DataFrame) -> pd.DataFrame:
     """Extracts the columns from the line of the document and adds them to the DataFrame.
@@ -31,40 +31,27 @@ def extract_metadata(df: pd.DataFrame) -> pd.DataFrame:
         ),
         axis=1,
     )
-    df.drop(
-        columns=[
-            "source",
-            "page",
-            "producer",
-            "creator",
-            "creationdate",
-            "keywords",
-            "moddate",
-            "author",
-            "total_pages",
-        ],
-        inplace=True,
-    )
     # TODO: Add a column for metadata extraction
     return df
 
 
 def extract_document_name(file_path):
     """
-    Extracts the document name from the file path by splitting after the occurrence of a prefix (code, arrete, decret, etc.).
-
+    Extracts the document name from the file path using os.path functions.
+    
     Args:
         file_path (str): The full path of the file.
-
+        
     Returns:
-        str: The document name extracted from the file path.
+        str: The document name (filename without extension).
     """
-    pattern = r"(code|arrete|decret|loi|autres|circulaire)\\([^\\]+)\.pdf"
-
-    match = re.search(pattern, file_path, re.IGNORECASE)
-    if match:
-        return match.group(2)  # Prend la partie après le préfixe et avant .pdf
-    return None
+    # Get just the filename without the directory
+    filename = os.path.basename(file_path)
+    
+    # Remove the extension
+    document_name = os.path.splitext(filename)[0]
+    
+    return document_name
 
 
 def extract_category(page_title):
