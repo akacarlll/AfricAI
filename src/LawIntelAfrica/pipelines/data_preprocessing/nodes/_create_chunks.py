@@ -37,6 +37,7 @@ def chunk_legal_documents(
         - metadata: Original metadata
         - start_char_idx: Start character index in the original document
         - end_char_idx: End character index in the original document
+        - category: Category of the document 
     """
     # Initialize the text splitter with appropriate separators
     # It will try to split on double newlines first, then single newlines, then sentences, etc.
@@ -47,22 +48,18 @@ def chunk_legal_documents(
         length_function=len,
     )
 
-    # Group the dataframe by page_title to process each document separately
     grouped = df.groupby("page_title")
 
     all_chunks = []
 
     for doc_title, doc_group in grouped:
-        # Sort the pages by page_label to ensure correct order
         try:
             doc_group = doc_group.sort_values(
                 by="page_label", key=lambda x: x.astype(int)
             )
         except:
-            # If page_label is not numeric, sort as strings
             doc_group = doc_group.sort_values(by="page_label")
 
-        # Track page information for mapping chunks back to pages
         full_text = ""
         page_boundaries = {}
 
@@ -72,20 +69,20 @@ def chunk_legal_documents(
             end_idx = len(full_text)
             page_boundaries[row["page_label"]] = (start_idx, end_idx)
 
-        if len(full_text) < 1000:
-            print(f"Dropping short document - Title: {doc_title}")
+        if len(full_text) < 200:
+            print(
+                f"Dropping short document - Title: {doc_title}. \n Length: {len(full_text)}"
+            )
             continue  # Skip this document
-        # Get metadata if available
+        category = (doc_group["category"].iloc[0] if "category" in doc_group.columns else None)
         metadata = (
             doc_group["metadata"].iloc[0] if "metadata" in doc_group.columns else {}
         )
 
-        # Use the RecursiveTextSplitter to split the document
         chunks = text_splitter.create_documents(
             [full_text], metadatas=[{"document_id": doc_title}]
         )
 
-        # Process each chunk to add page information
         for i, chunk in enumerate(chunks):
             chunk_start = full_text.find(chunk.page_content)
             chunk_end = chunk_start + len(chunk.page_content)
@@ -97,7 +94,6 @@ def chunk_legal_documents(
                 if not (chunk_end <= page_start or chunk_start >= page_end):
                     chunk_pages.append(page_label)
 
-            # Create chunk entry
             all_chunks.append(
                 {
                     "chunk_id": f"{doc_title}_{i}",
@@ -108,6 +104,7 @@ def chunk_legal_documents(
                     "metadata": metadata,
                     "start_char_idx": chunk_start,
                     "end_char_idx": chunk_end,
+                    "category": category
                 }
             )
 
