@@ -12,6 +12,8 @@ cleaned_legal_documents:
     errors: replace
   load_args:
     encoding: latin1
+  metadata:
+    expected_columns: ["text ", "page_label", "page_title","URL", "metadata", "category", "source"]
 
 chunked_docs:
   type: pandas.CSVDataset
@@ -20,6 +22,10 @@ chunked_docs:
     index: False
     encoding: latin1
     errors: replace
+  load_args:
+    encoding: latin1
+  metadata:
+    expected_columns: ["chunk_id", "chunk_text", "document_id", "page_labels", "page_title", "metadata", "start_char_idx", "end_char_idx", "category"]
 
 df_embedding:
   type: pandas.CSVDataset
@@ -28,6 +34,8 @@ df_embedding:
     index: False
     encoding: latin1
     errors: replace
+  load_args:
+    encoding: latin1
 
 stored_embeddings:
   type: pickle.PickleDataset
