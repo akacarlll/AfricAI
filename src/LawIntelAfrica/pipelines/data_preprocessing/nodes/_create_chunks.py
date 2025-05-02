@@ -97,13 +97,10 @@ def chunk_legal_documents(
             all_chunks.append(
                 {
                     "chunk_id": f"{doc_title}_{i}",
-                    "chunk_text": chunk.page_content,
-                    "document_id": doc_title,
+                    "page_content": chunk.page_content,
                     "page_labels": chunk_pages,
-                    "page_title": doc_title,
+                    "doc_title": doc_title,
                     "metadata": metadata,
-                    "start_char_idx": chunk_start,
-                    "end_char_idx": chunk_end,
                     "category": category
                 }
             )
@@ -144,6 +141,4 @@ def chunk_legal_corpus(
     if "metadata" not in df.columns:
         df["metadata"] = None
 
-    chunked_df = chunk_legal_documents(df, chunk_size, chunk_overlap)
-
-    return chunked_df
+    return chunk_legal_documents(df, chunk_size, chunk_overlap)
