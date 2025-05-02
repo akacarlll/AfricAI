@@ -167,54 +167,37 @@ def load_documents(data_path: str) -> pd.DataFrame:
 
         folder_name = os.path.basename(root).lower()
         
-        if folder_name == "code":
-            document_loader = PyPDFDirectoryLoader(root)
-            try:
-                if documents := document_loader.load():
-                    temp_csv = f"temp_{folder_name}_{os.path.basename(root)}.csv"
-                    
-                    df = transform_to_page_df(documents, folder_name, root)
-                    if not df.empty:
-                        df.to_csv(os.path.join(temp_folder, temp_csv), index=False)
-                        processed_files.append(os.path.join(temp_folder, temp_csv))
-                        print(f"Folder converted: {root}")
-                    
-                    del df
-                    del documents
-                    gc.collect()
-            except Exception as e:
-                print(f"Error processing folder {root}: {e}")
-        else:
-            batch_size = 5
-            files_to_process = []
-            for file in files:
-                if file.lower().endswith(".pdf"):
-                    file_path = os.path.join(root, file)
-                    if not is_file_already_processed(file_path, temp_folder):
-                        files_to_process.append(file)
-                    else:
-                        temp_csv = os.path.basename(get_temp_filename(file_path, temp_folder))
-                        temp_csv_path = os.path.join(temp_folder, temp_csv)
-                        if temp_csv_path not in processed_files:
-                            processed_files.append(temp_csv_path)
-                            print(f"File {file} already processed. Added to results list.")
+
+        batch_size = 5
+        files_to_process = []
+        for file in files:
+            if file.lower().endswith(".pdf"):
+                file_path = os.path.join(root, file)
+                if not is_file_already_processed(file_path, temp_folder):
+                    files_to_process.append(file)
+                else:
+                    temp_csv = os.path.basename(get_temp_filename(file_path, temp_folder))
+                    temp_csv_path = os.path.join(temp_folder, temp_csv)
+                    if temp_csv_path not in processed_files:
+                        processed_files.append(temp_csv_path)
+                        print(f"File {file} already processed. Added to results list.")
+        
+        print(f"Found {len(files_to_process)} files that need processing in {root}")
+        
+        file_batches = [files_to_process[i:i+batch_size] for i in range(0, len(files_to_process), batch_size)]
+        
+        for batch in file_batches:
+            for file in tqdm(batch):
+                file_path = os.path.join(root, file)
+                csv_path = process_single_file(file_path, folder_name, temp_folder)
+                if csv_path:
+                    csv_full_path = os.path.join(temp_folder, csv_path)
+                    if csv_full_path not in processed_files:
+                        processed_files.append(csv_full_path)
             
-            print(f"Found {len(files_to_process)} files that need processing in {root}")
-            
-            file_batches = [files_to_process[i:i+batch_size] for i in range(0, len(files_to_process), batch_size)]
-            
-            for batch in file_batches:
-                for file in tqdm(batch):
-                    file_path = os.path.join(root, file)
-                    csv_path = process_single_file(file_path, folder_name, temp_folder)
-                    if csv_path:
-                        csv_full_path = os.path.join(temp_folder, csv_path)
-                        if csv_full_path not in processed_files:
-                            processed_files.append(csv_full_path)
-                
-                gc.collect()
-                time.sleep(15)
-                print_memory_usage("after batch")
+            gc.collect()
+            time.sleep(15)
+            print_memory_usage("after batch")
 
     if processed_files:
         print("Combining processed files...")
@@ -230,11 +213,12 @@ def load_documents(data_path: str) -> pd.DataFrame:
         try:
             result_df = pd.concat(read_csvs(), ignore_index=True)
             
-            for file in processed_files:
-                try:
-                    os.remove(file)
-                except:
-                    pass
+            # Uncomment if you want the file to be deleted automatically.
+            # for file in processed_files:
+            #     try:
+            #         os.remove(file)
+            #     except:
+            #         pass
                     
             return result_df
         except Exception as e:
