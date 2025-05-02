@@ -1,4 +1,4 @@
-from langchain_community.document_loaders import PyPDFDirectoryLoader
+from langchain_community.document_loaders import PyPDFDirectoryLoader, PyPDFLoader
 import pandas as pd
 import os
 import time
@@ -10,10 +10,11 @@ from docling.datamodel.pipeline_options import PdfPipelineOptions, AcceleratorDe
 from docling.datamodel.base_models import InputFormat
 import sys
 
-try :
+try:
     import resource
 except ImportError:
     pass
+
 pipeline_options = PdfPipelineOptions()
 pipeline_options.do_ocr = True
 pipeline_options.do_table_structure = False
@@ -52,12 +53,13 @@ def transform_to_page_df(documents, folder_name: str, source_path: str, docling_
         return pd.DataFrame([{
             "folder": folder_name,
             "source": doc.metadata["source"],
-            "page_label": doc.metadata["page_label"],
+            "page_label": doc.metadata.get("page_label", 1),  # Use default page 1 if page_label not present
             "text": doc.page_content,
             "text_length": len(doc.page_content.strip())
         } for doc in documents])
     
     return pd.DataFrame()
+
 def get_temp_filename(file_path, temp_folder="temp"):
     """Generate the expected temp filename for a given file path"""
     base_name = os.path.basename(file_path)
@@ -71,8 +73,48 @@ def is_file_already_processed(file_path, temp_folder="temp"):
     expected_temp_file = get_temp_filename(file_path, temp_folder)
     return os.path.exists(expected_temp_file)
 
+def try_pypdf_loader(file_path, folder_name, temp_folder="temp"):
+    """Try to load a PDF using PyPDFLoader first"""
+    print(f"Trying PyPDFLoader for {os.path.basename(file_path)}")
+    try:
+        loader = PyPDFLoader(file_path)
+        documents = loader.load()
+        
+        # If documents is empty or only contains empty text, return None
+        if not documents or all(len(doc.page_content.strip()) == 0 for doc in documents):
+            print(f"PyPDFLoader returned empty content for {os.path.basename(file_path)}")
+            return None
+            
+        print(f"Successfully loaded {os.path.basename(file_path)} with PyPDFLoader")
+        
+        # Transform and save to CSV
+        temp_csv = f"temp_{os.path.basename(file_path).replace('.pdf', '')}.csv"
+        df = transform_to_page_df(documents, folder_name, file_path)
+        
+        if not df.empty:
+            df.to_csv(os.path.join(temp_folder, temp_csv), index=False)
+            print(f"Saved processed results to {temp_csv}")
+            
+            return os.path.join(temp_folder, temp_csv)
+        
+    except Exception as e:
+        print(f"Error using PyPDFLoader for {file_path}: {e}")
+    
+    return None  # Return None if PyPDFLoader failed or returned empty content
+
 def process_single_file(file_path, folder_name, temp_folder="temp"):
     print_memory_usage(f"before processing {os.path.basename(file_path)}")
+    
+    # First try with PyPDFLoader
+    csv_path = try_pypdf_loader(file_path, folder_name, temp_folder)
+    if csv_path:
+        # PDF was successfully processed with PyPDFLoader
+        gc.collect()
+        print_memory_usage(f"after processing {os.path.basename(file_path)} with PyPDFLoader")
+        return os.path.basename(csv_path)
+    
+    # If PyPDFLoader failed, fall back to docling converter
+    print(f"Falling back to docling converter for {os.path.basename(file_path)}")
     
     try:
         start_time = time.time()
@@ -80,7 +122,7 @@ def process_single_file(file_path, folder_name, temp_folder="temp"):
         result = docling_converter.convert(file_path)
         
         end_time = time.time() - start_time
-        print(f"Time taken to convert {file_path}: {end_time:.2f} seconds")
+        print(f"Time taken to convert {file_path} with docling: {end_time:.2f} seconds")
         
         temp_csv = f"temp_{os.path.basename(file_path).replace('.pdf', '')}.csv"
         
@@ -94,23 +136,23 @@ def process_single_file(file_path, folder_name, temp_folder="temp"):
         del result
         
         gc.collect()
-        print_memory_usage(f"after processing {os.path.basename(file_path)}")
+        print_memory_usage(f"after processing {os.path.basename(file_path)} with docling")
         
         time.sleep(3)
         
-        return temp_csv if os.path.exists(temp_csv) else None
+        return temp_csv if os.path.exists(os.path.join(temp_folder, temp_csv)) else None
         
     except Exception as e:
-        print(f"Error processing file {file_path}: {e}")
+        print(f"Error processing file {file_path} with docling: {e}")
         return None
 
 def load_documents(data_path: str) -> pd.DataFrame:
-
     if sys.platform != "win32":
         try:
             resource.setrlimit(resource.RLIMIT_AS, (4 * 1024 * 1024 * 1024, -1))
         except (ValueError, OSError):
             pass
+    
     temp_folder = "temp"
     if not os.path.exists(temp_folder):
         os.makedirs(temp_folder)
@@ -134,7 +176,7 @@ def load_documents(data_path: str) -> pd.DataFrame:
                     df = transform_to_page_df(documents, folder_name, root)
                     if not df.empty:
                         df.to_csv(os.path.join(temp_folder, temp_csv), index=False)
-                        processed_files.append(temp_csv)
+                        processed_files.append(os.path.join(temp_folder, temp_csv))
                         print(f"Folder converted: {root}")
                     
                     del df
@@ -171,7 +213,7 @@ def load_documents(data_path: str) -> pd.DataFrame:
                             processed_files.append(csv_full_path)
                 
                 gc.collect()
-                time.sleep(30)
+                time.sleep(15)
                 print_memory_usage("after batch")
 
     if processed_files:
