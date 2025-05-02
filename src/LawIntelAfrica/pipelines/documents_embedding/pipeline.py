@@ -1,7 +1,6 @@
 from kedro.pipeline import Pipeline, pipeline, node
 from .nodes import (
     generate_embeddings,
-    assign_unique_ids,
 )
 
 
