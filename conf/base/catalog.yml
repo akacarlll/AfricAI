@@ -13,7 +13,7 @@ cleaned_legal_documents:
   load_args:
     encoding: latin1
   metadata:
-    expected_columns: ["text ", "page_label", "page_title","URL", "metadata", "category", "source"]
+    expected_columns: ["text", "page_label", "page_title","URL", "metadata", "category"]
 
 chunked_docs:
   type: pandas.CSVDataset
