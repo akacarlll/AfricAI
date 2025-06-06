@@ -17,7 +17,7 @@ def _modular_pipeline(**kwargs) -> Pipeline:
         [
             node(
                 func=split_data,
-                inputs=["df_embedding", "params:split_params"],
+                inputs=["chunked_docs", "params:split_params"],
                 outputs="split_dfs",
                 name="splitting_data",
             ),
