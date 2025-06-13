@@ -4,6 +4,7 @@ from langchain.docstore.document import Document
 from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from typing import Dict, List
+from src.LawIntelAfrica.utils.data_transformation._df_to_documents import df_to_documents
 
 def create_faiss_vector_stores(
     dataframes_dict: Dict[str, pd.DataFrame],
@@ -44,31 +45,3 @@ def create_faiss_vector_stores(
         print()
     
     print("🎉 All FAISS vector stores created successfully!")
-
-def df_to_documents(df: pd.DataFrame, chunk_text_column: str, category: str) -> List[Document]:
-    """
-    Convert a dataframe to LangChain documents.
-    
-    Args:
-        df: DataFrame to convert
-        chunk_text_column: Name of the column containing text content
-        category: Category name to add to metadata
-    
-    Returns:
-        List of LangChain Document objects
-    """
-    documents = []
-    
-    for idx, row in df.iterrows():
-        page_content = str(row[chunk_text_column])
-        metadata = row.drop(chunk_text_column).to_dict()
-        metadata["category"] = category
-        metadata = {k: str(v) if not isinstance(v, (str, int, float, bool, type(None))) else v 
-                   for k, v in metadata.items()}
-        doc = Document(
-            page_content=page_content,
-            metadata=metadata
-        )
-        documents.append(doc)
-    
-    return documents

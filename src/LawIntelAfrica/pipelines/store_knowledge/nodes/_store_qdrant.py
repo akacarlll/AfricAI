@@ -54,7 +54,7 @@ def create_qdrant_vector_stores(
         )
         
         texts = df[chunk_text_column].tolist()
-        df.drop(columns=[chunk_text_column], inplace=True)
+        df = df.drop(columns=[chunk_text_column])
         print(f"Generating embeddings for {len(texts)} characters in {category}")
         embeddings = model.encode(texts, show_progress_bar=True)
         
