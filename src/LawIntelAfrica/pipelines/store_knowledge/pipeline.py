@@ -29,13 +29,13 @@ def _modular_pipeline(**kwargs) -> Pipeline:
             ),
             node(
                 func=create_qdrant_vector_stores,
-                inputs=["splits_dfs", "params:qdrant_params"],
+                inputs=["split_dfs", "params:qdrant_params"],
                 outputs=None,
                 name="store_in_qdrant"
             ),
             node(
                 func=create_faiss_vector_stores,
-                inputs=["splits_dfs", "params:faiss_params"],
+                inputs=["split_dfs", "params:faiss_params"],
                 outputs=None,
                 name="store_in_faiss"
             ),
