@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 from qdrant_client import QdrantClient
-from qdrant_client.http.exceptions import QdrantException
+from qdrant_client.http.exceptions import ResponseHandlingException
 from qdrant_client.models import Distance, VectorParams, PointStruct
 from sentence_transformers import SentenceTransformer
 from typing import Dict, Optional
@@ -13,7 +13,7 @@ def create_qdrant_vector_stores(
     embedding_model: str = "all-MiniLM-L6-v2",
     vector_size: int = 384,
     distance_metric: Distance = Distance.COSINE,
-    chunk_text_column: str = "chunk_text"
+    chunk_text_column: str = "page_content"
 )-> None:
     """
     Create Qdrant vector stores from a dictionary of dataframes.

@@ -24,5 +24,7 @@ chunked_docs:
     errors: replace
   load_args:
     encoding: latin1
+    # TODO Restart the pipeline process to to have all the intended columns. 
   metadata:
-    expected_columns: ["chunk_id", "chunk_text", "document_id", "page_labels", "page_title", "metadata", "start_char_idx", "end_char_idx", "category"]
+    # expected_columns: ["chunk_id", "chunk_text", "document_id", "page_labels", "page_title", "metadata", "start_char_idx", "end_char_idx", "category"] 
+    expected_columns : ['chunk_id', 'page_content', 'page_labels', 'doc_title', 'metadata', 'category']

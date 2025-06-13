@@ -2,6 +2,7 @@
 from langchain.docstore.document import Document
 import pandas as pd
 import uuid
+from typing import List 
 
 def df_to_documents(df: pd.DataFrame, chunk_text_column: str, category: str) -> List[Document]:
     """

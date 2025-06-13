@@ -4,13 +4,13 @@ from langchain.docstore.document import Document
 from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from typing import Dict, List
-from src.LawIntelAfrica.utils.data_transformation._df_to_documents import df_to_documents
+from LawIntelAfrica.utils.data_transformation._df_to_documents import df_to_documents
 
 def create_chroma_vector_stores(
     dataframes_dict: Dict[str, pd.DataFrame],
     output_dir: str = "./vector_stores/chroma_stores",
     embedding_model: str = "all-MiniLM-L6-v2",
-    chunk_text_column: str = "chunk_text"
+    chunk_text_column: str = "page_content"
 )-> None:
     """
     Create Chroma vector stores from a dictionary of dataframes using LangChain documents.
