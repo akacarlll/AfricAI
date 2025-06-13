@@ -17,7 +17,6 @@ def split_data(df: pd.DataFrame, split: bool) -> dict:
     if not split:
         return {"original": df}
 
-    # Split the DataFrame based on the 'category' column
     split_dfs = {category: df_group for category, df_group in df.groupby("category")}
 
     return split_dfs

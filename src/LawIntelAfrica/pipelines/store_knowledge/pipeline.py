@@ -5,7 +5,9 @@ generated using Kedro 0.19.10
 
 from kedro.pipeline import Pipeline, pipeline, node
 from .nodes import (
-    store_in_chroma,
+    create_chroma_vector_stores,
+    create_faiss_vector_stores,
+    create_qdrant_vector_stores,
     split_data,
 )
 
@@ -20,10 +22,22 @@ def _modular_pipeline(**kwargs) -> Pipeline:
                 name="splitting_data",
             ),
             node(
-                func=store_in_chroma,
+                func=create_chroma_vector_stores,
                 inputs=["split_dfs", "params:chroma_params"],
                 outputs=None,
                 name="store_in_chroma",
+            ),
+            node(
+                func=create_qdrant_vector_stores,
+                inputs=["split_dfs", "params:qdrant_params"],
+                outputs=None,
+                name="store_in_qdrant"
+            ),
+            node(
+                func=create_faiss_vector_stores,
+                inputs=["split_dfs", "params:faiss_params"],
+                outputs=None,
+                name="store_in_faiss"
             ),
         ]
     )
