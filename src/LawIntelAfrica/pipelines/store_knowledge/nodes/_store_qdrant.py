@@ -1,6 +1,7 @@
 import os
 import pandas as pd
 from qdrant_client import QdrantClient
+from qdrant_client.http.exceptions import QdrantException
 from qdrant_client.models import Distance, VectorParams, PointStruct
 from sentence_transformers import SentenceTransformer
 from typing import Dict, Optional
@@ -43,7 +44,7 @@ def create_qdrant_vector_stores(
         collection_name = f"{category}_collection"
         try:
             client.delete_collection(collection_name)
-        except:
+        except QdrantClientException:
             pass 
         client.create_collection(
             collection_name=collection_name,
@@ -55,7 +56,7 @@ def create_qdrant_vector_stores(
         
         texts = df[chunk_text_column].tolist()
         df = df.drop(columns=[chunk_text_column])
-        print(f"Generating embeddings for {len(texts)} characters in {category}")
+        print(f"Generating embeddings for {len(texts)} chunks in {category}")
         embeddings = model.encode(texts, show_progress_bar=True)
         
         points = []
