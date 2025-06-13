@@ -20,15 +20,3 @@ chunked_docs:
     index: False
     encoding: latin1
     errors: replace
-
-df_embedding:
-  type: pandas.CSVDataset
-  filepath: data/06_models/df_embeddings.csv
-  save_args:
-    index: False
-    encoding: latin1
-    errors: replace
-
-stored_embeddings:
-  type: pickle.PickleDataset
-  filepath: data/06_models/embeddings.pkl
