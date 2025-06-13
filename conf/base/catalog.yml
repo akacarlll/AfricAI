@@ -26,17 +26,3 @@ chunked_docs:
     encoding: latin1
   metadata:
     expected_columns: ["chunk_id", "chunk_text", "document_id", "page_labels", "page_title", "metadata", "start_char_idx", "end_char_idx", "category"]
-
-df_embedding:
-  type: pandas.CSVDataset
-  filepath: data/06_models/df_embeddings.csv
-  save_args:
-    index: False
-    encoding: latin1
-    errors: replace
-  load_args:
-    encoding: latin1
-
-stored_embeddings:
-  type: pickle.PickleDataset
-  filepath: data/06_models/embeddings.pkl
