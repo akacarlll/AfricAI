@@ -39,7 +39,7 @@ def create_qdrant_vector_stores(
         if chunk_text_column not in df.columns:
             print(f"Warning: '{chunk_text_column}' column not found in {category} dataframe. Skipping.")
             continue
-        db_path = os.path.join(output_dir, f"{category}.db")
+        db_path = os.path.join(output_dir, f"{category}")
         client = QdrantClient(path=db_path)
         collection_name = f"{category}_collection"
         try:

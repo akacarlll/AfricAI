@@ -13,7 +13,7 @@ data/chroma/**
 !data/**/
 data/cmr/pdfs*
 data/cmr/texts*
-
+vector_stores/
 *.csv
 # also keep all .gitkeep files
 !.gitkeep
