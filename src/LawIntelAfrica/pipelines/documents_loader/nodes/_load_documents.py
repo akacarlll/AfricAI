@@ -43,7 +43,7 @@ def transform_to_page_df(documents, folder_name: str, source_path: str, docling_
             "folder": folder_name,
             "source": source_path,
             "page_label": 1,
-            "text": content,
+            "page_content": content,
             "text_length": len(content.strip())
         }])
         del content
@@ -54,7 +54,7 @@ def transform_to_page_df(documents, folder_name: str, source_path: str, docling_
             "folder": folder_name,
             "source": doc.metadata["source"],
             "page_label": doc.metadata.get("page_label", 1),  # Use default page 1 if page_label not present
-            "text": doc.page_content,
+            "page_content": doc.page_content,
             "text_length": len(doc.page_content.strip())
         } for doc in documents])
     

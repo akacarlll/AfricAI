@@ -17,7 +17,7 @@ def remove_characters(df: pd.DataFrame) -> pd.DataFrame:
     for col in df.columns:
         if is_string_dtype(df[col]):
             df[col] = df[col].apply(remove_accents_and_special_chars)
-    df["text"] = df["text"].str.replace(
+    df["page_content"] = df["page_content"].str.replace(
         r"[^a-zA-Z0-9\s.,!?'\"\-:;(){}[\]]", "", regex=True
     )
     return df.fillna("")

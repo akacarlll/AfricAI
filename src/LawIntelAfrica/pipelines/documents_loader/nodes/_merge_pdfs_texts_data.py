@@ -51,6 +51,7 @@ def load_and_concat_dataframes(base_folder):
             if file.endswith(f".csv"):
                 file_path = os.path.join(root, file)
                 df = pd.read_csv(file_path)
+                df.rename(columns={"text":"page_content"})
                 dataframes.append(df)
     if dataframes:
         combined_df = pd.concat(dataframes, ignore_index=True)
