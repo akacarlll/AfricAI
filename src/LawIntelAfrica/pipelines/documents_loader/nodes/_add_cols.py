@@ -44,7 +44,6 @@ def extract_metadata(df: pd.DataFrame) -> pd.DataFrame:
         axis=1
     )
 
-    df = df.drop(columns=["_temp_page_content_year"])
     df["country"] = df["source"].apply(extract_country_from_source)
     df["language"] = df["page_content"].apply(lambda x: detect_language(str(x)[:200]) if pd.notna(x) else "Unknown")
 
@@ -56,9 +55,9 @@ def extract_metadata(df: pd.DataFrame) -> pd.DataFrame:
 
     for key in all_metadata_keys:
         df[key] = parsed_metadata.apply(lambda x: x.get(key) if isinstance(x, dict) else None)
+    df = df.drop(columns=["_temp_page_content_year", "metadata"])
 
     # TODO: Add a column for metadata extraction
-    df.drop(columns=["_temp_page_content_year"], inplace=True)
     return df
 
 
@@ -72,10 +71,8 @@ def extract_document_name(file_path):
     Returns:
         str: The document name (filename without extension).
     """
-    # Get just the filename without the directory
     filename = os.path.basename(file_path)
     
-    # Remove the extension
     document_name = os.path.splitext(filename)[0]
     
     return document_name
@@ -125,7 +122,7 @@ def extract_year(text: str) -> int | None:
     if not valid_years:
         return None
     elif len(valid_years) > 1:
-        print(f"DEBUG: Multiple valid years found in "{text[:50]}...": {valid_years}. Returning the largest: {max(valid_years)}.")
+        print(f"DEBUG: Multiple valid years found in '{text[:50]}...': {valid_years}. Returning the largest: {max(valid_years)}.")
         return max(valid_years)
     else:
         return valid_years[0]

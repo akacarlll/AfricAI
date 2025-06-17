@@ -14,25 +14,28 @@ def remove_characters(df: pd.DataFrame) -> pd.DataFrame:
     Returns:
         pd.DataFrame: A DataFrame containing the text with the special characters removed.
     """
-    for col in df.columns:
-        if is_string_dtype(df[col]):
-            df[col] = df[col].apply(remove_accents_and_special_chars)
-    df["page_content"] = df["page_content"].str.replace(
-        r"[^a-zA-Z0-9\s.,!?'\"\-:;(){}[\]]", "", regex=True
-    )
+    find_unicode_chars(df)
+    df = fully_clean_dataframe(df)
     return df.fillna("")
 
 
-def remove_accents_and_special_chars(text: str) -> str:
-    """
-    Removes accents and special characters from a given text.
+def find_unicode_chars(df):
+    for col in df.columns:
+        if df[col].dtype == object:
+            mask = df[col].astype(str).apply(lambda x: any(ord(c) > 127 for c in x))
+            if mask.any():
+                print(f"Problem in column: {col}")
+                print(df.loc[mask, col])
+def fully_clean_dataframe(df: pd.DataFrame) -> pd.DataFrame:
+    def clean_value(val):
+        if not isinstance(val, str):
+            return str(val)
+        val = unicodedata.normalize("NFKD", val)
+        val = val.encode("ascii", "ignore").decode("ascii")
+        val = val.replace('\u2008', ' ') 
+        return val
 
-    Args:
-        text (str): The input text containing accents and/or special characters.
-
-    Returns:
-        str: The cleaned text with accents and special characters removed.
-    """
-    normalized = unicodedata.normalize("NFKD", text)
-    ascii_text = normalized.encode("ASCII", "ignore").decode("ASCII")
-    return ascii_text
+    for col in df.columns:
+        if is_string_dtype(df[col]) or df[col].dtype == object:
+            df[col] = df[col].fillna("").astype(str).map(clean_value)
+    return df

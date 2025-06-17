@@ -44,7 +44,8 @@ def transform_to_page_df(documents, folder_name: str, source_path: str, docling_
             "source": source_path,
             "page_label": 1,
             "page_content": content,
-            "text_length": len(content.strip())
+            "text_length": len(content.strip()),
+            "file_type":"pdf"
         }])
         del content
         return df
@@ -55,7 +56,8 @@ def transform_to_page_df(documents, folder_name: str, source_path: str, docling_
             "source": doc.metadata["source"],
             "page_label": doc.metadata.get("page_label", 1),  # Use default page 1 if page_label not present
             "page_content": doc.page_content,
-            "text_length": len(doc.page_content.strip())
+            "text_length": len(doc.page_content.strip()),
+            "file_type":"pdf"
         } for doc in documents])
     
     return pd.DataFrame()

@@ -41,17 +41,15 @@ def load_and_concat_dataframes(base_folder):
         - Supported file extensions: "csv", "xlsx", "xls".
         - If no files are found, an empty DataFrame is returned.
     """
-    # Liste pour stocker les DataFrames
     dataframes = []
 
-    # Parcourir tous les sous-dossiers et fichiers
     for root, _, files in os.walk(base_folder):
         for file in tqdm(files):
-            # Vérifier si le fichier a l'extension souhaitée
             if file.endswith(f".csv"):
                 file_path = os.path.join(root, file)
                 df = pd.read_csv(file_path)
-                df.rename(columns={"text":"page_content"})
+                df.rename(columns={"text":"page_content"}, inplace = True)
+                df["file_type"] = "csv"
                 dataframes.append(df)
     if dataframes:
         combined_df = pd.concat(dataframes, ignore_index=True)
