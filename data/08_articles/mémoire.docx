@@ -1,0 +1,295 @@
+Introduction
+1. Contexte général.
+2. Problématique : Comment les modèles de langage (LLM) peuvent-ils améliorer l’efficacité opérationnelle des banques? Étude de cas au sein de la Société Générale.
+3. Objectifs de la recherche
+Partie 1 - Contexte général et institutionnel
+1.1 Présentation du Groupe Société Générale
+1.1.1 Histoire du groupe.
+1.1.2 Aujourd’hui
+1.1.3 Organisation interne (notamment GTPS, Datalab).
+1.2 Environnement IA dans la banque
+1.2.1 Volontés stratégiques autour de l’IA (accélération récente de la SG, création de SocgenAI pour y répondre, synergie de cette dernière avec les DataLabs locaux).
+1.2.2 Enjeux et opportunités pour les institutions bancaires (rationalisation grâce à l’IA, etc..).
+1.3 Présentation des métiers bancaires
+1.3.1 Métiers clés (lignes métiers GTPS).
+1.3.2 Typologie des produits vendus (revue d’une partie de la variété des produits, pourquoi les LLMs peuvent accélérer différents processus les concernant).
+Partie 2 - État de l’art des LLM et des technologies associées
+2.1 Historique de l’intelligence artificielle
+2.1.1 Grandes étapes de l’IA (années 60 à aujourd’hui, axé sur le Deep Learning et le NLP).
+2.2 L’avènement des LLM
+2.2.1 « Attention is all you need » (2017) / Deepmind de google (2010) : points de bascule.
+2.2.2 Émergence des modèles comme GPT, BERT, LLaMA ; modèles open sources vs propriétaires.
+2.3 Écosystème technologique autour des LLM
+2.3.1 Chat bot, RAG, éditeur de code (présentation de manière générale).
+2.3.2 Évolution vers une IA agentique, workflows pilotés par IA.
+2.3.3 Framework et architecture IA (axé sur la stack tech du projet).
+Partie 3 - Mission en entreprise : Amélioration de l’efficacité opérationnelle avec les LLM
+3.1 Contexte et problématique métier
+3.1.1 Problématique rencontrée au sein de la Société Générale.
+3.1.2 Enjeux pour l’équipe Datalab GTPS.
+3.1.3 Objectifs du projet.
+3.2 Méthodologie et travaux réalisés
+3.2.1 Modèle de classification de qualité des documents (réalisation et limites).
+3.2.2 Restructuration des documents (traitement des tableaux, nettoyage des doublons, limites de la méthode).
+3.2.3 Ajout de mots clés pour améliorer le retrieval (méthodes utilisées/ retenues,résultat).
+3.2.4 Réalisation du livrable.
+3.2.5 Automatisation de la récupération des documents sur share points.
+3.2.6 Mise en place du monitoring du modèle.
+3.3 Résultats obtenus
+3.3.1 Suivi de la similarité sémantique (prod/champion/challenger).
+3.3.2 Évaluation avec diverses métriques (Recall@k, reranking, RAGAS…).
+3.3.2 Retours des utilisateurs internes.
+3.3.3 Apport concret en termes d’efficacité opérationnelle.
+Partie 4 – Limites, difficultés rencontrées et perspectives
+4.1 Limites du projet
+4.1.1 Contraintes techniques et organisationnelles.
+4.2 Difficultés rencontrées
+4.2.1 Problèmes d’accès aux données.
+4.2.2 Complexité du traitement des documents (lecture des tableaux, parsing, etc..).
+4.2.3 Intégration dans l’écosystème existent.
+4.2.4 Limites et défis actuels des LLMs (hallucinations, biais, coût, sécurité).
+4.3 Projets personnels et prolongements
+4.3.1 Création d’agents IA pour la navigation dans des documents juridiques.
+4.3.2 Développement d’un site pour consulter et essayer les modèles.
+4.3.3 Perspectives de déploiement à plus grande échelle.
+Conclusion
+
+Introduction
+1. Contexte général.
+2. Problématique : Comment les modèles de langage (LLM) peuvent-ils améliorer l’efficacité opérationnelle des banques? Étude de cas au sein de la Société Générale.
+3. Objectifs de la recherche
+Partie 1 - Contexte général et institutionnel
+1.1 Présentation du Groupe Société Générale
+1.1.1 Histoire du groupe.
+1.1.2 Aujourd’hui
+1.1.3 Organisation interne (notamment GTPS, Datalab).
+1.2 Environnement IA dans la banque
+1.2.1 Volontés stratégiques autour de l’IA (accélération récente de la SG, création de SocgenAI pour y répondre, synergie de cette dernière avec les DataLabs locaux).
+Le groupe compte aujourd’hui sur l’intelligence artificielle pour accélérer la productivité de ses Business Units. 
+Lors de ces dernières années, le groupe a bâti des compétences reconnues en matière d’IA et de nombreuses initiatives ont été misent en place pour catalyser cet engouement et l’appliquer de l’appliquer de la meilleure manière. Le big data, l’automatisation, le cloud, data science, tant de domaine où ont déjà  été ménés à biens de nombreux projets. Parmi ceux-ci on peut citer la détection de risque de crédits, potentiels Plus (P+) pour l’amélioration de la prospection des ingénieurs de ventes de chez SGRF ou encore notre outil data explorer qui nous permet d’afficher par exemple des dashboards… (continuer l’explication) dans notre lab. Mais aussi LUCID… en général dans l’entreprise. Ca c’est sur une phase disons IA classique, autrement machine learning couplé à du big data. 
+Aujourd’hui, avec l’avénement des modèle de language qui représente une innovation de rupture, la nouvelle stratégie IA est bien claire, les efforts du groupe sont concentrés sur 6 domaines pour lesquels l’impact en termes de satisfaction clients, d’efficacité opérationnelle, de gestion des risques est le plis élevée ; ce sont  l’on-boarding, et le KYC client, le traitement des demandes clients, les opérations back-offices à fort volume peu standardisées, le dev informatique, la gestion des données et l’exécution des contrôles de risque et de conformité.
+Cet engouement est caractérisé par la création de service dans le groupe entièrement dédié aux développements d’application lié à ces IA, soit en créant un produit qui peut être utilisé par le métier soit en créant l’architecture nécessaire aux différents Datalabs pour développer un produit et/ou service, dont ils auront étudié la valeur avec le métier, en autonomie. SocGenAi est l’entité qui a été créé en février 2025 pour participer en tant qu’acteur principal à la réalisation de ces objectifs. Ils se concentrent sur le développent de produit et d’infrastructure IA SOTA, pour permettre une transformation à grand échelle dans le groupe à travers l’IA. Ils ont actuellement 3 priorités business, qui rejoigne les domaines mentionnées précédemment, l’amélioration de l’expérience client durant les processus de KYC, en automatisant le processus qui accède et analyse les informations KYC, lorsque les clients interagissent avec nous, en automatisant le management de la communication client et l’accélération de réponse aux régulateurs. Ceux sont donc eux qui construisent des capabilités transverses IA dont des Agents IA, des chat bots avec de la connaissance et du contrôle IA (?). Ils s’appuient donc sur les datalabs qui eux priorisent les uses cases locaux et la collaboration avec le métier. (automatic code review project) Ils peuvent réaliser des recherches sur les meilleurs manières d’utilsier l’IA, développement in-house vs achat de solution déjà faites.
+Parler  comment il y a une synérgie avec des datalabs locaux.
+On a aussi la mise en place de différents workshop et séminaire.
+Parler de GTPS AI JOURNEY / Tech And AI Days 
+1.2.2 Enjeux et opportunités pour les institutions bancaires (rationalisation grâce à l’IA, etc..).
+Enjeux : ⚠️ Enjeux et défis à affronter
+🔍 Qualité, biais, hallucinations et explicabilité
+Les LLMs peuvent générer des erreurs (hallucinations), refléter des biais dans les données d’entraînement, et leurs décisions peuvent manquer de transparence. Cela pose des problèmes de confiance, de discrimination et de conformité Agifpass+3nurix.ai+3ESGF+3.
+🛡️ Sécurité des données et confidentialité
+Le traitement de données sensibles impose des garanties fortes : souveraineté des données, chiffrement, contrôle d’accès, consentement client, prévention des fuites et cyberattaques nurix.aibabyloneconsulting.frAgifpass.
+⚖️ Réglementation et conformité
+Les banques doivent naviguer une réglementation stricte (AML/KYC, RGPD, règles financières), avec une exigence de traçabilité et d’auditabilité des décisions automatisées. L’absence de réglementation claire pour l’IA textuelle complexifie la mise en œuvre European Central BankFinancial TimesarXiv.
+🧩 Intégration aux systèmes existants
+Les systèmes bancaires hérités peuvent freiner l’intégration des LLMs : il faut parfois moderniser, connecter ou superposer des robots logiciels pour interagir avec les interfaces existantes nurix.aibabyloneconsulting.frWikipédia.
+🧑‍🤝‍🧑 Impact social et gestion du changement
+L’automatisation peut générer des inquiétudes sur l’emploi. Elle nécessite une politique RH proactive : formation, reconversion, appropriation des outils et maintien de l’humain dans la boucle décisionnelle ESGFbabyloneconsulting.frAgifpass.
+________________________________________
+3. 🎯 Enjeux stratégiques et structurants
+💼 Maintenir l’humain au cœur du processus
+Les LLMs sont conçus pour assister, non remplacer : les banques doivent positionner l’IA comme un copilote intelligence augmentée (co-pilot), avec supervision humaine, validation des résultats et capacité d’intervenir en cas de doute The Wall Street JournalBusiness InsiderFN LondonAgifpass.
+🧠 Vers des architectures modulaires et hybrides
+Un modèle hybride combinant LLMs et modèles plus spécialisés (SLMs) ou agents autonomes facilite la flexibilité et le contrôle. Les approches par agents modulaires sont prometteuses pour adapter les outils aux évolutions des besoins ou des régulations TechRadarTechRadarTechRadarnurix.ai.
+🏛️ Gouvernance et pilotage de l’IA responsable
+Les banques doivent adopter une gouvernance structurée : comités d’éthique, processus de validation, audits réguliers, explainable AI, tests adversariaux, et traçabilité complète des interventions IA nurix.ai+2arXiv+2Agifpass+2.
+
+Opportunité : La rationalisation des tâches consiste à analyser et réorganiser les processus de travail afin de les rendre plus efficaces, rapides et économiques. Cela passe par la suppression des étapes inutiles, l’automatisation des tâches répétitives, et une meilleure répartition des ressources. L’objectif est de gagner du temps, de réduire les coûts et de permettre aux collaborateurs de se concentrer sur des activités à plus forte valeur ajoutée. Dans les banques, cela peut par exemple se traduire par l’automatisation du traitement des e-mails, la génération automatique de rapports, ou l’analyse de documents grâce à l’intelligence artificielle. C’est donc un enjeux de productivité, les banques doivent se lancer dans l’IA sous peine de perdre en productivité par rapport à leurs conccurrentes qui elles s’en serviraient.
+Continuer la partie…
+1.3 Présentation des métiers bancaires
+1.3.1 Métiers clés (lignes métiers GTPS).
+Rapport Adam Rida
+1.3.2 Typologie des produits vendus (revue d’une partie de la variété des produits, pourquoi les LLMs peuvent accélérer différents processus les concernant).
+Partie 2 - État de l’art des LLM et des technologies associées
+2.1 Historique de l’intelligence artificielle
+2.1.1 Grandes étapes de l’IA (années 60 à aujourd’hui, axé sur le Deep Learning et le NLP).
+2.2 L’avènement des LLM
+2.2.1 « Attention is all you need » (2017) / Deepmind de google (2010) : points de bascule.
+2.2.2 Émergence des modèles comme GPT, BERT, LLaMA ; modèles open sources vs propriétaires.
+2.3 Écosystème technologique autour des LLM
+2.3.1 Chat bot, RAG, éditeur de code (présentation de manière générale).
+2.3.2 Évolution vers une IA agentique, workflows pilotés par IA.
+2.3.3 Framework et architecture IA (axé sur la stack tech du projet).
+Les projets IA peuvent être fais de différentes manières. Soit on code tout du début avec des solutions in-house, soit on utilise des framework et des librairies qui « « déplace le contexte d’utilisation » »  afin de simplifier la création des solutions IA-driven Les frameworks et le code brut offrent des approches distinctes pour le développement logiciel, chacune avec ses atouts. Les frameworks, comme React ou Django, accélèrent le développement grâce à leurs outils intégrés et leurs structures standardisées, idéales pour des projets complexes ou collaboratifs. Ils offrent des fonctionnalités prêtes à l’emploi, une sécurité renforcée et un support communautaire, mais peuvent alourdir l’application et imposer une courbe d’apprentissage. À l’inverse, le code brut, sans framework, garantit un contrôle total et une légèreté optimale, parfait pour des projets simples ou des solutions sur mesure. Cependant, il demande plus de temps pour coder des fonctionnalités complexes et nécessite une expertise pour assurer qualité et sécurité. En somme, les frameworks privilégient la rapidité et la scalabilité, tandis que le code brut excelle dans la flexibilité et la performance, le choix dépendant des besoins du projet. 
+Il existe tout un tas de frameworks et de stacks technologiques pour développer des systèmes RAG (Retrieval-Augmented Generation) ou, plus généralement, des produits basés sur l’intelligence artificielle. Ici, nous nous concentrerons uniquement sur les outils que nous avons utilisés dans le cadre de ce projet.
+•	LangChain : framework central pour la construction de chaînes RAG, facilitant l’orchestration entre les composants (retrieval, LLMs, prompt templating, etc.).
+•	RAGext (ou RAGextensions) : ensemble d’extensions facilitant l’implémentation de variantes du RAG, notamment en termes de post-traitement ou de réécriture des prompts.
+•	Docling : outil d’annotation ou de structuration documentaire permettant un traitement plus fin des documents (e.g., repérage de sections, méta-informations).
+•	RAGAS : framework d’évaluation de la qualité des systèmes RAG, via des métriques comme la factualité, la pertinence ou la complétude.
+•	Faiss : bibliothèque Facebook pour l’indexation et la recherche vectorielle efficace, utilisée ici pour accélérer la recherche sémantique sur les embeddings.
+•	BM25 : algorithme de ranking lexical (non-vectoriel), utilisé comme méthode de comparaison ou pour l’enrichissement hybride (dense + sparse).
+•	SentenceTransformers : bibliothèque basée sur les modèles BERT ou MPNet, utilisée pour générer des embeddings sémantiques à partir de textes.
+•	spaCy : bibliothèque de traitement du langage naturel rapide et efficace, utilisée ici pour le prétraitement (tokenisation, lemmatisation, NER, etc.).
+•	FuzzyWuzzy : bibliothèque de fuzzy matching pour évaluer ou retrouver des correspondances textuelles approximatives.
+•	BeautifulSoup : outil de parsing HTML/XML utilisé dans l’étape d’ingestion de contenu web ou de documents complexes.
+•	Azure Storage Blob : service de stockage cloud utilisé pour l’archivage des documents source, des fichiers intermédiaires, ou des résultats d’inférence.
+PyMuPDF : bibliothèque légère et performante pour lire, analyser et extraire le contenu des fichiers PDF (texte, images, métadonnées), utilisée notamment pour l’ingestion documentaire et le découpage contextuel.
+Ces outils ont été intégrés dans notre projet sur le rag dans différentes parties du projets. Chaque framework / librairies répond à une fonction bien précise dans le cycle de traitement, de l’ingestion à l’évaluation, en passant par la vectorisation et la recherche documentaire. Ensemble, ils forment l’ossature technologique du moteur RAG développé dans ce projet.
+Partie 3 - Mission en entreprise : Amélioration de l’efficacité opérationnelle avec les LLM
+3.1 Contexte et problématique métier
+3.1.1 Problématique rencontrée au sein de la Société Générale.
+Dans le groupe l’entité PCM (Payment et Cash Management) propose différents produits aux clients tels que ldes servides de gestion de trésorerie, des services de reporting ou des solutions de spaiements. Ces produits de par leur complexité, la nécessité à être conforme aux réglementations nationales et supranationales et pour garantir un support client de qualité ont besoin d’avoir avec une documentation qui décrit, explicite l’utilisation de chaque porduit et services de l’entité. Cette documentation est conservée sur un SharePoint ; un logiciel microsoft qui permet de placer, organiser partager et accéder des informations de manière sécurisé à partir de n’importe quel appareil et comporte près de 500 documents différents dont certains peuvent faire des centaines de pages. Dans ce dédalle de documents et d’informations chaque sales lorsqu’il a besoin d’une information précise qu’il aurait oublié ou juste jamais appris doit parcourir les documents pour trouver ce qu’il lui faut. Dans le cas où il ne s’aurait pas, il peut s’addresser aux chefs produits des personnes dont la cap ex est presque entièrement dédié à répondre à des questions. Pire encore quand la personne vient de prendre le poste, autrement dit l’on-boarding, la courbe d’apprentissage peut être longue et difficile.
+3.1.2 Enjeux pour l’équipe Datalab GTPS.
+La poursuite de sa politique concernant le développement de la GenAI dans le groupe est le principal enjeu. Ici une rationalisation des tâches peut être faites en supprimant les recherches, complexes et fastidieuses. On touche à deux des six domaines dont la GenAI doit améliorer la productivité, l’on-boarding et l’efficacité opérationnelle.
+Le Datalab a quant à lui pour enjeux la réalisation d’un produit qui a une valeur estimée de plusieurs centaines de milliers d’euros. Démontrer les connaissances et les compétences du lab en terme d’IA générative et de création de produit production-ready en garantissant la qualité de ceux-ci. Mais aussi démontrer une capacité à collaborer main dans la main avec d’autres datalabs; en l’occurrence GBTO qui dans le projet a la main sur la mise en place du site et de l’infrastructure RAG de production.
+3.2 Présentation du Projet
+3.2.1 Description du projet 
+IKAR est développé en réponse aux problématiques relevées ci-dessus, un RAG (Retrieval Augmented Generation) qui permet aux utilisateurs d’obtenir une réponse à n’importe quelle question, si tant est qu’elle est dans la base documentaire. Côté GTPS, le travail se concentre sur la construction d’une base documentaite, autrement une base de données vectorielle qui permet de faire des recherches  par similarité sémantique. Il est développée à l’origine par Alban Lours, travail sur lequel je vais emmener une évolution en élargissant le scope du RAG en y ajoutant des documents  qui n’étaient pas incluent auparavant, grâce à la lecture des tableaux, la modification de la recherche des documents grâce à l’ajout de metadata. 
+En plus de cela, j’ai pu ajouté à « l’écosystème IKAR 
+E
+.   
+3.2 Présentation du projet développé (à ajouter)
+•	Objectif du projet
+•	Fonctionnalités principales
+•	Technologies mobilisées
+•	Utilisateurs finaux
+
+3.1.3 Objectifs du projet.
+Le projet a pour objectif l’amélioration de l’efficacité opérationnel avec plus d’autonomie de la part des Sales et des MO  et moins de demandes faites aux chefs produits qui pourront donc consacrer leur temps à faire des tâches dont la valeur est plus grande. De plus, il a pour objectif, moins explicite, de démontrer comment peut être utilisé l’IA générative en entreprise au métier, pourquoi il faut l’utiliser et il constitue une porte d’entrée pour la création d’autres chat bots similaires avec d’autres BU et entités du groupe.
+3.2 Méthodologie et travaux réalisés
+3.2.1 Modèle de classification de qualité des documents (réalisation et limites).
+
+3.2.2 Restructuration des documents (traitement des tableaux, nettoyage des doublons, limites de la méthode).
+3.2.3 Ajout de mots clés pour améliorer le retrieval (méthodes utilisées/ retenues,résultat).
+3.2.4 Réalisation du livrable.
+3.2.5 Automatisation de la récupération des documents sur share points.
+3.2.6 Mise en place du monitoring du modèle.
+3.3 Résultats obtenus
+3.3.1 Suivi de la similarité sémantique (prod/champion/challenger).
+3.3.2 Évaluation avec diverses métriques (Recall@k, reranking, RAGAS…).
+3.3.2 Retours des utilisateurs internes.
+3.3.3 Apport concret en termes d’efficacité opérationnelle.
+Partie 4 – Limites, difficultés rencontrées et perspectives
+4.1 Limites du projet
+4.1.1 Contraintes techniques et organisationnelles.
+4.2 Difficultés rencontrées
+4.2.1 Problèmes d’accès aux données.
+4.2.2 Complexité du traitement des documents (lecture des tableaux, parsing, etc..).
+4.2.3 Intégration dans l’écosystème existent.
+4.2.4 Limites et défis actuels des LLMs (hallucinations, biais, coût, sécurité).
+4.3 Projets personnels et prolongements
+4.3.1 Création d’agents IA pour la navigation dans des documents juridiques.
+4.3.2 Développement d’un site pour consulter et essayer les modèles.
+4.3.3 Perspectives de déploiement à plus grande échelle.
+Conclusion
+PS Certaines parties seront moins développés car moins pertinentes dans le sujet : 1.1 /2.1 /2.2
+
+Partie 2 - État de l’art des LLM et des technologies associées
+2.1 Historique de l’intelligence artificielle
+2.1.1 Grandes étapes de l’IA (années 60 à aujourd’hui, axé sur le Deep Learning et le NLP).
+L’intelligence artificielle ne fait pas l’objet d’une définition universellement acceptée, et demeure un concept polysémique. Dans Mission AI, S. Haroun et al. soulignent que certains considèrent l’IA simplement comme un ensemble d’algorithmes. Toutefois, cette approche pose problème dans la mesure où les algorithmes précèdent historiquement la naissance de l’intelligence artificielle elle-même. D'autres définitions insistent sur la capacité des machines à imiter l’intelligence humaine. Comme Brooks (1980, p. 66), qui nous proposes une définition de l’IA comme étant « knowledge of how to fulfill certain human purposes in a specifiable and reproducible way ». Cette perspective reste peu acceptable, notamment parce que les performances des systèmes d’intelligence artificielle demeurent, dans de nombreux domaines, inférieures à celles des humains. 
+Plus récemment, Cole Stryker, éditeur chez IBM, décrit l’IA comme une technologie permettant aux machines de simuler des fonctions cognitives humaines telles que l’apprentissage, la compréhension, la résolution de problèmes, la prise de décision, la créativité et l’autonomie (IBM, s.d.). Cette définition permet d’englober toutes les couches de l’intelligence artificielle, tout en lui donnant des fonctions bien précises 
+Enfin, selon Leslie (2020, p. 6), l’IA peut être appréhendée comme un « umbrella term for a range of algorithm-based technologies », soulignant ainsi la diversité des approches techniques et méthodologiques qu’elle englobe. Ce flou sémantique reflète à la fois l’évolution rapide du domaine et la pluralité des disciplines impliquées dans son développement.
+ 
+De ce fait, on peut admettre que l’intelligence artificielle peut être décomposée en plusieurs sous-domaines, dont chacun utilise ses propres algorithmes. Parmi ceux-ci, les modèles de langage constituent une branche spécifique, développée notamment grâce aux avancées du deep learning et des réseaux de neurones. Dans ce travail, l’attention sera portée plus particulièrement sur une catégorie spécifique de ces modèles : les grands modèles de langage, souvent désignés par l’acronyme LLM (Large Language Models).
+Radford et al. (2019), dans leur article Language Models are Unsupervised Multitask Learners, décrivent les LLMs comme des modèles entraînés de manière non supervisée, capables d’accomplir un large éventail de tâches linguistiques sans nécessiter d'entraînement supplémentaire pour chaque tâche spécifique. Cette approche met en évidence leur polyvalence et leur capacité d’adaptation.
+Brown et al. (2020), dans Language Models are Few-Shot Learners, apportent une définition plus précise. Selon eux, les LLMs sont des modèles entraînés sur de vastes corpus de textes non étiquetés à l’aide de techniques d’apprentissage auto-supervisé, leur permettant de prédire la suite la plus probable d’une séquence donnée. Cette capacité prédictive leur confère la faculté d’effectuer différentes tâches linguistiques, souvent sans entraînement préalable spécifique, voire avec un nombre très limité d’exemples (few-shot learning).
+Ici quand nous parlerons d’IA nous nous concentrons sur la défition des LLMs. Quelles ont étés les étapes pour arriver à cette technologie ? Sans vouloir tout expliquer, il y a eu plusieurs tendances qui nous ont permis d’y arriver. Sans tout détailler, plusieurs grandes tendances ont conduit au développement des LLMs actuels.
+Dans le cadre de ce mémoire, lorsque nous évoquerons l’intelligence artificielle, c’est toujours aux modèles de langages que nous ferons allusions. Cette technologie est le fruit d’une évolution en mathématique, en informatique et en physique, marquée par plusieurs courants majeurs. Nous les présenterons succinctement.
+Dans les années 1950 1980, l’intelligence artificielle reposait sur des approches symboliques : les chercheurs comme McCarthy (1959) ou Newell et Simon (1956) tentaient de modéliser la logique humaine via des règles explicites. Des systèmes comme ELIZA (Weizenbaum, 1966) simulaient des dialogues en manipulant des symboles, mais restaient très limités.
+Dans les années 1980 1990, les réseaux de neurones ont connu une première vague, avec le retour de l’apprentissage supervisé (Rumelhart, Hinton & Williams, 1986), mais leur impact restait marginal à cause du manque de données et de puissance de calcul.
+À partir des années 1990, l’IA statistique remplace progressivement les approches symboliques. Des modèles comme les Hidden Markov Models (HMM) de Rabiner (1989) ouvrent la voie à un traitement du langage naturel (NLP) fondé sur les données et les probabilités. Peu après, l’introduction des Réseaux de Neurones Récurrents (RNN), et surtout des LSTM (Hochreiter & Schmidhuber, 1997), permet de mieux modéliser les séquences textuelles, posant les bases des futurs LLMs.
+Dans les années 2000, cette dynamique s’accélère: les Conditional Random Fields (CRF) de Lafferty et al. (2001) améliorent significativement l’étiquetage de séquences et d’autres tâches de NLP. En parallèle, plusieurs ruptures techniques convergent: montée en puissance des GPU, explosion des données disponibles, et percée du deep learning, symbolisée par AlexNet (Krizhevsky et al., 2012), qui marque une avancée majeure en vision par ordinateur et influence durablement l’ensemble du domaine de l’IA.
+2.2 L’avènement des LLM
+2.2.1 « Attention is all you need » (2017) / Deepmind de google (2010) : points de bascule.
+DeepMind et les fondations du deep learning pour le langage
+À partir des années 2010, DeepMind une filiale de Google joue un rôle clé dans l’application du deep learning au traitement du langage naturel. En exploitant les RNN (Recural Neural Netwok) puis en les remplaçant par les LSTM (Long Short Term Memory) "Neural Turing Machines" (Graves et al., 2014), ses chercheurs démontrent que les réseaux neuronaux peuvent modéliser efficacement des relations complexes, ouvrant la voie à la traduction automatique et à la reconnaissance vocale à grande échelle.
+Des avancées majeures comme les modèles seq2seq (Sutskever et al., 2014) et le mécanisme d’attention (Bahdanau et al., 2015) marquent un tournant : les modèles peuvent apprendre à aligner et traduire sans règles explicites. Ces travaux posent les bases des LLMs en montrant que les relations linguistiques, les règles grammaticales, le sens d’un mot dans son contexte ou selon l’ordre de la phrase peut être appris automatiquement, sans pour autant avoir besoin d’expliciter ces règles.
+Peu après, en 2017, Vaswani et al. introduisent le Transformer, une nouvelle architecture qui remplace les RNN par un mécanisme d’attention non récurrent. Publié dans le célèbre article "Attention Is All You Need", ce modèle permet un entraînement massivement parallèle, une meilleure modélisation des dépendances longues, et surtout une scalabilité sans précédent.
+C’est cette architecture qui servira de fondation aux LLMs modernes tels que BERT, GPT ou LLaMA, en démontrant qu’il est possible de traiter du texte uniquement à l’aide de mécanismes d’attention, sans boucles récurrentes ni mémoire explicite.
+ 
+ 
+
+2.2.2 Émergence des modèles comme GPT, BERT, LLaMA ;modèles open sources vs propriétaires.
+Deux modèles économiques sont créés à la suite de la popularisation de ces modèles, les modèles open-source et les modèles closed source, donc chacun présente ses propres avantages et inconvénients.  La différence principale réside dans le fait que les derniers partagent leur code source et les poids des paramètres nécessaires à faire tourner le modèle contrairement aux premiers qui les privatisent et réservent l’utilisation des modèles dans le cadre de leur application (mobile, web), ou en payant en payant les appels API.
+Selon … et al dans Open Sourcing GPTs: Economics of Open Sourcing Advanced AI Models, les entreprises ouvrent leurs modèles pour plusieurs raisons, vise à stimuler la croissance technologique et les efforts de R&D en tirant profit des contributions extérieures, La probabilité d'ouvrir un modèle source suit une relation en forme de "U inversé" par rapport à la taille de l'entreprise les petites cherchent à faire du profit directement, tandis que les grandes trouvent moins d’intérêt dans la commu open source que dans leur propre ressources.
+
+Avec la montée en puissance des LLMs, deux modèles économiques distincts ont émergé : les modèles open source et les modèles propriétaires (closed source). Chacun présente ses propres avantages limites.
+La distinction fondamentale repose sur la mise à disposition du code source et des poids du modèle, les modèles open source sont publier librement, facilitant leur réutilisation, modification et déploiement local. À l’inverse, les modèles propriétaires conservent ces éléments confidentiels et n'autorisent l’accès au modèle qu'à travers une API payante ou dans le cadre d’applications commerciales contrôlées (mobile, web, SaaS).
+Selon Habibi dans leur étude "Open Sourcing GPTs: Economics of Open Sourcing Advanced AI Models" (2024), les entreprises choisissent d’ouvrir leurs modèles pour stimuler l’innovation technologique et accélérer la R&D, en bénéficiant des contributions de la communauté. Les auteurs montrent que la probabilité d’ouvrir un modèle suit une relation en “U inversé” par rapport à la taille de l’entreprise :
+les plus petites structures cherchent un retour financier rapide et n’ont souvent pas les moyens d’ouvrir leur technologie, tandis que les plus grandes, bien dotées en ressources, préfèrent souvent capitaliser sur leurs outils internes plutôt que s’appuyer sur la dynamique open source.
+	Concernant les entreprises, les critères déterminants le choix du type de LLM utilisé méritent d’être soulignées, la flexibilité, les performances ainsi que des enjeux de sécurité et de conformité sont très importantes.
+	Les modèles open-source présentent plusieurs avantages notables. Tout d'abord, ils sont généralement plus économiques à exploiter. En effet, l’absence ou la faible présence de frais de licence rend leur adoption plus accessible, les principaux coûts étant liés à l’infrastructure nécessaire pour leur déploiement. De plus, leur flexibilité constitue un atout majeur : la disponibilité publique du code source et des poids des modèles permet aux équipes techniques de les adapter facilement à des cas d’usage spécifiques. Par ailleurs, les communautés dynamiques qui se forment autour de ces modèles open-source favorisent une innovation rapide. Cette ouverture stimule l’émergence d’un écosystème riche d’outils et d’applications développés par des contributeurs du monde entier.
+En revanche, les modèles propriétaires offrent également des bénéfices importants. Sur le plan des performances, ils tendent à avoir une qualité supérieure, en partie grâce aux ressources financières et techniques considérables dont disposent les entreprises qui les développent. Ces modèles bénéficient souvent d’un support technique avancé, ainsi que d’une intégration fluide dans des environnements professionnels. En matière de sécurité et de confidentialité, les LLMs propriétaires peuvent fournir des garanties plus robustes. Ils permettent non seulement de déléguer la gestion de la sécurité aux fournisseur, ce qui représente d’abord un gain de temps pour les entreprises mais aussi de s'assurer du respect des normes réglementaires grâce à des certifications de conformité souvent requises dans certains secteurs sensibles (banque, santé, etc.), et susceptibles d’évoluer dans le temps.
+SOURCE TOUT CA.
+A la suite de cela nous avons la naissance de différents modèles, pour en citer quelques un nous avons BERT(340 millions de paramètres) fondé par Google et présenté dans BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding, il est conçu  pour apprendre à représenter le sens des phrases en tenant compté du contexte situé à  la fois après et avant chaqye mot,  et ce à tous les niveaux du modèles.
+Il y a aussii GPT-1 (117 millions de paramètresà créé par OPENAI et présenté dans Radford et al., "Improving Language Understanding by Generative Pre-Training", il est le premier LLM, et utilise une combinaison d’unupervised learning pour le pré entrainement et de fine-tunig supersvisé ensuite. EN ayant pour ojectiuf d’apprendre une représentation universelle des mots qui peuvent être utilisé dans un nombre varié de tâche avec peu d’adaptation nécessaire.
+2.3 Écosystème technologique autour des LLM
+2.3.1 Chat bot, RAG, éditeur de code (présentation de manière générale).
+L'émergence des LLMs a initié le développent d'un écosystème technologique diversifié, donnant naissance à plusieurs catégories d'applications spécialisées. Ces solutions exploitent les capacités fondamentales des LLM tout en cherchant à pallier leurs limitations intrinsèques.  SOURCE ICI
+Les chatbots représentent l'application la plus directe des LLM, permettant une interaction naturelle en langage naturel entre l'utilisateur et le système. Ces interfaces conversationnelles exploitent les capacités de génération textuelle des LLM pour produire des réponses cohérentes et contextuellement appropriées.
+•  Kalla, D., et al. (2024). "A Complete Survey on LLM-based AI Chatbots" ResearchGatearXiv. arXiv preprint arXiv:2406.16937. 
+•  Saha, S., et al. (2025). "A survey on chatbots and large language models: Testing and evaluation techniques" A survey on chatbots and large language models: Testing and evaluation techniques - ScienceDirect. Natural Language Processing Journal.
+Les LLMS peuvent être accompagné d’un RAG, introduits par Lewis et al. dans leur article « Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks », ils ont été développés pour pallier certaines des limitations inhérentes aux LLMs. Ces derniers présentent en effet une incapacité à accéder et à manipuler précisément des connaissances externes. (reformuler ça)
+D'autres limites des LLM sont présentés dans un article de Medium « Limitations of Large Language Models (LLMs) and How Retrieval-Augmented Generation (RAG) Addresses Them », elles incluent leur difficulté à intégrer des informations très récentes, leur tendance aux hallucinations (ON INHERENT LIMITATIONS OF GPT/LLM ARCHITECTURE), c'est-à-dire à générer des informations factuellement incorrectes mais présentées comme véridiques. De plus, on observe une impossibilité de citer des sources précises pour les connaissances mobilisées, un manque de spécialisation dans des domaines de niche, une taille de contexte limitée et un manque de flexibilité pour des mises à jour rapides et continues des connaissances.
+Les RAG utilisent une architecture de type « retriever-reader » Chen et al. (2017), décrit dans Generation-Augmented Retrieval for Open-Domain Question Answering  par … et al particulièrement dans le contexte de la réponse à des questions en domaine ouvert. Ce système commence par récupérer un sous-ensemble pertinent de documents, les documents ayant la plus grande similarité sémantique avec la requête de l’utilisateur. Ensuite, le LLM lit ces documents pour en extraire ou en générer une réponse précise.  
+Cette architecture permet d’améliorer la précision des résultats donné par le LLM ainsi que la véracité de ceux-ci puisqu’ils sont forcément issue de la base documentaire. Comme mentionné dans« Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks”  les RAG permettent un Nouvel état de l'art sur les quatre tâches de QA en domaine ouvert évaluées (NQ, TQA, WQ, CT), combinant la flexibilité de génération des modèles "closed-book" (paramétriques seulement) avec la performance des approches "open-book" basées sur la récupération. Contrairement aux autres LLMs de l’ époque ( T5+SSM, REALM) , le RAG permet des très bon résultats sans nécessiter un pré-entraînement coûteux et spécialisé comme le "salient span masking".
+-	Avantages de la génération : RAG peut générer des réponses même lorsque l'information n'est pas présente verbatim dans les documents récupérés, ce qui n'est pas possible avec les approches extractives. RAG atteint 11,8% de précision dans de tels cas sur NQ, là où un modèle extractif obtiendrait 0%.
+Dans Retrieval Augmentation Reduces Hallucination in Conversation par … et al, on peut voir que :
+L'étude a mené des évaluations humaines rigoureuses. Les résultats montrent que les meilleurs modèles RAG réduisent substantiellement le problème bien connu des hallucinations factuelles de plus de 60 % par rapport aux chatbots de pointe non augmentés par la récupération (comme un modèle de base BlenderBot-400m ou BART-Large sans récupération).
+Les gains en termes de métrique de connaissance par rapport à la base de référence sont de 70 % pour les données "in-distribution" (sujets vus à l'entraînement) et de 85 % pour les données "out-of-distribution" (nouveaux sujets). Cela indique que la récupération aide à compenser les lacunes de la connaissance implicitement stockée dans les paramètres du modèle, ce qui est crucial lorsque le modèle rencontre des sujets qu'il n'a pas vus pendant l'entraînement.
+ Néanmoins, ce type de RAG comporte tout de même des problèmes, et peuvent être amélioré (mentionné les problèmes de performances etc…. Ainsi d’autres architecture ont par la suite vu le jour.
+
+On a eu le GraphRAG présenté dans Graph Retrieval-Augmented Generation: A Survey par … et al. (présente le graph rag + papier).
+On a le MRAG prénseté dans  A Survey of Multimodal Retrieval-Augmented Generation (présente le papier).
+Image tiré de multimodal.
+ 
+Retrieval-Augmented Generation for Large Language Models: A Survey nous montre trois paradigm Naïve, Advanced, et Modular RAG.
+On eu d’autres ameliorations acolés à l’architecture du RAG qui permettent d’obtenir des meilleurs résultats comme le reranking, 
+Reranking :
+DynamicRAG: Leveraging Outputs of LLM as Feedback for Dynamic Reranking (mai 2025)
+•	Reranker dynamique qui ajuste ordre et nombre de documents via reinforcement learning, s'appuyant sur la qualité de sortie du LLM.
+•	Atteint de nouveaux records sur 7 benchmarks QA arXiv+1arXiv+1.
+Filtrage / multiquery :
+Survey: Re Ranking & Filtering in RAG (avril 2024)
+•	Donne un panorama des techniques de post-retrieval : reranking, filtrage via Self RAG, BlendFilter, RECOMP, CRAG, FiD TF, CoK, FILCO…
+•	Décrit comment chaque méthode améliore la pertinence ou réduit le bruit Reddit+2arXiv+2Reddit+2.
+HyDE & Multi-query (avril 2024)
+•	HyDE génère une réponse hypothétique (HyDE) via LLM, puis l’incorpore dans la requête pour améliorer la recherche d’informations arXiv.
+•	Multi query utilise plusieurs requêtes synthétiques pour couvrir différents angles ; les résultats sont ensuite rerankés arXiv.
+Au final on peut avoir des architectures de RAG plus complexes … A trouver.
+ 
+
+
+2.3.1 Éditeur de code (code editor) 💻
+Les éditions de code assistées par LLM facilitent la production, la compréhension et la correction du code directement dans l’éditeur, grâce à des fonctionnalités avancées :
+🧠 GitHub Copilot
+•	Basé sur Codex ou GPT 4, propose autocomplétion intelligente, suggestions multi-lignes, révision de code et documentation de pull requests. Il exploite un mécanisme de RAG pour inclure le contexte pertinent du code avoisinant HackerNoon+1symflower.com+1.
+Cursor (Anysphere)
+•	IDE complet basé sur VS Code, avec indexation complète du projet, chat intégré, réécriture intelligente, refactoring assisté, et un mode « Agent » capable d’exécuter des tâches end-to-end alfawiki.org+6Wikipédia+6Reddit+6.
+•	Exemples concrets : autocomplete, smart rewrites, prédiction de mouvements du curseur, chat sur la base de code HackerNoon.
+CodingGenie
+•	Assistant proactif intégré dans l’éditeur (VS Code). Il fournit automatiquement, sans requête explicite, des suggestions pratiques (tests unitaires, correctifs de bugs, refactoring), basées sur le contexte de code Wikipédia+9ar5iv+9MonsterAPI Blog+9.
+Autres outils notables
+•	Continue, Windsurf, SrcGraph Cody, Tabnine, Codeium, AskCodi, AppMap Navie… tous intègrent RAG pour explorer le code global d’un dépôt, répondre aux questions, et recommander des modifications alfawiki.org+2symflower.com+2MonsterAPI Blog+2.
+________________________________________
+2.3.2 Assistant personnel (personal assistant) 🤖
+Les assistants personnels alimentés par LLM sont conçus pour accompagner l’utilisateur dans des activités quotidiennes, avec des interfaces multimodales et une exécution autonome de tâches :
+🌐 Grands acteurs : Gemini, GPT 4o, Alexa Plus
+•	Google Gemini / Astra : assistant multimodal (voix, image, vidéo, code), capable de reconnaitre l’environnement, traduire, planifier, coder, etc. alfawiki.org+8Financial Times+8dataknobs.com+8.
+•	OpenAI GPT 4o : interaction en voix, analyse visuelle et textuelle, réponse multimodale Financial Times.
+•	Amazon Alexa Plus : version IA avancée d’Alexa, conversationnelle et proactive, gestion de tâches domestiques, planification, intégration domotique The Verge.
+🤝 Aspects clés communs
+•	Interaction multimodale : saisie en voix, texte, images et réponses en langage naturel .
+•	Autonomie proactive : rappel d’événements, suggestions contextuelles anticipées ar5iv.
+•	Utilisation d’agents : prise de décision multi-étapes, planification, exécution de tâches (achat, navigation web, réservation) .
+•	Défis : latence, précision des actions, sécurité, respect de la vie privée, risque d’erreurs sur tâches non supervisées .
+(rewrite ) 
+Outil spé pour entreprise
+Education prof 
+2.3.2 Évolution vers une IA agentique, workflows pilotés par IA.
+Et si l’IA ne servait pas seulement à répondre à des questions mais pouvais activement résoudre des problèmes ? C’est la promesse que fait l’IA agentique. Qu’est ce que c’est et quelle est la différence avec l’IA générative classique. On peut respectivement les définir comme ceci “Generative AI generate and transform content based on specific user instructions.”,  “Agentic AI can autonomously execute complex tasks in dynamic environments requiring adaptation, interaction and reasoning in a goal-oriented manner” d’après Johanes Schneider dans Generative to Agentic AI: Survey, Conceptualization, and Challenges. Définition : “Agentic AI systems are AI systems that can pursue complex goals with limited direct supervision” (OpenAI (Shavit et al., 2023)). En siomme, L’IA agentique se base sur les LLMs tout en les accompagnants de capacité pour l’utilisation d’outils, d’accès à une mémoire, en plus de capacité à planifié,interagir et à résonner. L’IA générative simple galérait à résoudre des problèmes qui étaient simples pour les humains, mais l’IA agentic démontre de bien meilleures performances dans certains domaines et certains types de question, celles qui nécessite plusieurs étapes pour être répondue. 4
+1. Agentic Reasoning: Reasoning LLMs with Tools for the Deep Research
+•	Présente une architecture où l’LLM interagit avec plusieurs agents-outils (web search, code exécution, mémoire structurée via graphes) pour accomplir des tâches de recherche scientifique complexes.
+•	Introduit un agent "Mind Map" qui construit dynamiquement des graphes de connaissance pour améliorer le raisonnement.
+•	Performances supérieures aux systèmes RAG et LLM fermés sur des tâches de niveau doctorat comme GPQA Reddit+4Reddit+4Frontiers+4arXiv.
+
+3. Agentic Large Language Models, a Survey
+•	Passe en revue les recherches actuelles sur les LLM agentiques, classés en trois axes : raisonnement, action (outils/robot), interaction multi agent.
+•	Montre comment la récupération, la réflexion et la multi-action s’intègrent dans des workflows complexes arXiv+2arXiv+2arXiv+2.
+Parler des RAG agentique Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG
+Agentic RAG Systems for Improving Adaptability and Performance in AI-Driven Information Retrieval
+
+(présenter des articles et des résultats pour chaque éléments).
+2.3.3 Framework et architecture IA (axé sur la stack tech du projet).
+ 
+
