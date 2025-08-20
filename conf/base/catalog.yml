@@ -8,12 +8,11 @@ cleaned_legal_documents:
   filepath: data/02_intermediate/df_legal.csv
   save_args:
     index: False
-    encoding: latin1
-    errors: replace
+    encoding: utf-8
   load_args:
-    encoding: latin1
+    encoding: utf-8
   metadata:
-    expected_columns: ["page_content", "folder","source", "text_length","page_label", "page_title","URL","category","year", "year_maybe", "country", "language", "Claimant", "Chamber", "Against","Appeal","Judgment","Case", "Defendant", "Court","Section"]
+    expected_columns: ["page_content", "folder","source", "text_length","page_label", "page_title","URL","category","year", "year_maybe", "country", "language", "Claimant", "Chamber", "Against","Appeal","Judgment","Case", "Defendant", "Court","Section", "file_type"]
 
 chunked_docs:
   type: pandas.CSVDataset
@@ -24,7 +23,7 @@ chunked_docs:
     errors: replace
   load_args:
     encoding: latin1
-    # TODO Restart the pipeline process to to have all the intended columns. 
+    # TODO:  Restart the pipeline process to to have all the intended columns. 
   metadata:
     # expected_columns: ["chunk_id", "chunk_text", "document_id", "page_labels", "page_title", "metadata", "start_char_idx", "end_char_idx", "category"] 
-    expected_columns : ['chunk_id', 'page_content', 'page_labels', 'doc_title', 'metadata', 'category']
+    expected_columns : ['chunk_id', 'page_content', 'document_id', 'page_labels', 'start_char_idx', 'end_char_idx', 'chunk_length', 'num_pages_spanned', 'folder', 'source', 'file_type',  'URL', 'page_title', 'category', 'year', 'year_maybe', 'country', 'language', 'Case', 'Judgment', 'Defendant', 'Section', 'Appeal', 'Court', 'Chamber', 'Against','Claimant', 'metadata']

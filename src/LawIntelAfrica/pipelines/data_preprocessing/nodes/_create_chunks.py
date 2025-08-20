@@ -33,7 +33,7 @@ def chunk_legal_documents(
     pd.DataFrame
         A DataFrame with chunked documents including:
         - chunk_id: Unique identifier for each chunk
-        - chunk_text: The text content of the chunk
+        - page_content: The text content of the chunk
         - document_id: The original document identifier (page_title)
         - page_labels: The page labels included in this chunk
         - page_title: The title of the document
@@ -94,7 +94,7 @@ def chunk_legal_documents(
 
             chunk_record = {
                 "chunk_id": f"{doc_title}_{i}",
-                "chunk_text": chunk.page_content,
+                "page_content": chunk.page_content,
                 "document_id": doc_title,
                 "page_labels": chunk_pages,
                 "start_char_idx": chunk_start,
