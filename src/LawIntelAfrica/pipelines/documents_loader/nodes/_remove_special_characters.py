@@ -3,6 +3,7 @@ import unicodedata
 from pandas.api.types import is_string_dtype
 import unicodedata
 
+
 def remove_characters(df: pd.DataFrame) -> pd.DataFrame:
     """Removes special characters from the text.
 
@@ -26,13 +27,15 @@ def find_unicode_chars(df):
             if mask.any():
                 print(f"Problem in column: {col}")
                 print(df.loc[mask, col])
+
+
 def fully_clean_dataframe(df: pd.DataFrame) -> pd.DataFrame:
     def clean_value(val):
         if not isinstance(val, str):
             return str(val)
         val = unicodedata.normalize("NFKD", val)
         val = val.encode("ascii", "ignore").decode("ascii")
-        val = val.replace('\u2008', ' ') 
+        val = val.replace("\u2008", " ")
         return val
 
     for col in df.columns:

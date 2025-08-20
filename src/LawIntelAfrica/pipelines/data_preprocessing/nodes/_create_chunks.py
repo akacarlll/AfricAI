@@ -1,8 +1,9 @@
 import pandas as pd
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-import logging 
+import logging
 
 logger = logging.getLogger(__name__)
+
 
 def chunk_legal_documents(
     df: pd.DataFrame, chunk_size: int = 1000, chunk_overlap: int = 200
@@ -18,8 +19,8 @@ def chunk_legal_documents(
         - page_content: The text content of the page
         - page_label: The label/number of the page
         - page_title: The title of the document this page belongs to
-        - folder, source, text_length, URL, category, year, year_maybe, country, 
-          language, Claimant, Chamber, Against, Appeal, Judgment, Case, 
+        - folder, source, text_length, URL, category, year, year_maybe, country,
+          language, Claimant, Chamber, Against, Appeal, Judgment, Case,
           Defendant, Court, Section, file_type: Additional metadata columns
 
     chunk_size : int, optional (default=1000)
@@ -75,8 +76,9 @@ def chunk_legal_documents(
 
         first_row = doc_group.iloc[0]
         document_metadata = {
-            col: first_row[col] for col in df.columns 
-            if col not in ['page_content', 'page_label', 'text_length']
+            col: first_row[col]
+            for col in df.columns
+            if col not in ["page_content", "page_label", "text_length"]
         }
 
         chunks = text_splitter.create_documents(
@@ -100,11 +102,11 @@ def chunk_legal_documents(
                 "start_char_idx": chunk_start,
                 "end_char_idx": chunk_end,
                 "chunk_length": len(chunk.page_content),
-                "num_pages_spanned": len(chunk_pages)
+                "num_pages_spanned": len(chunk_pages),
             }
-            
+
             chunk_record.update(document_metadata)
-            
+
             all_chunks.append(chunk_record)
 
     return pd.DataFrame(all_chunks)

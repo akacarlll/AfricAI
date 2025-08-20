@@ -6,20 +6,21 @@ from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from typing import Dict
 from LawIntelAfrica.utils.data_transformation._df_to_documents import df_to_documents
-import logging 
+import logging
 
 logger = logging.getLogger(__name__)
+
 
 def create_chroma_vector_stores(
     dataframes_dict: Dict[str, pd.DataFrame],
     split_params: dict,
     store_type: str = "chroma_stores",
     embedding_model: str = "all-MiniLM-L6-v2",
-    chunk_text_column: str = "page_content"
-)-> None:
+    chunk_text_column: str = "page_content",
+) -> None:
     """
     Create Chroma vector stores from a dictionary of dataframes using LangChain documents.
-    
+
     Args:
         dataframes_dict: Dict with category names as keys and dataframes as values
         split_params (dict): A dictionary containing split parameters.
@@ -48,12 +49,14 @@ def create_chroma_vector_stores(
             documents=documents,
             embedding=embeddings,
             collection_name=f"{category}_collection",
-            persist_directory=persist_directory
+            persist_directory=persist_directory,
         )
 
         vector_store.persist()
 
-        success_msg = f"Vector store created for category: {category} at {persist_directory}"
+        success_msg = (
+            f"Vector store created for category: {category} at {persist_directory}"
+        )
         len_doc_msg = f"   - Documents: {len(documents)}"
         logging.info(success_msg)
         logging.info(len_doc_msg)

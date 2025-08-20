@@ -5,6 +5,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+
 def merge_pdfs_texts_dfs(df: pd.DataFrame, base_folder: str) -> pd.DataFrame:
     """
     Merges a given DataFrame with text data loaded from multiple subfolders in a base folder.
@@ -51,10 +52,10 @@ def load_and_concat_dataframes(base_folder: str):
             if file.endswith(f".csv"):
                 file_path = os.path.join(root, file)
                 df = pd.read_csv(file_path)
-                df.rename(columns={"text":"page_content"}, inplace = True)
+                df.rename(columns={"text": "page_content"}, inplace=True)
                 df["file_type"] = "csv"
-                df["folder"] = folder_name,
-                df["source"] = file_path,
+                df["folder"] = (folder_name,)
+                df["source"] = (file_path,)
                 dataframes.append(df)
     if dataframes:
         combined_df = pd.concat(dataframes, ignore_index=True)

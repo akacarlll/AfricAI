@@ -3,12 +3,15 @@ from kedro.io import DataCatalog
 import pandas as pd
 from typing import Any, Dict
 
+
 class ColumnVerifierHook:
     def __init__(self):
         self.conf_catalog = None
 
     @hook_impl
-    def after_catalog_created(self, catalog: DataCatalog, conf_catalog: Dict[str, Any]) -> None:
+    def after_catalog_created(
+        self, catalog: DataCatalog, conf_catalog: Dict[str, Any]
+    ) -> None:
         """
         Store the catalog configuration after the catalog is created.
         """
@@ -20,10 +23,14 @@ class ColumnVerifierHook:
         Verify the columns of the loaded dataset against the expected columns defined in the catalog.
         """
         if self.conf_catalog is None:
-            raise RuntimeError("Catalog configuration not set. Ensure 'after_catalog_created' hook is called first.")
+            raise RuntimeError(
+                "Catalog configuration not set. Ensure 'after_catalog_created' hook is called first."
+            )
 
         dataset_config = self.conf_catalog.get(dataset_name, {})
-        expected_columns = dataset_config.get("metadata", {}).get("expected_columns", None)
+        expected_columns = dataset_config.get("metadata", {}).get(
+            "expected_columns", None
+        )
 
         if expected_columns is None:
             return
@@ -34,4 +41,6 @@ class ColumnVerifierHook:
         actual_columns = data.columns.tolist()
 
         if set(actual_columns) != set(expected_columns):
-            raise ValueError(f"Columns mismatch for dataset '{dataset_name}'. Expected: {expected_columns}, Got: {actual_columns}")
+            raise ValueError(
+                f"Columns mismatch for dataset '{dataset_name}'. Expected: {expected_columns}, Got: {actual_columns}"
+            )

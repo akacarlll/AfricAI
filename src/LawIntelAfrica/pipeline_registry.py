@@ -23,9 +23,7 @@ def register_pipelines() -> Dict[str, Pipeline]:
 
     # Combined pipelines for specific workflows
     data_processing_pipeline = doc_loader_pipeline + doc_preprocessing_pipeline
-    full_pipeline = (
-        data_processing_pipeline + store_knowledge_pipeline
-    )
+    full_pipeline = data_processing_pipeline + store_knowledge_pipeline
 
     return {
         "__default__": full_pipeline,

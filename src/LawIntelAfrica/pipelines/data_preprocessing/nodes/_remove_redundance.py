@@ -89,7 +89,9 @@ def clean_codes(df: pd.DataFrame) -> pd.DataFrame:
 
     for doc_name, pattern in patterns.items():
         mask = df["page_title"] == doc_name
-        df.loc[mask, "page_content"] = df.loc[mask, "page_content"].str.replace(pattern, "", regex=True)
+        df.loc[mask, "page_content"] = df.loc[mask, "page_content"].str.replace(
+            pattern, "", regex=True
+        )
 
     return df
 
@@ -113,7 +115,9 @@ def clean_electoral_code(df: pd.DataFrame) -> pd.DataFrame:
 
     # Apply each pattern sequentially
     for pattern in patterns:
-        df.loc[mask, "page_content"] = df.loc[mask, "page_content"].str.replace(pattern, "", regex=True)
+        df.loc[mask, "page_content"] = df.loc[mask, "page_content"].str.replace(
+            pattern, "", regex=True
+        )
 
     return df
 
@@ -132,6 +136,8 @@ def clean_tax_code(df: pd.DataFrame) -> pd.DataFrame:
 
     mask = df["page_title"] == "CODE_GENERAL_IMPOTS"
 
-    df.loc[mask, "page_content"] = df.loc[mask, "page_content"].str.replace(pattern, "", regex=True)
+    df.loc[mask, "page_content"] = df.loc[mask, "page_content"].str.replace(
+        pattern, "", regex=True
+    )
 
     return df

@@ -12,6 +12,8 @@ def replace_words(df: pd.DataFrame) -> pd.DataFrame:
         (pd.DataFrame): DataFrame with replaced words.
     """
     df["page_content"] = (
-        df["page_content"].astype(str).apply(lambda x: re.sub(r"\bArt\.\b", "Article", x))
+        df["page_content"]
+        .astype(str)
+        .apply(lambda x: re.sub(r"\bArt\.\b", "Article", x))
     )
     return df

@@ -10,16 +10,17 @@ from pathlib import Path
 
 logger = logging.getLogger(__name__)
 
+
 def create_faiss_vector_stores(
     dataframes_dict: Dict[str, pd.DataFrame],
     split_params: dict,
     store_type: str = "faiss_stores",
     embedding_model: str = "all-MiniLM-L6-v2",
-    chunk_text_column: str = "page_content"
+    chunk_text_column: str = "page_content",
 ) -> None:
     """
     Create FAISS vector stores from a dictionary of dataframes using LangChain documents.
-    
+
     Args:
         dataframes_dict: Dict with category names as keys and dataframes as values
         output_dir: Directory to save the vector store files
@@ -34,17 +35,17 @@ def create_faiss_vector_stores(
     logging.info(loading_model_msg)
 
     embeddings = HuggingFaceEmbeddings(model_name=embedding_model)
-    
+
     for category, df in dataframes_dict.items():
 
         category_processed_msg = f"Processing category: {category}"
         logging.info(category_processed_msg)
-        
+
         documents = df_to_documents(df, chunk_text_column, category)
         vector_store = FAISS.from_documents(documents, embeddings)
         store_path = os.path.join(output_dir, category)
         vector_store.save_local(store_path)
-        
+
         success_msg = f"Vector store created for category: {category}"
         len_doc_msg = f"   - Documents: {len(documents)}"
         logging.info(success_msg)
