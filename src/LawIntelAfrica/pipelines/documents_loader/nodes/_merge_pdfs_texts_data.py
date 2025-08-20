@@ -1,7 +1,9 @@
 import os
 import pandas as pd
 from tqdm import tqdm
+import logging
 
+logger = logging.getLogger(__name__)
 
 def merge_pdfs_texts_dfs(df: pd.DataFrame, base_folder: str) -> pd.DataFrame:
     """
@@ -23,7 +25,7 @@ def merge_pdfs_texts_dfs(df: pd.DataFrame, base_folder: str) -> pd.DataFrame:
     return merged_df
 
 
-def load_and_concat_dataframes(base_folder):
+def load_and_concat_dataframes(base_folder: str):
     """
     Loads and concatenates all files of a specified type (default: CSV) from subfolders of a base folder.
 
@@ -44,17 +46,20 @@ def load_and_concat_dataframes(base_folder):
     dataframes = []
 
     for root, _, files in os.walk(base_folder):
+        folder_name = os.path.basename(root)
         for file in tqdm(files):
             if file.endswith(f".csv"):
                 file_path = os.path.join(root, file)
                 df = pd.read_csv(file_path)
                 df.rename(columns={"text":"page_content"}, inplace = True)
                 df["file_type"] = "csv"
+                df["folder"] = folder_name,
+                df["source"] = file_path,
                 dataframes.append(df)
     if dataframes:
         combined_df = pd.concat(dataframes, ignore_index=True)
-        print("Text data entirely merged !")
+        logger.info("Text data entirely merged!")
         return combined_df
     else:
-        print("Aucun fichier trouvé.")
+        logger.warning("Aucun fichier trouvé.")
         return pd.DataFrame()
