@@ -50,7 +50,7 @@ def create_modular_pipeline() -> Pipeline:
 def create_pipeline() -> Pipeline:
     pipeline1 = pipeline(
         pipe=create_modular_pipeline(),
-        namespace="split1",
+        namespace="save_per_category",
         inputs={"chunked_docs": "chunked_docs"},
         parameters={
             "params:split_params": "params:split_params_1",
@@ -58,7 +58,7 @@ def create_pipeline() -> Pipeline:
     )
     pipeline2 = pipeline(
         pipe=create_modular_pipeline(),
-        namespace="split2",
+        namespace="save_no_category",
         inputs={"chunked_docs": "chunked_docs"},
         parameters={
             "params:split_params": "params:split_params_2",

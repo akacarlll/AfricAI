@@ -27,7 +27,7 @@ def create_qdrant_vector_stores(
         distance_metric: Distance metric for similarity search
         chunk_text_column: Name of the column containing text to embed
     """
-    pass
+    return None
 
     os.makedirs(output_dir, exist_ok=True)
     
