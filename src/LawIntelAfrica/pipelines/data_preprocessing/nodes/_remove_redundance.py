@@ -7,7 +7,7 @@ def remove_redundance(df: pd.DataFrame) -> pd.DataFrame:
     Remove redundant text from the DataFrame based on document types.
 
     Args:
-        df (pd.DataFrame): DataFrame containing 'text' and 'page_title' columns.
+        df (pd.DataFrame): DataFrame containing page_content and page_title columns.
 
     Returns:
         pd.DataFrame: Cleaned DataFrame.
@@ -26,7 +26,7 @@ def clean_ohada_text(df: pd.DataFrame) -> pd.DataFrame:
     Remove OHADA header from text column when page_title is 'Acte_OHADA'.
 
     Args:
-        df (pd.DataFrame): DataFrame with 'text' and 'page_title' columns.
+        df (pd.DataFrame): DataFrame with page_content and page_title columns.
 
     Returns:
         pd.DataFrame: DataFrame with cleaned text.
@@ -35,8 +35,8 @@ def clean_ohada_text(df: pd.DataFrame) -> pd.DataFrame:
     footer_pattern = r"page \d+ 209 http:www\.ohada\.comactes-uniformes-revises1299acte-uniforme-revise-relatif-au-droit-des-societes-commerciales-et-du-groupement-d-interet-economique\.html"
 
     mask = df["page_title"] == "ACTE_OHADA"
-    df.loc[mask, "text"] = (
-        df.loc[mask, "text"]
+    df.loc[mask, "page_content"] = (
+        df.loc[mask, "page_content"]
         .str.replace(header, "", regex=False)
         .str.replace(footer_pattern, "", regex=True)
     )
@@ -49,7 +49,7 @@ def clean_civil_code_text(df: pd.DataFrame) -> pd.DataFrame:
     Remove specific patterns from text column when page_title is 'CODE_CIVIL'.
 
     Args:
-        df (pd.DataFrame): DataFrame with 'text' and 'page_title' columns.
+        df (pd.DataFrame): DataFrame with page_content and page_title columns.
 
     Returns:
         pd.DataFrame: DataFrame with cleaned text.
@@ -64,7 +64,7 @@ def clean_civil_code_text(df: pd.DataFrame) -> pd.DataFrame:
     """
 
     mask = df["page_title"] == "CODE_CIVIL"
-    df.loc[mask, "text"] = df.loc[mask, "text"].str.replace(
+    df.loc[mask, "page_content"] = df.loc[mask, "page_content"].str.replace(
         pattern, "", flags=re.VERBOSE | re.IGNORECASE | re.DOTALL, regex=True
     )
 
@@ -76,7 +76,7 @@ def clean_codes(df: pd.DataFrame) -> pd.DataFrame:
     Cleans specific texts from the legal documents based on their page_title.
 
     Args:
-        df (pd.DataFrame): DataFrame containing 'page_title' and 'text' columns.
+        df (pd.DataFrame): DataFrame containing page_title and page_content columns.
 
     Returns:
         pd.DataFrame: Cleaned DataFrame.
@@ -89,7 +89,7 @@ def clean_codes(df: pd.DataFrame) -> pd.DataFrame:
 
     for doc_name, pattern in patterns.items():
         mask = df["page_title"] == doc_name
-        df.loc[mask, "text"] = df.loc[mask, "text"].str.replace(pattern, "", regex=True)
+        df.loc[mask, "page_content"] = df.loc[mask, "page_content"].str.replace(pattern, "", regex=True)
 
     return df
 
@@ -99,7 +99,7 @@ def clean_electoral_code(df: pd.DataFrame) -> pd.DataFrame:
     Remove electoral code headers from the text column when page_title is 'CODE_ELECTORAL'.
 
     Args:
-        df (pd.DataFrame): DataFrame with 'text' and 'page_title' columns.
+        df (pd.DataFrame): DataFrame with page_content and page_title columns.
 
     Returns:
         pd.DataFrame: DataFrame with cleaned text.
@@ -113,7 +113,7 @@ def clean_electoral_code(df: pd.DataFrame) -> pd.DataFrame:
 
     # Apply each pattern sequentially
     for pattern in patterns:
-        df.loc[mask, "text"] = df.loc[mask, "text"].str.replace(pattern, "", regex=True)
+        df.loc[mask, "page_content"] = df.loc[mask, "page_content"].str.replace(pattern, "", regex=True)
 
     return df
 
@@ -123,17 +123,15 @@ def clean_tax_code(df: pd.DataFrame) -> pd.DataFrame:
     Remove tax code header from text column when page_title is 'CODE_GENERAL_IMPOTS'.
 
     Args:
-        df (pd.DataFrame): DataFrame with 'text' and 'page_title' columns.
+        df (pd.DataFrame): DataFrame with page_content and page_title columns.
 
     Returns:
         pd.DataFrame: DataFrame with cleaned text.
     """
     pattern = r"Code General des Imports Edition officielle 2024 \d+"
 
-    # Create a mask to select rows where 'page_title' is "CODE_GENERAL_IMPOTS"
     mask = df["page_title"] == "CODE_GENERAL_IMPOTS"
 
-    # Apply the regex only on the rows corresponding to the mask
-    df.loc[mask, "text"] = df.loc[mask, "text"].str.replace(pattern, "", regex=True)
+    df.loc[mask, "page_content"] = df.loc[mask, "page_content"].str.replace(pattern, "", regex=True)
 
     return df
