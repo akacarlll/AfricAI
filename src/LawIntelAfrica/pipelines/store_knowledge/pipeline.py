@@ -1,18 +1,16 @@
-"""
-This is a boilerplate pipeline 'store_knowledge'
-generated using Kedro 0.19.10
-"""
+"""This module contains the pipelines to store the vector stores"""
 
 from kedro.pipeline import Pipeline, pipeline, node
 from .nodes import (
     create_chroma_vector_stores,
     create_faiss_vector_stores,
     create_qdrant_vector_stores,
+    create_bm25_stores,
     split_data,
 )
 
 
-def _modular_pipeline(**kwargs) -> Pipeline:
+def create_modular_pipeline() -> Pipeline:
     return pipeline(
         [
             node(
@@ -23,29 +21,35 @@ def _modular_pipeline(**kwargs) -> Pipeline:
             ),
             node(
                 func=create_chroma_vector_stores,
-                inputs=["split_dfs"],
+                inputs=["split_dfs", "params:split_params"],
                 outputs=None,
                 name="store_in_chroma",
             ),
             node(
-                func=create_qdrant_vector_stores,
-                inputs=["split_dfs"],
+                func=create_qdrant_vector_stores, # TODO: Fix the function, it does nothing for now.
+                inputs=["split_dfs", "params:split_params"],
                 outputs=None,
                 name="store_in_qdrant"
             ),
             node(
                 func=create_faiss_vector_stores,
-                inputs=["split_dfs"],
+                inputs=["split_dfs", "params:split_params"],
                 outputs=None,
                 name="store_in_faiss"
+            ),
+            node(
+                func=create_bm25_stores,
+                inputs=["split_dfs", "params:split_params"],
+                outputs=None,
+                name="store_in_bm25"
             ),
         ]
     )
 
 
-def create_pipeline(**kwargs) -> Pipeline:
+def create_pipeline() -> Pipeline:
     pipeline1 = pipeline(
-        pipe=_modular_pipeline(),
+        pipe=create_modular_pipeline(),
         namespace="split1",
         inputs={"chunked_docs": "chunked_docs"},
         parameters={
@@ -53,7 +57,7 @@ def create_pipeline(**kwargs) -> Pipeline:
         },
     )
     pipeline2 = pipeline(
-        pipe=_modular_pipeline(),
+        pipe=create_modular_pipeline(),
         namespace="split2",
         inputs={"chunked_docs": "chunked_docs"},
         parameters={

@@ -5,10 +5,15 @@ from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from typing import Dict, List
 from LawIntelAfrica.utils.data_transformation._df_to_documents import df_to_documents
+import logging
+from pathlib import Path
+
+logger = logging.getLogger(__name__)
 
 def create_faiss_vector_stores(
     dataframes_dict: Dict[str, pd.DataFrame],
-    output_dir: str = "./vector_stores/faiss_stores",
+    split_params: dict,
+    store_type: str = "faiss_stores",
     embedding_model: str = "all-MiniLM-L6-v2",
     chunk_text_column: str = "page_content"
 ) -> None:
@@ -21,27 +26,29 @@ def create_faiss_vector_stores(
         embedding_model: Name of the sentence transformer model to use
         chunk_text_column: Name of the column containing text to embed
     """
-    
+    base_path = Path(split_params["path"])
+    output_dir = base_path / store_type
     os.makedirs(output_dir, exist_ok=True)
-    print(f"Loading embedding model: {embedding_model}")
+
+    loading_model_msg = f"Loading embedding model: {embedding_model}"
+    logging.info(loading_model_msg)
+
     embeddings = HuggingFaceEmbeddings(model_name=embedding_model)
-    vector_stores = {}
     
     for category, df in dataframes_dict.items():
-        print(f"Processing category: {category}")
-        if chunk_text_column not in df.columns:
-            print(f"Warning: '{chunk_text_column}' column not found in {category} dataframe. Skipping.")
-            continue
+
+        category_processed_msg = f"Processing category: {category}"
+        logging.info(category_processed_msg)
+        
         documents = df_to_documents(df, chunk_text_column, category)
-        print(f"Creating FAISS index for {len(documents)} documents in {category}")
         vector_store = FAISS.from_documents(documents, embeddings)
         store_path = os.path.join(output_dir, category)
         vector_store.save_local(store_path)
-        vector_stores[category] = vector_store
         
-        print(f"✅ Successfully created FAISS vector store for {category}")
-        print(f"   - Store path: {store_path}")
-        print(f"   - Documents: {len(documents)}")
-        print()
-    
-    print("🎉 All FAISS vector stores created successfully!")
+        success_msg = f"Vector store created for category: {category}"
+        len_doc_msg = f"   - Documents: {len(documents)}"
+        logging.info(success_msg)
+        logging.info(len_doc_msg)
+
+    vector_stores_msg = f"Faiss Vector stores created for categories"
+    logging.info(vector_stores_msg)

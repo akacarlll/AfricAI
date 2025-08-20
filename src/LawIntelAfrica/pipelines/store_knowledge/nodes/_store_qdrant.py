@@ -6,6 +6,7 @@ from qdrant_client.models import Distance, VectorParams, PointStruct
 from sentence_transformers import SentenceTransformer
 from typing import Dict, Optional
 import uuid
+import logging 
 
 def create_qdrant_vector_stores(
     dataframes_dict: Dict[str, pd.DataFrame],
@@ -26,12 +27,13 @@ def create_qdrant_vector_stores(
         distance_metric: Distance metric for similarity search
         chunk_text_column: Name of the column containing text to embed
     """
+    pass
+
     os.makedirs(output_dir, exist_ok=True)
     
     print(f"Loading embedding model: {embedding_model}")
     model = SentenceTransformer(embedding_model)
     
-    # Dictionary to store client instances
     clients = {}
     
     for category, df in dataframes_dict.items():
@@ -44,7 +46,7 @@ def create_qdrant_vector_stores(
         collection_name = f"{category}_collection"
         try:
             client.delete_collection(collection_name)
-        except QdrantClientException:
+        except ResponseHandlingException:
             pass 
         client.create_collection(
             collection_name=collection_name,

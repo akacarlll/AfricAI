@@ -3,14 +3,18 @@ import os
 import pickle
 from typing import Dict
 import pandas as pd
+from pathlib import Path
 from langchain_community.retrievers import BM25Retriever
 from langchain.schema import Document
 from LawIntelAfrica.utils.data_transformation._df_to_documents import df_to_documents
+import logging
 
+logger = logging.getLogger(__name__)    
 
 def create_bm25_stores(
     dataframes_dict: Dict[str, pd.DataFrame],
-    output_dir: str = "./vector_stores/bm25_stores",
+    split_params: dict, 
+    store_type: str = "bm25_stores",
     chunk_text_column: str = "page_content"
 ) -> None:
     """
@@ -22,30 +26,29 @@ def create_bm25_stores(
         chunk_text_column: Name of the column containing text to embed
     """
     
+    base_path = Path(split_params["path"])
+    output_dir = base_path / store_type
     os.makedirs(output_dir, exist_ok=True)
-    print("Creating BM25 stores...")
-    bm25_stores = {}
     
     for category, df in dataframes_dict.items():
-        print(f"Processing category: {category}")
-        if chunk_text_column not in df.columns:
-            print(f"Warning: '{chunk_text_column}' column not found in {category} dataframe. Skipping.")
-            continue
-            
+
+        category_processed_msg = f"Processing category: {category}"
+        logging.info(category_processed_msg)
+
         documents = df_to_documents(df, chunk_text_column, category)
-        print(f"Creating BM25 index for {len(documents)} documents in {category}")
         
         bm25_retriever = BM25Retriever.from_documents(documents)
-        
-        store_path = os.path.join(output_dir, f"{category}.pkl")
+        category_dir = os.path.join(output_dir, category)
+        os.makedirs(category_dir, exist_ok=True)
+
+        store_path = os.path.join(category_dir, f"bm25_index.pkl")
         with open(store_path, 'wb') as f:
             pickle.dump(bm25_retriever, f)
         
-        bm25_stores[category] = bm25_retriever
-        
-        print(f"✅ Successfully created BM25 store for {category}")
-        print(f"   - Store path: {store_path}")
-        print(f"   - Documents: {len(documents)}")
-        print()
-    
-    print("🎉 All BM25 stores created successfully!")
+        success_msg = f"Successfully created BM25 store created for category: {category}"
+        len_doc_msg = f"   - Documents: {len(documents)}"
+        logging.info(success_msg)
+        logging.info(len_doc_msg)
+
+    vector_stores_msg = f"BM25 stores created"
+    logging.info(vector_stores_msg)
