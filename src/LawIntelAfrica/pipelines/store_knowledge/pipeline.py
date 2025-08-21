@@ -25,12 +25,12 @@ def create_modular_pipeline() -> Pipeline:
                 outputs=None,
                 name="store_in_chroma",
             ),
-            node(
-                func=create_qdrant_vector_stores,  # TODO: Fix the function, it does nothing for now.
-                inputs=["split_dfs", "params:split_params"],
-                outputs=None,
-                name="store_in_qdrant",
-            ),
+            # node(
+            #     func=create_qdrant_vector_stores,  # TODO: Fix the function, it does nothing for now.
+            #     inputs=["split_dfs", "params:split_params"],
+            #     outputs=None,
+            #     name="store_in_qdrant",
+            # ),
             node(
                 func=create_faiss_vector_stores,
                 inputs=["split_dfs", "params:split_params"],

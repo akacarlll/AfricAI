@@ -33,7 +33,7 @@ def create_bm25_stores(
     for category, df in dataframes_dict.items():
 
         category_processed_msg = f"Processing category: {category}"
-        logging.info(category_processed_msg)
+        logger.info(category_processed_msg)
 
         documents = df_to_documents(df, chunk_text_column, category)
 
@@ -49,8 +49,8 @@ def create_bm25_stores(
             f"Successfully created BM25 store created for category: {category}"
         )
         len_doc_msg = f"   - Documents: {len(documents)}"
-        logging.info(success_msg)
-        logging.info(len_doc_msg)
+        logger.info(success_msg)
+        logger.info(len_doc_msg)
 
     vector_stores_msg = f"BM25 stores created"
-    logging.info(vector_stores_msg)
+    logger.info(vector_stores_msg)

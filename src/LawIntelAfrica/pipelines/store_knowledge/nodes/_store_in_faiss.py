@@ -2,7 +2,7 @@ import os
 import pandas as pd
 from langchain.docstore.document import Document
 from langchain_community.vectorstores import FAISS
-from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_huggingface import HuggingFaceEmbeddings
 from typing import Dict, List
 from LawIntelAfrica.utils.data_transformation._df_to_documents import df_to_documents
 import logging
@@ -32,14 +32,14 @@ def create_faiss_vector_stores(
     os.makedirs(output_dir, exist_ok=True)
 
     loading_model_msg = f"Loading embedding model: {embedding_model}"
-    logging.info(loading_model_msg)
+    logger.info(loading_model_msg)
 
     embeddings = HuggingFaceEmbeddings(model_name=embedding_model)
 
     for category, df in dataframes_dict.items():
 
         category_processed_msg = f"Processing category: {category}"
-        logging.info(category_processed_msg)
+        logger.info(category_processed_msg)
 
         documents = df_to_documents(df, chunk_text_column, category)
         vector_store = FAISS.from_documents(documents, embeddings)
@@ -48,8 +48,8 @@ def create_faiss_vector_stores(
 
         success_msg = f"Vector store created for category: {category}"
         len_doc_msg = f"   - Documents: {len(documents)}"
-        logging.info(success_msg)
-        logging.info(len_doc_msg)
+        logger.info(success_msg)
+        logger.info(len_doc_msg)
 
     vector_stores_msg = f"Faiss Vector stores created for categories"
-    logging.info(vector_stores_msg)
+    logger.info(vector_stores_msg)

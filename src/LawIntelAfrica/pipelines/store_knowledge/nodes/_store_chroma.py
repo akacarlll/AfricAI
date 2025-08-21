@@ -3,8 +3,9 @@ import pandas as pd
 from pathlib import Path
 from langchain.docstore.document import Document
 from langchain_community.vectorstores import Chroma
-from langchain_community.embeddings import HuggingFaceEmbeddings
 from typing import Dict
+from langchain_huggingface import HuggingFaceEmbeddings
+from sentence_transformers import SentenceTransformer
 from LawIntelAfrica.utils.data_transformation._df_to_documents import df_to_documents
 import logging
 
@@ -33,33 +34,31 @@ def create_chroma_vector_stores(
     os.makedirs(output_dir, exist_ok=True)
 
     loading_model_msg = f"Loading embedding model: {embedding_model}"
-    logging.info(loading_model_msg)
+    logger.info(loading_model_msg)
 
     embeddings = HuggingFaceEmbeddings(model_name=embedding_model)
 
     for category, df in dataframes_dict.items():
 
         category_processed_msg = f"Processing category: {category}"
-        logging.info(category_processed_msg)
+        logger.info(category_processed_msg)
 
         documents = df_to_documents(df, chunk_text_column, category)
 
         persist_directory = os.path.join(output_dir, category)
-        vector_store = Chroma.from_documents(
+        Chroma.from_documents(
             documents=documents,
             embedding=embeddings,
             collection_name=f"{category}_collection",
             persist_directory=persist_directory,
         )
 
-        vector_store.persist()
-
         success_msg = (
-            f"Vector store created for category: {category} at {persist_directory}"
+            f"Vector store created for category: {category}"
         )
         len_doc_msg = f"   - Documents: {len(documents)}"
-        logging.info(success_msg)
-        logging.info(len_doc_msg)
+        logger.info(success_msg)
+        logger.info(len_doc_msg)
 
     vector_stores_msg = f"Chroma Vector stores created"
-    logging.info(vector_stores_msg)
+    logger.info(vector_stores_msg)
