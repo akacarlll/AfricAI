@@ -1,10 +1,11 @@
-cmr_data_path: "C:/Users/carlf/Documents/GitHub/LawIntelAfrica/data/03_primary"
-benin_data_path: "C:/Users/carlf/Documents/GitHub/LawIntelAfrica/data/01_raw/benin"
+cmr_data_path: "C:/Users/carlf/Documents/GitHub/AfricAi/data/03_primary"
+benin_data_path: "C:/Users/carlf/Documents/GitHub/AfricAi/data/01_raw/benin"
 
-data_path: "C:/Users/carlf/Documents/GitHub/LawIntelAfrica/data/01_raw/cmr/pdfs"
-folder_params: "C:/Users/carlf/Documents/GitHub/LawIntelAfrica/data/01_raw/cmr/texts"
+data_path: "C:/Users/carlf/Documents/GitHub/AfricAI/data/01_raw/cmr/pdfs"
+
+folder_params: "C:/Users/carlf/Documents/GitHub/AfricAi/data/01_raw/cmr/texts"
 model_name: "all-MiniLM-L6-v2"
-embeddings_path: "C:/Users/carlf/Documents/GitHub/LawIntelAfrica/data/06_models/embeddings"
+embeddings_path: "C:/Users/carlf/Documents/GitHub/AfricAi/data/06_models/embeddings"
 
 
 chunk_size: 1000
@@ -16,8 +17,12 @@ chroma_params_1:
 chroma_params_2:
   persist_directory: "data/chroma"
   collection_name: "rag_documents"
-split_params_1: True 
-split_params_2: False
+split_params_1: 
+  split: True
+  path: ./vector_stores/split_per_category/
+split_params_2: 
+  split: True
+  path: ./vector_stores/unsplit/
 
 
 expected_columns:
