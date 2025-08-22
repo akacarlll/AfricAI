@@ -1,9 +1,8 @@
 import os
 import requests
 from bs4 import BeautifulSoup
-import re
 from urllib.parse import unquote
-from scraping_bots.cmr_bots.extras.scraping_function import (
+from extras.scraping_function import (
     generate_file_name,
     get_page_title,
     categorize_file,

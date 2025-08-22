@@ -2,7 +2,7 @@ import os
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import unquote
-from scraping_bots.cmr_bots.extras.scraping_function import (
+from extras.scraping_function import (
     save_file,
     generate_file_name,
     get_page_title,

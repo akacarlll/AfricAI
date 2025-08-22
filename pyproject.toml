@@ -74,5 +74,11 @@ select = [
 ]
 ignore = ["E501"]  # Ruff format takes care of line-too-long
 
+exclude = [
+    "migrations/*",
+    "build/*",
+    "notebooks/*",
+]
+
 [tool.kedro_telemetry]
-project_id = "6750de0fc7274772ad5897084127b693"
+project_id = "8eb1593be20347be87c010be162ccbe2"

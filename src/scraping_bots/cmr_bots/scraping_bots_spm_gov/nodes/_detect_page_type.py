@@ -4,7 +4,7 @@ from urllib.parse import urljoin
 import time
 
 
-def detect_page_type(urls):
+def detect_page_type(urls) -> tuple[list[str], list[tuple[str, str]]]:
     """
     Determines if a page contains a downloadable PDF or text.
 

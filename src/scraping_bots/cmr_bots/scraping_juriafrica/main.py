@@ -8,16 +8,16 @@ from selenium.common.exceptions import TimeoutException
 import time
 import os
 import random
-import os
 from scraping_bots.cmr_bots.extras.scraping_function import (
     save_file,
     generate_file_name,
     get_page_title,
     categorize_file,
 )
-from .bot_settings import email, password
-import re
+from dotenv import load_dotenv
 
+
+load_dotenv()
 data_to_scrape = {
     "cameroon_regulations": "https://www.juriafrica.com/lex/result/reglementation-cameroun.htm",
     "cameroon_supreme_court_cases": "https://www.juriafrica.com/lex/result/jurisprudence-cameroun-cour-supreme.htm",  # page 840
@@ -50,7 +50,7 @@ def scrape_juriafrica(email: str, password: str, pages_to_scrape: str):
 
         while True:
             driver.get(base_url + page_param + str(page))
-            valid_links = create_links_list(driver, pages_to_scrape)
+            valid_links = create_links_list(driver)
             for link in valid_links:
                 driver.get(link)
                 if "regulations" in pages_to_scrape:
@@ -135,7 +135,7 @@ def configure_search_settings(driver):
         print("⚠️ 'Paramétrer' ou 'Anté-chronologique' non trouvé.")
 
 
-def create_links_list(driver, pages_to_scrape):
+def create_links_list(driver) -> list[str]:
     document_links = driver.find_elements(
         By.CSS_SELECTOR, 'a[rel="bookmark"][href^="/lex/"]'
     )
@@ -210,4 +210,8 @@ def extract_judgment_content(driver):
 
 
 if __name__ == "__main__":
-    scrape_juriafrica(email, password, "cameroon_supreme_court_cases")
+    scrape_juriafrica(
+        os.environ["JURIAFRICA_EMAIL"],
+        os.environ["JURIAFRICA_PASSWORD"],
+        "cameroon_supreme_court_cases",
+    )

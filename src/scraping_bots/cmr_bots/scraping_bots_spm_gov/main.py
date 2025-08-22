@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import time
 import random
-from nodes import (
+from .nodes import (
     extract_pages_urls,
     detect_page_type,
     extract_text,
@@ -28,7 +28,7 @@ def cameroon_law_scraper():
     """
     base_url = "https://www.spm.gov.cm/site/"
     page_param = "?q=fr/documentation/lois-et-r%C3%A8glements"
-    page = 12
+    page = 0
 
     while True:
         if page == 0:
@@ -42,8 +42,10 @@ def cameroon_law_scraper():
         # Last page isn't empty but contains "Contenu en cours de préparation"
         empty_content = soup.find("div", class_="view-empty")
         if empty_content and "Contenu en cours de préparation" in empty_content.text:
-            print(f"Dernière page trouvée: {page-1}")
-            print(f"URL dernière page: {base_url + page-1}")
+            last_page = page - 1
+            print(f"Dernière page trouvée: {last_page}")
+
+            print(f"URL dernière page: {base_url + str(last_page)}")
             print(f"URL première page: {base_url + page_param}")
             break
 

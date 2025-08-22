@@ -87,8 +87,8 @@ def save_file(
     text: str,
     title_on_page: str,
     page_label: int = 0,
-    category: str = None,
-    metadata: dict = None,
+    category: str | None = None,
+    metadata: dict | None = None,
 ) -> None:
 
     with open(file_path, mode="w", newline="", encoding="utf-8") as csv_file:
