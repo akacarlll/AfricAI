@@ -1,51 +1,64 @@
 # AfricAI
 
 ## Description
-AfricAI est un projet visant à collecter, traiter et exploiter des données juridiques provenant de divers sites web de plusieurs pays africains. En utilisant Kedro pour orchestrer les pipelines de traitement des données, AfricAI construit une base de connaissances interrogeable via un système de RAG (Retrieval-Augmented Generation) optimisé par ChromaDB et des modèles d'embeddings.
+AfricAI is a project aimed at collecting, processing, and leveraging legal data from various websites across multiple African countries. Using Kedro to orchestrate data processing pipelines, AfricAI builds a searchable knowledge base that can power a RAG (Retrieval-Augmented Generation) system or an Agentic-System.
 
 ## Objectifs
-- Scraper des données juridiques sous divers formats (PDF, images scannées, texte brut, etc.).
-- Extraire et traiter les informations à l'aide d'une pipeline Kedro.
-- Charger et analyser les documents (lecture de texte, extraction de tableaux et images, parsing des données).
-- Prétraiter les données (segmentation, nettoyage du texte, suppression des redondances, normalisation).
-- Construire une base de données ChromaDB et générer des embeddings pertinents.
-- Mettre en place une architecture RAG pour interroger les données.
-- Développer des agents intelligents capables de répondre aux questions des utilisateurs à partir des données traitées.
+- Scrape legal data in multiple formats (PDF, scanned images, plain text, etc.).
+- Extract and process information using a Kedro pipeline.
+- Load and analyze documents (text extraction, table and image parsing, data parsing).
+- Preprocess data (segmentation, text cleaning, redundancy removal, normalization).
+- Build vector databases (ChromaDB, Faiss, Qdrant).
 
 ## Architecture
-AfricAI repose sur une architecture modulaire et scalable :
-1. **Collecte de données** : Scraping de sites juridiques africains et téléchargement de documents.
-2. **Extraction & Traitement** : Utilisation de PyPDFLoader et d'outils OCR pour extraire le texte et les tables.
-3. **Prétraitement** : Nettoyage et normalisation des données.
-4. **Stockage** : Indexation des données dans ChromaDB avec des embeddings pour une recherche rapide.
-5. **Recherche & RAG** : Implémentation d'une recherche intelligente augmentée par le contexte des documents.
-6. **Agents conversationnels** : Développement de bots capables de répondre aux requêtes des utilisateurs en interrogeant la base de connaissances.
+AfricAI is built on a modular and scalable architecture:
 
-## Installation
+1. Data Collection: Scraping legal websites and downloading documents.
+2. Extraction & Processing: Using PyPDFLoader and OCR tools to extract text and tables.
+3. Preprocessing: Cleaning and normalizing the data.
+4. Storage: Indexing data in ChromaDB with embeddings for fast retrieval.
+
+
+## Project Installation
 ```bash
-# Cloner le projet
-git clone https://github.com/akacarlll/LawIntelAfrica.git
-cd LawIntelAfrica
+git clone https://github.com/akacarlll/AfricAI.git
+cd Africai
 
-# Installer les dépendances
-pip install -r requirements.txt
+```  
+## Install dependencies
+```  
+conda env create -f environment.yml
 ```
 
-## Utilisation
-1. Lancer le scraping : `python scripts/scrape.py`
-2. Exécuter la pipeline Kedro : `kedro run`
-3. Interroger la base de données avec l'agent : `python scripts/query_agent.py`
+## Launch the project
+Currently, only Cameroonian legal documents are available.
+To scrape data, use the following commands:
 
+**Scrape the data from [juriafrica](https://www.juriafrica.com/)**
+```
+python src\scraping_bots\cmr_bots\scraping_juriafrica\main.py
+```  
+
+  
+**Scrape the data from [spm_gov.com](https://www.spm.gov.cm/)**
+```src\scraping_bots\cmr_bots\scraping_bots_spm_gov\main.py
+```  
+## Run the the pipelines:
+You have several options to launch the pipelines:
+Run the all the Kedro pipelines:  
+```kedro run```
+This will execute all pipelines, from loading documents to creating vector stores.
+
+Run a single pipeline:
+```kedro run --pipeline=xxx```
+Replace xxx with the name of the pipeline you want to run.
 ## Technologies utilisées
-- **Kedro** : Orchestration des pipelines de traitement.
-- **ChromaDB** : Stockage et indexation des embeddings.
-- **OCR & NLP** : Extraction et traitement des documents.
-- **LangChain** : Construction des agents conversationnels.
-- **FastAPI** : Interface pour exposer l'API de recherche et de requêtage.
+- **Kedro** : Data pipeline orchestration.
+- **ChromaDB** : Embedding storage and indexing.
+- **OCR & NLP** : Document extraction and processing.
+- **LangChain** : Conversational agent construction.
 
 ## Contribution
-Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou à proposer une pull request.
+Contributions are welcome! Feel free to open an issue or submit a pull request.
 
-## Licence
-MIT License
 
