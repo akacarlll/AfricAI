@@ -3,7 +3,7 @@ import io
 import logging
 import os
 from collections import defaultdict
-
+from pathlib import Path
 import fitz
 import pandas as pd
 import pytesseract
@@ -124,12 +124,13 @@ def read_csvs(processed_files: list[str]):
             logger.error(error_message)
 
 
-def load_documents(data_path: str) -> pd.DataFrame:
+def load_documents(data_path:dict, country: str) -> pd.DataFrame:
     """
     Load and process PDF documents from a directory, combining results into a DataFrame.
 
     Args:
-        data_path (str): Path to the directory containing PDF files.
+        data_path (dict): Dictionary containing paths to the directories for each country.
+        country (str): The country for which the documents are being loaded.
 
     Returns:
         pd.DataFrame: Combined DataFrame of processed documents, or empty if none processed.
@@ -149,8 +150,8 @@ def load_documents(data_path: str) -> pd.DataFrame:
     logger.info(processed_files_message)
     processed_files = [os.path.join(temp_folder, f) for f in processed_files]
 
-    for root, dirs, files in os.walk(data_path):
-        if root == data_path:
+    for root, dirs, files in os.walk(data_path[country]):
+        if root == data_path[country]:
             continue
 
         folder_name = os.path.basename(root).lower()

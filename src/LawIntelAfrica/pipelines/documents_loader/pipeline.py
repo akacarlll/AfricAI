@@ -1,19 +1,18 @@
 from kedro.pipeline import Pipeline, node, pipeline
 
 from .nodes import (
-    extract_metadata,
     load_documents,
-    merge_pdfs_texts_dfs,
+    extract_metadata,
     remove_characters,
+    merge_pdfs_texts_dfs,
 )
 
 
-def create_pipeline(**kwargs) -> Pipeline:
-    """
-    Create a Kedro pipeline for processing legal documents.
+def create_modular_pipeline(country: str) -> Pipeline:
+    """Create a Kedro modular pipeline for processing legal documents.
 
     Args:
-        **kwargs (Dict[str, Any]): Additional keyword arguments for pipeline configuration.
+        country (str): country (str): The country for which the pipeline is created.
 
     Returns:
         Pipeline: A Kedro pipeline with nodes for loading, merging, extracting metadata, and cleaning legal documents.
@@ -22,13 +21,13 @@ def create_pipeline(**kwargs) -> Pipeline:
         [
             node(
                 func=load_documents,
-                inputs="params:data_path",
+                inputs=["params:data_path", country],
                 outputs="df_legal_documents",
                 name="load_legal_documents",
             ),
             node(
                 func=merge_pdfs_texts_dfs,
-                inputs=["df_legal_documents", "params:folder_params"],
+                inputs=["df_legal_documents", "params:folder_params", country],
                 outputs="merged_data",
                 name="merge_pdfs_and_texts",
             ),
@@ -46,3 +45,18 @@ def create_pipeline(**kwargs) -> Pipeline:
             ),
         ]
     )
+
+
+def create_pipeline() -> dict[str, Pipeline]:
+    """
+    Create a pipeline with several modular pipelines.
+
+    Returns:
+        dict[str, Pipeline]: A dictionary mapping country names to their respective pipelines.
+    """
+    countries_to_run = ["ben", "cmr"]
+
+    return {
+        f"{country}_document_loader": create_modular_pipeline(country)
+        for country in countries_to_run
+    }

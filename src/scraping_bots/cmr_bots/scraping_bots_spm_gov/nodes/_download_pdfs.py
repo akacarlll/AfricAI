@@ -1,8 +1,13 @@
 import os
+import sys
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import unquote
-from extras.scraping_function import (
+
+src_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
+sys.path.insert(0, src_path)
+
+from scraping_bots.extras.scraping_function import (
     generate_file_name,
     get_page_title,
     categorize_file,

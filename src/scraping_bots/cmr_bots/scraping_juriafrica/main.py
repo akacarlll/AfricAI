@@ -5,16 +5,21 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.common.exceptions import TimeoutException
+from dotenv import load_dotenv
 import time
 import os
+import sys
 import random
-from scraping_bots.cmr_bots.extras.scraping_function import (
+
+src_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
+sys.path.insert(0, src_path)
+
+from scraping_bots.extras.scraping_function import (
     save_file,
     generate_file_name,
     get_page_title,
     categorize_file,
 )
-from dotenv import load_dotenv
 
 
 load_dotenv()
