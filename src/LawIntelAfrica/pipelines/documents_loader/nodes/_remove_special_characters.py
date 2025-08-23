@@ -1,8 +1,9 @@
 import logging
-import pandas as pd
 import unicodedata
-from pandas.api.types import is_string_dtype
 from typing import Any
+
+import pandas as pd
+from pandas.api.types import is_string_dtype
 
 logger = logging.getLogger(__name__)
 
@@ -22,19 +23,24 @@ def remove_characters(df: pd.DataFrame) -> pd.DataFrame:
     return df.fillna("")
 
 
-def find_unicode_chars(df: pd.DataFrame) -> None:
+def find_unicode_chars(df: pd.DataFrame, max_ascii_character_code: int = 127) -> None:
     """
     Identify and log columns in a DataFrame containing non-ASCII characters.
 
     Args:
         df (pd.DataFrame): Input DataFrame to check for non-ASCII characters.
+        max_ascii_character_code (int): Maximum ASCII character code to consider (default: 127).
 
     Returns:
         None
     """
     for col in df.columns:
         if df[col].dtype == object or is_string_dtype(df[col]):
-            mask = df[col].astype(str).apply(lambda x: any(ord(c) > 127 for c in x))
+            mask = (
+                df[col]
+                .astype(str)
+                .apply(lambda x: any(ord(c) > max_ascii_character_code for c in x))
+            )
             if mask.any():
                 problem_message = f"Problem in column: {col}\n{df.loc[mask, col]}"
                 logger.info(problem_message)

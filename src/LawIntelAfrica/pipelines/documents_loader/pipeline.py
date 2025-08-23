@@ -1,10 +1,10 @@
 from kedro.pipeline import Pipeline, node, pipeline
 
 from .nodes import (
-    load_documents,
     extract_metadata,
-    remove_characters,
+    load_documents,
     merge_pdfs_texts_dfs,
+    remove_characters,
 )
 
 

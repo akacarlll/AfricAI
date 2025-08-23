@@ -1,34 +1,16 @@
-import os
 import gc
-import logging
-import psutil
-import fitz
 import io
-import pandas as pd
-from PIL import Image
-import pytesseract
+import logging
+import os
 from collections import defaultdict
-from tqdm import tqdm
-from typing import List, Dict, Any
+
+import fitz
+import pandas as pd
+import pytesseract
+from PIL import Image
 
 logger = logging.getLogger(__name__)
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
-
-
-def print_memory_usage(label: str = "") -> None:
-    """
-    Log the current memory usage of the process in megabytes.
-
-    Args:
-        label (str): Optional label to identify the memory usage log.
-
-    Returns:
-        None
-    """
-    process = psutil.Process(os.getpid())
-    memory_mb = process.memory_info().rss / 1024 / 1024
-    log_message = f"Memory usage {label}: {memory_mb:.2f} MB"
-    logger.info(log_message)
 
 
 def get_temp_filename(file_path: str, temp_folder: str = "temp") -> str:
@@ -84,7 +66,7 @@ def process_document(
     Returns:
         str: Basename of the temporary CSV file containing processed data.
     """
-    doc_data: Dict[str, List[Any]] = defaultdict(list)
+    doc_data = defaultdict(list)
     doc = fitz.open(file_path)
 
     for page_num in range(len(doc)):
@@ -123,6 +105,23 @@ def process_document(
     assert os.path.exists(os.path.join(temp_folder, temp_csv))
 
     return os.path.basename(os.path.join(temp_folder, temp_csv))
+
+
+def read_csvs(processed_files: list[str]):
+    """Reads CSV files in chunks and yields the rows.
+
+    Args:
+        processed_files (list[str]): List of paths to processed CSV files.
+
+    Yields:
+        pd.DataFrame: Chunks of the CSV file as DataFrames.
+    """
+    for file in processed_files:
+        try:
+            yield from pd.read_csv(file, chunksize=1000)
+        except Exception as e:
+            error_message = f"Error reading {file}: {e}"
+            logger.error(error_message)
 
 
 def load_documents(data_path: str) -> pd.DataFrame:
@@ -187,37 +186,14 @@ def load_documents(data_path: str) -> pd.DataFrame:
                 processed_files.append(csv_full_path)
 
         gc.collect()
-        print_memory_usage("after batch")
 
-    if processed_files:
-        combine_message = "Combining processed files..."
-        logger.info(combine_message)
+    combine_message = "Combining processed files..."
+    logger.info(combine_message)
 
-        def read_csvs():
-            for file in processed_files:
-                try:
-                    for chunk in pd.read_csv(file, chunksize=1000):
-                        yield chunk
-                except Exception as e:
-                    error_message = f"Error reading {file}: {e}"
-                    logger.error(error_message)
+    result_df = pd.concat(read_csvs(processed_files), ignore_index=True)
 
-        try:
-            result_df = pd.concat(read_csvs(), ignore_index=True)
+    # Uncomment if you want the file to be deleted automatically.
+    for file in processed_files:
+        os.remove(file)
 
-            # Uncomment if you want the file to be deleted automatically.
-            for file in processed_files:
-                try:
-                    os.remove(file)
-                except:
-                    pass
-
-            return result_df
-        except Exception as e:
-            error_combine_message = f"Error combining results: {e}"
-            logger.error(error_combine_message)
-            return pd.DataFrame()
-    else:
-        no_docs_message = "No documents processed."
-        logger.info(no_docs_message)
-        return pd.DataFrame()
+    return result_df

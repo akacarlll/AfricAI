@@ -1,8 +1,12 @@
-import pandas as pd
-import re
-import os
-from langdetect import detect, LangDetectException
 import ast
+import logging
+import os
+import re
+
+import pandas as pd
+from langdetect import LangDetectException, detect
+
+logger = logging.getLogger(__name__)
 
 
 def extract_metadata(df: pd.DataFrame) -> pd.DataFrame:
@@ -57,7 +61,6 @@ def extract_metadata(df: pd.DataFrame) -> pd.DataFrame:
         )
     df = df.drop(columns=["_temp_page_content_year", "metadata"])
 
-    # TODO: Add a column for metadata extraction
     return df
 
 
@@ -95,12 +98,14 @@ def extract_category(page_title):
     return "autres"
 
 
-def extract_year(text: str) -> int | None:
+def extract_year(text: str, min_year: int = 1940, max_year: int = 2030) -> int | None:
     """
     Extracts a 4-digit year from a given text.
 
     Args:
         text (str): The text from which to extract the year (e.g., page title or page content).
+        min_year (int): The minimum valid year (default: 1940).
+        max_year (int): The maximum valid year (default: 2030).
 
     Returns:
         int | None: The largest valid year (between 1960 and 2030) found in the text
@@ -115,7 +120,7 @@ def extract_year(text: str) -> int | None:
     for year_str in potential_years_str:
         try:
             year = int(year_str)
-            if 1940 <= year <= 2030:
+            if min_year <= year <= max_year:
                 valid_years.append(year)
         except ValueError:
             continue
@@ -123,9 +128,8 @@ def extract_year(text: str) -> int | None:
     if not valid_years:
         return None
     elif len(valid_years) > 1:
-        print(
-            f"DEBUG: Multiple valid years found in '{text[:50]}...': {valid_years}. Returning the largest: {max(valid_years)}."
-        )
+        debug_msg = f"DEBUG: Multiple valid years found in '{text[:50]}...': {valid_years}. Returning the largest: {max(valid_years)}."
+        logger.debug(debug_msg)
         return max(valid_years)
     else:
         return valid_years[0]
@@ -189,10 +193,10 @@ def parse_metadata_string(metadata_str: str) -> dict:
     if not isinstance(metadata_str, str) or not metadata_str.strip():
         return {}
     try:
-
         return ast.literal_eval(metadata_str)
     except (ValueError, SyntaxError, TypeError):
-        print(
-            f"WARNING: Could not parse metadata string: '{metadata_str}'. Returning empty dict."
+        warning_msg = (
+            f"Could not parse metadata string: '{metadata_str}'. Returning empty dict."
         )
+        logger.warning(warning_msg)
         return {}

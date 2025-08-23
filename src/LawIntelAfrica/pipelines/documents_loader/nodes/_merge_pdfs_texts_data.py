@@ -1,7 +1,8 @@
+import logging
 import os
+
 import pandas as pd
 from tqdm import tqdm
-import logging
 
 logger = logging.getLogger(__name__)
 
@@ -49,7 +50,7 @@ def load_and_concat_dataframes(base_folder: str):
     for root, _, files in os.walk(base_folder):
         folder_name = os.path.basename(root)
         for file in tqdm(files[:1]):
-            if file.endswith(f".csv"):
+            if file.endswith(".csv"):
                 file_path = os.path.join(root, file)
                 df = pd.read_csv(file_path)
                 df.rename(columns={"text": "page_content"}, inplace=True)
