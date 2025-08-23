@@ -26,6 +26,10 @@ def extract_metadata(df: pd.DataFrame) -> pd.DataFrame:
         ),
         axis=1,
     )
+    df["source"] = df["source"].apply(
+        lambda file_path: file_path.replace("Africai", "AfricAI")
+    )
+    df["source"] = df["source"].apply(lambda file_path: file_path.split("AfricAI")[1])
     df["category"] = df.apply(
         lambda row: (
             extract_category(row["page_title"])
@@ -35,18 +39,6 @@ def extract_metadata(df: pd.DataFrame) -> pd.DataFrame:
         axis=1,
     )
     df["year"] = df["page_title"].apply(extract_year)
-    df["_temp_page_content_year"] = df["page_content"].apply(extract_year)
-    consolidated_content_years = df.groupby("page_title")[
-        "_temp_page_content_year"
-    ].transform(lambda x: x.max() if x.dropna().any() else None)
-    df["year_maybe"] = df.apply(
-        lambda row: (
-            row["year"]
-            if row["year"] is not None
-            else consolidated_content_years.loc[row.name]
-        ),
-        axis=1,
-    )
 
     df["country"] = df["source"].apply(extract_country_from_source)
     df["language"] = df["page_content"].apply(

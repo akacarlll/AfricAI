@@ -12,7 +12,7 @@ cleaned_legal_documents:
   load_args:
     encoding: utf-8
   metadata:
-    expected_columns: ["page_content", "folder","source", "text_length","page_label", "page_title","URL","category","year", "year_maybe", "country", "language", "Claimant", "Chamber", "Against","Appeal","Judgment","Case", "Defendant", "Court","Section", "file_type"]
+    expected_columns: ["page_content", "folder","source", "text_length","page_label", "page_title","URL","category","year", "year_maybe", "country", "language", "Claimant", "Chamber", "Against","Appeal","Judgment","Case", "Defendant", "Court","Section", "file_type", "is_document_scanned"]
 
 chunked_docs:
   type: pandas.CSVDataset

@@ -9,6 +9,15 @@ from .nodes import (
 
 
 def create_pipeline(**kwargs) -> Pipeline:
+    """
+    Create a Kedro pipeline for processing legal documents.
+
+    Args:
+        **kwargs (Dict[str, Any]): Additional keyword arguments for pipeline configuration.
+
+    Returns:
+        Pipeline: A Kedro pipeline with nodes for loading, merging, extracting metadata, and cleaning legal documents.
+    """
     return pipeline(
         [
             node(
@@ -17,7 +26,6 @@ def create_pipeline(**kwargs) -> Pipeline:
                 outputs="df_legal_documents",
                 name="load_legal_documents",
             ),
-            # TODO : Add a node to parse tables in the pdfs
             node(
                 func=merge_pdfs_texts_dfs,
                 inputs=["df_legal_documents", "params:folder_params"],

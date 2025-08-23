@@ -1,87 +1,47 @@
-from langchain_community.document_loaders import PyPDFDirectoryLoader, PyPDFLoader
-import pandas as pd
 import os
-import time
-from tqdm import tqdm
 import gc
+import logging
 import psutil
-from docling.document_converter import DocumentConverter, PdfFormatOption
-from docling.datamodel.pipeline_options import (
-    PdfPipelineOptions,
-    AcceleratorDevice,
-    AcceleratorOptions,
-)
-from docling.datamodel.base_models import InputFormat
-import sys
+import fitz
+import io
+import pandas as pd
+from PIL import Image
+import pytesseract
+from collections import defaultdict
+from tqdm import tqdm
+from typing import List, Dict, Any
 
-try:
-    import resource
-except ImportError:
-    pass
-
-pipeline_options = PdfPipelineOptions()
-pipeline_options.do_ocr = True
-pipeline_options.do_table_structure = False
-pipeline_options.enable_remote_services = False
-pipeline_options.artifacts_path = r"C:\Users\carlf\Documents\GitHub\docling-models"
-pipeline_options.accelerator_options = AcceleratorOptions(
-    num_threads=max(1, os.cpu_count() // 2),
-    device=AcceleratorDevice.CPU,
-)
-
-docling_converter = DocumentConverter(
-    format_options={InputFormat.PDF: PdfFormatOption(pipeline_options=pipeline_options)}
-)
+logger = logging.getLogger(__name__)
+pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 
-def print_memory_usage(label=""):
+def print_memory_usage(label: str = "") -> None:
+    """
+    Log the current memory usage of the process in megabytes.
+
+    Args:
+        label (str): Optional label to identify the memory usage log.
+
+    Returns:
+        None
+    """
     process = psutil.Process(os.getpid())
     memory_mb = process.memory_info().rss / 1024 / 1024
-    print(f"Memory usage {label}: {memory_mb:.2f} MB")
+    log_message = f"Memory usage {label}: {memory_mb:.2f} MB"
+    logger.info(log_message)
 
 
-def transform_to_page_df(
-    documents, folder_name: str, source_path: str, docling_doc=None
-) -> pd.DataFrame:
-    if docling_doc:
-        content = docling_doc.export_to_text()
-        df = pd.DataFrame(
-            [
-                {
-                    "folder": folder_name,
-                    "source": source_path,
-                    "page_label": 1,
-                    "page_content": content,
-                    "text_length": len(content.strip()),
-                    "file_type": "pdf",
-                }
-            ]
-        )
-        del content
-        return df
+def get_temp_filename(file_path: str, temp_folder: str = "temp") -> str:
+    """
+    Generate the expected temporary filename for a given file path.
 
-    if documents:
-        return pd.DataFrame(
-            [
-                {
-                    "folder": folder_name,
-                    "source": doc.metadata["source"],
-                    "page_label": doc.metadata.get(
-                        "page_label", 1
-                    ),  # Use default page 1 if page_label not present
-                    "page_content": doc.page_content,
-                    "text_length": len(doc.page_content.strip()),
-                    "file_type": "pdf",
-                }
-                for doc in documents
-            ]
-        )
+    Args:
+        file_path (str): Path to the original file.
+        temp_folder (str): Folder where temporary files are stored (default: "temp").
 
-    return pd.DataFrame()
-
-
-def get_temp_filename(file_path, temp_folder="temp"):
-    """Generate the expected temp filename for a given file path"""
+    Returns:
+        str: Path to the temporary CSV file.
+    """
     base_name = os.path.basename(file_path)
     if base_name.lower().endswith(".pdf"):
         base_name = base_name[:-4]  # Remove .pdf extension
@@ -89,112 +49,105 @@ def get_temp_filename(file_path, temp_folder="temp"):
     return os.path.join(temp_folder, temp_csv)
 
 
-def is_file_already_processed(file_path, temp_folder="temp"):
-    """Check if a file has already been processed by looking for its temp CSV"""
+def is_file_already_processed(file_path: str, temp_folder: str = "temp") -> bool:
+    """
+    Check if a file has already been processed by looking for its temporary CSV.
+
+    Args:
+        file_path (str): Path to the original file.
+        temp_folder (str): Folder where temporary files are stored (default: "temp").
+
+    Returns:
+        bool: True if the temporary CSV exists, False otherwise.
+    """
     expected_temp_file = get_temp_filename(file_path, temp_folder)
     return os.path.exists(expected_temp_file)
 
 
-def try_pypdf_loader(file_path, folder_name, temp_folder="temp"):
-    """Try to load a PDF using PyPDFLoader first"""
-    print(f"Trying PyPDFLoader for {os.path.basename(file_path)}")
-    try:
-        loader = PyPDFLoader(file_path)
-        documents = loader.load()
+def process_document(
+    file_path: str,
+    folder_name: str,
+    temp_folder: str,
+    min_char_length: int = 50,
+    ocr_language: str = "fra",
+) -> str:
+    """
+    Extract text from PDF using PyMuPDF, with Tesseract OCR fallback for images.
 
-        # If documents is empty or only contains empty text, return None
-        if not documents or all(
-            len(doc.page_content.strip()) == 0 for doc in documents
-        ):
-            print(
-                f"PyPDFLoader returned empty content for {os.path.basename(file_path)}"
-            )
-            return None
+    Args:
+        file_path (str): Path to the PDF file.
+        folder_name (str): Name of the folder containing the PDF.
+        temp_folder (str): Folder to store temporary CSV files.
+        min_char_length (int): Minimum character length to trigger OCR fallback (default: 50).
+        ocr_language (str): Language for OCR (e.g., 'eng', 'spa', 'fra') (default: "fra").
 
-        print(f"Successfully loaded {os.path.basename(file_path)} with PyPDFLoader")
+    Returns:
+        str: Basename of the temporary CSV file containing processed data.
+    """
+    doc_data: Dict[str, List[Any]] = defaultdict(list)
+    doc = fitz.open(file_path)
 
-        # Transform and save to CSV
-        temp_csv = f"temp_{os.path.basename(file_path).replace('.pdf', '')}.csv"
-        df = transform_to_page_df(documents, folder_name, file_path)
+    for page_num in range(len(doc)):
+        page = doc.load_page(page_num)
+        page_text = page.get_text().strip()
+        is_page_scanned = False
 
-        if not df.empty:
-            df.to_csv(os.path.join(temp_folder, temp_csv), index=False)
-            print(f"Saved processed results to {temp_csv}")
+        if not page_text or len(page_text) < min_char_length:
+            pix = page.get_pixmap(matrix=fitz.Matrix(2, 2))  # 2x scaling for better OCR
+            img_data = pix.tobytes("png")
 
-            return os.path.join(temp_folder, temp_csv)
+            img = Image.open(io.BytesIO(img_data))
 
-    except Exception as e:
-        print(f"Error using PyPDFLoader for {file_path}: {e}")
+            ocr_text = pytesseract.image_to_string(img, lang=ocr_language)
+            page_text = ocr_text.strip()
+            is_page_scanned = True
 
-    return None  # Return None if PyPDFLoader failed or returned empty content
+        doc_data["page_number"].append(page_num + 1)
+        doc_data["page_content"].append(page_text)
+        doc_data["text_length"].append(len(page_text.strip()))
+        doc_data["is_page_scanned"].append(is_page_scanned)
 
+    doc.close()
 
-def process_single_file(file_path, folder_name, temp_folder="temp"):
-    print_memory_usage(f"before processing {os.path.basename(file_path)}")
+    document_parsed_in_df = pd.DataFrame(doc_data)
+    document_parsed_in_df["folder"] = folder_name
+    document_parsed_in_df["source"] = file_path
+    document_parsed_in_df["file_type"] = "pdf"
 
-    # First try with PyPDFLoader
-    csv_path = try_pypdf_loader(file_path, folder_name, temp_folder)
-    if csv_path:
-        # PDF was successfully processed with PyPDFLoader
-        gc.collect()
-        print_memory_usage(
-            f"after processing {os.path.basename(file_path)} with PyPDFLoader"
-        )
-        return os.path.basename(csv_path)
+    temp_csv = f"temp_{os.path.basename(file_path).replace('.pdf', '')}.csv"
+    document_parsed_in_df.to_csv(os.path.join(temp_folder, temp_csv), index=False)
 
-    # If PyPDFLoader failed, fall back to docling converter
-    print(f"Falling back to docling converter for {os.path.basename(file_path)}")
+    save_message = f"Saved processed results to {temp_csv}"
+    logger.info(save_message)
 
-    try:
-        start_time = time.time()
+    assert os.path.exists(os.path.join(temp_folder, temp_csv))
 
-        result = docling_converter.convert(file_path)
-
-        end_time = time.time() - start_time
-        print(f"Time taken to convert {file_path} with docling: {end_time:.2f} seconds")
-
-        temp_csv = f"temp_{os.path.basename(file_path).replace('.pdf', '')}.csv"
-
-        df = transform_to_page_df([], folder_name, file_path, result.document)
-
-        if not df.empty:
-            df.to_csv(os.path.join(temp_folder, temp_csv), index=False)
-            print(f"Saved processed results to {temp_csv}")
-
-        del df
-        del result
-
-        gc.collect()
-        print_memory_usage(
-            f"after processing {os.path.basename(file_path)} with docling"
-        )
-
-        time.sleep(3)
-
-        return temp_csv if os.path.exists(os.path.join(temp_folder, temp_csv)) else None
-
-    except Exception as e:
-        print(f"Error processing file {file_path} with docling: {e}")
-        return None
+    return os.path.basename(os.path.join(temp_folder, temp_csv))
 
 
 def load_documents(data_path: str) -> pd.DataFrame:
-    if sys.platform != "win32":
-        try:
-            resource.setrlimit(resource.RLIMIT_AS, (4 * 1024 * 1024 * 1024, -1))
-        except (ValueError, OSError):
-            pass
+    """
+    Load and process PDF documents from a directory, combining results into a DataFrame.
 
-    temp_folder = "temp"
+    Args:
+        data_path (str): Path to the directory containing PDF files.
+
+    Returns:
+        pd.DataFrame: Combined DataFrame of processed documents, or empty if none processed.
+    """
+    temp_folder = "temp_documents"
     if not os.path.exists(temp_folder):
         os.makedirs(temp_folder)
 
     processed_files = [
-        f
-        for f in os.listdir(temp_folder)
-        if f.startswith("temp_") and f.endswith(".csv")
+        file
+        for file in os.listdir(temp_folder)
+        if file.startswith("temp_") and file.endswith(".csv")
     ]
-    print(f"Found {len(processed_files)} already processed files in temp folder")
+    processed_files_message = (
+        f"Found {len(processed_files)} already processed files in temp folder"
+    )
+    logger.info(processed_files_message)
     processed_files = [os.path.join(temp_folder, f) for f in processed_files]
 
     for root, dirs, files in os.walk(data_path):
@@ -202,10 +155,9 @@ def load_documents(data_path: str) -> pd.DataFrame:
             continue
 
         folder_name = os.path.basename(root).lower()
-
-        batch_size = 5
         files_to_process = []
-        for file in files:
+
+        for file in files[:3]:
             if file.lower().endswith(".pdf"):
                 file_path = os.path.join(root, file)
                 if not is_file_already_processed(file_path, temp_folder):
@@ -217,30 +169,29 @@ def load_documents(data_path: str) -> pd.DataFrame:
                     temp_csv_path = os.path.join(temp_folder, temp_csv)
                     if temp_csv_path not in processed_files:
                         processed_files.append(temp_csv_path)
-                        print(f"File {file} already processed. Added to results list.")
+                        already_processed_message = (
+                            f"File {file} already processed. Added to results list."
+                        )
+                        logger.info(already_processed_message)
 
-        print(f"Found {len(files_to_process)} files that need processing in {root}")
+        files_to_process_message = (
+            f"Found {len(files_to_process)} files that need processing in {root}"
+        )
+        logger.info(files_to_process_message)
 
-        file_batches = [
-            files_to_process[i : i + batch_size]
-            for i in range(0, len(files_to_process), batch_size)
-        ]
+        for file in files_to_process:
+            file_path = os.path.join(root, file)
+            csv_path = process_document(file_path, folder_name, temp_folder)
+            if csv_path:
+                csv_full_path = os.path.join(temp_folder, csv_path)
+                processed_files.append(csv_full_path)
 
-        for batch in file_batches:
-            for file in tqdm(batch):
-                file_path = os.path.join(root, file)
-                csv_path = process_single_file(file_path, folder_name, temp_folder)
-                if csv_path:
-                    csv_full_path = os.path.join(temp_folder, csv_path)
-                    if csv_full_path not in processed_files:
-                        processed_files.append(csv_full_path)
-
-            gc.collect()
-            time.sleep(15)
-            print_memory_usage("after batch")
+        gc.collect()
+        print_memory_usage("after batch")
 
     if processed_files:
-        print("Combining processed files...")
+        combine_message = "Combining processed files..."
+        logger.info(combine_message)
 
         def read_csvs():
             for file in processed_files:
@@ -248,22 +199,25 @@ def load_documents(data_path: str) -> pd.DataFrame:
                     for chunk in pd.read_csv(file, chunksize=1000):
                         yield chunk
                 except Exception as e:
-                    print(f"Error reading {file}: {e}")
+                    error_message = f"Error reading {file}: {e}"
+                    logger.error(error_message)
 
         try:
             result_df = pd.concat(read_csvs(), ignore_index=True)
 
             # Uncomment if you want the file to be deleted automatically.
-            # for file in processed_files:
-            #     try:
-            #         os.remove(file)
-            #     except:
-            #         pass
+            for file in processed_files:
+                try:
+                    os.remove(file)
+                except:
+                    pass
 
             return result_df
         except Exception as e:
-            print(f"Error combining results: {e}")
+            error_combine_message = f"Error combining results: {e}"
+            logger.error(error_combine_message)
             return pd.DataFrame()
     else:
-        print("No documents processed.")
+        no_docs_message = "No documents processed."
+        logger.info(no_docs_message)
         return pd.DataFrame()
