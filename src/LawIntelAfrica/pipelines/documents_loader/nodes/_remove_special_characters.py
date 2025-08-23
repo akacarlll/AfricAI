@@ -1,36 +1,72 @@
+import logging
+import unicodedata
+from typing import Any
+
 import pandas as pd
-import unicodedata
 from pandas.api.types import is_string_dtype
-import unicodedata
+
+logger = logging.getLogger(__name__)
 
 
 def remove_characters(df: pd.DataFrame) -> pd.DataFrame:
-    """Removes special characters from the text.
-
-    This function removes special characters from the text.
+    """
+    Remove special characters from text columns in a DataFrame.
 
     Args:
-        df (pd.DataFrame): A DataFrame containing the text.
+        df (pd.DataFrame): Input DataFrame containing text columns to clean.
 
     Returns:
-        pd.DataFrame: A DataFrame containing the text with the special characters removed.
+        pd.DataFrame: DataFrame with special characters removed from text columns and NaN values replaced with empty strings.
     """
     find_unicode_chars(df)
     df = fully_clean_dataframe(df)
     return df.fillna("")
 
 
-def find_unicode_chars(df):
+def find_unicode_chars(df: pd.DataFrame, max_ascii_character_code: int = 127) -> None:
+    """
+    Identify and log columns in a DataFrame containing non-ASCII characters.
+
+    Args:
+        df (pd.DataFrame): Input DataFrame to check for non-ASCII characters.
+        max_ascii_character_code (int): Maximum ASCII character code to consider (default: 127).
+
+    Returns:
+        None
+    """
     for col in df.columns:
-        if df[col].dtype == object:
-            mask = df[col].astype(str).apply(lambda x: any(ord(c) > 127 for c in x))
+        if df[col].dtype == object or is_string_dtype(df[col]):
+            mask = (
+                df[col]
+                .astype(str)
+                .apply(lambda x: any(ord(c) > max_ascii_character_code for c in x))
+            )
             if mask.any():
-                print(f"Problem in column: {col}")
-                print(df.loc[mask, col])
+                problem_message = f"Problem in column: {col}\n{df.loc[mask, col]}"
+                logger.info(problem_message)
 
 
 def fully_clean_dataframe(df: pd.DataFrame) -> pd.DataFrame:
-    def clean_value(val):
+    """
+    Clean text columns in a DataFrame by normalizing Unicode and removing non-ASCII characters.
+
+    Args:
+        df (pd.DataFrame): Input DataFrame with text columns to clean.
+
+    Returns:
+        pd.DataFrame: DataFrame with text columns cleaned of special characters.
+    """
+
+    def clean_value(val: Any) -> str:
+        """
+        Clean a single value by normalizing Unicode and removing non-ASCII characters.
+
+        Args:
+            val (Any): Input value to clean.
+
+        Returns:
+            str: Cleaned string value.
+        """
         if not isinstance(val, str):
             return str(val)
         val = unicodedata.normalize("NFKD", val)
