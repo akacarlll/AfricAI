@@ -156,7 +156,7 @@ def load_documents(data_path: str) -> pd.DataFrame:
         folder_name = os.path.basename(root).lower()
         files_to_process = []
 
-        for file in files[:3]:
+        for file in files:
             if file.lower().endswith(".pdf"):
                 file_path = os.path.join(root, file)
                 if not is_file_already_processed(file_path, temp_folder):

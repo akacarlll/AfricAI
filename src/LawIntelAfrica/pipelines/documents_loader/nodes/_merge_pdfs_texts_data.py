@@ -49,7 +49,7 @@ def load_and_concat_dataframes(base_folder: str):
 
     for root, _, files in os.walk(base_folder):
         folder_name = os.path.basename(root)
-        for file in tqdm(files[:1]):
+        for file in tqdm(files):
             if file.endswith(".csv"):
                 file_path = os.path.join(root, file)
                 df = pd.read_csv(file_path)
