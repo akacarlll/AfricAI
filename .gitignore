@@ -11,8 +11,7 @@ conf/**/*credentials*
 data/chroma/**
 # except their sub-folders
 !data/**/
-data/cmr/pdfs*
-data/cmr/texts*
+data/01_raw/**
 vector_stores/
 *.csv
 *.json

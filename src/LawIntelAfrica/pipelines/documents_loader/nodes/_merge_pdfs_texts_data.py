@@ -1,13 +1,14 @@
-import logging
 import os
-
 import pandas as pd
 from tqdm import tqdm
+import logging
 
 logger = logging.getLogger(__name__)
 
 
-def merge_pdfs_texts_dfs(df: pd.DataFrame, base_folder: str) -> pd.DataFrame:
+def merge_pdfs_texts_dfs(
+    df: pd.DataFrame, csv_folder: dict, country: str
+) -> pd.DataFrame:
     """
     Merges a given DataFrame with text data loaded from multiple subfolders in a base folder.
 
@@ -16,13 +17,15 @@ def merge_pdfs_texts_dfs(df: pd.DataFrame, base_folder: str) -> pd.DataFrame:
 
     Args:
         df (pd.DataFrame): The input DataFrame to merge with the text data.
+        csv_path (dict): Dictionary containing paths to the csv for each country.
+        country (str): The country for which the documents are being loaded.
 
     Returns:
         pd.DataFrame: A single DataFrame resulting from the concatenation of the input DataFrame
                      and the text data loaded from the base folder.
 
     """
-    df2 = load_and_concat_dataframes(base_folder)
+    df2 = load_and_concat_dataframes(csv_folder[country])
     merged_df = pd.concat([df, df2], ignore_index=True)
     return merged_df
 
@@ -50,14 +53,13 @@ def load_and_concat_dataframes(base_folder: str):
     for root, _, files in os.walk(base_folder):
         folder_name = os.path.basename(root)
         for file in tqdm(files):
-            if file.endswith(".csv"):
+            if file.endswith(f".csv"):
                 file_path = os.path.join(root, file)
                 df = pd.read_csv(file_path)
                 df.rename(columns={"text": "page_content"}, inplace=True)
                 df["file_type"] = "csv"
-                df["folder"] = folder_name
-                df["source"] = file_path
-                df["is_document_scanned"] = False
+                df["folder"] = (folder_name,)
+                df["source"] = (file_path,)
                 dataframes.append(df)
     if dataframes:
         combined_df = pd.concat(dataframes, ignore_index=True)

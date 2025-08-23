@@ -28,7 +28,7 @@ def register_pipelines() -> Dict[str, Pipeline]:
     return {
         "__default__": full_pipeline,
         # Individual pipeline components
-        "documents_loader": doc_loader_pipeline,
+        **doc_loader_pipeline,
         "data_preprocessing": doc_preprocessing_pipeline,
         "store_knowledge": store_knowledge_pipeline,
         "data_analysis": doc_analysis_pipeline,
