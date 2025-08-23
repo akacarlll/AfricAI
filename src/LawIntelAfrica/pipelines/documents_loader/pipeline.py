@@ -55,7 +55,8 @@ def create_pipeline() -> dict[str, Pipeline]:
         dict[str, Pipeline]: A dictionary mapping country names to their respective pipelines.
     """
     countries_to_run = ["ben", "cmr"]
-    pipelines = {}
-    for country in countries_to_run:
-        pipelines[f"{country}_document_loader"] = create_modular_pipeline(country)
-    return pipelines
+
+    return {
+        f"{country}_document_loader": create_modular_pipeline(country)
+        for country in countries_to_run
+    }

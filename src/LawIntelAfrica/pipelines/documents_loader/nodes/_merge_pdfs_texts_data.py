@@ -53,13 +53,13 @@ def load_and_concat_dataframes(base_folder: str):
     for root, _, files in os.walk(base_folder):
         folder_name = os.path.basename(root)
         for file in tqdm(files):
-            if file.endswith(f".csv"):
+            if file.endswith(".csv"):
                 file_path = os.path.join(root, file)
                 df = pd.read_csv(file_path)
                 df.rename(columns={"text": "page_content"}, inplace=True)
                 df["file_type"] = "csv"
-                df["folder"] = (folder_name,)
-                df["source"] = (file_path,)
+                df["folder"] = folder_name
+                df["source"] = file_path
                 dataframes.append(df)
     if dataframes:
         combined_df = pd.concat(dataframes, ignore_index=True)

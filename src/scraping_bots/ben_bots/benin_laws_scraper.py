@@ -38,6 +38,7 @@ CATEGORY_MAP = {
 
 
 class BeninLawsScraper:
+    """Scrapes laws from the Benin government website by category."""
     def __init__(self, category: str):
         self.base_url = "https://sgg.gouv.bj/recherche/?keywords=&begin=&end=&type="
         self.category = CATEGORY_MAP[category]
@@ -46,19 +47,20 @@ class BeninLawsScraper:
             r"C:\Users\carlf\Documents\GitHub\AfricAI\data\01_raw\ben\pdfs"
         )
 
-    def scrape_laws(self):
+    def scrape_laws(self)-> None :
+        """Scrapes all laws for the given category."""
         page = 1
         driver = self.setup_webdriver(self.category)
 
         while True:
-            driver.get(self.url_to_target + f"&offset={str(page)}")
+            driver.get(f"{self.url_to_target}&offset={str(page)}")
             links_to_pdf_page = self.create_links_list(driver)
             logger.info(len(links_to_pdf_page))
             for link in links_to_pdf_page:
                 driver.get(link)
                 page_title = self.get_page_title(driver)
                 file_name = generate_file_name(page_title)
-                self.gather_downloadable_link(driver, file_name)
+                self.download_file(driver, file_name)
 
                 file_downloaded_msg = f"Downloaded {file_name}"
                 logger.info(file_downloaded_msg)
@@ -69,7 +71,15 @@ class BeninLawsScraper:
             logger.info(page_downloaded_msg)
             page += 1
 
-    def setup_webdriver(self, category: str):
+    def setup_webdriver(self, category: str) -> webdriver.Chrome:
+        """Sets up the Selenium WebDriver with download preferences.
+        
+        Args:
+            category (str): The category to create the download folder for.
+        
+        Returns:
+            WebDriver: The configured Chrome WebDriver instance.
+        """
         destination_folder = os.path.join(self.base_folder, category)
         os.makedirs(destination_folder, exist_ok=True)
 
@@ -90,30 +100,46 @@ class BeninLawsScraper:
             service=Service(ChromeDriverManager().install()), options=options
         )
 
-    def create_links_list(self, driver) -> list[str]:
-
+    def create_links_list(self, driver: webdriver.Chrome) -> list[str]:
+        """Creates a list of links to law detail pages.
+        
+        Args:
+            driver: The Selenium WebDriver instance.
+        
+        Returns:
+            list[str]: A list of URLs.
+        """
         elements = driver.find_elements("css selector", "a.doc-title.highlight")
 
-        relative_links = [el.get_attribute("href") for el in elements]
+        return [el.get_attribute("href") for el in elements] # type: ignore
 
-        return relative_links
 
-    def get_page_title(self, driver) -> str:
-        """
-        Récupère le titre de la loi (balise <h1 class="upper adapt white">).
+    def get_page_title(self, driver: webdriver.Chrome) -> str:
+        """Gets the title of the law from the page.
+        
+        Args:
+            driver: The Selenium WebDriver instance.
+        
+        Returns:
+            str: The title of the law.
         """
         element = driver.find_element("css selector", "h1.upper.adapt.white")
         return element.text.strip()
 
-    def gather_downloadable_link(self, driver, file_name) -> str | None:
-        """
-        Get the single downloadable PDF link from the current law page.
-        Returns None if not found.
+    def download_file(self, driver: webdriver.Chrome, file_name: str) -> None:
+        """Clicks the download button and renames the downloaded file.
+        
+        Args:
+            driver: The Selenium WebDriver instance.
+            file_name (str): The desired name for the downloaded file.
+        
+        Returns:
+            None.
         """
         download_button = driver.find_element(By.ID, "btnDownload")
         driver.execute_script("arguments[0].click();", download_button)
 
-        time.sleep(3)  # wait for download to finish (or poll for .crdownload)
+        time.sleep(1)  # TODO: Use crdownload or a more reliable method
         latest_file = max(
             glob.glob(os.path.join(self.base_folder, self.category, "*")),
             key=os.path.getctime,
@@ -123,6 +149,12 @@ class BeninLawsScraper:
 
 
 list_of_category_to_scrape = ["loi", "docs", "ordonnance", "accord", "decision"]
-for category in list_of_category_to_scrape:
-    scraper = BeninLawsScraper(category=category)
-    scraper.scrape_laws()
+
+def main():
+    """Main function to run the scraping process"""
+    for category in list_of_category_to_scrape:
+        scraper = BeninLawsScraper(category=category)
+        scraper.scrape_laws()
+
+if __name__ == "__main__":
+    main()
