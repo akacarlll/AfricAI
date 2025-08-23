@@ -1,4 +1,3 @@
-import pytest
 from src.LawIntelAfrica.pipelines.documents_loader.nodes import remove_characters
 import pandas as pd
 
@@ -19,6 +18,6 @@ class Test_remove_characters:
 
         # Act
         df_cleaned = remove_characters(df)
-        print(list(df_cleaned))
+
         # Assert
         assert df_expected.equals(df_cleaned)

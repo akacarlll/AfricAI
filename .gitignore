@@ -15,6 +15,7 @@ data/cmr/pdfs*
 data/cmr/texts*
 vector_stores/
 *.csv
+*.json
 # also keep all .gitkeep files
 !.gitkeep
 
