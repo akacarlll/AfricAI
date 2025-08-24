@@ -62,7 +62,7 @@ def create_pipeline() -> dict[str, Pipeline]:
     pipelines_dict = {}
     for country in countries_to_run:
         country_pipeline = pipeline(
-            pipe=create_modular_pipeline(country),
+            create_modular_pipeline(country),
             parameters={
                 "params:data_paths": "params:data_paths",
                 "params:folder_params": "params:folder_params",

@@ -42,7 +42,7 @@ namespaces = false
 [tool.kedro]
 package_name = "LawIntelAfrica"
 project_name = "LawIntelAfrica"
-kedro_init_version = "0.19.10"
+kedro_init_version = "1.0.0"
 tools = "['Linting', 'Testing', 'Custom Logging', 'Documentation', 'Data Structure', 'Kedro Viz']"
 example_pipeline = "True"
 source_dir = "src"
