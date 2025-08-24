@@ -40,7 +40,7 @@ class ColumnVerifierHook:
 
         actual_columns = data.columns.tolist()
 
-        if set(actual_columns) != set(expected_columns):
+        if not set(expected_columns).issubset(set(actual_columns)):
             raise ValueError(
-                f"Columns mismatch for dataset '{dataset_name}'. Expected: {expected_columns}, Got: {actual_columns}"
+                f"Columns mismatch for dataset '{dataset_name}'. Expected at least:{expected_columns}, Got: {actual_columns}"
             )

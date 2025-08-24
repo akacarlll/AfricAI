@@ -53,9 +53,7 @@ def create_chroma_vector_stores(
             persist_directory=persist_directory,
         )
 
-        success_msg = (
-            f"Vector store created for category: {category}"
-        )
+        success_msg = f"Vector store created for category: {category}"
         len_doc_msg = f"   - Documents: {len(documents)}"
         logger.info(success_msg)
         logger.info(len_doc_msg)
