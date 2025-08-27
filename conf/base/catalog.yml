@@ -32,7 +32,5 @@ legal_docs_world_map:
   save_args:
     engine: auto
 year_title_bar_plot:
-  type: plotly.JSONDataset
-  filepath: data/09_reporting/year_title_bar_plot.json
-  save_args:
-    engine: auto
+  type: pickle.PickleDataset
+  filepath: data/09_reporting/year_title_bar_plot.pkl
