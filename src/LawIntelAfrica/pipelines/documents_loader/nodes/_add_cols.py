@@ -48,18 +48,18 @@ def extract_metadata(df: pd.DataFrame) -> pd.DataFrame:
     df["language"] = df["page_content"].apply(
         lambda x: detect_language(str(x)[:200]) if pd.notna(x) else "Unknown"
     )
+    if "metadata" in df.columns:
+        parsed_metadata = df["metadata"].apply(parse_metadata_string)
+        all_metadata_keys = set()
+        for d in parsed_metadata:
+            if isinstance(d, dict):
+                all_metadata_keys.update(d.keys())
 
-    parsed_metadata = df["metadata"].apply(parse_metadata_string)
-    all_metadata_keys = set()
-    for d in parsed_metadata:
-        if isinstance(d, dict):
-            all_metadata_keys.update(d.keys())
-
-    for key in all_metadata_keys:
-        df[key] = parsed_metadata.apply(
-            lambda x: x.get(key) if isinstance(x, dict) else None
-        )
-    df = df.drop(columns=["_temp_page_content_year", "metadata"])
+        for key in all_metadata_keys:
+            df[key] = parsed_metadata.apply(
+                lambda x: x.get(key) if isinstance(x, dict) else None
+            )
+        df = df.drop(columns=["metadata"], errors="ignore")
 
     return df
 

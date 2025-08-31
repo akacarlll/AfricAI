@@ -1,12 +1,15 @@
-cmr_data_path: "C:/Users/carlf/Documents/GitHub/AfricAi/data/03_primary"
-benin_data_path: "C:/Users/carlf/Documents/GitHub/AfricAi/data/01_raw/benin"
+data_paths: 
+  cmr: "C:/Users/carlf/Documents/GitHub/AfricAI/data/01_raw/cmr/pdfs"
+  ben: "C:/Users/carlf/Documents/GitHub/AfricAI/data/01_raw/ben/pdfs"
 
-data_path: "C:/Users/carlf/Documents/GitHub/AfricAI/data/01_raw/cmr/pdfs"
-
-folder_params: "C:/Users/carlf/Documents/GitHub/AfricAi/data/01_raw/cmr/texts"
+folder_params: 
+  cmr: "C:/Users/carlf/Documents/GitHub/AfricAi/data/01_raw/cmr/texts"
+  ben: "C:/Users/carlf/Documents/GitHub/AfricAi/data/01_raw/ben/texts"
 model_name: "all-MiniLM-L6-v2"
 embeddings_path: "C:/Users/carlf/Documents/GitHub/AfricAi/data/06_models/embeddings"
 
+ben: ben
+cmr: cmr
 
 chunk_size: 1000
 

@@ -21,13 +21,17 @@ def create_modular_pipeline(country: str) -> Pipeline:
         [
             node(
                 func=load_documents,
-                inputs=["params:data_path", country],
+                inputs=["params:data_paths", f"params:{country}"],
                 outputs="df_legal_documents",
                 name="load_legal_documents",
             ),
             node(
                 func=merge_pdfs_texts_dfs,
-                inputs=["df_legal_documents", "params:folder_params", country],
+                inputs=[
+                    "df_legal_documents",
+                    "params:folder_params",
+                    f"params:{country}",
+                ],
                 outputs="merged_data",
                 name="merge_pdfs_and_texts",
             ),
@@ -40,7 +44,7 @@ def create_modular_pipeline(country: str) -> Pipeline:
             node(
                 func=remove_characters,
                 inputs="metadata_legal_documents",
-                outputs="cleaned_legal_documents",
+                outputs="loaded_legal_documents",
                 name="clean_legal_documents",
             ),
         ]
@@ -55,8 +59,17 @@ def create_pipeline() -> dict[str, Pipeline]:
         dict[str, Pipeline]: A dictionary mapping country names to their respective pipelines.
     """
     countries_to_run = ["ben", "cmr"]
+    pipelines_dict = {}
+    for country in countries_to_run:
+        country_pipeline = pipeline(
+            create_modular_pipeline(country),
+            parameters={
+                "params:data_paths": "params:data_paths",
+                "params:folder_params": "params:folder_params",
+                f"params:{country}": f"params:{country}",
+            },
+            namespace=country,
+        )
+        pipelines_dict[f"{country}_document_loader"] = country_pipeline
 
-    return {
-        f"{country}_document_loader": create_modular_pipeline(country)
-        for country in countries_to_run
-    }
+    return pipelines_dict

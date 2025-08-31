@@ -22,7 +22,10 @@ def register_pipelines() -> Dict[str, Pipeline]:
     doc_analysis_pipeline = da.create_pipeline()
 
     # Combined pipelines for specific workflows
-    data_processing_pipeline = doc_loader_pipeline + doc_preprocessing_pipeline
+    loader_pipelines = list(doc_loader_pipeline.values())
+    data_processing_pipeline = (
+        sum(loader_pipelines, Pipeline([])) + doc_preprocessing_pipeline
+    )
     full_pipeline = data_processing_pipeline + store_knowledge_pipeline
 
     return {

@@ -124,7 +124,7 @@ def read_csvs(processed_files: list[str]):
             logger.error(error_message)
 
 
-def load_documents(data_path:dict, country: str) -> pd.DataFrame:
+def load_documents(data_path: dict, country: str) -> pd.DataFrame:
     """
     Load and process PDF documents from a directory, combining results into a DataFrame.
 
@@ -179,7 +179,7 @@ def load_documents(data_path:dict, country: str) -> pd.DataFrame:
         )
         logger.info(files_to_process_message)
 
-        for file in files_to_process:
+        for file in files_to_process[:20]:
             file_path = os.path.join(root, file)
             csv_path = process_document(file_path, folder_name, temp_folder)
             if csv_path:

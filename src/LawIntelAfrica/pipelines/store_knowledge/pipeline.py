@@ -49,7 +49,7 @@ def create_modular_pipeline() -> Pipeline:
 
 def create_pipeline() -> Pipeline:
     pipeline1 = pipeline(
-        pipe=create_modular_pipeline(),
+        create_modular_pipeline(),
         namespace="save_per_category",
         inputs={"chunked_docs": "chunked_docs"},
         parameters={
@@ -57,7 +57,7 @@ def create_pipeline() -> Pipeline:
         },
     )
     pipeline2 = pipeline(
-        pipe=create_modular_pipeline(),
+        create_modular_pipeline(),
         namespace="save_no_category",
         inputs={"chunked_docs": "chunked_docs"},
         parameters={
