@@ -12,12 +12,11 @@ def create_year_title_bar_plot(countries_year_dict: dict) -> dict:
         A dictionary representing the Plotly figure.
     """
 
-    # Create bar chart
     fig = go.Figure()
     for country, year_data in countries_year_dict.items():
-        years = sorted(year_data.keys())  # Sort for consistent display
-        counts = [len(year_data[year]) for year in years]  # Count unique titles
-        titles_text = [", ".join(year_data[year]) for year in years]  # For hover text
+        years = sorted(year_data.keys())
+        counts = [len(year_data[year]) for year in years]
+        titles_text = [", ".join(year_data[year]) for year in years]
 
         fig.add_trace(
             go.Bar(
