@@ -21,11 +21,13 @@ chroma_params_2:
   persist_directory: "data/chroma"
   collection_name: "rag_documents"
 split_params_1: 
-  split: True
   path: ./vector_stores/split_per_category/
-split_params_2: 
-  split: True
-  path: ./vector_stores/unsplit/
+split_params_2:   
+  path: ./vector_stores/filtered_by_year/
+  years_to_keep:
+    - 2025
+    - 2024
+
 
 
 expected_columns:
