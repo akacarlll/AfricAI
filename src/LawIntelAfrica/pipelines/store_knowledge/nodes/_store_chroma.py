@@ -1,19 +1,18 @@
-import os
-import pandas as pd
-from pathlib import Path
-from langchain.docstore.document import Document
-from langchain_community.vectorstores import Chroma
-from typing import Dict
-from langchain_huggingface import HuggingFaceEmbeddings
-from sentence_transformers import SentenceTransformer
-from LawIntelAfrica.utils.data_transformation._df_to_documents import df_to_documents
 import logging
+import os
+from pathlib import Path
+
+import pandas as pd
+from langchain_community.vectorstores import Chroma
+from langchain_huggingface import HuggingFaceEmbeddings
+
+from LawIntelAfrica.utils.data_transformation._df_to_documents import df_to_documents
 
 logger = logging.getLogger(__name__)
 
 
 def create_chroma_vector_stores(
-    dataframes_dict: Dict[str, pd.DataFrame],
+    dataframes_dict: dict[str, pd.DataFrame],
     split_params: dict,
     store_type: str = "chroma_stores",
     embedding_model: str = "all-MiniLM-L6-v2",
@@ -58,5 +57,5 @@ def create_chroma_vector_stores(
         logger.info(success_msg)
         logger.info(len_doc_msg)
 
-    vector_stores_msg = f"Chroma Vector stores created"
+    vector_stores_msg = "Chroma Vector stores created"
     logger.info(vector_stores_msg)

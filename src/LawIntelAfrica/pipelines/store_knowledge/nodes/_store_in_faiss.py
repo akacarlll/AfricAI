@@ -1,18 +1,18 @@
+import logging
 import os
+from pathlib import Path
+
 import pandas as pd
-from langchain.docstore.document import Document
 from langchain_community.vectorstores import FAISS
 from langchain_huggingface import HuggingFaceEmbeddings
-from typing import Dict, List
+
 from LawIntelAfrica.utils.data_transformation._df_to_documents import df_to_documents
-import logging
-from pathlib import Path
 
 logger = logging.getLogger(__name__)
 
 
 def create_faiss_vector_stores(
-    dataframes_dict: Dict[str, pd.DataFrame],
+    dataframes_dict: dict[str, pd.DataFrame],
     split_params: dict,
     store_type: str = "faiss_stores",
     embedding_model: str = "all-MiniLM-L6-v2",
@@ -51,5 +51,5 @@ def create_faiss_vector_stores(
         logger.info(success_msg)
         logger.info(len_doc_msg)
 
-    vector_stores_msg = f"Faiss Vector stores created for categories"
+    vector_stores_msg = "Faiss Vector stores created for categories"
     logger.info(vector_stores_msg)

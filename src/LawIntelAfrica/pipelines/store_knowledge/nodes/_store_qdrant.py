@@ -1,12 +1,12 @@
 import os
+import uuid
+from typing import Dict
+
 import pandas as pd
 from qdrant_client import QdrantClient
 from qdrant_client.http.exceptions import ResponseHandlingException
-from qdrant_client.models import Distance, VectorParams, PointStruct
+from qdrant_client.models import Distance, PointStruct, VectorParams
 from sentence_transformers import SentenceTransformer
-from typing import Dict, Optional
-import uuid
-import logging
 
 
 def create_qdrant_vector_stores(

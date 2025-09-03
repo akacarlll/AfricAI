@@ -1,18 +1,18 @@
+import logging
 import os
 import pickle
-from typing import Dict
-import pandas as pd
 from pathlib import Path
+
+import pandas as pd
 from langchain_community.retrievers import BM25Retriever
-from langchain.schema import Document
+
 from LawIntelAfrica.utils.data_transformation._df_to_documents import df_to_documents
-import logging
 
 logger = logging.getLogger(__name__)
 
 
 def create_bm25_stores(
-    dataframes_dict: Dict[str, pd.DataFrame],
+    dataframes_dict: dict[str, pd.DataFrame],
     split_params: dict,
     store_type: str = "bm25_stores",
     chunk_text_column: str = "page_content",
@@ -41,7 +41,7 @@ def create_bm25_stores(
         category_dir = os.path.join(output_dir, category)
         os.makedirs(category_dir, exist_ok=True)
 
-        store_path = os.path.join(category_dir, f"bm25_index.pkl")
+        store_path = os.path.join(category_dir, "bm25_index.pkl")
         with open(store_path, "wb") as f:
             pickle.dump(bm25_retriever, f)
 
@@ -52,5 +52,5 @@ def create_bm25_stores(
         logger.info(success_msg)
         logger.info(len_doc_msg)
 
-    vector_stores_msg = f"BM25 stores created"
+    vector_stores_msg = "BM25 stores created"
     logger.info(vector_stores_msg)

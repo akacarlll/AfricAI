@@ -6,6 +6,7 @@ from .nodes import (
     create_faiss_vector_stores,
     create_qdrant_vector_stores,
     create_bm25_stores,
+    filter_on_year,
     split_data,
 )
 
@@ -14,10 +15,16 @@ def create_modular_pipeline() -> Pipeline:
     return pipeline(
         [
             node(
-                func=split_data,
+                func=filter_on_year,
                 inputs=["chunked_docs", "params:split_params"],
+                outputs="filtered_by_year_docs",
+                name="filter_by_year_node",
+            ),
+            node(
+                func=split_data,
+                inputs=["filtered_by_year_docs"],
                 outputs="split_dfs",
-                name="splitting_data",
+                name="split_data_node",
             ),
             node(
                 func=create_chroma_vector_stores,
@@ -64,4 +71,4 @@ def create_pipeline() -> Pipeline:
             "params:split_params": "params:split_params_2",
         },
     )
-    return pipeline1
+    return pipeline1 + pipeline2
